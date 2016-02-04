@@ -1,0 +1,37 @@
+body {
+    background: #fff;
+    font: 12px/1 Abel,Roboto,sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font: 12px/1 Abel,Roboto,sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background: rgba(255,255,255,0.5);
+    height: 36px;
+    margin: 0px;
+    padding-top: 18px;
+    float: top;
+}
+
+a{
+    font: 24px/1 Abel,Roboto,sans-serif;
+    color: #444444;
+    text-decoration: none;
+    margin: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a:hover {
+    color: #9df;
+}
+
+ul {
+    margin: 0px;
+}
