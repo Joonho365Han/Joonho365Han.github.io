@@ -21,7 +21,7 @@ body {
 	width: 100%;
 	margin: 0 auto; /* Automatically centers item */
 	background-image: url("/img/for_home/home_slide_1.jpg");
-	background-size: 100% 100%;
+	background-size: cover;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -74,4 +74,10 @@ header {
 
 .menu_drop_down {
 
+}
+
+.slideshow {
+	width: 100%;
+	margin: 0 auto;
+	height: 600px;
 }
