@@ -8,20 +8,32 @@
 
 body {
     background: #ddd;
+    font-size: 62.5%;
 }
 
-h1 {
-    font: 12px/1 Abel,Roboto,sans-serif;
+.wrapper{
+	font-size: 1.6em;
+	margin: 0 auto;
+	width: 100%;
 }
 
-header {
+.nav_bar {
     background: rgba(255,255,255,0.5);
     height: 36px;
-    padding-top: 18px;
+    /*padding-top: 18px;*/
+    width: 100%; /*This make it scalable?*/
+    position: relative;
     float: top;
 }
 
-header a{
+.nav_bar li { /* HOME, PROJECTS, ABOUT, CONTACT buttons */
+	list-style: none;
+	float: left;
+	text-align: center;
+	width: 15%;
+}
+
+.nav_bar a{
     font: 24px/1 Abel,Roboto,sans-serif;
     color: #444444;
     text-decoration: none;
@@ -29,6 +41,6 @@ header a{
     padding-right: 65px;
 }
 
-a:hover {
+.nav_bar a:hover {
     color: #9df;
 }
