@@ -62,6 +62,14 @@ header {
     display: block; /* Shows drop down menu when hovered its parent li */
 }
 
+.slideshow {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 550px;
+	margin: 0 auto;
+}
+
 .menu_drop_down {
 
 }
