@@ -31,8 +31,8 @@ body {
 	list-style: none;
 	float: left;
 	text-align: center;
-	padding-left: 75px;
-	padding-right: 75px;
+	padding-left: 60px;
+	padding-right: 60px;
 	width: 25%; /*Default value: 4 nav buttons in menu equally distributed. horizontally centers/scales items*/
 }
 
