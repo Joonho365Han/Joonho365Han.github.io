@@ -19,8 +19,8 @@ body {
 
 .nav_bar {
     background: rgba(255,255,255,0.5);
-    height: 36px;
-    /*padding-top: 18px;*/
+    height: 44px;
+    padding-top: 22px;
     width: 100%; /*This make it scalable?*/
     position: relative;
     float: top;
@@ -34,11 +34,9 @@ body {
 }
 
 .nav_bar > li > a{ /* HOME, PROJECTS, ABOUT, CONTACT buttons */
-    font: 24px/1 Abel,Roboto,sans-serif;
+    font: 2.4em Abel,Roboto,sans-serif;
     color: #444444;
     text-decoration: none;
-    padding-left: 60px;
-    padding-right: 65px;
 }
 
 .nav_bar a:hover {
