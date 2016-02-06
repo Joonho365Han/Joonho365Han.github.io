@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #fff;
+    background: #fefefe;
     font-size: 62.5%;
 }
 
@@ -19,7 +19,7 @@ body {
 
 header {
     background: rgba(255,255,255,0.5);
-    height: 44px;
+    height: 55px;
     width: 100%;
     float: top;
 }
@@ -41,8 +41,8 @@ header {
     font: 1.6em Abel,Roboto,sans-serif;
     color: #444444;
     text-decoration: none;
-    line-height: 44px; /*This vertically centers the anchors*/
-    height: 44px;
+    line-height: 55px; /*This vertically centers the anchors*/
+    height: 55px; /* This limits the height so it fits inside the nav bar */
 }
 
 .nav_bar > li > a:hover {
@@ -52,7 +52,7 @@ header {
 .nav_bar > li > div{ /* Drop Down Menu */
 	position: absolute;
 	left: 0;
-	top: 44px;
+	top: 55px;
     background: rgba(255,255,255,0.5);
     overflow: hidden;
     display: none; /* Hides normally */
