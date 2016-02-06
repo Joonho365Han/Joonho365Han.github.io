@@ -28,7 +28,7 @@ body {
 
 .nav_bar li { /* HOME, PROJECTS, ABOUT, CONTACT buttons */
 	list-style: none;
-	float: left;
+	float: right;
 	text-align: center;
 	width: 15%;
 }
