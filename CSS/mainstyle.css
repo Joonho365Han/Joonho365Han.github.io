@@ -66,6 +66,9 @@ header {
 	position: absolute;
 	left: 0;
 	top: 0;
+}
+
+.slideshow img {
 	width: 550px;
 	margin: 0 auto;
 }
