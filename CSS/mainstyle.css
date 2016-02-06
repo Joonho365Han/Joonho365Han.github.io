@@ -20,8 +20,8 @@ body {
 .nav_bar {
     background: rgba(255,255,255,0.5);
     height: 44px;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 440px;
+    padding-right: 440px;
     width: 100%; /*This make it scalable?*/
     position: relative; /*This nav bar is the position origin for all others*/
     float: top;
@@ -31,8 +31,8 @@ body {
 	list-style: none;
 	float: left;
 	text-align: center;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 75px;
+	padding-right: 75px;
 	width: 25%; /*Default value: 4 nav buttons in menu equally distributed. horizontally centers/scales items*/
 }
 
