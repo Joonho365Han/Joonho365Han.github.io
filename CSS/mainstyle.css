@@ -19,7 +19,7 @@ header {
     float: top;
 }
 
-a{
+header a{
     font: 24px/1 Abel,Roboto,sans-serif;
     color: #444444;
     text-decoration: none;
