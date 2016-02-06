@@ -20,8 +20,8 @@ body {
 .nav_bar {
     background: rgba(255,255,255,0.5);
     height: 44px;
-    padding-left: 440px;
-    padding-right: 440px;
+    padding-left: 300px;
+    padding-right: 300px;
     width: 100%; /*This make it scalable?*/
     position: relative; /*This nav bar is the position origin for all others*/
     float: top;
