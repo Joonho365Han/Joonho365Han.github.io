@@ -21,18 +21,18 @@ header {
     background: rgba(255,255,255,0.5);
     height: 44px;
     width: 100%;
-    position: relative; /*This nav bar is the position origin for all others*/
     float: top;
 }
 
 .nav_bar {
     width: 550px; /* Minimum width for the buttons. */
+    position: relative; /*This nav bar is the position origin for all others*/
     margin: 0 auto;
 }
 
 .nav_bar li { /*Nav Bar Items (including mega drop down menu)*/
 	list-style: none;
-	float: left; /* Horizontally lays out items with top on the left. */
+	float: left; /* Horizontally lays out list items with top on the left. */
 	text-align: center;
 	width: 25%; /*Default value: 4 nav buttons in menu equally distributed. horizontally centers/scales items*/
 }
@@ -53,6 +53,8 @@ header {
 	position: absolute;
 	left: 0;
 	top: 44px;
+    background: rgba(255,255,255,0.5);
+    overflow: hidden;
     display: none; /* Hides normally */
 }
 
