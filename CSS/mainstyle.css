@@ -37,6 +37,8 @@ body {
     font: 1.6em Abel,Roboto,sans-serif;
     color: #444444;
     text-decoration: none;
+    line-height: 44px; /*This vertically centers the anchors*/
+    height: 44px;
 }
 
 .nav_bar a:hover {
