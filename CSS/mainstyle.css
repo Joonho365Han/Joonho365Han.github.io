@@ -7,6 +7,7 @@
 }
 
 body {
+    background: #fff;
     font-size: 62.5%;
 }
 
@@ -14,7 +15,7 @@ body {
 	font-size: 1.6em;
 	margin: 0 auto; /* Automatically centers item */
 	width: 100%;
-	background: url("/img/for_home/home_slide_1.jpg");
+	background-image: url("/img/for_home/home_slide_1.jpg");
 	background-size: cover;
 }
 
