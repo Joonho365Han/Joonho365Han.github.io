@@ -22,11 +22,11 @@ header {
     height: 44px;
     width: 100%;
     position: relative; /*This nav bar is the position origin for all others*/
-    float: top;
 }
 
 .nav_bar {
     width: 550px; /* Minimum width for the buttons. */
+    float: top;
 }
 
 .nav_bar li { /*Nav Bar Items (including mega drop down menu)*/
