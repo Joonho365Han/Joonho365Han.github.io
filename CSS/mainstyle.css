@@ -25,7 +25,7 @@ body {
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
-  	clear: both;
+  	clear: bottom;
 }
 
 header {
@@ -43,7 +43,7 @@ header {
 
 .nav_bar li { /*Nav Bar Items (including mega drop down menu)*/
 	list-style: none;
-	float: left; /* Horizontally lays out list items with top on the left. */
+	clear: left; /* Horizontally lays out list items with top on the left. */
 	text-align: center;
 	width: 25%; /*Default value: 4 nav buttons in menu equally distributed. horizontally centers/scales items*/
 }
