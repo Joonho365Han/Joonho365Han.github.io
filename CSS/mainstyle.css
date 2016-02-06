@@ -26,14 +26,14 @@ body {
     float: top;
 }
 
-.nav_bar li { /* HOME, PROJECTS, ABOUT, CONTACT buttons */
+.nav_bar li { /*Nav Bar Items (including mega drop down menu)*/
 	list-style: none;
-	float: right;
+	float: left;
 	text-align: center;
 	width: 15%;
 }
 
-.nav_bar a{
+.nav_bar > li > a{ /* HOME, PROJECTS, ABOUT, CONTACT buttons */
     font: 24px/1 Abel,Roboto,sans-serif;
     color: #444444;
     text-decoration: none;
