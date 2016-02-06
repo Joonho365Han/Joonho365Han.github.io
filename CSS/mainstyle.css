@@ -22,7 +22,7 @@ body {
     height: 44px;
     padding-left: 420px;
     padding-right: 420px;
-    width: 100%; /*This make it scalable?*/
+    width: 550px; /*This make it scalable?*/
     position: relative; /*This nav bar is the position origin for all others*/
     float: top;
 }
@@ -31,8 +31,8 @@ body {
 	list-style: none;
 	float: left;
 	text-align: center;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 25px;
+	padding-right: 25px;
 	width: 25%; /*Default value: 4 nav buttons in menu equally distributed. horizontally centers/scales items*/
 }
 
@@ -48,15 +48,15 @@ body {
     color: #9df;
 }
 
-.nav_bar > li > div{
+.nav_bar > li > div{ /* Drop Down Menu */
 	position: absolute;
 	left: 0;
 	top: 44px;
-    display: none;
+    display: none; /* Hides normally */
 }
 
 .nav_bar > li:hover > div{
-    display: block;
+    display: block; /* Shows drop down menu when hovered its parent li */
 }
 
 .menu_drop_down {
