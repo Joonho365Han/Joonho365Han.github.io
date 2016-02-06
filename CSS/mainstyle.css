@@ -25,6 +25,7 @@ body {
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
+  	clear: both;
 }
 
 header {
@@ -79,5 +80,4 @@ header {
 .slideshow {
 	width: 100%;
 	margin: 0 auto;
-	height: 600px;
 }
