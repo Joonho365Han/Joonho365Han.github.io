@@ -43,7 +43,7 @@ header {
 
 .nav_bar li { /*Nav Bar Items (including mega drop down menu)*/
 	list-style: none;
-	clear: left; /* Horizontally lays out list items with top on the left. */
+	float: left; /* Horizontally lays out list items with top on the left. */
 	text-align: center;
 	width: 25%; /*Default value: 4 nav buttons in menu equally distributed. horizontally centers/scales items*/
 }
