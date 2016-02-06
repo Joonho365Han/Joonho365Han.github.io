@@ -30,7 +30,7 @@ body {
 	list-style: none;
 	float: left;
 	text-align: center;
-	width: 15%;
+	width: 25%; /*Default value: 4 nav buttons in menu equally distributed*/
 }
 
 .nav_bar > li > a{ /* HOME, PROJECTS, ABOUT, CONTACT buttons */
