@@ -16,7 +16,7 @@ body {
 	margin: 0 auto; /* Automatically centers item */
 	width: 100%;
 	background-image: url("/img/for_home/home_slide_1.jpg");
-	background-size: cover;
+	background-size: 100%;
 }
 
 header {
