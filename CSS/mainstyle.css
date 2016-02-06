@@ -17,14 +17,16 @@ body {
 	width: 100%;
 }
 
-.nav_bar {
+header {
     background: rgba(255,255,255,0.5);
     height: 44px;
-    padding-left: 420px;
-    padding-right: 420px;
-    width: 550px; /*This make it scalable?*/
+    width: 100%;
     position: relative; /*This nav bar is the position origin for all others*/
     float: top;
+}
+
+.nav_bar {
+    width: 550px; /* Minimum width for the buttons. */
 }
 
 .nav_bar li { /*Nav Bar Items (including mega drop down menu)*/
