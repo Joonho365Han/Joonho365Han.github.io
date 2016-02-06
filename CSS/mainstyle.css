@@ -20,7 +20,8 @@ body {
 .nav_bar {
     background: rgba(255,255,255,0.5);
     height: 44px;
-    /*padding-top: 22px;*/
+    padding-left: 35px;
+    padding-right: 35px;
     width: 100%; /*This make it scalable?*/
     position: relative;
     float: top;
@@ -30,7 +31,7 @@ body {
 	list-style: none;
 	float: left;
 	text-align: center;
-	width: 25%; /*Default value: 4 nav buttons in menu equally distributed*/
+	width: 25%; /*Default value: 4 nav buttons in menu equally distributed. horizontally centers/scales items*/
 }
 
 .nav_bar > li > a{ /* HOME, PROJECTS, ABOUT, CONTACT buttons */
@@ -39,6 +40,7 @@ body {
     text-decoration: none;
     line-height: 44px; /*This vertically centers the anchors*/
     height: 44px;
+    padding: ;
 }
 
 .nav_bar a:hover {
