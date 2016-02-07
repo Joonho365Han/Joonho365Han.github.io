@@ -7,12 +7,6 @@
 }
 
 body {
-	background-image: url("/img/for_home/home_slide_1.jpg");
-	background-size: cover;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-repeat: none;
     font-size: 62.5%;
 }
 
@@ -88,6 +82,12 @@ header {
 .slideshow {
 	width: 100%;
 	margin: 0 auto;
+	background-image: url("/img/for_home/home_slide_1.jpg");
+	background-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-repeat: none;
 }
 
 footer {
@@ -95,4 +95,5 @@ footer {
 	height: 50px;
 	margin: 0 auto;
 	background: #444;
+	
 }
