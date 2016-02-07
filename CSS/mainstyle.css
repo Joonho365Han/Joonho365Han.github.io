@@ -64,9 +64,8 @@ header {
 
 .nav_bar > li > div{ /* Drop Down Menu */
 	position: absolute;
-	left: 137px;
+	left: 150px;
 	top: 50px;
-    background: rgba(255,255,255,0.5);
     overflow: hidden;
     display: none; /* Hides normally */
 }
