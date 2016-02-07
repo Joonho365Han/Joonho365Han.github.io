@@ -40,6 +40,11 @@ header {
     margin: 0 auto;
 }
 
+.nav_bar li {
+	list-style: none;
+	text-align: center;
+}
+
 .nav_bar > li { /*Nav Bar Items (including mega drop down menu)*/
 	float: left; /* Horizontally lays out list items with top on the left. */
 	width: 25%; /*Default value: 4 nav buttons in menu equally distributed. horizontally centers/scales items*/
@@ -80,6 +85,7 @@ header {
 
 .nav_bar > li > div > ul > li { /* Specifically the drop down menu li */
 	width: 138px; /* Makes the menu stay open even when not hovering over the links */
+	text-align: left;
 }
 
 .slideshow {
