@@ -55,7 +55,7 @@ header {
     height: 50px; /* This limits the height so it fits inside the nav bar */
 }
 
-.nav_bar > li a:hover {
+.nav_bar a:hover {
     color: #9df;
 }
 
@@ -72,7 +72,7 @@ header {
     display: block; /* Shows drop down menu when hovered its parent li */
 }
 
-.nav_bar > li > div > a{ /* drop down project links */
+.nav_bar > li > div > ul > a{ /* drop down project links */
     font: 1.0em Abel,Roboto,sans-serif;
     color: #444444;
     text-decoration: none;
