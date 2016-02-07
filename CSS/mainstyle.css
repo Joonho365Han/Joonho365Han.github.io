@@ -63,7 +63,7 @@ header {
     color: #9df;
 }
 
-.nav_bar > li > div{ /* Drop Down Menu */
+.drop_down_menu{ /* Drop Down Menu */
 	position: absolute;
 	left: 153px;
 	top: 50px;
@@ -71,16 +71,16 @@ header {
     display: none; /* Hides normally */
 }
 
-.nav_bar > li:hover > div{
+.nav_bar > li:hover > ul{
     display: block; /* Shows drop down menu when hovered its parent li */
 }
 
-.nav_bar > li > div > ul > li { /* Specifically the drop down menu li */
+.drop_down_menu > li { /* Specifically the drop down menu li */
 	width: 138px; /* Makes the menu stay open even when not hovering over the links */
 	text-align: left;
 }
 
-.nav_bar > li > div > ul > li > a{ /* drop down project links */
+.drop_down_menu a{ /* drop down project links */
     font: 1.2em Abel,Roboto,sans-serif;
     color: #444444;
     text-decoration: none;
