@@ -25,7 +25,6 @@ body {
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
-  	clear: bottom;
 }
 
 header {
@@ -56,13 +55,13 @@ header {
     height: 50px; /* This limits the height so it fits inside the nav bar */
 }
 
-.nav_bar > li > a:hover {
+.nav_bar > li a:hover {
     color: #9df;
 }
 
 .nav_bar > li > div{ /* Drop Down Menu */
 	position: absolute;
-	left: 0;
+	left: 137px;
 	top: 50px;
     background: rgba(255,255,255,0.5);
     overflow: hidden;
@@ -71,6 +70,14 @@ header {
 
 .nav_bar > li:hover > div{
     display: block; /* Shows drop down menu when hovered its parent li */
+}
+
+.nav_bar > li > div > a{ /* drop down project links */
+    font: 1.0em Abel,Roboto,sans-serif;
+    color: #444444;
+    text-decoration: none;
+    line-height: 50px; /*This vertically centers the anchors*/
+    height: 50px; /* This limits the height so it fits inside the nav bar */
 }
 
 .menu_drop_down {
