@@ -40,7 +40,7 @@ header {
     margin: 0 auto;
 }
 
-.nav_bar li { /*Nav Bar Items (including mega drop down menu)*/
+.nav_bar > li { /*Nav Bar Items (including mega drop down menu)*/
 	list-style: none;
 	float: left; /* Horizontally lays out list items with top on the left. */
 	text-align: center;
@@ -72,7 +72,7 @@ header {
     display: block; /* Shows drop down menu when hovered its parent li */
 }
 
-.nav_bar > li > div > ul > a{ /* drop down project links */
+.nav_bar > li > div > ul > li > a{ /* drop down project links */
     font: 1.0em Abel,Roboto,sans-serif;
     color: #444444;
     text-decoration: none;
