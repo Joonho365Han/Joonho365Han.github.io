@@ -40,20 +40,27 @@ header {
     margin: 0 auto;
 }
 
-.nav_bar > li { /*Nav Bar Items (including mega drop down menu)*/
+.nav_bar li {
 	list-style: none;
-	float: left; /* Horizontally lays out list items with top on the left. */
 	text-align: center;
+}
+
+.nav_bar > li { /*Nav Bar Items (including mega drop down menu)*/
+	float: left; /* Horizontally lays out list items with top on the left. */
 	width: 25%; /*Default value: 4 nav buttons in menu equally distributed. horizontally centers/scales items*/
 }
 
-.nav_bar > li > a{ /* HOME, PROJECTS, ABOUT, CONTACT buttons */
+.nav_bar a{ /* All NavBar links */
     font: 1.6em Abel,Roboto,sans-serif;
     color: #444444;
     text-decoration: none;
     line-height: 50px; /*This vertically centers the anchors*/
     height: 50px; /* This limits the height so it fits inside the nav bar */
 }
+
+.nav_bar > li > a {
+	
+} 
 
 .nav_bar a:hover {
     color: #9df;
@@ -72,12 +79,14 @@ header {
     display: block; /* Shows drop down menu when hovered its parent li */
 }
 
+.nav_bar > li > div > ul > li { /* Specifically the drop down menu li */
+	width: 138px;
+}
+
 .nav_bar > li > div > ul > li > a{ /* drop down project links */
     font: 1.0em Abel,Roboto,sans-serif;
     color: #444444;
     text-decoration: none;
-    margin: 0 auto;
-    width: 138px;
     line-height: 50px; /*This vertically centers the anchors*/
     height: 50px; /* This limits the height so it fits inside the nav bar */
 }
