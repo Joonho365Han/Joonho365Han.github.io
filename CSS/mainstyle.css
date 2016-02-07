@@ -81,6 +81,8 @@ header {
 
 .drop_down_menu a{ /* drop down project links */
     font: 1.2em Abel,Roboto,sans-serif;
+    line-height: 50px; /*This vertically centers the anchors*/
+    height: 50px; /* This limits the height so it fits inside the nav bar */
 }
 
 .slideshow {
