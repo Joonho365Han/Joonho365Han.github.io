@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #fff;
+    background: #eee;
     font-size: 62.5%;
 }
 
@@ -62,14 +62,6 @@ header {
     color: #9df;
 }
 
-.nav_bar > li > div > ul > li > a{ /* drop down project links */
-    font: 1.2em Abel,Roboto,sans-serif;
-    color: #444444;
-    text-decoration: none;
-    line-height: 50px; /*This vertically centers the anchors*/
-    height: 50px; /* This limits the height so it fits inside the nav bar */
-}
-
 .nav_bar > li > div{ /* Drop Down Menu */
 	position: absolute;
 	left: 137px;
@@ -86,6 +78,14 @@ header {
 .nav_bar > li > div > ul > li { /* Specifically the drop down menu li */
 	width: 138px; /* Makes the menu stay open even when not hovering over the links */
 	text-align: left;
+}
+
+.nav_bar > li > div > ul > li > a{ /* drop down project links */
+    font: 1.2em Abel,Roboto,sans-serif;
+    color: #444444;
+    text-decoration: none;
+    line-height: 50px; /*This vertically centers the anchors*/
+    height: 50px; /* This limits the height so it fits inside the nav bar */
 }
 
 .slideshow {
