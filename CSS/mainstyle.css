@@ -7,7 +7,11 @@
 }
 
 body {
-    background: #eee;
+	background-image: url("/img/for_home/home_slide_1.jpg");
+	background-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
     font-size: 62.5%;
 }
 
@@ -20,11 +24,6 @@ body {
 .main {
 	width: 100%;
 	margin: 0 auto; /* Automatically centers item */
-	background-image: url("/img/for_home/home_slide_1.jpg");
-	background-size: cover;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
 }
 
 header {
@@ -64,7 +63,7 @@ header {
 
 .nav_bar > li > div{ /* Drop Down Menu */
 	position: absolute;
-	left: 150px;
+	left: 153px;
 	top: 50px;
     overflow: hidden;
     display: none; /* Hides normally */
