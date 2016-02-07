@@ -64,7 +64,7 @@ header {
 
 .drop_down_menu{ /* Drop Down Menu */
 	position: absolute;
-	left: 153px;
+	left: 155px;
 	top: 50px;
     overflow: hidden;
     display: none; /* Hides normally */
@@ -81,10 +81,6 @@ header {
 
 .drop_down_menu a{ /* drop down project links */
     font: 1.2em Abel,Roboto,sans-serif;
-    color: #444444;
-    text-decoration: none;
-    line-height: 50px; /*This vertically centers the anchors*/
-    height: 50px; /* This limits the height so it fits inside the nav bar */
 }
 
 .slideshow {
