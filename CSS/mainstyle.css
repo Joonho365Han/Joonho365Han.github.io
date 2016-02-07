@@ -12,9 +12,6 @@ body {
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
-  	background-repeat: none;
-  	width: 1000px;
-  	margin: 0 auto;
     font-size: 62.5%;
 }
 
