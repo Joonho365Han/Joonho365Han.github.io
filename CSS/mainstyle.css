@@ -45,12 +45,13 @@ header {
 	text-align: center;
 }
 
-.nav_bar > li { /* Top Nav Bar Items (includes the mega drop down menu)*/
+.nav_bar > li { /*Nav Bar Items (including mega drop down menu)*/
 	float: left; /* Horizontally lays out list items with top on the left. */
 	width: 25%; /*Default value: 4 nav buttons in menu equally distributed. horizontally centers/scales items*/
 }
 
 .nav_bar a{ /* All NavBar links */
+    font: 1.6em Abel,Roboto,sans-serif;
     color: #444444;
     text-decoration: none;
     line-height: 50px; /*This vertically centers the anchors*/
@@ -61,12 +62,16 @@ header {
     color: #9df;
 }
 
-.nav_bar > li > a { /* Top Anchors */
+.nav_bar > li > a {
     font: 1.6em Abel,Roboto,sans-serif;
 }
 
-.nav_bar > li > div > ul > li > a{ /* Drop down links */
+.nav_bar > li > div > ul > li > a{ /* drop down project links */
     font: 1.2em Abel,Roboto,sans-serif;
+    color: #444444;
+    text-decoration: none;
+    line-height: 50px; /*This vertically centers the anchors*/
+    height: 50px; /* This limits the height so it fits inside the nav bar */
 }
 
 .nav_bar > li > div{ /* Drop Down Menu */
@@ -82,7 +87,7 @@ header {
     display: block; /* Shows drop down menu when hovered its parent li */
 }
 
-.nav_bar > li > div > ul > li { /* Specifically the drop down menu li (the link containers) */
+.nav_bar > li > div > ul > li { /* Specifically the drop down menu li */
 	width: 138px; /* Makes the menu stay open even when not hovering over the links */
 }
 
