@@ -62,10 +62,6 @@ header {
     color: #9df;
 }
 
-.nav_bar > li > a {
-
-}
-
 .nav_bar > li > div > ul > li > a{ /* drop down project links */
     font: 1.2em Abel,Roboto,sans-serif;
     color: #444444;
