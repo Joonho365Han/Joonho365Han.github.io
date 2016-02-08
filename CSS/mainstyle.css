@@ -50,9 +50,9 @@ header {
     color: #9df;
 }
 
-.drop_down_menu{ /* Drop Down Menu */
+.drop_down_menu { /* Drop Down Menu */
 	position: absolute;
-	left: 200px;
+	left: 183px;
 	top: 50px;
     overflow: hidden;
     display: none; /* Hides normally */
@@ -64,7 +64,7 @@ header {
 
 .drop_down_menu > li { /* Specifically the drop down menu li */
 	width: 183px; /* Makes the menu stay open even when not hovering over the links */
-	padding-left: 9px;
+	padding-left: 20px;
 	text-align: left;
 }
 
