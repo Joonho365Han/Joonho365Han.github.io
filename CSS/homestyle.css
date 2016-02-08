@@ -100,10 +100,12 @@
 	position: absolute;
 	top: 40px;
 	left: 1000px;
+	text-align: center;
 }
 
-.slideshow > div > h1 {
-	color: blue;
+.slideshow > div > h1, h2 {
+    font: 3em Abel,Roboto,sans-serif;
+	color: #333;
 }
 
 footer {
