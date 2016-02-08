@@ -35,7 +35,7 @@ header {
 
 .nav_bar > li { /*Nav Bar Items (including mega drop down menu)*/
 	float: left; /* Horizontally lays out list items with top on the left. */
-	width: 33.3%; /*Default value: 4 nav buttons in menu equally distributed. horizontally centers/scales items*/
+	width: 33.3%; /*Default value: 3 nav buttons in menu equally distributed. horizontally centers/scales items*/
 }
 
 .nav_bar a{ /* All NavBar links */
@@ -64,6 +64,7 @@ header {
 
 .drop_down_menu > li { /* Specifically the drop down menu li */
 	width: 183px; /* Makes the menu stay open even when not hovering over the links */
+	padding-left: 9px;
 	text-align: left;
 }
 
