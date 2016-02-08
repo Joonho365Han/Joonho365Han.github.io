@@ -10,3 +10,13 @@
 	background-size: cover;
 }
 
+.intro {
+	width: 30%;
+}
+
+h1 {
+	position: absolute;
+	right: 30;
+	top: 40;
+	color: white;
+}
