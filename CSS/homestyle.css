@@ -16,7 +16,8 @@
 }
 
 .slideshow > h1 {
-	color: white;
+	color: blue;
 	position: absolute;
 	top: 0;
+	left: 0;
 }
