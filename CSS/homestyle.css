@@ -103,8 +103,7 @@
 }
 
 .slogan h1{
-    font: 1.6rem 'Poiret One', 'Julius Sans One', 'Cinzel Decorative', serif;
-    font-size: max(4vw, 1.6rem);
+    font: 4em 'Poiret One', 'Julius Sans One', 'Cinzel Decorative', serif;
 }
 
 .slogan h2 {
