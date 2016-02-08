@@ -52,7 +52,7 @@ header {
 
 .drop_down_menu{ /* Drop Down Menu */
 	position: absolute;
-	left: 155px;
+	left: 200px;
 	top: 50px;
     overflow: hidden;
     display: none; /* Hides normally */
