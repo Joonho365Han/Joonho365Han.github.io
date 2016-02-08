@@ -7,10 +7,10 @@
 }
 
 body {
-	background-image: -webkit-linear-gradient( top, white, black );
-  	background-image: -moz-linear-gradient( top, white, black );
-  	background-image: -o-linear-gradient( top, white, black );
-	background-image: linear-gradient( top, white, black );
+	background-image: -webkit-linear-gradient( top, #fff, #666 );
+  	background-image: -moz-linear-gradient( top, #fff, #666 );
+  	background-image: -o-linear-gradient( top, #fff, #666 );
+	background-image: linear-gradient( top, #fff, #666 );
     font-size: 62.5%;
 }
 
