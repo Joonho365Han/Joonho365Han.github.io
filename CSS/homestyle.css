@@ -1,3 +1,10 @@
 .slideshow {
-
+	width: 100%;
+	margin: 0 auto;
+	background-image: url("/img/for_home/home_slide_1.jpg");
+	background-position: center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
 }
