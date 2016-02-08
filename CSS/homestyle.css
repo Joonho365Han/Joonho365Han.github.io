@@ -26,9 +26,13 @@
 	width: 30%;
 }
 
-.slideshow > h1 {
-	color: blue;
+.slideshow > div {
+	max-width: 30%;
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 40px;
+	left: 1000px;
+}
+
+.slideshow > div > h1 {
+	color: blue;
 }
