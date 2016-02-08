@@ -81,7 +81,7 @@
 	background: url("/img/for_home/home_slide_1.jpg");
 	background-position: center center;
 	-webkit-background-size: cover;
-	-webkit-backface-visibility: hidden;
+	-webkit-transform-style: preserve-3d;
   	-moz-background-size: cover;
   	-o-background-size: cover;
 	background-size: cover;
@@ -102,8 +102,8 @@
 }
 
 .slogan h1{
-    font: 200% 'Poiret One', 'Cinzel Decorative', serif;
-    font-style: bold;
+    font: 2rem 'Poiret One', 'Cinzel Decorative', serif;
+    font-size: 4vw;
 }
 
 .slogan h2 {
