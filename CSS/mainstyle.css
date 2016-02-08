@@ -7,10 +7,10 @@
 }
 
 body {
-	background: -webkit-linear-gradient( top, #fff, #666 );
-  	background: -moz-linear-gradient( top, #fff, #666 );
-  	background: -o-linear-gradient( top, #fff, #666 );
-	background: linear-gradient( top, #fff, #666 );
+	background: -webkit-linear-gradient( #fff, #666 );
+  	background: -moz-linear-gradient( #fff, #666 );
+  	background: -o-linear-gradient( #fff, #666 );
+	background: linear-gradient( #fff, #666 );
     font-size: 62.5%;
 }
 
