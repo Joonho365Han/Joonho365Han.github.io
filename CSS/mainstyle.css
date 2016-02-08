@@ -107,6 +107,6 @@ footer h6 {
 	height: 50px;
 }
 
-.quick_links img {
-	opacity: 05;
+.quick_links > li > a > img {
+	opacity: 0.5;
 }
