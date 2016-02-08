@@ -76,12 +76,13 @@ header {
 footer {
 	background: white;
 	width: 100%;
+	min-width: 550px;
 	height: 100px;
 	margin: 0 auto;
 }
 
 .quick_links {
-	width: 550px;
+	width: 300px;
 	margin: 0 auto;
 }
 
@@ -95,4 +96,8 @@ footer {
 .quick_links a {
 	line-height: 100px;
 	height: 100px;
+}
+
+.quick_links h6 {
+
 }
