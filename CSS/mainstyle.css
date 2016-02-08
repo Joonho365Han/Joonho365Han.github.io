@@ -79,12 +79,19 @@ footer {
 	width: 100%;
 	min-width: 550px;
 	margin: 0 auto;
+	text-align: center;
+}
+
+footer h6 {
+	font: 1em 'Poiret One', Lora, sans-serif;
+	line-height: 50px;
 }
 
 .quick_links {
-	width: 300px;
+	width: 100px;
 	height: 50px;
 	margin: 0 auto;
+	margin-bottom: 20px;
 }
 
 .quick_links li {
@@ -98,10 +105,4 @@ footer {
 .quick_links a {
 	line-height: 50px;
 	height: 50px;
-}
-
-footer h6 {
-	font: 1em 'Poiret One', Lora, sans-serif;
-	line-height: 50px;
-	margin-bottom: 20px;
 }
