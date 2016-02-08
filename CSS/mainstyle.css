@@ -89,7 +89,6 @@ footer {
 
 .quick_links li {
 	position: relative;
-	top: 10px;
 	list-style: none;
 	text-align: center;
 	float: left;
@@ -99,5 +98,4 @@ footer {
 .quick_links a {
 	line-height: 100px;
 	height: 100px;
-	padding-top: 20px;
 }
