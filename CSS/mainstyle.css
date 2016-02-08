@@ -96,13 +96,13 @@ footer {
 .quick_links a {
 	line-height: 100px;
 	height: 100px;
-	margin: 0 auto;
+	padding-top: 20px;
 }
 
 footer h6 {
 	min-width: 250px;
 	font: 1em Lora, 'Julius Sans One', serif;
-	color: #036;
+	color: #333;
 	padding-right: 40px;
 	line-height: 100px;
 	height: 100px;
