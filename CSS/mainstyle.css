@@ -86,17 +86,11 @@ footer {
 	margin: 0 left;
 }
 
-.quick_links li {
-	list-style: none;
-	text-align: center;
-	float: left;
-	width: 33.3%;
-}
-
 .quick_links a {
 	line-height: 100px;
 	height: 100px;
-	padding-top: 10px;
+	margin: 0 auto;
+	width: 33.3%;
 }
 
 footer h6 {
