@@ -98,7 +98,6 @@ footer {
 
 .quick_links a {
 	line-height: 100px;
-	height: 16px;
-	width: 16px;
+	height: 100px;
 	padding-top: 20px;
 }
