@@ -39,7 +39,7 @@ header {
 }
 
 .nav_bar a{ /* All NavBar links */
-    font: 1.6em Abel,Roboto,sans-serif;
+    font: 1.6em Cinzel,sans-serif;
     color: #444444;
     text-decoration: none;
     line-height: 50px; /*This vertically centers the anchors*/
@@ -68,7 +68,7 @@ header {
 }
 
 .drop_down_menu a{ /* drop down project links */
-    font: 1.2em Abel,Roboto,sans-serif;
+    font: 1.2em Abel,Cinzel,sans-serif;
     line-height: 50px; /*This vertically centers the anchors*/
     height: 50px; /* This limits the height so it fits inside the nav bar */
 }
