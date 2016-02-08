@@ -83,7 +83,7 @@ footer {
 
 .quick_links {
 	width: 300px;
-	margin: 0 auto;
+	margin: 0 left;
 }
 
 .quick_links li {
@@ -99,7 +99,8 @@ footer {
 }
 
 footer h6 {
-	font: 1em Cinzel, 'Julius Sans One', serif;
+	margin-right: 0;
+	font: 1em Lora, 'Julius Sans One', serif;
 	color: #036;
 	line-height: 100px;
 	height: 100px;
