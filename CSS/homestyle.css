@@ -58,7 +58,7 @@
 	background-size: cover;
 	position: relative;
 	animation-name: slides;
-	animation-duration: 21s;
+	animation-duration: 15s;
     animation-timing-function: linear;
 	animation-iteration-count: infinite;
 }
