@@ -1,9 +1,5 @@
 @keyframes slides {
 	0%	  {
-		width: 100%;
-		min-width: 550px;
-		padding-top: 52%;
-		min-height: 286px;
 		background: url("/img/for_home/home_slide_1.jpg");
 		background-position: center center;
 		-webkit-background-size: cover;
@@ -13,10 +9,6 @@
 		animation-delay: 2s;
 	}
 	16% {
-		width: 100%;
-		min-width: 550px;
-		padding-top: 52%;
-		min-height: 286px;
 		background: url("/img/for_home/home_slide_2.jpg");
 		background-position: center center;
 		-webkit-background-size: cover;
@@ -26,47 +18,30 @@
 		animation-delay: 2s;
 	}
 	33%	  {
-		width: 100%;
-		min-width: 550px;
-		padding-top: 52%;
-		min-height: 286px;
 		background: url("/img/for_home/home_slide_2.jpg");
 		background-position: center center;
 		-webkit-background-size: cover;
 	  	-moz-background-size: cover;
 	  	-o-background-size: cover;
 		background-size: cover;
-		animation-delay: 2s;}
+	}
 	49%   {
-		width: 100%;
-		min-width: 550px;
-		padding-top: 52%;
-		min-height: 286px;
 		background: url("/img/for_home/home_slide_3.jpg");
 		background-position: center center;
 		-webkit-background-size: cover;
 	  	-moz-background-size: cover;
 	  	-o-background-size: cover;
 		background-size: cover;
-		animation-delay: 2s;
 	}
 	66% {
-		width: 100%;
-		min-width: 550px;
-		padding-top: 52%;
-		min-height: 286px;
 		background: url("/img/for_home/home_slide_3.jpg");
 		background-position: center center;
 		-webkit-background-size: cover;
 	  	-moz-background-size: cover;
 	  	-o-background-size: cover;
 		background-size: cover;
-		animation-delay: 2s;}
+	}
 	82%  {
-		width: 100%;
-		min-width: 550px;
-		padding-top: 52%;
-		min-height: 286px;
 		background: url("/img/for_home/home_slide_1.jpg");
 		background-position: center center;
 		-webkit-background-size: cover;
@@ -75,10 +50,6 @@
 		background-size: cover;
 	}
 	100% {
-		width: 100%;
-		min-width: 550px;
-		padding-top: 52%;
-		min-height: 286px;
 		background: url("/img/for_home/home_slide_1.jpg");
 		background-position: center center;
 		-webkit-background-size: cover;
@@ -100,7 +71,7 @@
 	background-size: cover;
 	position: relative;
 	animation-name: slides;
-	animation-duration: 15s;
+	animation-duration: 30s;
     animation-timing-function: linear;
 	animation-iteration-count: infinite;
 }
