@@ -39,7 +39,7 @@ header {
 }
 
 .nav_bar a{ /* All NavBar links */
-    font: 1.6em Cinzel,sans-serif;
+    font: 1.6em Abel,Cinzel,sans-serif;
     color: #444444;
     text-decoration: none;
     line-height: 50px; /*This vertically centers the anchors*/
