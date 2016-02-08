@@ -96,17 +96,21 @@
 	width: 30%;
 }
 
-.slideshow > div {
+.slogan { /* Slogan */
 	max-width: 30%;
 	position: absolute;
-	top: 40px;
-	left: 1000px;
+	top: 20%;
+	left: 60%;
 	text-align: center;
+	font-color: #333;
 }
 
-.slideshow > div > h1, h2 {
-    font: 3em Abel,Roboto,sans-serif;
-	color: #333;
+.slogan h1{
+    font: 3rem Abel,Roboto,sans-serif;
+}
+
+.slogan h2 {
+    font: 2.4rem Abel,Roboto,sans-serif;
 }
 
 footer {
