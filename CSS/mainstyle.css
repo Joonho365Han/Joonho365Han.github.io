@@ -99,5 +99,7 @@ footer {
 }
 
 .quick_links h6 {
-
+	font: 1em Cinzel, 'Julius Sans One', serif;
+	line-height: 100px;
+	height: 100px;
 }
