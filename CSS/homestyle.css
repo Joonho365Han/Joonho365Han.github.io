@@ -117,7 +117,6 @@
 	background: url("/img/for_home/home_slide_1.jpg");
 	background-position: center center;
 	-webkit-background-size: cover;
-	-webkit-transform-style: preserve-3d;
   	-moz-background-size: cover;
   	-o-background-size: cover;
 	background-size: cover;
@@ -126,7 +125,6 @@
 	animation-duration: 24s;
     animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	overflow: hidden;
 }
 
 .slogan { /* Slogan */
