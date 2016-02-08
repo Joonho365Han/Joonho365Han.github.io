@@ -11,6 +11,7 @@ body {
   	background: -moz-linear-gradient( #fff, #666 );
   	background: -o-linear-gradient( #fff, #666 );
 	background: linear-gradient( #fff, #666 );
+	margin: 0 auto;
     font-size: 62.5%;
 }
 
