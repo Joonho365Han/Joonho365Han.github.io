@@ -12,7 +12,7 @@
 		background-size: cover;
 		animation-delay: 2s;
 	}
-	33%	  {
+	16% {
 		width: 100%;
 		min-width: 550px;
 		padding-top: 52%;
@@ -25,7 +25,8 @@
 		background-size: cover;
 		animation-delay: 2s;
 	}
-	66%   {
+	33%	  {}
+	49%   {
 		width: 100%;
 		min-width: 550px;
 		padding-top: 52%;
@@ -38,7 +39,8 @@
 		background-size: cover;
 		animation-delay: 2s;
 	}
-	100%  {
+	66% {}
+	82%  {
 		width: 100%;
 		min-width: 550px;
 		padding-top: 52%;
@@ -50,6 +52,7 @@
 	  	-o-background-size: cover;
 		background-size: cover;
 	}
+	100% {}
 }
 
 .slideshow {
