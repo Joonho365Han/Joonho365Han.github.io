@@ -23,7 +23,7 @@ header {
 }
 
 .nav_bar {
-    width: 650px; /* Minimum width for the buttons. */
+    width: 550px; /* Minimum width for the buttons. */
     position: relative; /*This nav bar is the position origin for all others*/
     margin: 0 auto;
 }
@@ -52,7 +52,7 @@ header {
 
 .drop_down_menu { /* Drop Down Menu */
 	position: absolute;
-	left: 217px;
+	left: 183px;
 	top: 50px;
 	overflow: visible;
     display: none; /* Hides normally */
@@ -63,8 +63,8 @@ header {
 }
 
 .drop_down_menu > li { /* Specifically the drop down menu li */
-	width: 217px; /* Makes the menu stay open even when not hovering over the links */
-	padding-left: 55px;
+	width: 183px; /* Makes the menu stay open even when not hovering over the links */
+	padding-left: 40px;
 	text-align: left;
 }
 
@@ -77,7 +77,7 @@ header {
 footer {
 	background: white;
 	width: 100%;
-	min-width: 650px;
+	min-width: 550px;
 	height: 100px;
 	margin: 0 auto;
 }
@@ -99,13 +99,4 @@ footer {
 	line-height: 100px;
 	height: 100px;
 	padding-top: 20px;
-}
-
-footer h6 {
-	min-width: 350px;
-	font: 1em Lora, 'Julius Sans One', serif;
-	color: #333;
-	padding-right: 40px;
-	line-height: 100px;
-	height: 100px;
 }
