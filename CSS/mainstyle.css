@@ -83,12 +83,12 @@ footer {
 
 .quick_links {
 	width: 300px;
-	margin: 0 left;
 }
 
 .quick_links li {
+	position: relative;
+	top: 10px;
 	list-style: none;
-	text-align: center;
 	float: left;
 	width: 33.3%;
 }
