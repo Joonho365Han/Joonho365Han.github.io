@@ -1,5 +1,6 @@
 .slideshow {
-	width: 550px 100%;
+	width: 100%;
+	width: 550px;
 	padding: 40%;
 	background-image: url("/img/for_home/home_slide_1.jpg");
 	background-position: center center;
