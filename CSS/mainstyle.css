@@ -96,6 +96,7 @@ footer {
 .quick_links a {
 	line-height: 100px;
 	height: 100px;
+	margin: 0 auto;
 }
 
 footer h6 {
