@@ -50,7 +50,7 @@ header {
     color: #9df;
 }
 
-.drop_down_menu { /* Drop Down Menu */
+..nav_bar > li > ul { /* Drop Down Menu */
 	position: absolute;
 	left: 217px;
 	top: 50px;
