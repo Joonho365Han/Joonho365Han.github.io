@@ -7,7 +7,10 @@
 }
 
 body {
-	background: #666;
+	background-image: -webkit-linear-gradient( top, white, black );
+  	background-image: -moz-linear-gradient( top, white, black );
+  	background-image: -o-linear-gradient( top, white, black );
+	background-image: linear-gradient( top, white, black );
     font-size: 62.5%;
 }
 
