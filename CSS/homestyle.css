@@ -2,19 +2,20 @@
 	width: 100%;
 	min-width: 550px;
 	padding-top: 52%;
-	min-height: 600px;
 	background-image: url("/img/for_home/home_slide_1.jpg");
 	background-position: center center;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
 	background-size: cover;
+	position: relative;
 }
 
 .intro {
 	width: 30%;
 }
 
-h1 {
+.slideshow > h1 {
 	color: white;
+	position: absolute;
 }
