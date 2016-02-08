@@ -84,11 +84,12 @@ footer {
 
 footer h6 {
 	font: 1em 'Poiret One', Lora, sans-serif;
-	line-height: 50px;
+	color: #bbb;
+	line-height: 30px;
 }
 
 .quick_links {
-	width: 100px;
+	width: 120px;
 	height: 50px;
 	margin: 0 auto;
 	margin-bottom: 20px;
@@ -108,5 +109,5 @@ footer h6 {
 }
 
 .quick_links > li > a > img {
-	opacity: 0.5;
+	opacity: 0.3;
 }
