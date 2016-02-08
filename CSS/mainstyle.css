@@ -50,7 +50,7 @@ header {
     color: #9df;
 }
 
-.nav_bar > li > ul { /* Drop Down Menu */
+.drop_down_menu { /* Drop Down Menu */
 	position: absolute;
 	left: 217px;
 	top: 50px;
@@ -64,7 +64,7 @@ header {
 
 .drop_down_menu > li { /* Specifically the drop down menu li */
 	width: 217px; /* Makes the menu stay open even when not hovering over the links */
-	padding-left: 60px;
+	padding-left: 40px;
 	text-align: left;
 }
 
