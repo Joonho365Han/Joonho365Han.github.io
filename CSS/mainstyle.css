@@ -40,7 +40,7 @@ header {
 }
 
 .nav_bar a{ /* All NavBar links */
-    font: 1.6em 'Roboto:400,100',sans-serif;
+    font: 1.6em sans-serif;
     color: #444444;
     text-decoration: none;
     line-height: 50px; /*This vertically centers the anchors*/
