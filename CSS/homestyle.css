@@ -124,7 +124,6 @@ header { /* In home page, this is the slideshow, not header. */
 	animation-duration: 24s;
     animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	background-attachment: scroll;
 }
 
 header > div{ /* In homepage, this is the white transparent background */
