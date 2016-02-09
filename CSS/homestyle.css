@@ -144,3 +144,11 @@ header > h1{
     left: 0;
     min-width: 550px;
 }
+
+.about {
+	background: #444;
+}
+
+.about h1, h5{
+	color: white;
+}
