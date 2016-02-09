@@ -110,16 +110,6 @@
 }
 
 header {
-	padding-bottom: 52%;
-	background: url("/img/for_home/home_slide_1.jpg");
-	background-position: center center;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-	background-size: cover;
-
-}
-.slideshow {
 	width: 100%;
 	min-width: 550px;
 	min-height: 300px;
@@ -137,7 +127,15 @@ header {
 	animation-duration: 24s;
     animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	text-align: center;
+}
+
+header > div{
+    background: rgba(255, 255, 255, 0.5);
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+.slideshow {
 }
 
 .slogan { /* Slogan div */
