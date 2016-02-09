@@ -154,16 +154,14 @@ header > h1{
 	min-width: 550px;
 	width: 100%;
 	background: #333;
+	text-align: justify;
 }
 
-#about > ul > li {
-	list-style: none;
-	text-align: justify;
+#about > img {
 	float: right;
 }
 
 #about h1, h5{
-	background: #333;
 	overflow: auto;
 	padding: 10px;
 	color: white;
