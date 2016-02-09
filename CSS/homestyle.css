@@ -124,15 +124,16 @@ header > h1{
 
 header > a { /* About button */
     font: 1.3em 'Poiret One', 'Julius Sans One',sans-serif;
-	color: rgba(255, 255, 255, 0.6);
+	text-decoration: none;
 	text-align: center;
 	line-height: 100px;
 	height: 100px;
+	color: rgba(255, 255, 255, 0.6);
 	display: block;
 	position: absolute;
-	text-decoration: none;
 	bottom: 0;
-	left: 0;
+	left: auto;
+	right: auto;
 }
 
 header > a:hover {
