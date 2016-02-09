@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background: white;
+    background: rgb(#fff, #fff, #fff, 0.5);
     height: 50px;
     width: 100%;
 }

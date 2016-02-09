@@ -121,6 +121,7 @@
   	-o-background-size: cover;
 	background-size: cover;
 	position: relative;
+	top: -50px;
 	animation-name: slides;
 	animation-duration: 24s;
     animation-timing-function: linear;
