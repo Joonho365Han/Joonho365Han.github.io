@@ -160,15 +160,16 @@ header > h1{
 	height: 150px;
 }
 
-.about ul li {
+.about > ul > li {
 	list-style: none;
 	text-align: left;
 	float: right;
+	width: 25%;
 }
 
 .about h1, h5{
 	min-width: 550px;
-	width: 80%; 
+	width: 70%; 
 	padding: 10px;
 	color: white;
 }
