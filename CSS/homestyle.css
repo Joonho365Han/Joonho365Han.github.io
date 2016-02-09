@@ -132,7 +132,9 @@
 	min-width: 550px;
 	margin: 0 auto;
 	text-align: center;
-	position: relative;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .slogan h1{
