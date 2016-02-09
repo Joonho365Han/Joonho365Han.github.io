@@ -58,7 +58,7 @@ header {
 .nav_bar a:hover {
 	color: #9df;
 	animation-name: link_hover;
-	animation-duration: 0.3s;
+	animation-duration: 0.2s;
 }
 
 .drop_down_menu { /* Drop Down Menu */
