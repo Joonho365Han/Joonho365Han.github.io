@@ -127,8 +127,8 @@ header > h1{
 	width: 100%;
 	position: absolute;
 	bottom: 0;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background: none;
 }
 
@@ -136,9 +136,9 @@ header > h1{
     font: 1.3em 'Poiret One', 'Julius Sans One',sans-serif;
 	text-decoration: none;
 	text-align: center;
-	line-height: 80px;
-	height: 80px;
-	width: 200px;
+	line-height: 60px;
+	height: 60px;
+	width: 180px;
 	color: rgba(255, 255, 255, 0.6);
 	display: block;
 	margin: 0 auto;
