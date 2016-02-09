@@ -147,7 +147,7 @@ header > h1{
 
 .about {
 	min-width: 550px;
-	height: auto;
+	height: 1000px;
 	padding: 15px;
 	background: #333;
 }
