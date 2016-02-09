@@ -148,7 +148,7 @@ header > a:hover {
 	background: #333;
 }
 
-#about > ul > li {
+#about > li {
 	list-style: none;
 	text-align: left;
 	float: right;
