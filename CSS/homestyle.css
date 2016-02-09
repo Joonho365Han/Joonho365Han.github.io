@@ -124,8 +124,10 @@ header > h1{
 
 .about_container {
 	height: 100px;
+	width: auto;
 	position: absolute;
 	bottom: 0;
+	background: none;
 }
 
 .about_container > a { /* About button */
@@ -137,6 +139,7 @@ header > h1{
 	color: rgba(255, 255, 255, 0.6);
 	display: block;
 	margin: 0 auto;
+	width: 200px;
 }
 
 header > a:hover {
