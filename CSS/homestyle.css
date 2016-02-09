@@ -109,7 +109,7 @@
 	}
 }
 
-header {
+header { /* In home page, this is the slideshow, not header. */
 	width: 100%;
 	min-width: 550px;
 	min-height: 300px;
@@ -126,17 +126,19 @@ header {
 	animation-iteration-count: infinite;
 }
 
-header > div{
+header > div{ /* In homepage, this is the white transparent background */
     background: rgba(255, 255, 255, 0.5);
     height: 50px;
     width: 100%;
     text-align: center;
 }
 
-header > h1{
+header > h1{ 
     font: 7vw 'Open Sans', 'Poiret One', serif;
     color: white;
     width: 100%;
-    line-height: 100%;
+    position: absolute;
+    top: 40%;
+    left: 0;
     min-width: 550px;
 }
