@@ -146,9 +146,19 @@ header > h1{
 }
 
 .about {
-	background: #444;
+	padding: 15px;
+	background: #333;
 }
 
 .about h1, h5{
+	padding: 10px;
 	color: white;
+}
+
+.about h1 {
+    font: 3.6em 'Open Sans', 'Poiret One', sans-serif;
+}
+
+.about h5 {
+    font: 2em Cinzel, 'Poiret One', serif;
 }
