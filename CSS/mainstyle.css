@@ -7,20 +7,20 @@
 }
 
 body {
+	background: white;
     font-size: 62.5%;
 }
 
 .wrapper{
-	font-size: 1.6em;
+	font-size: 1em;
 	margin: 0 auto; /* Automatically centers item */
 	width: 100%;
-	position: absolute;
 }
 
 header {
     background: rgba(255, 255, 255, 0.5);
     height: 50px;
-    width: 100%;
+    width: 100%; 
     text-align: center;
     background-attachment: fixed;
 }
@@ -67,7 +67,7 @@ header {
 
 .drop_down_menu > li { /* Specifically the drop down menu li */
 	width: 183px; /* Makes the menu stay open even when not hovering over the links */
-	padding-left: 60px;
+	padding-left: 59px;
 	text-align: left;
 }
 
