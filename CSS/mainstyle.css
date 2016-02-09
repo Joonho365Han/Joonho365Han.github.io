@@ -67,12 +67,12 @@ header {
 
 .drop_down_menu > li { /* Specifically the drop down menu li */
 	width: 183px; /* Makes the menu stay open even when not hovering over the links */
-	padding-left: 55px;
+	padding-left: 60px;
 	text-align: left;
 }
 
 .drop_down_menu a{ /* drop down project links */
-    font: 0.9em Abel,Cinzel,sans-serif;
+    font: 1em Abel,Cinzel,sans-serif;
     line-height: 50px; /*This vertically centers the anchors*/
     height: 50px; /* This limits the height so it fits inside the nav bar */
 }
