@@ -56,7 +56,7 @@ header {
 
 .nav_bar a:hover {
 	animation-name: link_hover;
-	animation-duration: 1s;
+	animation-duration: 0.3s;
 }
 
 .drop_down_menu { /* Drop Down Menu */
