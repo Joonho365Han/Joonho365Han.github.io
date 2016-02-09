@@ -1,11 +1,7 @@
 @keyframes slides {
 	0%	{ /* 2s */
-	width: 100%;
-	min-width: 550px;
-	min-height: 100%;
-	margin: 0 auto;
-	padding: 0 auto;
-	height: 100vh;
+		width: 100%;
+		height: 100vh;
 		background: url("/img/home/home_slide_1.jpg");
 		background-position: center center;
 		-webkit-background-size: cover;
@@ -14,12 +10,8 @@
 		background-size: cover;
 	}
 	17% { /* 4s */
-	width: 100%;
-	min-width: 550px;
-	min-height: 100%;
-	margin: 0 auto;
-	padding: 0 auto;
-	height: 100vh;
+		width: 100%;
+		height: 100vh;
 		background: url("/img/home/home_slide_1.jpg");
 		background-position: center center;
 		-webkit-background-size: cover;
@@ -28,12 +20,8 @@
 		background-size: cover;
 	}
 	25%	{ /* 2s */
-	width: 100%;
-	min-width: 550px;
-	min-height: 100%;
-	margin: 0 auto;
-	padding: 0 auto;
-	height: 100vh;
+		width: 100%;
+		height: 100vh;
 		background: url("/img/home/home_slide_2.jpg");
 		background-position: center center;
 		-webkit-background-size: cover;
@@ -42,12 +30,8 @@
 		background-size: cover;
 	}
 	42% { /* 4s */
-	width: 100%;
-	min-width: 550px;
-	min-height: 100%;
-	margin: 0 auto;
-	padding: 0 auto;
-	height: 100vh;
+		width: 100%;
+		height: 100vh;
 		background: url("/img/home/home_slide_2.jpg");
 		background-position: center center;
 		-webkit-background-size: cover;
@@ -56,12 +40,8 @@
 		background-size: cover;
 	}
 	50% { /* 2s */
-	width: 100%;
-	min-width: 550px;
-	min-height: 100%;
-	margin: 0 auto;
-	padding: 0 auto;
-	height: 100vh;
+		width: 100%;
+		height: 100vh;
 		background: url("/img/home/home_slide_3.jpg");
 		background-position: center center;
 		-webkit-background-size: cover;
@@ -70,12 +50,8 @@
 		background-size: cover;
 	}
 	67% { /* 4s */
-	width: 100%;
-	min-width: 550px;
-	min-height: 100%;
-	margin: 0 auto;
-	padding: 0 auto;
-	height: 100vh;
+		width: 100%;
+		height: 100vh;
 		background: url("/img/home/home_slide_3.jpg");
 		background-position: center center;
 		-webkit-background-size: cover;
@@ -84,12 +60,8 @@
 		background-size: cover;
 	}
 	75% { /* 2s */
-	width: 100%;
-	min-width: 550px;
-	min-height: 100%;
-	margin: 0 auto;
-	padding: 0 auto;
-	height: 100vh;
+		width: 100%;
+		height: 100vh;
 		background: url("/img/home/home_slide_4.jpg");
 		background-position: center center;
 		-webkit-background-size: cover;
@@ -98,12 +70,8 @@
 		background-size: cover;
 	}
 	92%  { /* 4s */
-	width: 100%;
-	min-width: 550px;
-	min-height: 100%;
-	margin: 0 auto;
-	padding: 0 auto;
-	height: 100vh;
+		width: 100%;
+		height: 100vh;
 		background: url("/img/home/home_slide_4.jpg");
 		background-position: center center;
 		-webkit-background-size: cover;
@@ -112,12 +80,8 @@
 		background-size: cover;
 	}
 	100% { /* back to beginning */
-	width: 100%;
-	min-width: 550px;
-	min-height: 100%;
-	margin: 0 auto;
-	padding: 0 auto;
-	height: 100vh;
+		width: 100%;
+		height: 100vh;
 		background: url("/img/home/home_slide_1.jpg");
 		background-position: center center;
 		-webkit-background-size: cover;
@@ -128,18 +92,6 @@
 }
 
 header { /* In home page, this is the slideshow, not header. */
-	width: 100%;
-	min-width: 550px;
-	min-height: 100%;
-	margin: 0 auto;
-	padding: 0 auto;
-	height: 100vh;
-	background: url("/img/home/home_slide_1.jpg");
-	background-position: center center;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-	background-size: cover;
 	animation-name: slides;
 	animation-duration: 24s;
     animation-timing-function: linear;

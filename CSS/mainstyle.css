@@ -31,7 +31,7 @@ header {
 }
 
 .nav_bar {
-    width: 550px; /* Minimum width for the buttons. */
+    max-width: 550px; /* Minimum width for the buttons. */
     position: relative; /*This nav bar is the position origin for all others*/
     margin: 0 auto;
 }
@@ -74,7 +74,7 @@ header {
 }
 
 .drop_down_menu > li { /* Specifically the drop down menu li */
-	width: 183px; /* Makes the menu stay open even when not hovering over the links */
+	max-width: 183px; /* Makes the menu stay open even when not hovering over the links */
 	padding-left: 57px;
 	text-align: left;
 }
@@ -88,7 +88,6 @@ header {
 footer {
 	background: white;
 	width: 100%;
-	min-width: 550px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -100,7 +99,7 @@ footer h6 {
 }
 
 .quick_links {
-	width: 180px;
+	max-width: 180px;
 	height: 60px;
 	margin: 0 auto;
 	margin-bottom: 50px;
