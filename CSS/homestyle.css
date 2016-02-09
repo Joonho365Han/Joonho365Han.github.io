@@ -128,19 +128,13 @@
 }
 
 .slogan { /* Slogan */
-	max-width: 30%;
-	position: absolute;
-	top: 20%;
-	left: 60%;
+	width: 100%;
+	min-width: 550px;
+	margin: 0 auto;
 	text-align: center;
 }
 
 .slogan h1{
-    font: 4em 'Poiret One', 'Julius Sans One', serif;
+    font: 5vw 'Open Sans', 'Poiret One', serif;
     color: white;
-}
-
-.slogan h2 {
-    font: 2.8rem Abel,Cinzel,sans-serif;
-    color: black;
 }
