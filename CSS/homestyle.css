@@ -113,7 +113,7 @@ header { /* In home page, this is the slideshow, not header. */
 	width: 100%;
 	min-width: 550px;
 	min-height: 300px;
-	padding-bottom: auto;
+	padding-bottom: 100vh;
 	background: url("/img/home/home_slide_1.jpg");
 	background-position: center center;
 	-webkit-background-size: cover;
