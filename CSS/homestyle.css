@@ -133,7 +133,6 @@ header > a { /* About button */
 	text-decoration: none;
 	bottom: 0;
 	left: 0;
-	width: 100%;
 }
 
 header > a:hover {
