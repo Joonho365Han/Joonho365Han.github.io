@@ -91,6 +91,11 @@
 	}
 }
 
+@keyframes about_hover {
+	from { color: rgba(255, 255, 255, 0.7); }
+	to   { color: white; }
+}
+
 header { /* In home page, this is the slideshow, not header. */
 	animation-name: slides;
 	animation-duration: 24s;
@@ -118,16 +123,23 @@ header > h1{
 }
 
 header > a { /* About button */
-    font: 2em 'Poiret One', 'Julius Sans One',sans-serif;
-	color: white;
+    font: 1.5em 'Poiret One', 'Julius Sans One',sans-serif;
+	color: rgba(255, 255, 255, 0.7);
 	text-align: center;
 	line-height: 100px;
 	height: 100px;
 	display: block;
 	position: absolute;
+	text-decoration: none;
 	bottom: 0;
 	left: 0;
 	width: 100%;
+}
+
+header > a:hover {
+	color: white;
+	animation-name: about_hover;
+	animation-duration: 0.2s;
 }
 
 #about {
