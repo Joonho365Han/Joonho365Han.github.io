@@ -56,6 +56,7 @@ header {
 
 .nav_bar a:hover {
 	color: #9df;
+	width: 183px;
 	animation-name: link_hover;
 	animation-duration: 0.3s;
 }
