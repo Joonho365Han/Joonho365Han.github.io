@@ -6,6 +6,11 @@
 	margin: 0;
 }
 
+@keyframes link_hover {
+	from { color: #444; }
+	to   { color: #9df; }
+}
+
 body {
 	background: white;
     font-size: 62.5%;
@@ -43,14 +48,15 @@ header {
 
 .nav_bar a{ /* All NavBar links */
     font: 1.0em Abel,Cinzel,sans-serif;
-    color: #444444;
+    color: #444;
     text-decoration: none;
     line-height: 50px; /*This vertically centers the anchors*/
     height: 50px; /* This limits the height so it fits inside the nav bar */
 }
 
 .nav_bar a:hover {
-    color: #9df;
+	animation-name: link_hover;
+	animation-duration: 1s;
 }
 
 .drop_down_menu { /* Drop Down Menu */
