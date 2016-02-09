@@ -146,8 +146,15 @@ header > h1{
 }
 
 .about {
+	min-width: 550px;
 	padding: 15px;
 	background: #333;
+}
+
+.about ul li {
+	list-style: none;
+	text-align: left;
+	float: right;
 }
 
 .about h1, h5{
