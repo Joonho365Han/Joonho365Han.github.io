@@ -67,7 +67,7 @@ header {
 
 .drop_down_menu > li { /* Specifically the drop down menu li */
 	width: 183px; /* Makes the menu stay open even when not hovering over the links */
-	padding-left: 58px;
+	padding-left: 59px;
 	text-align: left;
 }
 
