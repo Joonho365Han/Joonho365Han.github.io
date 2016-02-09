@@ -133,14 +133,12 @@
 	margin: 0 auto;
 	text-align: center;
 	position: absolute;
-	top: 0;
+	top: 45%;
 	left: 0;
 }
 
 .slogan h1{
     font: 7vw 'Open Sans', 'Poiret One', serif;
     color: white;
-    position: absolute;
-    top: 45%;
     width: 100%;
 }
