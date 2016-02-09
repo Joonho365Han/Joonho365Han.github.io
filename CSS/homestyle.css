@@ -139,4 +139,6 @@
     color: white;
     line-height: 50%;
     position: absolute;
+    top: 50%;
+    width: 100%;
 }
