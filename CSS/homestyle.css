@@ -139,7 +139,7 @@ header > h1{
 	width: 200px;
 	color: rgba(255, 255, 255, 0.6);
 	display: block;
-	margin: 20 auto;
+	margin: 20 auto 20 auto;
 }
 
 header > a:hover {
