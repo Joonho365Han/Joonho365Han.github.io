@@ -120,6 +120,7 @@
   	-moz-background-size: cover;
   	-o-background-size: cover;
 	background-size: cover;
+	position: relative; /* Necessary to make slogan scale according to slideshow div */
 	animation-name: slides;
 	animation-duration: 24s;
     animation-timing-function: linear;
