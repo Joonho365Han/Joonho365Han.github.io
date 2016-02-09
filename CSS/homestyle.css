@@ -128,7 +128,7 @@
 	animation-iteration-count: infinite;
 }
 
-.slogan { /* Slogan */
+.slogan { /* Slogan div */
 	width: 100%;
 	min-width: 550px;
 	margin: 0 auto;
@@ -139,8 +139,7 @@
 .slogan h1{
     font: 7vw 'Open Sans', 'Poiret One', serif;
     color: white;
-    line-height: 50%;
+    line-height: 100%;
     position: absolute;
-    top: 45%;
     width: 100%;
 }
