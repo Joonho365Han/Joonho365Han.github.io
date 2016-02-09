@@ -144,7 +144,7 @@ header > h1{
 	margin: 0 auto;
 }
 
-header > a:hover {
+.about_container > a:hover {
 	color: white;
 	animation-name: about_hover;
 	animation-duration: 0.3s;
