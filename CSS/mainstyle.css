@@ -7,6 +7,7 @@
 }
 
 body {
+	background: #eee;
     font-size: 62.5%;
 }
 
@@ -17,10 +18,10 @@ body {
 }
 
 header {
-    background: rgb(#fff, #fff, #fff, 0.5);
+    background: rgba(255, 255, 255, 0.5);
     height: 50px;
     width: 100%;
-    
+
 }
 
 .nav_bar {
