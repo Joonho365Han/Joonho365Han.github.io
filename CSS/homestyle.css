@@ -122,7 +122,13 @@ header > h1{
     min-width: 550px;
 }
 
-header > a { /* About button */
+.about_container {
+	height: 100px;
+	position: absolute;
+	bottom: 0;
+}
+
+.about_container > a { /* About button */
     font: 1.3em 'Poiret One', 'Julius Sans One',sans-serif;
 	text-decoration: none;
 	text-align: center;
@@ -130,8 +136,6 @@ header > a { /* About button */
 	height: 100px;
 	color: rgba(255, 255, 255, 0.6);
 	display: block;
-	position: absolute;
-	bottom: 0;
 	margin: 0 auto;
 }
 
