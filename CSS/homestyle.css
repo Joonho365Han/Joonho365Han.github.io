@@ -120,7 +120,7 @@
   	-moz-background-size: cover;
   	-o-background-size: cover;
 	background-size: cover;
-	position: absolute;
+	position: realative;
 	top: 0;
 	animation-name: slides;
 	animation-duration: 24s;
