@@ -27,7 +27,7 @@ header {
 .nav_bar {
     width: 550px; /* Minimum width for the buttons. */
     position: absolute; /*This nav bar is the position origin for all others*/
-    margin: 0 auto;
+    color: #e4f;
 }
 
 .nav_bar li {
