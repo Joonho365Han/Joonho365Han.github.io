@@ -135,6 +135,8 @@
 }
 
 .slogan h1{
-    font: 5vw 'Open Sans', 'Poiret One', serif;
+    font: 6.5vw 'Open Sans', 'Poiret One', serif;
     color: white;
+    line-height: 50%;
+    position: absolute;
 }
