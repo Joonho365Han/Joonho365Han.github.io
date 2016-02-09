@@ -137,7 +137,7 @@
 .slogan h1{
     font: 7vw 'Open Sans', 'Poiret One', serif;
     color: white;
-    line-height: 45%;
     position: absolute;
+    top: 45%;
     width: 100%;
 }
