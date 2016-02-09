@@ -167,6 +167,8 @@ header > h1{
 }
 
 .about h1, h5{
+	min-width: 550px;
+	width: 80%; 
 	padding: 10px;
 	color: white;
 }
