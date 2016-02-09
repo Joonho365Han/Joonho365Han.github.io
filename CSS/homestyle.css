@@ -133,6 +133,7 @@
 	min-width: 550px;
 	margin: 0 auto;
 	text-align: center;
+	position: relative;
 }
 
 .slogan h1{
