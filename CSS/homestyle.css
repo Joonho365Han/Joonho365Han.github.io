@@ -109,6 +109,16 @@
 	}
 }
 
+header {
+	padding-bottom: 52%;
+	background: url("/img/for_home/home_slide_1.jpg");
+	background-position: center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+
+}
 .slideshow {
 	width: 100%;
 	min-width: 550px;
@@ -120,7 +130,7 @@
   	-moz-background-size: cover;
   	-o-background-size: cover;
 	background-size: cover;
-	position: absolute; /* Necessary to make slogan scale according to slideshow div */
+	position: relative; /* Necessary to make slogan scale according to slideshow div */
 	top: 0;
 	left: 0;
 	animation-name: slides;
