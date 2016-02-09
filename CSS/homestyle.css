@@ -124,6 +124,7 @@ header { /* In home page, this is the slideshow, not header. */
 	animation-duration: 24s;
     animation-timing-function: linear;
 	animation-iteration-count: infinite;
+	position: static;
 }
 
 header > div{ /* In homepage, this is the white transparent background */
@@ -131,6 +132,7 @@ header > div{ /* In homepage, this is the white transparent background */
     height: 50px;
     width: 100%;
     text-align: center;
+    position: fixed;
 }
 
 header > h1{ 
