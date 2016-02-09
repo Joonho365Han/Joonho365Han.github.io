@@ -120,8 +120,8 @@
   	-moz-background-size: cover;
   	-o-background-size: cover;
 	background-size: cover;
-	position: relative;
-	top: -50px;
+	position: absolute;
+	top: 0;
 	animation-name: slides;
 	animation-duration: 24s;
     animation-timing-function: linear;
@@ -136,10 +136,10 @@
 }
 
 .slogan h1{
-    font: 6.5vw 'Open Sans', 'Poiret One', serif;
+    font: 7vw 'Open Sans', 'Poiret One', serif;
     color: white;
     line-height: 50%;
     position: absolute;
-    top: 40%;
+    top: 45%;
     width: 100%;
 }
