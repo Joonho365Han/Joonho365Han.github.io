@@ -80,6 +80,7 @@ header {
 }
 
 .drop_down_menu a{ /* drop down project links */
+	display: block;
     font: 1em Abel,Cinzel,sans-serif;
     line-height: 50px; /*This vertically centers the anchors*/
     height: 50px; /* This limits the height so it fits inside the nav bar */
