@@ -132,8 +132,7 @@ header > a { /* About button */
 	display: block;
 	position: absolute;
 	bottom: 0;
-	left: auto;
-	right: auto;
+	margin: 0 auto;
 }
 
 header > a:hover {
