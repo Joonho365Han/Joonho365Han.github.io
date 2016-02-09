@@ -124,7 +124,7 @@ header > h1{
 
 .about_container {
 	height: 100px;
-	width: auto;
+	width: 100%;
 	position: absolute;
 	bottom: 0;
 	background: none;
@@ -136,10 +136,10 @@ header > h1{
 	text-align: center;
 	line-height: 100px;
 	height: 100px;
+	width: 200px;
 	color: rgba(255, 255, 255, 0.6);
 	display: block;
 	margin: 0 auto;
-	width: 200px;
 }
 
 header > a:hover {
