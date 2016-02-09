@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.5);
     height: 50px;
     width: 100%;
     text-align: center;
@@ -27,7 +27,6 @@ header {
 .nav_bar {
     width: 550px; /* Minimum width for the buttons. */
     position: relative; /*This nav bar is the position origin for all others*/
-    background: #e4f;
     margin: 0 auto;
 }
 
@@ -57,7 +56,7 @@ header {
 	position: absolute;
 	left: 183px;
 	top: 50px;
-	overflow: visible;
+	overflow: hidden;
     display: none; /* Hides normally */
 }
 
