@@ -123,7 +123,7 @@ header > h1{
 }
 
 header > a { /* About button */
-    font: 1.5em 'Poiret One', 'Julius Sans One',sans-serif;
+    font: 1vw 'Poiret One', 'Julius Sans One',sans-serif;
 	color: rgba(255, 255, 255, 0.7);
 	text-align: center;
 	line-height: 100px;
