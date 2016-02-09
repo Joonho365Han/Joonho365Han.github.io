@@ -113,7 +113,7 @@ header {
 	width: 100%;
 	min-width: 550px;
 	min-height: 300px;
-	padding-top: 52%;
+	padding-bottom: 52%;
 	background: url("/img/for_home/home_slide_1.jpg");
 	background-position: center center;
 	-webkit-background-size: cover;
