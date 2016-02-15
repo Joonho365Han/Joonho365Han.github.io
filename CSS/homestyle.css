@@ -98,6 +98,7 @@
 
 header { /* In home page, this is the slideshow, not header. */
 	height: 100vh;
+	background: url("/img/home_slide.png");
 	/*
 	animation-duration: 24s;
     animation-timing-function: linear;
