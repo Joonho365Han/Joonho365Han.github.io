@@ -137,15 +137,21 @@ header { /* In home page, this is the slideshow, not header. */
 
 .slideshow {
 	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 492.059%;
 	padding-top: 52%;
 	background: url("/img/home_slide.png");
+	-webkit-animation: slides 24s linear infinite;
+	-moz-animation: slides 24s linear infinite;
 	animation: slides 24s linear infinite;
     -webkit-transform: translate3d(0, 0, 0);
 }
 
 header > h1{ 
     font: 7vw 'Open Sans', 'Poiret One', serif;
-    color: white;
+    color: gray;
     width: 100%;
     position: absolute;
     top: 40%;
