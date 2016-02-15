@@ -124,18 +124,22 @@
 
 header { /* In home page, this is the slideshow, not header. */
 	height: 100vh;
-	background: url("/img/home_slide.png");
-	animation: slides 24s linear infinite;
-    -webkit-transform: translate3d(0, 0, 0);
 	position: relative;
 }
 
-header > div{ /* In homepage, this is the white transparent background */
+.home_header{ /* In homepage, this is the white transparent background */
     background: rgba(255, 255, 255, 0.5);
     height: 50px;
     width: 100%;
     text-align: center;
     position: fixed;
+}
+
+.slideshow {
+	position: absolute;
+	background: url("/img/home_slide.png");
+	animation: slides 24s linear infinite;
+    -webkit-transform: translate3d(0, 0, 0);
 }
 
 header > h1{ 
