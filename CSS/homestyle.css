@@ -137,7 +137,7 @@ header { /* In home page, this is the slideshow, not header. */
 
 .slideshow {
 	position: absolute;
-	padding-top: 100vh;
+	padding-top: 52%;
 	background: url("/img/home_slide.png");
 	animation: slides 24s linear infinite;
     -webkit-transform: translate3d(0, 0, 0);
