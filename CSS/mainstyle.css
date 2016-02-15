@@ -1,0 +1,123 @@
+*{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+@keyframes link_hover {
+	from { color: #444; }
+	to   { color: #9df; }
+}
+
+body {
+	background: white;
+    font-size: 62.5%;
+}
+
+.wrapper{
+	font-size: 1.6em;
+	margin: 0 auto; /* Automatically centers item */
+	width: 100%;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.5);
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+.nav_bar {
+    max-width: 550px; /* Minimum width for the buttons. */
+    position: relative; /*This nav bar is the position origin for all others*/
+    margin: 0 auto;
+}
+
+.nav_bar li {
+	list-style: none;
+	text-align: center;
+}
+
+.nav_bar > li { /*Nav Bar Items (including mega drop down menu)*/
+	float: left; /* Horizontally lays out list items with top on the left. */
+	width: 33.3%; /*Default value: 3 nav buttons in menu equally distributed. horizontally centers/scales items*/
+	position: relative;
+}
+
+.nav_bar a{ /* All NavBar links */
+	display: block;
+    font: 1.1em Abel,Cinzel,sans-serif;
+    color: #444;
+    text-decoration: none;
+    line-height: 50px; /*This vertically centers the anchors*/
+    height: 50px; /* This limits the height so it fits inside the nav bar */
+}
+
+.nav_bar a:hover {
+	color: #9df;
+	animation-name: link_hover;
+	animation-duration: 0.2s;
+}
+
+.drop_down_menu { /* Drop Down Menu */
+	position: absolute;
+	top: 50px;
+	overflow: hidden;
+    display: none; /* Hides normally */
+}
+
+.nav_bar > li:hover > ul{
+    display: block; /* Shows drop down menu when hovered its parent li */
+}
+
+.drop_down_menu > li { /* Specifically the drop down menu li */
+	max-width: 183px; /* Makes the menu stay open even when not hovering over the links */
+	padding-left: 57px;
+	text-align: left;
+}
+
+.drop_down_menu a{ /* drop down project links */
+    font: 1em Abel,Cinzel,sans-serif;
+    line-height: 50px; /*This vertically centers the anchors*/
+    height: 50px; /* This limits the height so it fits inside the nav bar */
+}
+
+footer {
+	background: white;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer h6 {
+	font: 1em 'Poiret One', Lora, sans-serif;
+	color: #888;
+	line-height: 65px;
+}
+
+.quick_links {
+	max-width: 180px;
+	height: 60px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.quick_links li {
+	position: relative;
+	list-style: none;
+	text-align: center;
+	float: left;
+	width: 33.3%;
+}
+
+.quick_links a {
+	line-height: 60px;
+	height: 60px;
+}
+
+.quick_links > li > a > img {
+	opacity: 0.5;
+}
