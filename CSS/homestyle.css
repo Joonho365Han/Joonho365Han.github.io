@@ -140,7 +140,7 @@ header { /* In home page, this is the slideshow, not header. */
 	left: 0;
 	top: 0;
 	height: 100%;
-	width: 492.059%;
+	width: 280.28%;
 	background: url("/img/home_slide.png");
 	-webkit-animation: slides 24s linear infinite;
 	-moz-animation: slides 24s linear infinite;
@@ -150,7 +150,7 @@ header { /* In home page, this is the slideshow, not header. */
 
 header > h1{ 
     font: 7vw 'Open Sans', 'Poiret One', serif;
-    color: gray;
+    color: white;
     width: 100%;
     position: absolute;
     top: 40%;
