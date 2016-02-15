@@ -96,7 +96,7 @@
         transform: translateX(0);  
     }    
     100% { 
-        transform: translateX(-200%);  
+        transform: translateX(-180.28%);  
     }
 }
 
@@ -105,7 +105,7 @@
         -webkit-transform: translateX(0);  
     }    
     100% { 
-        -webkit-transform: translateX(-200%);  
+        -webkit-transform: translateX(-180.28%);  
     }
 }
 @-moz-keyframes slides {
@@ -113,7 +113,7 @@
         -moz-transform:    translateX(0); 
     }    
     100% { 
-        -moz-transform:    translateX(-200%); 
+        -moz-transform:    translateX(-180.28%); 
     }
 }
 
@@ -141,7 +141,6 @@ header { /* In home page, this is the slideshow, not header. */
 	top: 0;
 	height: 100%;
 	width: 492.059%;
-	padding-top: 52%;
 	background: url("/img/home_slide.png");
 	-webkit-animation: slides 24s linear infinite;
 	-moz-animation: slides 24s linear infinite;
