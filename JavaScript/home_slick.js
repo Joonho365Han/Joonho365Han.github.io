@@ -9,5 +9,6 @@ $(document).ready(function(){
 	draggable: false;
 	swipe: false;
 	cssEase: 'linear';
+	variableWidth: true;
   });
 });
