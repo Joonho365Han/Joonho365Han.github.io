@@ -1,97 +1,4 @@
 /*@keyframes slides {
-	0%	{ 
-		width: 100%;
-		height: 100vh;
-		background: url("/img/home/home_slide_1.jpg");
-		background-position: center center;
-		-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-	  	-o-background-size: cover;
-		background-size: cover;
-	}
-	17% { 
-		width: 100%;
-		height: 100vh;
-		background: url("/img/home/home_slide_1.jpg");
-		background-position: center center;
-		-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-	  	-o-background-size: cover;
-		background-size: cover;
-	}
-	25%	{ 
-		width: 100%;
-		height: 100vh;
-		background: url("/img/home/home_slide_2.jpg");
-		background-position: center center;
-		-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-	  	-o-background-size: cover;
-		background-size: cover;
-	}
-	42% { 
-		width: 100%;
-		height: 100vh;
-		background: url("/img/home/home_slide_2.jpg");
-		background-position: center center;
-		-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-	  	-o-background-size: cover;
-		background-size: cover;
-	}
-	50% {
-		width: 100%;
-		height: 100vh;
-		background: url("/img/home/home_slide_3.jpg");
-		background-position: center center;
-		-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-	  	-o-background-size: cover;
-		background-size: cover;
-	}
-	67% {
-		width: 100%;
-		height: 100vh;
-		background: url("/img/home/home_slide_3.jpg");
-		background-position: center center;
-		-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-	  	-o-background-size: cover;
-		background-size: cover;
-	}
-	75% {
-		width: 100%;
-		height: 100vh;
-		background: url("/img/home/home_slide_4.jpg");
-		background-position: center center;
-		-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-	  	-o-background-size: cover;
-		background-size: cover;
-	}
-	92%  { 
-		width: 100%;
-		height: 100vh;
-		background: url("/img/home/home_slide_4.jpg");
-		background-position: center center;
-		-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-	  	-o-background-size: cover;
-		background-size: cover;
-	}
-	100% { 
-		width: 100%;
-		height: 100vh;
-		background: url("/img/home/home_slide_1.jpg");
-		background-position: center center;
-		-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-	  	-o-background-size: cover;
-		background-size: cover;
-	}
-}*/
-
-@keyframes slides {
     0%   { 
         transform: translateX(0);  
     }    
@@ -115,7 +22,7 @@
     100% { 
         -moz-transform:    translateX(-80.28%); 
     }
-}
+}*/
 
 @keyframes about_hover {
 	from { color: rgba(255, 255, 255, 0.6); }
@@ -124,7 +31,6 @@
 
 header { /* In home page, this is the slideshow, not header. */
 	height: 100vh;
-	width: 100vw;
 	position: relative;
 }
 
@@ -141,16 +47,16 @@ header { /* In home page, this is the slideshow, not header. */
 	left: 0;
 	top: 0;
 	height: 100%;
-	width: 278%;
 	background: url("/img/home_slide.png");
 	background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
+	/*
 	-webkit-animation: slides 24s linear infinite;
 	-moz-animation: slides 24s linear infinite;
 	animation: slides 24s linear infinite;
-    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);*/
 }
 
 header > h1{ 
