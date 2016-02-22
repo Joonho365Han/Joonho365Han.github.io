@@ -48,12 +48,6 @@ header { /* In home page, this is the slideshow, not header. */
 	left: 0;
 	top: 0;
 	height: 100%;
-	width: 100%;
-	overflow: hidden;
-}
-
-.slideshow div {
-	height: 100%;
 	width: 3966px;
 	overflow: hidden;
 	background: url("/img/home_slide.png");
