@@ -69,7 +69,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
     font-style: bold;
 }
 
-.nav_bar a:hover {
+.drop_down_menu a:hover {
 	color: #9df;
 	animation-name: link_hover;
 	animation-duration: 0.2s;
