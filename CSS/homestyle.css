@@ -1,9 +1,9 @@
-/*@keyframes slides {
+@keyframes slides {
     0%   { 
         transform: translateX(0);  
     }    
     100% { 
-        transform: translateX(-80.28%);  
+        transform: translateX(-3000px);  
     }
 }
 
@@ -12,7 +12,7 @@
         -webkit-transform: translateX(0);  
     }    
     100% { 
-        -webkit-transform: translateX(-80.28%);  
+        -webkit-transform: translateX(-3000px);  
     }
 }
 @-moz-keyframes slides {
@@ -20,9 +20,9 @@
         -moz-transform:    translateX(0); 
     }    
     100% { 
-        -moz-transform:    translateX(-80.28%); 
+        -moz-transform:    translateX(-3000px); 
     }
-}*/
+}
 
 @keyframes about_hover {
 	from { color: rgba(255, 255, 255, 0.6); }
@@ -61,11 +61,11 @@ header { /* In home page, this is the slideshow, not header. */
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
-	/*
+	
 	-webkit-animation: slides 24s linear infinite;
 	-moz-animation: slides 24s linear infinite;
 	animation: slides 24s linear infinite;
-    -webkit-transform: translate3d(0, 0, 0);*/
+    -webkit-transform: translate3d(0, 0, 0);
 }
 
 header > h1{ 
