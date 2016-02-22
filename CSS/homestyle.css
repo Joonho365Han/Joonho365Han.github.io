@@ -3,7 +3,7 @@
         transform: translateX(0);  
     }    
     100% { 
-        transform: translateX(-3000px);  
+        transform: translateX(-2555px);  
     }
 }
 
@@ -12,7 +12,7 @@
         -webkit-transform: translateX(0);  
     }    
     100% { 
-        -webkit-transform: translateX(-3000px);  
+        -webkit-transform: translateX(-2555px);  
     }
 }
 @-moz-keyframes slides {
@@ -20,7 +20,7 @@
         -moz-transform:    translateX(0); 
     }    
     100% { 
-        -moz-transform:    translateX(-3000px); 
+        -moz-transform:    translateX(-2555px); 
     }
 }
 
