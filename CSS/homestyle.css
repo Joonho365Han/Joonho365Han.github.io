@@ -54,14 +54,13 @@ header { /* In home page, this is the slideshow, not header. */
 
 .slideshow div {
 	height: 100%;
-	width: 273%;
+	width: 3966px;
 	overflow: hidden;
 	background: url("/img/home_slide.png");
 	background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
-	
 	-webkit-animation: slides 24s linear infinite;
 	-moz-animation: slides 24s linear infinite;
 	animation: slides 24s linear infinite;
