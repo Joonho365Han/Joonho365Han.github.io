@@ -16,7 +16,7 @@
 	to   { color: white; }
 }
 
-@keyframes link_hover {
+@keyframes menu_hover {
 	from { color: white; }
 	to   { color: #9df; }
 }
@@ -71,7 +71,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .drop_down_menu a:hover {
 	color: #9df;
-	animation-name: link_hover;
+	animation-name: menu_hover;
 	animation-duration: 0.2s;
 }
 
