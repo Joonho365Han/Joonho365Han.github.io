@@ -1,6 +1,5 @@
 $(document).ready(function(){
   $('.slideshow').slick({
-	adaptiveHeight: true;
 	arrows: false;
 	autoplay: true;
 	speed: 300;
