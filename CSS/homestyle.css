@@ -2,7 +2,6 @@
     0%   {transform: translateX(0);}    
     100% {transform: translateX(-2555px);}
 }
-
 @-webkit-keyframes slides {
     0%   {-webkit-transform: translateX(0);}    
     100% {-webkit-transform: translateX(-2555px);}
@@ -15,6 +14,11 @@
 @keyframes about_hover {
 	from { color: rgba(255, 255, 255, 0.6); }
 	to   { color: white; }
+}
+
+@keyframes link_hover {
+	from { color: white; }
+	to   { color: #9df; }
 }
 
 .slideshow {
@@ -63,6 +67,12 @@ header { /* In home page, this is the slideshow and header, not just header. */
 .drop_down_menu a{ /* drop down project links */
     color: white;
     font-style: bold;
+}
+
+.nav_bar a:hover {
+	color: #9df;
+	animation-name: link_hover;
+	animation-duration: 0.2s;
 }
 
 header > h1{ 
