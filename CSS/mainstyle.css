@@ -63,7 +63,6 @@ header {
 }
 
 .drop_down_menu { /* Drop Down Menu */
-    background: rgba(255, 255, 255, 0.7);
 	position: absolute;
 	top: 50px;
 	overflow: hidden;

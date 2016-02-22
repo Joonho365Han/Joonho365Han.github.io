@@ -72,6 +72,11 @@ header { /* In home page, this is the slideshow and header, not just header. */
     position: fixed;
 }
 
+.drop_down_menu a{ /* drop down project links */
+    color: white;
+    font-style: bold;
+}
+
 header > h1{ 
     font: 7vw 'Open Sans', 'Poiret One', serif;
     color: white;
