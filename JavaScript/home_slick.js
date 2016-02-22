@@ -1,6 +1,5 @@
 $(document).ready(function(){
   $('.slideshow').slick({
-    setting-name: setting-value
 	adaptiveHeight: true;
 	arrows: false;
 	autoplay: true;
