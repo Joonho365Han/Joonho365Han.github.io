@@ -29,20 +29,6 @@
 	to   { color: white; }
 }
 
-header { /* In home page, this is the slideshow, not header. */
-	height: 100vh;
-	width: 100vw;
-	position: relative;
-}
-
-.home_header{ /* In homepage, this is the white transparent background */
-    background: rgba(255, 255, 255, 0.5);
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    position: fixed;
-}
-
 .slideshow {
 	position: absolute;
 	/* Backgroun identical to slide start frame to prevent flicker when slide resets */
@@ -70,6 +56,20 @@ header { /* In home page, this is the slideshow, not header. */
 	-moz-animation: slides 24s linear infinite;
 	animation: slides 24s linear infinite;
     -webkit-transform: translate3d(0, 0, 0);
+}
+
+header { /* In home page, this is the slideshow and header, not just header. */
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+}
+
+.home_header{ /* In homepage, this is the white transparent background */
+    background: rgba(255, 255, 255, 0.7);
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
 }
 
 header > h1{ 
