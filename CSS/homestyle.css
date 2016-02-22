@@ -43,7 +43,7 @@ header { /* In home page, this is the slideshow, not header. */
     position: fixed;
 }
 
-.slideshow, .slideitem {
+.slideshow div {
 	position: absolute;
 	left: 0;
 	top: 0;
