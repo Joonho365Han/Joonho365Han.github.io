@@ -43,10 +43,16 @@ header { /* In home page, this is the slideshow, not header. */
     position: fixed;
 }
 
-.slideshow div {
+.slideshow {
 	position: absolute;
 	left: 0;
 	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.slideshow div {
 	height: 100%;
 	width: 273%;
 	overflow: hidden;
