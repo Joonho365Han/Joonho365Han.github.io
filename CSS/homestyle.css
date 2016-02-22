@@ -54,6 +54,7 @@ header { /* In home page, this is the slideshow, not header. */
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
+	overflow: hidden;
 	/*
 	-webkit-animation: slides 24s linear infinite;
 	-moz-animation: slides 24s linear infinite;

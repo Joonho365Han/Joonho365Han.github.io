@@ -1,4 +1,4 @@
-
+$(document).ready(function(){
   $('.slideshow').slick({
 	adaptiveHeight: true;
 	arrows: false;
@@ -10,3 +10,4 @@
 	swipe: false;
 	cssEase: 'linear';
   });
+});
