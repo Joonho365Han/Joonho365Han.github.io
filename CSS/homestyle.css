@@ -1,27 +1,15 @@
 @keyframes slides {
-    0%   { 
-        transform: translateX(0);  
-    }    
-    100% { 
-        transform: translateX(-2555px);  
-    }
+    0%   {transform: translateX(0);}    
+    100% {transform: translateX(-2555px);}
 }
 
 @-webkit-keyframes slides {
-    0%   { 
-        -webkit-transform: translateX(0);  
-    }    
-    100% { 
-        -webkit-transform: translateX(-2555px);  
-    }
+    0%   {-webkit-transform: translateX(0);}    
+    100% {-webkit-transform: translateX(-2555px);}
 }
 @-moz-keyframes slides {
-    0%   { 
-        -moz-transform:    translateX(0); 
-    }    
-    100% { 
-        -moz-transform:    translateX(-2555px); 
-    }
+    0%   {-moz-transform:    translateX(0);}    
+    100% {-moz-transform:    translateX(-2555px);}
 }
 
 @keyframes about_hover {
@@ -65,7 +53,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .home_header{ /* In homepage, this is the white transparent background */
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.5);
     height: 50px;
     width: 100%;
     text-align: center;
