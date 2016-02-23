@@ -17,7 +17,7 @@
 }
 
 @keyframes menu_hover {
-	from { color: white; }
+	from { color: black; }
 	to   { color: #9df; }
 }
 
@@ -64,7 +64,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .drop_down_menu a{ /* drop down project links */
-    color: white;
+    color: black;
     font-style: bold;
 }
 
