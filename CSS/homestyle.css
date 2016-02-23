@@ -65,6 +65,8 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .drop_down_menu a{ /* drop down project links */
     color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 1.3em;
     font-style: bold;
 }
 
