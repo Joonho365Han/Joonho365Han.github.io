@@ -12,12 +12,12 @@
 }
 
 @keyframes about_hover {
-	from { color: rgba(238, 238, 238, 0.6); }
-	to   { color: #eee; }
+	from { color: rgba(255, 255, 255, 0.6); }
+	to   { color: white; }
 }
 
 @keyframes menu_hover {
-	from { color: black; }
+	from { color: white; }
 	to   { color: #9df; }
 }
 
@@ -64,7 +64,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .drop_down_menu a{ /* drop down project links */
-    color: black;
+    color: white;
     font-style: bold;
 }
 
@@ -101,13 +101,13 @@ header > h1{
 	line-height: 60px;
 	height: 60px;
 	width: 180px;
-	color: rgba(238, 238, 238, 0.6);
+	color: rgba(255, 255, 255, 0.6);
 	display: block;
 	margin: 0 auto;
 }
 
 .about_container > a:hover {
-	color: #eee;
+	color: white;
 	animation-name: about_hover;
 	animation-duration: 0.3s;
 }
