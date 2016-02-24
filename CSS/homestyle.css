@@ -52,7 +52,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .home_header{ /* In homepage, this is the white transparent background */
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.2);
     height: 50px;
     width: 100%;
     text-align: center;
