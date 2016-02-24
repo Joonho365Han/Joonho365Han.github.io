@@ -6,11 +6,6 @@
 	margin: 0;
 }
 
-@keyframes link_hover {
-	from { color: #444; }
-	to   { color: #9df; }
-}
-
 body {
 	background: white;
     font-size: 62.5%;
@@ -57,9 +52,7 @@ header {
 }
 
 .nav_bar a:hover {
-	color: #9df;
-	animation-name: link_hover;
-	animation-duration: 0.2s;
+	font-style: underline;
 }
 
 .drop_down_menu { /* Drop Down Menu */

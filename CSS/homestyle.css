@@ -16,11 +16,6 @@
 	to   { color: white; }
 }
 
-@keyframes menu_hover {
-	from { color: black; }
-	to   { color: #9df; }
-}
-
 .slideshow {
 	position: absolute;
 	background: url("/img/home_slide.png");
@@ -61,17 +56,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
     width: 100%;
     text-align: center;
     position: fixed;
-}
-
-.drop_down_menu a{ /* drop down project links */
-    color: black;
-    font-style: bold;
-}
-
-.drop_down_menu a:hover {
-	color: #9df;
-	animation-name: menu_hover;
-	animation-duration: 0.2s;
 }
 
 header > h1{ 
