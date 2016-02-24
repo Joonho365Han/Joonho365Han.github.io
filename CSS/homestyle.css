@@ -82,14 +82,14 @@ header > h1{
     font: 1.3em 'Poiret One', 'Julius Sans One',sans-serif;
 	text-decoration: none;
 	text-align: center;
-	line-height: 30px;
-	height: 35px;
+	line-height: 35px;
+	height: 40px;
 	width: 144px;
 	color: rgba(255, 255, 255, 0.6);
 	background: rgba(0, 0, 0, 0.1);
 	display: block;
 	margin: 0 auto;
-	border: 1px dotted white;
+	border-radius: 20px;
 }
 
 .about_container > a:hover {
