@@ -57,6 +57,7 @@ header {
 
 .drop_down_menu { /* Drop Down Menu */
 	position: absolute;
+    border-top: 1px solid white;
 	top: 50px;
 	overflow: hidden;
     display: none; /* Hides normally */
@@ -69,7 +70,6 @@ header {
 .drop_down_menu > li { /* Specifically the drop down menu li */
 	max-width: 183px; /* Makes the menu stay open even when not hovering over the links */
     background: rgba(255, 255, 255, 0.5);
-    border-top: 1px solid white;
 	padding-left: 57px;
 	padding-right: 57px;
 	text-align: left;
