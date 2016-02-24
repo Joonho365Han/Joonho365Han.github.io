@@ -12,8 +12,8 @@
 }
 
 @keyframes about_hover {
-	from { color: rgba(255, 255, 255, 0.6); }
-	to   { color: white; }
+	from { color: rgba(255, 255, 255, 0.6); background: rgba(0, 0, 0, 0.1); }
+	to   { color: white; background: rgba(0, 0, 0, 0.3); }
 }
 
 .slideshow {
@@ -94,6 +94,7 @@ header > h1{
 
 .about_container > a:hover {
 	color: white;
+	background: rgba(0, 0, 0, 0.3);
 	animation-name: about_hover;
 	animation-duration: 0.3s;
 }
