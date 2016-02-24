@@ -56,7 +56,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
     height: 50px;
     width: 100%;
     text-align: center;
-    position: fixed;
+    position: relative;
     z-index: 1;
 }
 

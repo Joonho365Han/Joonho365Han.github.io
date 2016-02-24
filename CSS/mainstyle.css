@@ -22,7 +22,7 @@ header {
     height: 50px;
     width: 100%;
     text-align: center;
-    position: fixed;
+    position: relative;
     z-index: 1;
 }
 
