@@ -46,7 +46,7 @@ header {
 .nav_bar a{ /* All NavBar links */
 	display: block;
     font: 1.1em Abel,Cinzel,sans-serif;
-    color: black;
+    color: #444;
     text-decoration: none;
     line-height: 50px; /*This vertically centers the anchors*/
     height: 50px; /* This limits the height so it fits inside the nav bar */
