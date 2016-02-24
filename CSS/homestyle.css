@@ -86,8 +86,10 @@ header > h1{
 	height: 60px;
 	width: 180px;
 	color: rgba(255, 255, 255, 0.6);
+	background: rgba(0, 0, 0, 0.6);
 	display: block;
 	margin: 0 auto;
+	border: 1px solid white;
 }
 
 .about_container > a:hover {
