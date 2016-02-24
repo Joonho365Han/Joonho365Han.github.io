@@ -52,7 +52,7 @@ header {
 }
 
 .nav_bar a:hover {
-	font-style: underline;
+	text-decoration: underline;
 }
 
 .drop_down_menu { /* Drop Down Menu */
