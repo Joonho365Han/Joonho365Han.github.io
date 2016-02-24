@@ -82,11 +82,11 @@ header > h1{
     font: 1.3em 'Poiret One', 'Julius Sans One',sans-serif;
 	text-decoration: none;
 	text-align: center;
-	line-height: 60px;
-	height: 60px;
-	width: 180px;
+	line-height: 40px;
+	height: 40px;
+	width: 150px;
 	color: rgba(255, 255, 255, 0.6);
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.2);
 	display: block;
 	margin: 0 auto;
 	border: 1px solid white;
