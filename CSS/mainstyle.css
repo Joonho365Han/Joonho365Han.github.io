@@ -23,6 +23,7 @@ header {
     width: 100%;
     text-align: center;
     position: fixed;
+    z-index: 0.5;
 }
 
 .nav_bar {
