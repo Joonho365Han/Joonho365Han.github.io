@@ -17,15 +17,13 @@
 }
 
 .slideshow {
-	position: absolute;
+	position: relative;
 	background: url("/img/home_slide.png");
 	background-size: contain;
 	-webkit-background-size: contain;
 	-o-background-size: contain;
 	-moz-background-size: contain;
 	background-position: center;
-	left: 0;
-	top: 0;
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
