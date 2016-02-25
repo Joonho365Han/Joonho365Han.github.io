@@ -1,18 +1,14 @@
 @keyframes slides {
     0%   {transform: translateX(0);}    
-    100% {transform: translateX(5037.5px);}
+    100% {transform: translateX(-5037.5px);}
 }
 @-webkit-keyframes slides {
     0%   {-webkit-transform: translateX(0);}    
-    100% {-webkit-transform: translateX(5037.5px);}
+    100% {-webkit-transform: translateX(-5037.5px);}
 }
 @-moz-keyframes slides {
-    0%   {-moz-transform:    translateX(0);}    
-    100% {-moz-transform:    translateX(5037.5px);}
-}
-@-o-keyframes slides {
-    0%   {-moz-transform:    translateX(0);}    
-    100% {-moz-transform:    translateX(5037.5px);}
+    0%   {-moz-transform: translateX(0);}    
+    100% {-moz-transform: translateX(-5037.5px);}
 }
 
 @keyframes about_hover {
@@ -33,17 +29,14 @@
 	background: url("/img/home_slide.png");
 	
 	background-size: cover;
-	-o-background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	
 	background-position: left center;
-	-o-background-position: left center;
 	-moz-background-position: left center;
 	-webkit-background-position: left center;
 	
 	animation: slides 5s linear infinite;
-	-o-animation: slides 5s linear infinite;
 	-moz-animation: slides 5s linear infinite;
 	-webkit-animation: slides 5s linear infinite;
 	-webkit-transform: translate3d(0, 0, 0);
