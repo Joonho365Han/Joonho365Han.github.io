@@ -14,6 +14,7 @@ body {
 .wrapper{
 	font-size: 1.6em;
 	margin: 0 auto; /* Automatically centers item */
+	padding-top: 50px; /* Padding accomodated for the top nav bar */
 	width: 100%;
 }
 
