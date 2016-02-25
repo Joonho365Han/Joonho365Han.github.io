@@ -18,13 +18,6 @@
 
 .slideshow {
 	position: relative;
-	background: url("/img/home_slide.png");
-	background-size: cover;
-	-webkit-background-size: cover;
-	-o-background-size: cover;
-	-moz-background-size: cover;
-	background-position: center;
-	margin-top: 50px;
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
