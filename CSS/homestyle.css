@@ -31,10 +31,9 @@
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
-	-webkit-animation: slides 24s linear infinite;
-	-moz-animation: slides 24s linear infinite;
-	animation: slides 24s linear infinite;
-    -webkit-transform: translate3d(0, 0, 0);
+	-webkit-animation: slides 3s linear infinite;
+	-moz-animation: slides 3s linear infinite;
+	animation: slides 3s linear infinite;
 }
 
 header { /* In home page, this is the slideshow and header, not just header. */
