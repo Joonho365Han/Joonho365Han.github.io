@@ -1,14 +1,14 @@
 @keyframes slides {
     0%   {transform: translateX(0);}    
-    100% {transform: translateX(-3089.66px);}
+    100% {transform: translateX(-61.33%);}
 }
 @-webkit-keyframes slides {
     0%   {-webkit-transform: translateX(0);}    
-    100% {-webkit-transform: translateX(-3089.66px);}
+    100% {-webkit-transform: translateX(-61.33%);}
 }
 @-moz-keyframes slides {
     0%   {-moz-transform: translateX(0);}    
-    100% {-moz-transform: translateX(-3089.66px);}
+    100% {-moz-transform: translateX(-61.33%);}
 }
 
 @keyframes about_hover {
@@ -37,9 +37,9 @@
 	-moz-background-position: left center;
 	-webkit-background-position: left center;
 	
-	animation: slides 24s linear infinite;
-	-moz-animation: slides 24s linear infinite;
-	-webkit-animation: slides 24s linear infinite;
+	animation: slides 5s linear infinite;
+	-moz-animation: slides 5s linear infinite;
+	-webkit-animation: slides 5s linear infinite;
 	-webkit-transform: translate3d(0, 0, 0);
 }
 
