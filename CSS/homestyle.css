@@ -17,16 +17,17 @@
 }
 
 .slideshow {
-	position: relative;
+	position: absolute;
 	background: url("/img/home_slide.png");
 	background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
 	background-position: center;
+	left: 0;
+	top: 0;
 	height: 100%;
 	width: 100%;
-	margin-bottom: 50px;
 	overflow: hidden;
 }
 
@@ -48,6 +49,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	height: 100vh;
 	width: 100vw;
 	position: relative;
+	padding-bottom: 50px;
 	z-index: 0;
 }
 
@@ -56,7 +58,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
     height: 50px;
     width: 100%;
     text-align: center;
-    position: relative;
+    position: fixed;
     z-index: 1;
 }
 
