@@ -19,10 +19,10 @@
 .slideshow {
 	position: relative;
 	background: url("/img/home_slide.png");
-	background-size: contain;
-	-webkit-background-size: contain;
-	-o-background-size: contain;
-	-moz-background-size: contain;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
 	background-position: center;
 	padding-top: 50px;
 	height: 100%;
@@ -35,10 +35,10 @@
 	width: 5037.5px;
 	margin-top: 50px;
 	background: url("/img/home_slide.png");
-	background-size: contain;
-	-webkit-background-size: contain;
-	-o-background-size: contain;
-	-moz-background-size: contain;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
 	-webkit-animation: slides 24s linear infinite;
 	-moz-animation: slides 24s linear infinite;
 	animation: slides 24s linear infinite;
