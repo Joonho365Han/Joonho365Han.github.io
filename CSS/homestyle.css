@@ -1,14 +1,14 @@
 @keyframes slides {
     0%   {transform: translateX(0);}    
-    100% {transform: translateX(-2706.33px);}
+    100% {transform: translateX(3089.66px);}
 }
 @-webkit-keyframes slides {
     0%   {-webkit-transform: translateX(0);}    
-    100% {-webkit-transform: translateX(-2706.33px);}
+    100% {-webkit-transform: translateX(3089.66px);}
 }
 @-moz-keyframes slides {
     0%   {-moz-transform:    translateX(0);}    
-    100% {-moz-transform:    translateX(-2706.33px);}
+    100% {-moz-transform:    translateX(3089.66px);}
 }
 
 @keyframes about_hover {
@@ -25,7 +25,7 @@
 
 .slideshow div {
 	height: 100%;
-	width: calc(4725px);
+	width: 5037.5px;
 	background: url("/img/home_slide.png");
 	background-size: cover;
 	-webkit-background-size: cover;
