@@ -42,10 +42,10 @@
 	-o-background-position: left center;
 	-moz-background-position: left center;
 	
-	animation: slides 24s linear infinite;
-	-webkit-animation: slides 24s linear infinite;
-	-o-animation: slides 24s linear infinite;
-	-moz-animation: slides 24s linear infinite;
+	animation: slides 5s linear infinite;
+	-webkit-animation: slides 5s linear infinite;
+	-o-animation: slides 5s linear infinite;
+	-moz-animation: slides 5s linear infinite;
 	-webkit-transform: translate3d(0,0,0);
 }
 
