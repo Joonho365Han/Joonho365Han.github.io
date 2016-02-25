@@ -1,14 +1,14 @@
 @keyframes slides {
     0%   {transform: translateX(0);}    
-    100% {transform: translateX(calc(191.66px - 383.33vh));}
+    100% {transform: translateX(2706.33px);}
 }
 @-webkit-keyframes slides {
     0%   {-webkit-transform: translateX(0);}    
-    100% {-webkit-transform: translateX(calc(191.66px - 383.33vh));}
+    100% {-webkit-transform: translateX(2706.33px);}
 }
 @-moz-keyframes slides {
     0%   {-moz-transform:    translateX(0);}    
-    100% {-moz-transform:    translateX(calc(191.66px - 383.33vh));}
+    100% {-moz-transform:    translateX(2706.33px);}
 }
 
 @keyframes about_hover {
@@ -17,7 +17,6 @@
 }
 
 .slideshow {
-	position: relative;
 	height: 100%;
 	padding-top: 50px;
 	width: 100%;
@@ -25,8 +24,8 @@
 }
 
 .slideshow div {
-	height: calc(100vh - 50px);
-	width: calc(625vh - 312.5px);
+	height: calc(100% - 50px);
+	width: calc(4725px);
 	background: url("/img/home_slide.png");
 	background-size: cover;
 	-webkit-background-size: cover;
