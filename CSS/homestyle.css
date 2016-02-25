@@ -10,6 +10,10 @@
     0%   {-moz-transform:    translateX(0);}    
     100% {-moz-transform:    translateX(-3089.66px);}
 }
+@-o-keyframes slides {
+    0%   {-moz-transform:    translateX(0);}    
+    100% {-moz-transform:    translateX(-3089.66px);}
+}
 
 @keyframes about_hover {
 	from { color: rgba(255, 255, 255, 0.7); background: rgba(0, 0, 0, 0.1); }
@@ -27,17 +31,22 @@
 	height: 100%;
 	width: 5037.5px;
 	background: url("/img/home_slide.png");
+	
 	background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
+	
 	background-position: center;
 	-webkit-background-position: center;
 	-o-background-position: center;
 	-moz-background-position: center;
-	-webkit-animation: slides 3s linear infinite;
-	-moz-animation: slides 3s linear infinite;
-	animation: slides 3s linear infinite;
+	
+	animation: slides 24s linear infinite;
+	-webkit-animation: slides 24s linear infinite;
+	-o-animation: slides 24s linear infinite;
+	-moz-animation: slides 24s linear infinite;
+	-webkit-transform: translate3d(0,0,0);
 }
 
 header { /* In home page, this is the slideshow and header, not just header. */
