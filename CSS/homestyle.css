@@ -23,10 +23,10 @@
 	overflow: hidden;
 }
 
-.slideshow div {
+.slideshow img {
 	position: absolute;
 	height: 100%;
-	width: 5037.5px;
+	width: 5037.5px;/*
 	background: url("/img/home_slide.png");
 	
 	background-size: cover;
@@ -35,7 +35,7 @@
 	
 	background-position: left center;
 	-moz-background-position: left center;
-	-webkit-background-position: left center;
+	-webkit-background-position: left center;*/
 	
 	animation: slides 24s linear infinite;
 	-moz-animation: slides 24s linear infinite;
