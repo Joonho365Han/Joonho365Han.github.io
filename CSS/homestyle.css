@@ -1,18 +1,18 @@
 @keyframes slides {
     0%   {transform: translateX(0);}    
-    100% {transform: translateX(-3089.66px);}
+    100% {transform: translateX(-3402.16px);}
 }
 @-webkit-keyframes slides {
     0%   {-webkit-transform: translateX(0);}    
-    100% {-webkit-transform: translateX(-3089.66px);}
+    100% {-webkit-transform: translateX(-3402.16px);}
 }
 @-moz-keyframes slides {
     0%   {-moz-transform:    translateX(0);}    
-    100% {-moz-transform:    translateX(-3089.66px);}
+    100% {-moz-transform:    translateX(-3402.16px);}
 }
 @-o-keyframes slides {
     0%   {-moz-transform:    translateX(0);}    
-    100% {-moz-transform:    translateX(-3089.66px);}
+    100% {-moz-transform:    translateX(-3402.16px);}
 }
 
 @keyframes about_hover {
