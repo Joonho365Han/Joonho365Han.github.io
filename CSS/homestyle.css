@@ -26,7 +26,7 @@
 .slideshow div {
 	position: absolute;
 	left: 0;
-	bottom: 0;
+	top: 50;
 	height: calc("100% - 50px");
 	width: 5037.5px;
 	background: url("/img/home_slide.png");
