@@ -37,10 +37,10 @@
 	-o-background-size: cover;
 	-moz-background-size: cover;
 	
-	background-position: center;
-	-webkit-background-position: center;
-	-o-background-position: center;
-	-moz-background-position: center;
+	background-position: left center;
+	-webkit-background-position: left center;
+	-o-background-position: left center;
+	-moz-background-position: left center;
 	-webkit-transform: translate3d(0,0,0);
 }
 
