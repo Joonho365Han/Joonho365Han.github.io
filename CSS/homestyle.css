@@ -1,14 +1,14 @@
 @keyframes slides {
     0%   {transform: translateX(0);}    
-    100% {transform: translateX(-383.33vh);}
+    100% {transform: translateX(-100vh);}
 }
 @-webkit-keyframes slides {
     0%   {-webkit-transform: translateX(0);}    
-    100% {-webkit-transform: translateX(-383.33vh);}
+    100% {-webkit-transform: translateX(-100vh);}
 }
 @-moz-keyframes slides {
     0%   {-moz-transform:    translateX(0);}    
-    100% {-moz-transform:    translateX(-383.33vh);}
+    100% {-moz-transform:    translateX(-100);}
 }
 
 @keyframes about_hover {
