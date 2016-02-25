@@ -31,6 +31,10 @@
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
+	background-position: center;
+	-webkit-background-position: center;
+	-o-background-position: center;
+	-moz-background-position: center;
 	-webkit-animation: slides 3s linear infinite;
 	-moz-animation: slides 3s linear infinite;
 	animation: slides 3s linear infinite;
