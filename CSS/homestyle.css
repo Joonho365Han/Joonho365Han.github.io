@@ -19,15 +19,13 @@
 .slideshow {
 	position: relative;
 	height: 100%;
+	padding-top: 50px;
 	width: 100%;
 	overflow: hidden;
 }
 
 .slideshow div {
-	position: absolute;
-	left: 0;
-	top: 50;
-	height: calc("100% - 50px");
+	height: 100%;
 	width: 5037.5px;
 	background: url("/img/home_slide.png");
 	background-size: cover;
