@@ -24,7 +24,7 @@
 	-o-background-size: contain;
 	-moz-background-size: contain;
 	background-position: center;
-	margin-top: 50px;
+	padding-top: 50px;
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
@@ -33,6 +33,7 @@
 .slideshow div {
 	height: 100%;
 	width: 5037.5px;
+	margin-top: 50px;
 	background: url("/img/home_slide.png");
 	background-size: contain;
 	-webkit-background-size: contain;
