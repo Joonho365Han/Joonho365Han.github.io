@@ -24,9 +24,9 @@
 }
 
 .slideshow div {
-	position: relative;
+	position: absolute;
 	height: 100%;
-	width: auto;
+	width: 5037.5px;
 	background: url("/img/home_slide.png");
 	
 	background-size: cover;
