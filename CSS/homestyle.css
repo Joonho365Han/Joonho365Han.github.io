@@ -95,7 +95,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .about_container {
-	height: 100px;
+	height: 70px;
 	width: 100%;
 	position: absolute;
 	bottom: 0;
