@@ -74,7 +74,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 .title {
     width: 100%;
     position: absolute;
-    top: 38%;
+    top: 37%;
     left: 0;
 }
 
