@@ -87,7 +87,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .title > h3{ 
     font: 2.1vw 'Open Sans', 'Poiret One', serif;
-    font-size: calc(1.5vw + 0.65em);
+    font-size: calc(1.4vw + 0.66em);
     color: white;
     width: 100%;
     position: relative;
@@ -95,7 +95,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .about_container {
-	height: 90px;
+	height: 86px;
 	width: 100%;
 	position: absolute;
 	bottom: 0;
