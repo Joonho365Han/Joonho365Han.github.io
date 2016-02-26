@@ -19,13 +19,12 @@
 .slideshow {
 	height: 100%;
 	width: 100%;
-	padding-top: 50px;
 	overflow: hidden;
 }
 
 .slideshow div {
 	position: absolute;
-	height: 100%;
+	height: calc(100% - 50px);
 	width: 5037.5px;
 	background: url("/img/home_slide.png");
 	
