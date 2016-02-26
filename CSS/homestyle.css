@@ -153,12 +153,6 @@
  	}
  }*/
 
- @keyframes test_text {
-	0% { content: "PERIOD" }
-	50% { content: "I'M HAPPY AS F**K" }
-	100% { content: "PERIOD" }
-}
-
 .slideshow {
 	height: 100%;
 	width: 100%;
@@ -214,12 +208,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
     color: white;
     width: 100%;
     height: 7vw;
-}
-
-#subtitle:before{
-	animation: test_text 10s linear infinite;
-	-moz-animation: test_text 10s linear infinite;
-	-webkit-animation: test_text 10s linear infinite;
 }
 
 .title > h3{ 
