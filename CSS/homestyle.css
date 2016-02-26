@@ -19,6 +19,7 @@
 .slideshow {
 	height: 100%;
 	width: 100%;
+	padding-top: 50px;
 	overflow: hidden;
 }
 
