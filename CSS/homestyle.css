@@ -76,7 +76,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
     position: absolute;
     top: 38%;
     left: 0;
-    min-width: 550px;
 }
 
 .title > h1{ 
