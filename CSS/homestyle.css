@@ -24,14 +24,13 @@
 }
 
 .slideshow div {
-	position: absolute;
 	height: calc(100% - 50px);
 	width: 100%;
 	background: url("/img/home_slide.png");
 	
-	background-size: contain;
-	-moz-background-size: contain;
-	-webkit-background-size: contain;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
 	
 	background-position: center;
 	-moz-background-position: center;
