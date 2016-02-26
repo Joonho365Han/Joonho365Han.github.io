@@ -60,6 +60,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 header > h1{ 
     font: 7vw 'Open Sans', 'Poiret One', serif;
+    font-size: calc(4vw + 4em);
     color: white;
     width: 100%;
     position: absolute;
