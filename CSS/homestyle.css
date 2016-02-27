@@ -39,7 +39,7 @@
 	-webkit-background-position: center;
  	}
  	25%	{ 
-	background: url("/img/home_slide2.jpg");
+	background: url("/img/home_slide2.png");
 	
 	background-size: cover;
 	-moz-background-size: cover;
@@ -50,7 +50,7 @@
 	-webkit-background-position: center;
  	}
  	42% {
-	background: url("/img/home_slide2.jpg");
+	background: url("/img/home_slide2.png");
 	
 	background-size: cover;
 	-moz-background-size: cover;
