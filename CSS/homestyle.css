@@ -1,4 +1,4 @@
-@keyframes slides {
+/*@keyframes slides {
     0%   {transform: translateX(0);}    
     100% {transform: translateX(-61.33%);}
 }
@@ -9,149 +9,113 @@
 @-moz-keyframes slides {
     0%   {-moz-transform: translateX(0);}    
     100% {-moz-transform: translateX(-61.33%);}
-}
+}*/
 
 @keyframes about_hover {
 	from { color: rgba(255, 255, 255, 0.7); background: rgba(0, 0, 0, 0.1); }
 	to   { color: white; background: rgba(0, 0, 0, 0.2); }
 }
-/*@keyframes slides {
+@keyframes slides {
  	0%	{ 
- 	width: 100%;
- 	min-width: 550px;
-  	min-height: 100%;
-  	margin: 0 auto;
-  	padding: 0 auto;
- -	height: auto;
- +	height: 100vh;
-  		background: url("/img/home/home_slide_1.jpg");
-  		background-position: center center;
-  		-webkit-background-size: cover;
- 	  	-moz-background-size: cover;
- 	  	-o-background-size: cover;
- 		background-size: cover;
+	background: url("/img/home_slide1.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	17% {
- 	width: 100%;
- 	min-width: 550px;
-  	min-height: 100%;
-  	margin: 0 auto;
-  	padding: 0 auto;
- -	height: auto;
- +	height: 100vh;
-  		background: url("/img/home/home_slide_1.jpg");
-  		background-position: center center;
-  		-webkit-background-size: cover;
- 	  	-moz-background-size: cover;
- 	  	-o-background-size: cover;
- 		background-size: cover;
+	background: url("/img/home_slide1.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	25%	{ 
- 	width: 100%;
- 	min-width: 550px;
-  	min-height: 100%;
-  	margin: 0 auto;
-  	padding: 0 auto;
- -	height: auto;
- +	height: 100vh;
-  		background: url("/img/home/home_slide_2.jpg");
-  		background-position: center center;
-  		-webkit-background-size: cover;
- 	  	-moz-background-size: cover;
- 	  	-o-background-size: cover;
- 		background-size: cover;
+	background: url("/img/home_slide2.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	42% {
- 	width: 100%;
- 	min-width: 550px;
-  	min-height: 100%;
-  	margin: 0 auto;
-  	padding: 0 auto;
- -	height: auto;
- +	height: 100vh;
-  		background: url("/img/home/home_slide_2.jpg");
-  		background-position: center center;
-  		-webkit-background-size: cover;
- 	  	-moz-background-size: cover;
- 	  	-o-background-size: cover;
- 		background-size: cover;
+	background: url("/img/home_slide2.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	50% { 
- 	width: 100%;
- 	min-width: 550px;
-  	min-height: 100%;
-  	margin: 0 auto;
-  	padding: 0 auto;
- -	height: auto;
- +	height: 100vh;
-  		background: url("/img/home/home_slide_3.jpg");
-  		background-position: center center;
-  		-webkit-background-size: cover;
- 	  	-moz-background-size: cover;
- 	  	-o-background-size: cover;
- 		background-size: cover;
+	background: url("/img/home_slide3.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	67% { 
- 	width: 100%;
- 	min-width: 550px;
-  	min-height: 100%;
-  	margin: 0 auto;
-  	padding: 0 auto;
- -	height: auto;
- +	height: 100vh;
-  		background: url("/img/home/home_slide_3.jpg");
-  		background-position: center center;
-  		-webkit-background-size: cover;
- 	  	-moz-background-size: cover;
- 	  	-o-background-size: cover;
- 		background-size: cover;
+	background: url("/img/home_slide3.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	75% {
- 	width: 100%;
- 	min-width: 550px;
-  	min-height: 100%;
-  	margin: 0 auto;
-  	padding: 0 auto;
- -	height: auto;
- +	height: 100vh;
-  		background: url("/img/home/home_slide_4.jpg");
-  		background-position: center center;
-  		-webkit-background-size: cover;
- 	  	-moz-background-size: cover;
- 	  	-o-background-size: cover;
- 		background-size: cover;
+	background: url("/img/home_slide4.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	92%  { 
- 	width: 100%;
- 	min-width: 550px;
-  	min-height: 100%;
-  	margin: 0 auto;
-  	padding: 0 auto;
- -	height: auto;
- +	height: 100vh;
-  		background: url("/img/home/home_slide_4.jpg");
-  		background-position: center center;
-  		-webkit-background-size: cover;
- 	  	-moz-background-size: cover;
- 	  	-o-background-size: cover;
- 		background-size: cover;
+	background: url("/img/home_slide4.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	100% { 
- 	width: 100%;
- 	min-width: 550px;
-  	min-height: 100%;
-  	margin: 0 auto;
-  	padding: 0 auto;
- -	height: auto;
- +	height: 100vh;
-  		background: url("/img/home/home_slide_1.jpg");
-  		background-position: center center;
-  		-webkit-background-size: cover;
- 	  	-moz-background-size: cover;
- 	  	-o-background-size: cover;
- 		background-size: cover;
+	background: url("/img/home_slide1.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
- }*/
+ }
 
 .slideshow {
 	height: 100%;
@@ -163,7 +127,7 @@
 .slideshow div {
 	height: 100%;
 	width: 100%;
-	background: url("/img/home_slide.jpg");
+	background: url("/img/home_slide1.jpg");
 	
 	background-size: cover;
 	-moz-background-size: cover;
@@ -173,8 +137,8 @@
 	-moz-background-position: center;
 	-webkit-background-position: center;
 	
-	/*animation: slides 24s linear infinite;
-	-moz-animation: slides 24s linear infinite;
+	animation: slides 24s linear infinite;
+	/*-moz-animation: slides 24s linear infinite;
 	-webkit-animation: slides 24s linear infinite;
 	-webkit-transform: translate3d(0, 0, 0);*/
 }
