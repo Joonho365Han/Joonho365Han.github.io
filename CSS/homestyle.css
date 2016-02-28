@@ -55,7 +55,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .title > h1{ 
-    font: 7vw Cinzel, 'Open Sans', 'Poiret One', serif;
+    font: 7vw Cinzel:700, 'Open Sans', 'Poiret One', serif;
     font-size: calc(3vw + 2em);
     color: white;
     width: 100%;
@@ -63,7 +63,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .title > h3{ 
-    font: 2.1vw Cinzel, 'Open Sans', 'Poiret One', serif;
+    font: 2.1vw Cinzel:700, 'Open Sans', 'Poiret One', serif;
     font-size: calc(1.5vw + 0.66em);
     color: white;
     width: 100%;
@@ -124,5 +124,5 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 #about h5 {
-    font: 1em Cinzel, 'Poiret One', serif;
+    font: 1em Cinzel:400, 'Poiret One', serif;
 }
