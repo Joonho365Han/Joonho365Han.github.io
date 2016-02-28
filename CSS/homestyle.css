@@ -69,6 +69,8 @@ header { /* In home page, this is the slideshow and header, not just header. */
     width: 100%;/*
     position: relative;
     bottom: 2vw;*/
+    letter-spacing: 1vw;
+    word-spacing: 1vw;
 }
 
 .about_container {
