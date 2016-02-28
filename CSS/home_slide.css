@@ -1,0 +1,316 @@
+/*@keyframes slides {
+    0%   {transform: translateX(0);}    
+    100% {transform: translateX(-61.33%);}
+}
+@-webkit-keyframes slides {
+    0%   {-webkit-transform: translateX(0);}    
+    100% {-webkit-transform: translateX(-61.33%);}
+}
+@-moz-keyframes slides {
+    0%   {-moz-transform: translateX(0);}    
+    100% {-moz-transform: translateX(-61.33%);}
+}*/
+
+@keyframes slides {
+ 	0% { 
+	background: url("/img/home_slide1.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	17% {
+	background: url("/img/home_slide1.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	25% { 
+	background: url("/img/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	42% {
+	background: url("/img/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	50% { 
+	background: url("/img/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	67% { 
+	background: url("/img/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	75% {
+	background: url("/img/home_slide4.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	92% { 
+	background: url("/img/home_slide4.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	100% { 
+	background: url("/img/home_slide1.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ }
+@-webkit-keyframes slides {
+ 	0% { 
+	background: url("/img/home_slide1.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	17% {
+	background: url("/img/home_slide1.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	25% { 
+	background: url("/img/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	42% {
+	background: url("/img/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	50% { 
+	background: url("/img/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	67% { 
+	background: url("/img/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	75% {
+	background: url("/img/home_slide4.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	92% { 
+	background: url("/img/home_slide4.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	100% { 
+	background: url("/img/home_slide1.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ }
+@-moz-keyframes slides {
+ 	0% { 
+	background: url("/img/home_slide1.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	17% {
+	background: url("/img/home_slide1.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	25% { 
+	background: url("/img/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	42% {
+	background: url("/img/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	50% { 
+	background: url("/img/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	67% { 
+	background: url("/img/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	75% {
+	background: url("/img/home_slide4.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	92% { 
+	background: url("/img/home_slide4.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	100% { 
+	background: url("/img/home_slide1.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ }
