@@ -66,9 +66,9 @@ header { /* In home page, this is the slideshow and header, not just header. */
     font: 2.1vw Cinzel, 'Open Sans', 'Poiret One', serif;
     font-size: calc(1.5vw + 0.66em);
     color: white;
-    width: 100%;
+    width: 100%;/*
     position: relative;
-    bottom: 2vw;
+    bottom: 2vw;*/
 }
 
 .about_container {
