@@ -55,7 +55,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .title > h1{ 
-    font: 7vw Cinzel, 'Open Sans', 'Poiret One', serif;
+    font: 7vw 'Open Sans', 'Poiret One', serif;
     font-size: calc(3vw + 2em);
     color: white;
     width: 100%;
@@ -63,14 +63,12 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .title > h3{ 
-    font: 2.1vw Cinzel, 'Open Sans', 'Poiret One', serif;
+    font: 2.1vw 'Open Sans', 'Poiret One', serif;
     font-size: calc(1.5vw + 0.66em);
     color: white;
-    width: 100%;/*
+    width: 100%;
     position: relative;
-    bottom: 2vw;*/
-    letter-spacing: 1vw;
-    word-spacing: 1vw;
+    bottom: 2vw;
 }
 
 .about_container {
