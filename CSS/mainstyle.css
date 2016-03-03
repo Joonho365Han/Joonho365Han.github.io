@@ -96,8 +96,10 @@ footer h6 {
 
 footer div {
 	width: 85vw;
-	padding-top: 30px;
-	border-bottom: 1px solid #888;
+	padding-top: 20px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #eee;
 }
 
 .quick_links {
