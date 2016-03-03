@@ -94,6 +94,12 @@ footer h6 {
 	line-height: 65px;
 }
 
+footer div {
+	width: 85vw;
+	padding-top: 30px;
+	border-bottom: 1px solid #888;
+}
+
 .quick_links {
 	max-width: 180px;
 	height: 60px;
