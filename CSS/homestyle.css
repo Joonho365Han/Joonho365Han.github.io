@@ -119,7 +119,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	color: white;
 }
 
-#about h1 {
+#about > h5 > h1 {
     font: 2.4em 'Open Sans', 'Poiret One', sans-serif;
 }
 

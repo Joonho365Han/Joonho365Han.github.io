@@ -1,3 +1,16 @@
+@keyframes navbar_hover{
+	0% {color: #444;}
+	100% {color: #9df;}
+}
+@keyframes -moz-navbar_hover{
+	0% {color: #444;}
+	100% {color: #9df;}
+}
+@keyframes -webkit-navbar_hover{
+	0% {color: #444;}
+	100% {color: #9df;}
+}
+
 *{
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -27,7 +40,7 @@ header {
 }
 
 .nav_bar {
-    max-width: 550px; /* Minimum width for the buttons. */
+    max-width: 600px; /* Minimum width for the buttons. */
     position: relative; /*This nav bar is the position origin for all others*/
     margin: 0 auto;
 }
@@ -39,7 +52,7 @@ header {
 
 .nav_bar > li { /*Nav Bar Items (including mega drop down menu)*/
 	float: left; /* Horizontally lays out list items with top on the left. */
-	width: 33.3%; /*Default value: 3 nav buttons in menu equally distributed. horizontally centers/scales items*/
+	width: 25%; /*Default value: 3 nav buttons in menu equally distributed. horizontally centers/scales items*/
 	position: relative;
 }
 
@@ -53,7 +66,11 @@ header {
 }
 
 .nav_bar a:hover {
-	text-decoration: underline;
+  	color: #9df;
+  	animation-name: navbar_hover;
+  	-moz-animation-name: navbar_hover;
+  	-webkit-animation-name: navbar_hover;
+ 	animation-duration: 0.2s;
 }
 
 footer {
