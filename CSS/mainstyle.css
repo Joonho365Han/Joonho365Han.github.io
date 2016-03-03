@@ -92,7 +92,7 @@ footer {
 footer h6 {
 	font: 1em 'Poiret One', Lora, sans-serif;
 	color: #888;
-	line-height: 65px;
+	line-height: 100px;
 	border-bottom: 1px solid #bbb;
 }
 
@@ -101,7 +101,6 @@ footer h6 {
 	height: 60px;
 	margin: 0 auto;
 	margin-bottom: 50px;
-	margin-top: 10px;
 }
 
 .quick_links li {
