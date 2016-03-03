@@ -91,20 +91,13 @@ footer {
 footer h6 {
 	font: 1em 'Poiret One', Lora, sans-serif;
 	color: #888;
-	line-height: 65px;
-}
-
-footer div {
-	width: 85vw;
-	padding-top: 20px;
-	margin: 0 auto;
-	margin-bottom: 10px;
-	border-bottom: 1px solid #eee;
+	line-height: 75px;
+	border-bottom: 1px solid #bbb;
 }
 
 .quick_links {
 	max-width: 180px;
-	height: 60px;
+	height: 70px;
 	margin: 0 auto;
 	margin-bottom: 50px;
 }
@@ -118,8 +111,8 @@ footer div {
 }
 
 .quick_links a {
-	line-height: 60px;
-	height: 60px;
+	line-height: 70px;
+	height: 70px;
 }
 
 .quick_links > li > a > img {
