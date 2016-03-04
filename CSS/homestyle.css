@@ -25,9 +25,9 @@
 	-moz-background-position: center;
 	-webkit-background-position: center;
 	
-	animation: slides 18s linear infinite;
-	-moz-animation: slides 18s linear infinite;
-	-webkit-animation: slides 18s linear infinite;
+	animation: slides 21s linear infinite;
+	-moz-animation: slides 21s linear infinite;
+	-webkit-animation: slides 21s linear infinite;
 	-webkit-transform: translate3d(0, 0, 0);
 }
 
