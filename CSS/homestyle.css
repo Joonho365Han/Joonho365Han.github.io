@@ -12,6 +12,12 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	z-index: 0;
 }
 
+.slideshow {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
 .slideshow div {
 	height: 100%;
 	width: 100%;
@@ -22,21 +28,14 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .home_header{ /* In homepage, this is the white transparent background */
-    background: white;
+    background: none;
     height: 50px;
     width: 100%;
     text-align: center;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 1000;
-}
-
-.slideshow {
-	height: 100%;
-	width: 100%;
-	padding-top: 50px;
-	overflow: hidden;
 }
 
 .title {
