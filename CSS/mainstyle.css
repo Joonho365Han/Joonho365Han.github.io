@@ -1,13 +1,13 @@
 @keyframes navbar_hover{
-	0% {color: white;}
+	0% {color: #444;}
 	100% {color: #00e6b8;}
 }
 @keyframes -moz-navbar_hover{
-	0% {color: white;}
+	0% {color: #444;}
 	100% {color: #00e6b8;}
 }
 @keyframes -webkit-navbar_hover{
-	0% {color: white;}
+	0% {color: #444;}
 	100% {color: #00e6b8;}
 }
 
@@ -62,7 +62,7 @@ header {
 .nav_bar a{ /* All NavBar links */
 	display: block;
     font: 1.1em Abel,Cinzel,sans-serif;
-    color: white;
+    color: #444;
     text-decoration: none;
     line-height: 50px; /*This vertically centers the anchors*/
     height: 50px; /* This limits the height so it fits inside the nav bar */

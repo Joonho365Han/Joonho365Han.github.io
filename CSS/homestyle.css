@@ -1,4 +1,16 @@
 @import "home_slide.css";
+@keyframes navbar_hover_2{
+	0% {color: white;}
+	100% {color: #00e6b8;}
+}
+@keyframes -moz-navbar_hover_2{
+	0% {color: white;}
+	100% {color: #00e6b8;}
+}
+@keyframes -webkit-navbar_hover_2{
+	0% {color: white;}
+	100% {color: #00e6b8;}
+}
 
 @keyframes about_hover {
 	from { color: rgba(255, 255, 255, 0.7); background: rgba(0, 0, 0, 0.1); }
@@ -10,6 +22,18 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	width: 100vw;
 	position: relative;
 	z-index: 0;
+}
+
+.nav_bar a {
+	color: white;
+}
+
+.nav_bar a:hover {
+  	color: white;
+  	animation-name: navbar_hover_2;
+  	-moz-animation-name: navbar_hover_2;
+  	-webkit-animation-name: navbar_hover_2;
+ 	animation-duration: 0.2s;
 }
 
 .slideshow {
