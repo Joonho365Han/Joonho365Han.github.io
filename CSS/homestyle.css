@@ -160,7 +160,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	text-align: center;
 }
 
-#about li{
+#about > ul > li{
 	list-style: none;
 	text-align: center;
 	float: left;
@@ -187,7 +187,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	width: 100vw;
 }
 
-.links li {
+.links > ul > li {
 	list-style: none;
 	text-align: center;
 	float: left;
