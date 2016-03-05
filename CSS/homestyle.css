@@ -28,11 +28,11 @@ h2, h4{
 }
 
 h2 {
-    font: 1em Cinzel, 'Poiret One', serif;
+    font: 2.4em 'Open Sans', 'Poiret One', sans-serif;
 }
 
 h4 {
-    font: 2.4em 'Open Sans', 'Poiret One', sans-serif;
+    font: 1em Cinzel, 'Poiret One', serif;
 }
 
 header { /* In home page, this is the slideshow and header, not just header. */
@@ -70,7 +70,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	position: fixed;
 }
 
-.home_header{ /* In homepage, this is the white transparent background */
+.home_header{
     background: none;
     height: 50px;
     width: 100%;
@@ -78,6 +78,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .title {
