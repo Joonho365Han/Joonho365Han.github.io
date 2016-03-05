@@ -196,28 +196,46 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	width: calc(100% / 3);
 }
 
-.links a {
-}
-
-.link_type1, .link_type2, .link_type3 {
-}
-
-.link_type1, .link_type2, .link_type3 a {
+.links > ul > li > a {
 	text-decoration: none;
 }
 
-.link_type1, .link_type2, .link_type3 > div {
+.links > ul > li > div {
 	background-color: rgba(0,0,0,0.3);
 }
 
 .link_type1 {
-	background: 
+	background: url("/img/home/biography.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
 }
 
 .link_type2 {
-
+	background: url("/img/home/project.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
 }
 
 .link_type3 {
-
+	background: url("/img/home/sketch.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
 }
