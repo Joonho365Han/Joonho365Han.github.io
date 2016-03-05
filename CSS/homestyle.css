@@ -176,7 +176,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 .links {
 	height: 100vh;
 	width: 100vw;
-
 }
 
 .link_type1, .link_type2, .link_type3 {
@@ -184,4 +183,16 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	width: 100%;
 	text-align: left center;
 	padding-left: 16vh;
+}
+
+.link_type1 {
+	
+}
+
+.link_type2 {
+
+}
+
+.link_type3 {
+
 }
