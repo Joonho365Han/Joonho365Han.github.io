@@ -187,6 +187,10 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	width: 100vw;
 }
 
+.links a {
+	text-decoration: none;
+}
+
 .link_type1, .link_type2, .link_type3 {
 	height: 100%;
 	width: 33.3%;
