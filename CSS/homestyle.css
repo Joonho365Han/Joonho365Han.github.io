@@ -63,7 +63,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	width: 100vw;
 	position: relative;
 	background: none;
-	z-index: 0;
 }
 
 .nav_bar a {
@@ -85,7 +84,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	-moz-animation: slides 24s linear infinite;
 	-webkit-animation: slides 24s linear infinite;
 	-webkit-transform: translate3d(0, 0, 0);
-	z-index: -1;
 	overflow: hidden;
 }
 
@@ -155,14 +153,13 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 #about {
+	background: #444;
 	height: 100vh;
 	width: 100vw;
 	text-align: center;
-	z-index: 1;
 }
 
 #about > ul > li{
-	background: #444;
 	list-style: none;
 	text-align: center;
 	float: left;
@@ -206,8 +203,4 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .link_type3 {
 
-}
-
-footer {
-	z-index: 1;
 }
