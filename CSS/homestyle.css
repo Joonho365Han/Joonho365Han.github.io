@@ -5,6 +5,13 @@
 	to   { color: white; background: rgba(0, 0, 0, 0.2); }
 }
 
+header { /* In home page, this is the slideshow and header, not just header. */
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	z-index: 0;
+}
+
 .slideshow {
 	height: 100%;
 	width: 100%;
@@ -19,13 +26,6 @@
 	-moz-animation: slides 21s linear infinite;
 	-webkit-animation: slides 21s linear infinite;
 	-webkit-transform: translate3d(0, 0, 0);
-}
-
-header { /* In home page, this is the slideshow and header, not just header. */
-	height: 100vh;
-	width: 100vw;
-	position: relative;
-	z-index: 0;
 }
 
 .home_header{ /* In homepage, this is the white transparent background */
@@ -108,8 +108,8 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .headshot {
-	height: 100%;
-	width: 50%;
+	height: 100vh;
+	width: 50vw;
 	background: url("/img/home/headshot.jpg");
 	
 	background-size: cover;
