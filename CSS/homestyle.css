@@ -139,12 +139,12 @@ header { /* In home page, this is the slideshow and header, not just header. */
 #about {
 	height: 100vh;
 	width: 100vw;
-	background: #444;
 	text-align: center;
 	z-index: 1;
 }
 
 #about > ul > li{
+	background: #444;
 	list-style: none;
 	text-align: center;
 	float: left;
@@ -188,4 +188,8 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .link_type3 {
 
+}
+
+footer {
+	z-index: 1;
 }
