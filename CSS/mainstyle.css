@@ -1,14 +1,14 @@
 @keyframes navbar_hover{
 	0% {color: #444;}
-	100% {color: #9df;}
+	100% {color: #3fb;}
 }
 @keyframes -moz-navbar_hover{
 	0% {color: #444;}
-	100% {color: #9df;}
+	100% {color: #3fb;}
 }
 @keyframes -webkit-navbar_hover{
 	0% {color: #444;}
-	100% {color: #9df;}
+	100% {color: #3fb;}
 }
 
 *{
@@ -69,7 +69,7 @@ header {
 }
 
 .nav_bar a:hover {
-  	color: #9df;
+  	color: #3fb;
   	animation-name: navbar_hover;
   	-moz-animation-name: navbar_hover;
   	-webkit-animation-name: navbar_hover;
