@@ -229,7 +229,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .link_type3 {
-	background: url("/img/home/sketch.jpg");
+	background: url("/img/home/sketch.png");
 	
 	background-size: cover;
 	-moz-background-size: cover;
