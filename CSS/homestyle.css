@@ -13,6 +13,19 @@
 	100% {color: #00e6b8;}
 }
 
+@keyframes quicklink_hover{
+	0% {background: rgba(0,0,0,0.3);}
+	100% {background: none;}
+}
+@keyframes -moz-quicklink_hover{
+	0% {background: rgba(0,0,0,0.3);}
+	100% {background: none;}
+}
+@keyframes -webkit-quicklink_hover{
+	0% {background: rgba(0,0,0,0.3);}
+	100% {background: none;}
+}
+
 @keyframes about_hover {
 	from { color: rgba(255, 255, 255, 0.7); background: rgba(0, 0, 0, 0.1); }
 	to   { color: white; background: rgba(0, 0, 0, 0.2); }
@@ -201,7 +214,15 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .links > ul > li > div {
-	background-color: rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.3);
+}
+
+.links > ul > li > div:hover {
+	background: none;
+  	animation-name: quicklink_hover;
+  	-moz-animation-name: quicklink_hover;
+  	-webkit-animation-name: quicklink_hover;
+ 	animation-duration: 0.2s;
 }
 
 .link_type1 {
