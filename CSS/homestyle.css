@@ -173,6 +173,10 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	text-align: center;
 }
 
+#about h2, #about h4{
+	color: #444;
+}
+
 #about > ul > li{
 	list-style: none;
 	text-align: center;
