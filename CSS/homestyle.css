@@ -15,16 +15,6 @@
 .slideshow div {
 	height: 100%;
 	width: 100%;
-	background: url("/img/home/home_slide1.jpg");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
-	
 	animation: slides 21s linear infinite;
 	-moz-animation: slides 21s linear infinite;
 	-webkit-animation: slides 21s linear infinite;
@@ -71,7 +61,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
     bottom: 2vw;
 }
 
-.about_container {
+.about_button {
 	height: 86px;
 	width: 100%;
 	position: absolute;
@@ -81,7 +71,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	background: none;
 }
 
-.about_container > a { /* About button */
+.about_button > a {
     font: 1.3em 'Poiret One', 'Julius Sans One',sans-serif;
 	text-decoration: none;
 	text-align: center;
@@ -95,7 +85,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	border-radius: 20px;
 }
 
-.about_container > a:hover {
+.about_button > a:hover {
 	color: white;
 	background: rgba(0, 0, 0, 0.2);
 	animation-name: about_hover;
@@ -103,14 +93,32 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 #about {
-	min-width: 550px;
-	width: 100%;
-	background: #333;
-	text-align: justify;
+	height: 100vh;
+	width: 100vw;
+	background: #444;
+	text-align: center;
 }
 
-#about > img {
-	float: right;
+#about > ul > li{
+	list-style: none;
+	text-align: center;
+	float: left;
+	width: 50%;
+	position: relative;
+}
+
+.headshot {
+	height: 100%;
+	width: 50%;
+	background: url("/img/home/headshot.jpg");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center top;
+	-moz-background-position: center top;
+	-webkit-background-position: center top;
 }
 
 #about h1, h5{
