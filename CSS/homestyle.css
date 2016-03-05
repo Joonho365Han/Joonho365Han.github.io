@@ -129,6 +129,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	background: #444;
 	text-align: center;
 	position: fixed;
+	z-index: -1;
 }
 
 .about > ul > li{
