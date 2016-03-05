@@ -209,7 +209,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	width: calc(100% / 3);
 }
 
-.links > ul > li > a {
+.links > ul > li > div > a {
 	text-decoration: none;
 	line-height: 100%;
 }
