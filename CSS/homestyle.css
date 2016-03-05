@@ -120,7 +120,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 #about{
 	height: 100vh;
-	height: calc(100vh + 10px); /*Extra scrolling to make next section appear*/
+	height: calc(100vh + 50px); /*Extra scrolling to make next section appear*/
 	width: 100vh;
 }
 
