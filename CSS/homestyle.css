@@ -15,9 +15,9 @@ header { /* In home page, this is the slideshow and header, not just header. */
 .slideshow div {
 	height: 100%;
 	width: 100%;
-	animation: slides 21s linear infinite;
-	-moz-animation: slides 21s linear infinite;
-	-webkit-animation: slides 21s linear infinite;
+	animation: slides 40s linear infinite;
+	-moz-animation: slides 40s linear infinite;
+	-webkit-animation: slides 40s linear infinite;
 	-webkit-transform: translate3d(0, 0, 0);
 }
 
