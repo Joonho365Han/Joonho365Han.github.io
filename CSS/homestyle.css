@@ -18,6 +18,10 @@
 	to   { color: white; background: rgba(0, 0, 0, 0.2); }
 }
 
+.wrapper {
+	padding-top: 0;
+}
+
 header { /* In home page, this is the slideshow and header, not just header. */
 	height: 100vh;
 	width: 100vw;
@@ -167,4 +171,17 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .about h1 {
     font: 2.4em 'Open Sans', 'Poiret One', sans-serif;
+}
+
+.links {
+	height: 100vh;
+	width: 100vw;
+
+}
+
+.link_type1, .link_type2, .link_type3 {
+	height: 33.3%;
+	width: 100%;
+	text-align: left center;
+	padding-left: 16vh;
 }
