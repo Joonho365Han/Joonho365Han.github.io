@@ -216,6 +216,8 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .links > ul > li > div {
 	background: rgba(0,0,0,0.3);
+	height: 100%;
+	width: 100%;
 }
 
 .links > ul > li > div:hover {
