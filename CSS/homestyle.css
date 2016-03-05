@@ -209,26 +209,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	width: calc(100% / 3);
 }
 
-.links > ul > li > div > a {
-	text-decoration: none;
-	height: 100%;
-	line-height: 100%;
-}
-
-.links > ul > li > div {
-	background: rgba(0,0,0,0.3);
-	height: 100%;
-	width: 100%;
-}
-
-.links > ul > li > div:hover {
-	background: none;
-  	animation-name: quicklink_hover;
-  	-moz-animation-name: quicklink_hover;
-  	-webkit-animation-name: quicklink_hover;
- 	animation-duration: 0.2s;
-}
-
 .link_type1 {
 	background: url("/img/home/biography.jpg");
 	
@@ -263,4 +243,24 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	background-position: center;
 	-moz-background-position: center;
 	-webkit-background-position: center;
+}
+
+.links > ul > li > div {
+	background: rgba(0,0,0,0.3);
+	height: 100%;
+	width: 100%;
+}
+
+.links > ul > li > div:hover {
+	background: none;
+  	animation-name: quicklink_hover;
+  	-moz-animation-name: quicklink_hover;
+  	-webkit-animation-name: quicklink_hover;
+ 	animation-duration: 0.2s;
+}
+
+.links > ul > li > div > a {
+	text-decoration: none;
+	height: 100%;
+	line-height: 100%;
 }
