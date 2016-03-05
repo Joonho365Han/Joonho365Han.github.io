@@ -167,7 +167,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 #about {
-	background: #444;
+	background: white;
 	height: 100vh;
 	width: 100vw;
 	text-align: center;
@@ -184,7 +184,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 .headshot {
 	height: 100vh;
 	width: 50vw;
-	background: url("/img/home/headshot.jpg");
+	background: url("/img/home/headshot.png");
 	
 	background-size: cover;
 	-moz-background-size: cover;
