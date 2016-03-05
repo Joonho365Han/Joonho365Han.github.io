@@ -196,13 +196,14 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	width: calc(100% / 3);
 }
 
-.links
-
 .links a {
-	text-decoration: none;
 }
 
 .link_type1, .link_type2, .link_type3 {
+}
+
+.link_type1, .link_type2, .link_type3 a {
+	text-decoration: none;
 }
 
 .link_type1 {
