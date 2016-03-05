@@ -120,7 +120,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 #about {
 	height: 100vh;
-	height: calc(100vh - 50px);
 	width: 100vw;
 	background: #444;
 	text-align: center;
@@ -136,7 +135,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .headshot {
 	height: 100vh;
-	height: calc(100vh - 50px);
 	width: 50vw;
 	background: url("/img/home/headshot.jpg");
 	
