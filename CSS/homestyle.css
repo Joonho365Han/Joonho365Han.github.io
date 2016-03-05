@@ -211,6 +211,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .links > ul > li > a {
 	text-decoration: none;
+	line-height: 100%;
 }
 
 .links > ul > li > div {
