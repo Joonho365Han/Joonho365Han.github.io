@@ -174,7 +174,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 #about {
 	position: relative;
 	background: white;
-	height: 100vh;
+	height: 50vh;
 	width: 100vw;
 	text-align: center;
 }
@@ -203,7 +203,8 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .link_bkgs {
-	height: 50vh;
+	padding-top: 50vh;
+	height: 100vh;
 	width: 100vw;
 }
 
