@@ -301,6 +301,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	height: 33.3vw;
 	width: 100vw;
 	text-align: center;
+	background: none;
 }
 
 .quicklinks > li > div {
