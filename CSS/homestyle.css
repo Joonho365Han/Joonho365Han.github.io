@@ -324,5 +324,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	text-decoration: none;
 	text-align: center;
 	height: 100%;
+	margin: auto auto;
 	line-height: 100%;
 }
