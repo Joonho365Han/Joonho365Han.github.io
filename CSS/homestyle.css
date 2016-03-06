@@ -300,6 +300,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 .quicklinks{
 	height: 33.3vw;
 	width: 100vw;
+	text-align: center;
 }
 
 .quicklinks > li > div {
@@ -318,7 +319,9 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .quicklinks > li > div > a {
+	display: block;
 	text-decoration: none;
 	text-align: center;
 	height: 33.3vw;
+	line-height: 33.3vw;
 }
