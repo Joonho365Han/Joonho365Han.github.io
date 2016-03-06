@@ -110,16 +110,15 @@
 h2, h4{
 	overflow: auto;
 	color: white;
+    font-weight: 400;
 }
 
 h2 {
     font: 2vw 'Open Sans', 'Poiret One', sans-serif;
-    font-weight: 800;
 }
 
 h4 {
-    font: 1vw 'Open Sans', 'Poiret One', serif;
-    font-weight: 400;
+    font: 1vw 'Open Sans', 'Poiret One', sans-serif;
 }
 
 header { /* In home page, this is the slideshow and header, not just header. */
