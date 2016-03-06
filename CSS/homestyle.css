@@ -37,14 +37,12 @@
 
 .parallax {
   perspective: 1px;
-  height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
 }
 
 .parallax_set {
   position: relative; /* This concatenates the parallax levels without dividing scrollbars */
-  height: 100vh;
   transform-style: preserve-3d;
 }
 
@@ -204,7 +202,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .link_bkgs {
-	height: 100vh;
+	height: 100%;
 	width: 100vw;
 }
 
