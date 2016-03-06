@@ -353,10 +353,11 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	display: block;
 	text-decoration: none;
 	text-align: center;
-	position: absolute;
-	right: 0;
-	left: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
 	padding-left: 3vw;
 	padding-right: 3vw;
+	position: absolute;
 	top: 38%;
 }
