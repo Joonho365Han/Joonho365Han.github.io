@@ -63,6 +63,7 @@
 
 .parallax_base {
   transform: translateZ(0);
+  z-index: 1;
 }
 
 h2, h4{
