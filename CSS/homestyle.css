@@ -16,57 +16,57 @@
 @keyframes title_entry{
 	0% {
 		transform: translateY(4vw);
-		opacity: 0;
+		visibility: hidden;
 	}
 	70% {
 		transform: translateY(4vw);
-		opacity: 0;
+		visibility: hidden;
 	}
 	100% {
 		transform: translateY(0);
-		opacity: 1;
+		visibility: visible;
 	}
 }
 @keyframes -moz-title_entry{
 	0% {
 		transform: translateY(4vw);
-		opacity: 0;
+		visibility: hidden;
 	}
 	70% {
 		transform: translateY(4vw);
-		opacity: 0;
+		visibility: hidden;
 	}
 	100% {
 		transform: translateY(0);
-		opacity: 1;
+		visibility: visible;
 	}
 }
 @keyframes -webkit-title_entry{
 	0% {
 		transform: translateY(4vw);
-		opacity: 0;
+		visibility: hidden;
 	}
 	70% {
 		transform: translateY(4vw);
-		opacity: 0;
+		visibility: hidden;
 	}
 	100% {
 		transform: translateY(0);
-		opacity: 1;
+		visibility: visible;
 	}
 }
 
 @keyframes quicklink_hover{
-	0% {background: rgba(0,0,0,0.3);}
-	100% {background: none;}
+	0% {visibility: hidden;}
+	100% {visibility: visible;}
 }
 @keyframes -moz-quicklink_hover{
-	0% {background: rgba(0,0,0,0.3);}
-	100% {background: none;}
+	0% {visibility: hidden;}
+	100% {visibility: visible;}
 }
 @keyframes -webkit-quicklink_hover{
-	0% {background: rgba(0,0,0,0.3);}
-	100% {background: none;}
+	0% {visibility: hidden;}
+	100% {visibility: visible;}
 }
 
 @keyframes about_hover {
@@ -308,6 +308,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .links > li > div {
 	background: rgba(0,0,0,0.3);
+	visibility: hidden;
 	height: 100%;
 	width: 100%;
 	text-align: center;
@@ -315,7 +316,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .links > li > div:hover {
-	background: none;
   	animation-name: quicklink_hover;
   	-moz-animation-name: quicklink_hover;
   	-webkit-animation-name: quicklink_hover;
