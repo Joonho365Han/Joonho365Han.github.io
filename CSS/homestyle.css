@@ -113,11 +113,11 @@ h2, h4{
 }
 
 h2 {
-    font: 2.4em 'Open Sans', 'Poiret One', sans-serif;
+    font: 2vw 'Open Sans', 'Poiret One', sans-serif;
 }
 
 h4 {
-    font: 1em Cinzel, 'Poiret One', serif;
+    font: 1vw Cinzel, 'Poiret One', serif;
 }
 
 header { /* In home page, this is the slideshow and header, not just header. */
@@ -252,6 +252,14 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	color: #444;
 }
 
+.intro h2 {
+	font-size: 2.4em;
+}
+
+.intro h4 {
+	font-size: 1em;
+}
+
 .link_bkgs {
 	position: fixed;
 	height: 100vh;
@@ -326,5 +334,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	position: absolute;
 	right: 0;
 	left: 0;
-	top: 40%;
+	padding-left: 3vw;
+	padding-right: 3vw;
+	top: 38%;
 }
