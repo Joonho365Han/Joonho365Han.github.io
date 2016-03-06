@@ -213,7 +213,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .bkg_type1 {
-	background: url("/img/home/biography.jpg");
+	background:none;
 	background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
@@ -223,7 +223,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .bkg_type2 {
-	background: url("/img/home/project.png");
+	background: none;
 	background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
@@ -233,7 +233,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .bkg_type3 {
-	background: url("/img/home/sketch.png");
+	background: none;
 	background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
