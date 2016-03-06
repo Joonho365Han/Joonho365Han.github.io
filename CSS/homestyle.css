@@ -13,6 +13,37 @@
 	100% {color: #00e6b8;}
 }
 
+@keyframes title_entry{
+	0% {
+		transform: translateY(-7vw);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes -moz-title_entry{
+	0% {
+		transform: translateY(-7vw);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes -webkit-title_entry{
+	0% {
+		transform: translateY(-7vw);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
 @keyframes quicklink_hover{
 	0% {background: rgba(0,0,0,0.3);}
 	100% {background: none;}
@@ -129,6 +160,10 @@ header { /* In home page, this is the slideshow and header, not just header. */
     color: white;
     width: 100%;
     height: 7vw;
+  	animation-name: title_entry;
+  	-moz-animation-name: title_entry;
+  	-webkit-animation-name: title_entry;
+ 	animation-duration: 0.2s;
 }
 
 .title > h3{ 
