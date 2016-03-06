@@ -174,7 +174,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 #about {
 	position: relative;
 	background: white;
-	height: 50vh;
+	height: 100vh;
 	width: 100vw;
 	text-align: center;
 }
@@ -188,13 +188,13 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	text-align: center;
 	float: left;
 	position: relative;
-	height: 50vh;
+	height: 100vh;
 	width: 50vw;
 }
 
 .headshot {
-	height: 50vh;
-	width: 50vw;
+	height: 100vh;
+	width: 50vh;
 	background: url("/img/home/headshot.png");
 	
 	background-position: center top;
