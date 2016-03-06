@@ -36,7 +36,7 @@
 }
 
 .parallax {
-  perspective: 1px;
+  perspective: 1px; /* EVERYTHING renders relative to THIS DIV */
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
@@ -172,6 +172,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 #about {
+	position: relative;
 	background: white;
 	width: 100vw;
 	text-align: center;
