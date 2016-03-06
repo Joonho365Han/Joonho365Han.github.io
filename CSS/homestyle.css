@@ -263,7 +263,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .links_title > h3 {
-    font: 1.3em 'Poiret One', 'Julius Sans One',sans-serif;
+    font: 1.5em 'Julius Sans One',sans-serif;
 	text-decoration: none;
 	text-align: center;
 	line-height: 100px;
