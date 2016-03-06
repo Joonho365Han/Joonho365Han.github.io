@@ -309,6 +309,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	height: 100%;
 	width: 100%;
 	text-align: center;
+	position: relative;
 }
 
 .links > li > div:hover {
@@ -320,10 +321,8 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .links > li > div > a {
-	display: block;
 	text-decoration: none;
 	text-align: center;
-	height: 100%;
-	margin: auto auto;
-	line-height: 100%;
+	position: absolute;
+	top: 40%;
 }
