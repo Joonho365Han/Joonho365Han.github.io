@@ -255,6 +255,23 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	font-size: 1em;
 }
 
+.links_title {
+	height: 100px;
+	width: 100vw;
+	background: #444;
+	text-align: center;;
+}
+
+.links_title > h3 {
+    font: 1.3em 'Poiret One', 'Julius Sans One',sans-serif;
+	text-decoration: none;
+	text-align: center;
+	line-height: 100px;
+	height: 100px;
+	color: white;
+	margin: 0 auto;
+}
+
 .link_bkgs {
 	position: fixed;
 	height: 100vh;
@@ -310,9 +327,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 .links > li {
 	background: rgba(0,0,0,0.3);
 	opacity: 0;
-	height: 100%;
-	width: 100%;
-	text-align: center;
 	position: relative;
 }
 
