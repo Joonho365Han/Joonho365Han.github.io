@@ -15,11 +15,11 @@
 
 @keyframes title_entry{
 	0% {
-		transform: translateY(6vw);
+		transform: translateY(4vw);
 		opacity: 0;
 	}
 	70% {
-		transform: translateY(6vw);
+		transform: translateY(4vw);
 		opacity: 0;
 	}
 	100% {
@@ -29,11 +29,11 @@
 }
 @keyframes -moz-title_entry{
 	0% {
-		transform: translateY(6vw);
+		transform: translateY(4vw);
 		opacity: 0;
 	}
 	70% {
-		transform: translateY(6vw);
+		transform: translateY(4vw);
 		opacity: 0;
 	}
 	100% {
@@ -43,11 +43,11 @@
 }
 @keyframes -webkit-title_entry{
 	0% {
-		transform: translateY(6vw);
+		transform: translateY(4vw);
 		opacity: 0;
 	}
 	70% {
-		transform: translateY(6vw);
+		transform: translateY(4vw);
 		opacity: 0;
 	}
 	100% {
@@ -175,7 +175,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
   	animation-name: title_entry;
   	-moz-animation-name: title_entry;
   	-webkit-animation-name: title_entry;
- 	animation-duration: 2.5s;
+ 	animation-duration: 1.5s;
 }
 
 .title > h3{ 
