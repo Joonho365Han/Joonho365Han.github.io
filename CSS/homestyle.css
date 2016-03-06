@@ -16,57 +16,57 @@
 @keyframes title_entry{
 	0% {
 		transform: translateY(4vw);
-		visibility: hidden;
+		opacity: 0;
 	}
 	70% {
 		transform: translateY(4vw);
-		visibility: hidden;
+		opacity: 0;
 	}
 	100% {
 		transform: translateY(0);
-		visibility: visible;
+		opacity: 1;
 	}
 }
 @keyframes -moz-title_entry{
 	0% {
 		transform: translateY(4vw);
-		visibility: hidden;
+		opacity: 0;
 	}
 	70% {
 		transform: translateY(4vw);
-		visibility: hidden;
+		opacity: 0;
 	}
 	100% {
 		transform: translateY(0);
-		visibility: visible;
+		opacity: 1;
 	}
 }
 @keyframes -webkit-title_entry{
 	0% {
 		transform: translateY(4vw);
-		visibility: hidden;
+		opacity: 0;
 	}
 	70% {
 		transform: translateY(4vw);
-		visibility: hidden;
+		opacity: 0;
 	}
 	100% {
 		transform: translateY(0);
-		visibility: visible;
+		opacity: 1;
 	}
 }
 
 @keyframes quicklink_hover{
-	0% {visibility: hidden;}
-	100% {visibility: visible;}
+	0% {opacity: 0}
+	100% {opacity: 1}
 }
 @keyframes -moz-quicklink_hover{
-	0% {visibility: hidden;}
-	100% {visibility: visible;}
+	0% {opacity: 0}
+	100% {opacity: 1}
 }
 @keyframes -webkit-quicklink_hover{
-	0% {visibility: hidden;}
-	100% {visibility: visible;}
+	0% {opacity: 0}
+	100% {opacity: 1}
 }
 
 @keyframes about_hover {
@@ -308,14 +308,15 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .links > li > div {
 	background: rgba(0,0,0,0.3);
-	visibility: hidden;
+	opacity: 0;
 	height: 100%;
 	width: 100%;
 	text-align: center;
 	position: relative;
 }
 
-.links > li:hover {
+.links > li > div:hover {
+	opacity: 1;
   	animation-name: quicklink_hover;
   	-moz-animation-name: quicklink_hover;
   	-webkit-animation-name: quicklink_hover;
