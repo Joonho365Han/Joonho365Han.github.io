@@ -114,10 +114,12 @@ h2, h4{
 
 h2 {
     font: 2vw 'Open Sans', 'Poiret One', sans-serif;
+    font-weight: 800;
 }
 
 h4 {
-    font: 1vw Cinzel, 'Poiret One', serif;
+    font: 1vw 'Open Sans', 'Poiret One', serif;
+    font-weight: 400;
 }
 
 header { /* In home page, this is the slideshow and header, not just header. */
@@ -169,6 +171,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 .title > h1{ 
     font: 7vw 'Open Sans', 'Poiret One', serif;
     font-size: calc(5vw + 2em);
+    font-weight: 800;
     color: white;
     width: 100%;
     height: 7vw;
@@ -176,15 +179,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
   	-moz-animation-name: title_entry;
   	-webkit-animation-name: title_entry;
  	animation-duration: 1.5s;
-}
-
-.title > h3{ 
-    font: 2.1vw 'Open Sans', 'Poiret One', serif;
-    font-size: calc(1.5vw + 0.66em);
-    color: white;
-    width: 100%;
-    position: relative;
-    bottom: 2vw;
 }
 
 .about_button {
