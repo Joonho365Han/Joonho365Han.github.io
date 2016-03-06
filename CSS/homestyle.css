@@ -306,7 +306,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	background: rgba(0,0,0,0.3);
 	height: 100%;
 	width: 100%;
-	text-align: center;
 }
 
 .quicklinks > li > div:hover {
@@ -318,8 +317,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .quicklinks > li > div > a {
-	display: block;
 	text-decoration: none;
+	text-align: center;
 	height: 33.3vw;
-	line-height: 33.3vw;
 }
