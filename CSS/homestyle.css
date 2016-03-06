@@ -249,12 +249,16 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	padding: 3vw;
 }
 
-.intro h2, .intro h4{
+.intro h2, .intro h3, .intro h4{
 	color: #444;
 }
 
 .intro h2 {
 	font-size: 2.4em;
+}
+
+.intro h3 {
+	font-size: 1.5em;
 }
 
 .intro h4 {
