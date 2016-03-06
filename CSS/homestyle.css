@@ -199,12 +199,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	color: #444;
 }
 
-.quicklink_bkg {
-	overflow: hidden;
-}
-
 .link_bkgs {
-	margin-top: 50vh;
 	height: 100vh;
 	width: 100vw;
 }
@@ -219,14 +214,32 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .bkg_type1 {
 	background: url("/img/home/biography.jpg");
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
 }
 
 .bkg_type2 {
 	background: url("/img/home/project.png");
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
 }
 
 .bkg_type3 {
 	background: url("/img/home/sketch.png");
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
 }
 
 .links{
