@@ -110,15 +110,16 @@
 h2, h4{
 	overflow: auto;
 	color: white;
-    font-weight: 400;
 }
 
 h2 {
     font: 2vw 'Open Sans', 'Poiret One', sans-serif;
+    font-weight: 800;
 }
 
 h4 {
     font: 1vw 'Open Sans', 'Poiret One', sans-serif;
+    font-weight: 400;
 }
 
 header { /* In home page, this is the slideshow and header, not just header. */
@@ -239,6 +240,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 .intro {
 	height: 50vw;
 	width: 50vw;
+	padding: 70px;
 }
 
 .intro h2, .intro h4{
