@@ -266,7 +266,9 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .links_title {
-	height: 60px;
+	height: 100px;
+	height: calc(100vh - 50vw);
+	min-height: 100px;
 	width: 100vw;
 	background: #444;
 	text-align: center;;
@@ -277,10 +279,13 @@ header { /* In home page, this is the slideshow and header, not just header. */
     font: 1.2em 'Poiret One','Julius Sans One',sans-serif;
 	text-decoration: none;
 	text-align: center;
-	line-height: 60px;
+	line-height: px;
 	height: 60px;
+	height: calc(100vh - 50vw);
+	min-height: 60px;
 	color: white;
-	margin: 0 auto;
+	border-bottom: 1px solid white;
+	margin: 0 34vw;
 }
 
 .link_bkgs {
