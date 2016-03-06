@@ -56,12 +56,12 @@
   left: 0;
 }
 
-.parallax_base {
-  transform: translateZ(0);
-}
-
 .parallax_back {
   transform: translateZ(-1px) scale(2);
+}
+
+.parallax_base {
+  transform: translateZ(0);
 }
 
 h2, h4{
@@ -172,29 +172,21 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 #about {
-	position: relative;
 	background: white;
 	height: 100vh;
 	width: 100vw;
 	text-align: center;
 }
 
-#about h2, #about h4{
-	color: #444;
-}
-
-#about > ul > li{
+.headshot, .intro {
 	list-style: none;
 	text-align: center;
 	float: left;
-	position: relative;
-	height: 100vh;
-	width: 50vw;
 }
 
 .headshot {
 	height: 100vh;
-	width: 50vh;
+	width: 50vw;
 	background: url("/img/home/headshot.png");
 	
 	background-position: center top;
@@ -202,12 +194,16 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	-webkit-background-position: center top;
 }
 
-.second_parallax {
-	max-height: 100vh;
+.intro {
+	height: 100vh;
+	width: 50vw;
+}
+
+.intro h2, .intro h4{
+	color: #444;
 }
 
 .link_bkgs {
-	margin-top: 50vh;
 	height: 100vh;
 	width: 100vw;
 }
