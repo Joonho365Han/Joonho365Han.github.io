@@ -203,7 +203,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .link_bkgs {
-	padding-top: 50vh;
+	margin-top: 25vh;
 	height: 100vh;
 	width: 100vw;
 }
