@@ -18,12 +18,6 @@
 	padding: 0;
 	margin: 0;
 	z-index: 0;
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
 }
 
 body {

@@ -58,6 +58,7 @@
 
 .parallax_back {
   transform: translateZ(-1px) scale(2);
+  z-index: -1;
 }
 
 .parallax_base {
