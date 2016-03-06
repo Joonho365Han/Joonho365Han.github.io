@@ -107,13 +107,19 @@
 	transform: translateZ(0);
 }
 
-h2, h4{
+h2, h3, h4{
 	overflow: auto;
 	color: white;
+	padding: 10px;
 }
 
 h2 {
     font: 2vw 'Open Sans', 'Poiret One', sans-serif;
+    font-weight: 800;
+}
+
+h3 {
+    font: 1.3vw 'Open Sans', 'Poiret One', sans-serif;
     font-weight: 800;
 }
 
@@ -240,7 +246,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 .intro {
 	height: 50vw;
 	width: 50vw;
-	padding: 70px;
+	padding: 3vw;
 }
 
 .intro h2, .intro h4{
@@ -263,7 +269,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .links_title > h3 {
-    font: 1.5em 'Julius Sans One',sans-serif;
+    font: 1.5em 'Poiret One','Julius Sans One',sans-serif;
 	text-decoration: none;
 	text-align: center;
 	line-height: 100px;
