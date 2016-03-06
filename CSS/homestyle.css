@@ -40,6 +40,11 @@
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
+}
+
+.parallax_set {
+  position: relative; /* This concatenates the parallax levels without dividing scrollbars */
+  height: 100vh;
   transform-style: preserve-3d;
 }
 
@@ -189,10 +194,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	width: 30vw;
 	background: url("/img/home/headshot.png");
 	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
 	background-position: center top;
 	-moz-background-position: center top;
 	-webkit-background-position: center top;
@@ -213,38 +214,14 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .bkg_type1 {
 	background: url("/img/home/biography.jpg");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
 }
 
 .bkg_type2 {
 	background: url("/img/home/project.jpg");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
 }
 
 .bkg_type3 {
 	background: url("/img/home/sketch.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
 }
 
 .links{
