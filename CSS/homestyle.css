@@ -202,6 +202,10 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	-webkit-background-position: center top;
 }
 
+.second_parallax {
+	max-height: 100vh;
+}
+
 .link_bkgs {
 	margin-top: 50vh;
 	height: 100vh;
