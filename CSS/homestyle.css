@@ -200,6 +200,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .link_bkgs {
+	position: fixed;
 	height: 100vh;
 	width: 100vw;
 }
