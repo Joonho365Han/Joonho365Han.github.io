@@ -185,8 +185,12 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	list-style: none;
 	text-align: center;
 	float: left;
-	min-width: 50%;
 	position: relative;
+}
+
+.intro {
+	height: 30vh;
+	width: 70vw;
 }
 
 .headshot {
