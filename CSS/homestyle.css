@@ -207,7 +207,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	-webkit-transform: translateY(50vh);
 	-moz-transform: translateY(50vh);
 	transform: translateY(50vh);
-	height: 100vh;
+	height: 70vh;
 	width: 100vw;
 }
 
