@@ -220,7 +220,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 #about {
 	background: white;
-	height: 100vw;
+	height: 50vw;
 	width: 100vw;
 	text-align: center;
 }
