@@ -258,8 +258,9 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	width: 100vw;
 }
 
-.link_bkgs > li, .links > li {
+.link_bkgs > li, .quicklinks > li {
 	list-style: none;
+	text-align: center;
 	float: left;
 	height: 100%;
 	width: 33.3%;
@@ -296,19 +297,19 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	-webkit-background-position: center;
 }
 
-.links{
+.quicklinks{
 	height: 33.3vw;
 	width: 100vw;
 }
 
-.links > li > div {
+.quicklinks > li > div {
 	background: rgba(0,0,0,0.3);
 	height: 100%;
 	width: 100%;
 	text-align: center;
 }
 
-.links > li > div:hover {
+.quicklinks > li > div:hover {
 	background: none;
   	animation-name: quicklink_hover;
   	-moz-animation-name: quicklink_hover;
@@ -316,7 +317,8 @@ header { /* In home page, this is the slideshow and header, not just header. */
  	animation-duration: 0.2s;
 }
 
-.links > li > div > a {
+.quicklinks > li > div > a {
+	display: block;
 	text-decoration: none;
 	height: 33.3vw;
 	line-height: 33.3vw;

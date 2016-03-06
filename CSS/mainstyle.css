@@ -92,13 +92,13 @@ footer h6 {
 	margin: 0 15vw;
 }
 
-.quick_links {
+.social_icons {
 	max-width: 180px;
 	height: 100px;
 	margin: 0 auto;
 }
 
-.quick_links li {
+.social_icons li {
 	position: relative;
 	list-style: none;
 	text-align: center;
@@ -106,11 +106,11 @@ footer h6 {
 	width: 33.3%;
 }
 
-.quick_links a {
+.social_icons a {
 	line-height: 100px;
 	height: 100px;
 }
 
-.quick_links > li > a > img {
+.social_icons > li > a > img {
 	opacity: 0.5;
 }
