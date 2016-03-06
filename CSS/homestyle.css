@@ -315,7 +315,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	position: relative;
 }
 
-.links > li > div:hover {
+.links > li:hover {
   	animation-name: quicklink_hover;
   	-moz-animation-name: quicklink_hover;
   	-webkit-animation-name: quicklink_hover;
