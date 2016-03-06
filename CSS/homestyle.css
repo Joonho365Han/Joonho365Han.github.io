@@ -274,12 +274,13 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .links_title > h3 {
     font: 1.2em 'Poiret One','Julius Sans One',sans-serif;
-	height: 80px;
-	line-height: 80px;
+	height: 60px;
+	padding-top: 20px;
 	color: white;
 }
 
 .links_title > div {
+	height: 20px;
 	margin: 0 47vw;
 	border-top: 2px solid #3cf;
 }
