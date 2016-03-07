@@ -271,13 +271,16 @@ header { /* In home page, this is the slideshow and header, not just header. */
     font: 1.2em 'Open Sans','Julius Sans One',sans-serif;
     font-weight: 400;
 	color: white;
-	padding-bottom: 10px;
+	height: 50px;
+	padding: 0;
+	margin-top: 20px;
 }
 
 .links_title > div {
 	border: 2px solid #3cc;
 	border-radius: 2px;
 	width: 80px;
+	padding: 0;
 	margin: 0 auto;
 }
 
