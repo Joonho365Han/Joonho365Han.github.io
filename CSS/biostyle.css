@@ -26,6 +26,7 @@ h4 {
 
 .section_title > h2 {
 	padding: 0;
+
 }
 
 .section_title > div {
@@ -33,6 +34,14 @@ h4 {
 	border-radius: 2px;
 	width: 80px;
 	margin: 0 auto;
+}
+
+.intro,
+.education,
+.skills,
+.experience {
+	height: 50vh; 
+	width: 100%;
 }
 
 .education{
@@ -47,9 +56,9 @@ h4 {
 
 .education a {
 	display: block;
-	height: 10vw;
-	width: 10vw;
-	background: url("/img/bio/bu_logo.png");
+	height: 20vw;
+	width: 20vw;
+	background: url("/img/bio/bu_seal.png");
 	background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
