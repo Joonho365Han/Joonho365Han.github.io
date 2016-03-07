@@ -267,7 +267,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .links_title {
 	height: 100px;
-	padding-top: 10px;
+	padding-top: 13px;
 	width: 100vw;
 	background: #444;
 	text-align: center;
@@ -281,7 +281,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .links_title > div {
-	border-top: 3px solid #3cc;
+	border-top: 2px solid #3cc;
 	width: 80px;
 	margin: 0 auto;
 }
