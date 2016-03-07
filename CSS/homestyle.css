@@ -196,7 +196,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .links{
-	height: auto;
 	width: 100vw;
 	background: none;
 }
