@@ -222,6 +222,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	display: block;
 	text-decoration: none;
 	text-align: center;
+	letter-spacing: 0.4vw;
 	height: 100%;
 	line-height: 100%;
 	width: 100%;
