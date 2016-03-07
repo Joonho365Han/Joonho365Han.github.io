@@ -198,8 +198,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .about_button > a {
-    font: 1.3em 'Open Sans', 'Julius Sans One',sans-serif;
-    font-weight: 400;
+    font: 1.3em 'Poiret One', 'Julius Sans One',sans-serif;
 	text-decoration: none;
 	text-align: center;
 	line-height: 38px;
@@ -268,7 +267,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .links_title {
 	height: 100px;
-	padding-top: 22px;
+	padding-top: 24px;
 	width: 100vw;
 	background: #444;
 	text-align: center;
@@ -278,7 +277,11 @@ header { /* In home page, this is the slideshow and header, not just header. */
     font: 1.2em 'Open Sans','Julius Sans One',sans-serif;
     font-weight: 400;
 	color: white;
-	padding: 2px;
+	padding-bottom: 10px;
+}
+
+.links_title > div {
+	border-top: 2px solid #3cc;
 }
 
 .link_bkgs {
