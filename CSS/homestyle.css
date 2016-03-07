@@ -36,14 +36,16 @@
 h2, h3, h4{
     font: 3em 'Open Sans', 'Poiret One', sans-serif;
     font-size: calc(1em + 2vw);
-    font-weight: 600;
+    font-weight: 800;
 	overflow: auto;
-	color: white;
+	color: #444;
+	padding: 1vw;
 }
 
 h3 {
 	font-size: 1.6vw;
     font-size: calc(0.8em + 0.6vw);
+    font-weight: 600;
 }
 
 h4 {
@@ -156,15 +158,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	padding: 9vh 27vw 15vh 27vw;
 }
 
-#about h2, #about h3, #about h4{
-	padding: 1vw;
-	color: #444;
-}
-
-#about h2 {
-	font-weight: 800;
-}
-
 .links_title {
 	height: 100px;
 	width: 100vw;
@@ -176,7 +169,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 .links_title > h3 {
     font: 1.2em 'Open Sans','Julius Sans One',sans-serif;
     font-weight: 400;
-    color: #444;
 	padding: 0;
 	line-height: 50px;
 }
@@ -224,13 +216,15 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .links > li > a {
+    font: 3em 'Open Sans', 'Poiret One', sans-serif;
+    font-size: calc(1em + 2vw);
+    font-weight: 800;
+	color: #444;
 	display: block;
 	text-decoration: none;
 	text-align: center;
-	height: 100%;
+	line-height: 100%;
 	width: 100%;
-	padding: 3vw;
-	padding-top: 25%;
 }
 
 .bkg_type1 {
