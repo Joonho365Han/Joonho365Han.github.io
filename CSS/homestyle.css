@@ -115,13 +115,13 @@ h2, h3, h4{
 
 h2 {
     font: 3vw 'Open Sans', 'Poiret One', sans-serif;
-    font-size: calc(1em + 1.5vw);
-    font-weight: 800;
+    font-size: calc(1em + 2vw);
+    font-weight: 600;
 }
 
 h3 {
     font: 1.3vw 'Open Sans', 'Poiret One', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 h4 {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Abel|Poiret+One|Julius+Sans+One|Lora|Open+Sans:400,600,800');
+@import url('https://fonts.googleapis.com/css?family=Abel|Poiret+One|Julius+Sans+One|Open+Sans:400,600,800');
 
 @keyframes navbar_hover{
 	0% {color: #444;}
@@ -64,7 +64,7 @@ header {
 
 .nav_bar a{ /* All NavBar links */
 	display: block;
-    font: 1.1em Abel,Cinzel,sans-serif;
+    font: 1.1em Abel,sans-serif;
     color: #444;
     text-decoration: none;
     line-height: 50px; /*This vertically centers the anchors*/
@@ -87,7 +87,7 @@ footer {
 }
 
 footer h6 {
-	font: 1em 'Poiret One', Lora, sans-serif;
+	font: 1em 'Poiret One', sans-serif;
 	color: #888;
 	line-height: 120px;
 	border-bottom: 1px solid #bbb;
