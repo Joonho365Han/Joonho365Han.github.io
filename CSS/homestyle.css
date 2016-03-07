@@ -219,10 +219,11 @@ header { /* In home page, this is the slideshow and header, not just header. */
     font: 3em 'Open Sans', 'Poiret One', sans-serif;
     font-size: calc(1em + 2vw);
     font-weight: 800;
-	color: #444;
+	color: white;
 	display: block;
 	text-decoration: none;
 	text-align: center;
+	height: 100%;
 	line-height: 100%;
 	width: 100%;
 }
