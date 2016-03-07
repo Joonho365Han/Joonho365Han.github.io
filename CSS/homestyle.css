@@ -87,14 +87,6 @@ header, .slideshow, .slideshow_2 {
  	animation-duration: 0.2s;
 }
 
-.home_header{
-    background: none;
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-}
-
 .title {
     width: 100%;
     position: absolute;
