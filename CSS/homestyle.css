@@ -106,6 +106,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
     left: 0;
 }
 
+/*
 .title {
     width: 100%;
     position: absolute;
@@ -124,7 +125,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
   	-moz-animation-name: title_entry;
   	-webkit-animation-name: title_entry;
  	animation-duration: 1.5s;
-}
+}*/
 
 .about_button {
 	height: 86px;
