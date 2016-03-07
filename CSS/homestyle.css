@@ -230,11 +230,11 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .bkg_type1 {
-	background: url("/img/home/project.png");
+	background: url("/img/home/works.png");
 }
 
 .bkg_type2 {
-	background: url("/img/home/sketch.png");
+	background: url("/img/home/sketches.png");
 }
 
 .bkg_type3 {
