@@ -115,6 +115,7 @@ h2, h3, h4{
 
 h2 {
     font: 3vw 'Open Sans', 'Poiret One', sans-serif;
+    font-size: calc(1em + 1.5vw);
     font-weight: 800;
 }
 
@@ -125,6 +126,7 @@ h3 {
 
 h4 {
     font: 1vw 'Open Sans', 'Poiret One', sans-serif;
+    font-size: calc(1em _ 0.5vw);
     font-weight: 400;
 }
 
@@ -297,15 +299,15 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .bkg_type1 {
-	background: url("/img/home/biography.png");
-}
-
-.bkg_type2 {
 	background: url("/img/home/project.png");
 }
 
-.bkg_type3 {
+.bkg_type2 {
 	background: url("/img/home/sketch.png");
+}
+
+.bkg_type3 {
+	background: url("/img/home/biography.png");
 }
 
 .links{
