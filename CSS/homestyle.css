@@ -264,7 +264,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 .links_title {
 	height: 100px;
 	width: 100vw;
-	padding-top: 20px;
+	padding-top: 17px;
 	background: #444;
 	text-align: center;
 }
