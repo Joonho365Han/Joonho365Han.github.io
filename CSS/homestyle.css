@@ -57,16 +57,16 @@
 }
 
 @keyframes quicklink_hover{
-	0% {opacity: 0}
-	100% {opacity: 1}
+	0% {background: rgba(0,0,0,0.3);}
+	100% {background: rgba(0,0,0,0.6);}
 }
 @keyframes -moz-quicklink_hover{
-	0% {opacity: 0}
-	100% {opacity: 1}
+	0% {background: rgba(0,0,0,0.3);}
+	100% {background: rgba(0,0,0,0.6);}
 }
 @keyframes -webkit-quicklink_hover{
-	0% {opacity: 0}
-	100% {opacity: 1}
+	0% {background: rgba(0,0,0,0.3);}
+	100% {background: rgba(0,0,0,0.6);}
 }
 
 @keyframes about_hover {
@@ -295,12 +295,11 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .links > li {
 	background: rgba(0,0,0,0.3);
-	opacity: 1;
 	position: relative;
 }
 
 .links > li:hover {
-	opacity: 1;
+	background: rgba(0,0,0,0.6);
   	animation-name: quicklink_hover;
   	-moz-animation-name: quicklink_hover;
   	-webkit-animation-name: quicklink_hover;
