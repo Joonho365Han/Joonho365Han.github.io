@@ -44,13 +44,13 @@ h2, h3, h4{
 
 h3 {
     font-size: 1.6vw;
-    font-size: calc(0.5em + 0.9vw);
+    font-size: calc(0.7em + 1vw);
+    font-weight: 400;
 }
 
 h4 {
     font: 1vw Merriweather, serif;
     font-size: calc(0.6em + 0.5vw);
-    font-weight: 400;
 }
 
 header, .slideshow, .slideshow_2 {
