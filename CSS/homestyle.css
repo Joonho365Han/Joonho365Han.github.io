@@ -235,12 +235,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	height: 50vw;
 	width: 50vw;
 	background: url("/img/home/headshot.png");
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-position: center top;
-	-moz-background-position: center top;
-	-webkit-background-position: center top;
 }
 
 .intro {
@@ -281,8 +275,8 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .links_title > div {
-	border: 2px solid #3cc;
-	border-radius: 2px;
+	border: 1.5px solid #3cc;
+	border-radius: 1.5px;
 	width: 80px;
 	margin: 0 auto;
 }
@@ -304,36 +298,18 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .bkg_type1 {
 	background: url("/img/home/biography.png");
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
 }
 
 .bkg_type2 {
 	background: url("/img/home/project.png");
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
 }
 
 .bkg_type3 {
 	background: url("/img/home/sketch.png");
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
 }
 
 .links{
-	height: 33.3vw;
+	height: 25vw;
 	width: 100vw;
 	text-align: center;
 	background: none;
@@ -362,4 +338,13 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	width: 100%;
 	margin: 0 auto;
 	padding-top: 38%;
+}
+
+.headshot, .bkg_type1, .bkg_type2, .bkg_type3 {
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
 }
