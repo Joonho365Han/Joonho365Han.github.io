@@ -263,8 +263,8 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .links_title {
 	height: 100px;
-	padding-top: 13px;
 	width: 100vw;
+	padding-top: 20px;
 	background: #444;
 	text-align: center;
 }
@@ -273,8 +273,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
     font: 1.2em 'Open Sans','Julius Sans One',sans-serif;
     font-weight: 400;
 	color: white;
-	height: 60px;
-	line-height: 60px;
+	line-height: 50px;
 }
 
 .links_title > div {
