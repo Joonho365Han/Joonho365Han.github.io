@@ -34,3 +34,7 @@ h4 {
 	width: 80px;
 	margin: 0 auto;
 }
+
+.education a {
+	background: url("/img/bio/bu_logo.png");
+}
