@@ -79,9 +79,9 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	position: absolute;
 	height: 100vh;
 	width: 100vw;
-	animation: slides 42s linear infinite;
-	-moz-animation: slides 42s linear infinite;
-	-webkit-animation: slides 42s linear infinite;
+	animation: slides 36s linear infinite;
+	-moz-animation: slides 36s linear infinite;
+	-webkit-animation: slides 36s linear infinite;
 	-webkit-transform: translate3d(0, 0, 0);
 }
 
@@ -89,9 +89,9 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	position: absolute;
 	height: 100vh;
 	width: 100vw;
-	animation: slidesTwo 42s linear infinite;
-	-moz-animation: slidesTwo 42s linear infinite;
-	-webkit-animation: slidesTwo 42s linear infinite;
+	animation: slidesTwo 36s linear infinite;
+	-moz-animation: slidesTwo 36s linear infinite;
+	-webkit-animation: slidesTwo 36s linear infinite;
 	-webkit-transform: translate3d(0, 0, 0);
 }
 
@@ -199,7 +199,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	list-style: none;
 	text-align: center;
 	float: left;
-	height: 100%;
+	height: 25vw;
 	width: 33.3%;
 	width: calc(100% / 3);
 }
