@@ -44,12 +44,11 @@ h2, h3, h4{
 
 h3 {
     font-size: 1.6vw;
-    font-size: calc(0.8em + 0.6vw);
-    font-weight: 600;
+    font-size: calc(0.5em + 0.9vw);
 }
 
 h4 {
-    font: 1vw serif;
+    font: 1vw Merriweather, serif;
     font-size: calc(0.6em + 0.5vw);
     font-weight: 400;
 }
@@ -117,7 +116,7 @@ header, .slideshow, .slideshow_2 {
 }
 
 .about_button > a {
-    font: 1.3em 'Poiret One', 'Julius Sans One',sans-serif;
+    font: 1.3em 'Poiret One',sans-serif;
 	text-decoration: none;
 	text-align: center;
 	line-height: 38px;
@@ -202,7 +201,7 @@ header, .slideshow, .slideshow_2 {
 }
 
 .links > li > a {
-    font: 3.3vw 'Open Sans', 'Poiret One', sans-serif;
+    font: 3.3vw 'Open Sans', sans-serif;
     font-weight: 400;
 	color: white;
 	display: block;
