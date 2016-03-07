@@ -212,7 +212,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 .links > li {
 	background: rgba(0,0,0,0.3);
 	position: relative;
-	height: auto;
+	height: 100%;
 }
 
 .links > li:hover {
