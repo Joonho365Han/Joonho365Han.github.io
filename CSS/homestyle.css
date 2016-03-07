@@ -153,7 +153,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	background: white;
 	width: 100vw;
 	text-align: center;
-	padding: 10vh 27vw 18vh 27vw;
+	padding: 9vh 27vw 15vh 27vw;
 }
 
 #about h2, #about h3, #about h4{
