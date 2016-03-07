@@ -80,22 +80,20 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	position: absolute;
 	height: 100vh;
 	width: 100vw;
-	background: none;
+	animation: slides 48s linear infinite;
+	-moz-animation: slides 48s linear infinite;
+	-webkit-animation: slides 48s linear infinite;
+	-webkit-transform: translate3d(0, 0, 0);
 }
 
 .slideshow_2 {
 	position: absolute;
 	height: 100vh;
 	width: 100vw;
-	background: url("/img/home/home_slide3.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
+	animation: slides 48s linear infinite;
+	-moz-animation: slides2 48s linear infinite;
+	-webkit-animation: slides2 48s linear infinite;
+	-webkit-transform: translate3d(0, 0, 0);
 }
 
 .home_header{
