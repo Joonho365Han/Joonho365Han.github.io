@@ -261,6 +261,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .links_title {
 	height: 100px;
+	padding-top: 13px;
 	width: 100vw;
 	background: #444;
 	text-align: center;
@@ -270,16 +271,13 @@ header { /* In home page, this is the slideshow and header, not just header. */
     font: 1.2em 'Open Sans','Julius Sans One',sans-serif;
     font-weight: 400;
 	color: white;
-	height: 50px;
-	padding: 0;
-	margin-top: 20px;
+	padding-bottom: 10px;
 }
 
 .links_title > div {
 	border: 2px solid #3cc;
 	border-radius: 2px;
 	width: 80px;
-	padding: 0;
 	margin: 0 auto;
 }
 
@@ -311,7 +309,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .links{
-	height: 33.3vw;
+	height: 25vw;
 	width: 100vw;
 	text-align: center;
 	background: none;
@@ -336,7 +334,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	text-decoration: none;
 	text-align: center;
 	height: 100%;
-	line-height: 50%;
 	width: 100%;
 	margin: 0 auto;
 	padding-top: 38%;
