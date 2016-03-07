@@ -34,24 +34,20 @@
 }
 
 h2, h3, h4{
+    font: 3em 'Open Sans', 'Poiret One', sans-serif;
+    font-size: calc(1em + 2vw);
+    font-weight: 600;
 	overflow: auto;
 	color: white;
 }
 
-h2 {
-    font: 3vw 'Open Sans', 'Poiret One', sans-serif;
-    font-size: calc(1em + 2vw);
-    font-weight: 600;
-}
-
 h3 {
-    font: 1.6vw 'Open Sans', 'Poiret One', sans-serif;
+	font-size: 1.6vw;
     font-size: calc(0.8em + 0.6vw);
-    font-weight: 600;
 }
 
 h4 {
-    font: 1vw 'Open Sans', 'Poiret One', sans-serif;
+	font-size: 1vw;
     font-size: calc(0.6em + 0.5vw);
     font-weight: 400;
 }
@@ -75,7 +71,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
  	animation-duration: 0.2s;
 }
 
-.slideshow {
+.slideshow, .slideshow_2 {
 	position: absolute;
 	height: 100vh;
 	width: 100vw;
@@ -86,9 +82,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .slideshow_2 {
-	position: absolute;
-	height: 100vh;
-	width: 100vw;
 	animation: slidesTwo 36s linear infinite;
 	-moz-animation: slidesTwo 36s linear infinite;
 	-webkit-animation: slidesTwo 36s linear infinite;
@@ -219,6 +212,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 .links > li {
 	background: rgba(0,0,0,0.3);
 	position: relative;
+	height: auto;
 }
 
 .links > li:hover {
@@ -236,8 +230,8 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	height: 100%;
 	width: 100%;
 	padding: 3vw;
-	padding-top: 25%;
-	padding-bottom: 25%;
+	margin-top: 25%;
+	margin-bottom: 25%;
 }
 
 .bkg_type1 {
