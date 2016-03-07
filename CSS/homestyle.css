@@ -198,7 +198,8 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .about_button > a {
-    font: 1.3em 'Poiret One', 'Julius Sans One',sans-serif;
+    font: 1.3em 'Open Sans', 'Julius Sans One',sans-serif;
+    font-weight: 400;
 	text-decoration: none;
 	text-align: center;
 	line-height: 38px;
