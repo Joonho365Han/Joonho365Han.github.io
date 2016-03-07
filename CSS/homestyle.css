@@ -230,8 +230,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	height: 100%;
 	width: 100%;
 	padding: 3vw;
-	margin-top: 25%;
-	margin-bottom: 25%;
+	padding-top: 25%;
 }
 
 .bkg_type1 {
