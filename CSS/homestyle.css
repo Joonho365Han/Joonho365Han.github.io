@@ -77,16 +77,16 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	position: absolute;
 	height: 100vh;
 	width: 100vw;
-	animation: slides 24s linear infinite;
-	-moz-animation: slides 24s linear infinite;
-	-webkit-animation: slides 24s linear infinite;
+	animation: slides 30s linear infinite;
+	-moz-animation: slides 30s linear infinite;
+	-webkit-animation: slides 30s linear infinite;
 	-webkit-transform: translate3d(0, 0, 0);
 }
 
 .slideshow_2 {
-	animation: slidesTwo 24s linear infinite;
-	-moz-animation: slidesTwo 24s linear infinite;
-	-webkit-animation: slidesTwo 24s linear infinite;
+	animation: slidesTwo 30s linear infinite;
+	-moz-animation: slidesTwo 30s linear infinite;
+	-webkit-animation: slidesTwo 30s linear infinite;
 }
 
 .home_header{
