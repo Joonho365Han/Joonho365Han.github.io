@@ -120,7 +120,8 @@ h2 {
 }
 
 h3 {
-    font: 1.3vw 'Open Sans', 'Poiret One', sans-serif;
+    font: 1.6vw 'Open Sans', 'Poiret One', sans-serif;
+    font-size: calc(0.8em + 0.6vw);
     font-weight: 600;
 }
 
@@ -224,7 +225,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	background: white;
 	width: 100vw;
 	text-align: center;
-	padding: 5vh 30vw;
+	padding: 10vh 27vw 13vh 27vw;
 }
 
 #about h2, #about h3, #about h4{
