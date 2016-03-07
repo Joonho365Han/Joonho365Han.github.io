@@ -281,7 +281,8 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .links_title > div {
-	border-top: 2px solid #3cc;
+	border: 2px solid #3cc;
+	border-radius: 2px;
 	width: 80px;
 	margin: 0 auto;
 }
