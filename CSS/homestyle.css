@@ -216,17 +216,17 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .links > li > a {
-    font: 3vw 'Open Sans', 'Poiret One', sans-serif;
+    font: 3.3vw 'Open Sans', 'Poiret One', sans-serif;
     font-weight: 400;
 	color: white;
 	display: block;
 	text-decoration: none;
 	text-align: center;
-	letter-spacing: 0.3vw;
+	letter-spacing: 0.5vw;
 	height: 100%;
 	line-height: 100%;
 	width: 100%;
-	padding-top: 32%;
+	padding-top: 33%;
 }
 
 .bkg_type1 {
