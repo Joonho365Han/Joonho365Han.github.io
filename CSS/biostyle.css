@@ -35,6 +35,13 @@ h4 {
 	margin: 0 auto;
 }
 
+.education{
+	background: url("/img/bio/bu_campus.png");
+}
+
 .education a {
+	display: block;
+	height: 5vw;
+	width: 10vw;
 	background: url("/img/bio/bu_logo.png");
 }
