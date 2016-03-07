@@ -9,6 +9,7 @@
  		opacity: 0;
  	}
  	30.3% {
+ 		opacity: 0;
 	background: url("/img/home/home_slide3.png");
 	
 	background-size: cover;
@@ -29,6 +30,7 @@
  		opacity: 0;
  	}
  	63.7% { 
+ 		opacity: 0;
 		background: url("/img/home/home_slide2.png");
 		
 		background-size: cover;
@@ -49,6 +51,7 @@
  		opacity: 0;
  	}
  	97% { 
+ 		opacity: 0;
 		background: url("/img/home/home_slide1.png");
 		
 		background-size: cover;
