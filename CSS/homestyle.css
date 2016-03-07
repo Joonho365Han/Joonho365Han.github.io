@@ -246,9 +246,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	text-align: center;
 	height: 100%;
 	width: 100%;
-	margin: 0 auto;
-	padding: 3vw;
-	padding-top: 25%;
+	margin: auto auto;
 }
 
 .headshot, .bkg_type1, .bkg_type2, .bkg_type3 {
