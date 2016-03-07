@@ -35,7 +35,7 @@
 
 h2, h3, h4{
 	overflow: auto;
-	color: white;
+	color: #444;
 }
 
 h2 {
@@ -164,7 +164,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 #about h2, #about h3, #about h4{
-	color: #444;
 	padding: 1vw;
 }
 
