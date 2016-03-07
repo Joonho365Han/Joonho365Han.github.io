@@ -273,6 +273,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
     font: 1.2em 'Open Sans','Julius Sans One',sans-serif;
     font-weight: 400;
 	color: white;
+	padding: 0;
 	line-height: 50px;
 }
 
