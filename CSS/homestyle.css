@@ -1,79 +1,5 @@
 @import "home_slide.css";
 
-@keyframes navbar_hover_2{
-	0% {color: white;}
-	100% {color: #00e6b8;}
-}
-@keyframes -moz-navbar_hover_2{
-	0% {color: white;}
-	100% {color: #00e6b8;}
-}
-@keyframes -webkit-navbar_hover_2{
-	0% {color: white;}
-	100% {color: #00e6b8;}
-}
-
-@keyframes title_entry{
-	0% {
-		transform: translateY(4vw);
-		opacity: 0;
-	}
-	70% {
-		transform: translateY(4vw);
-		opacity: 0;
-	}
-	100% {
-		transform: translateY(0);
-		opacity: 1;
-	}
-}
-@keyframes -moz-title_entry{
-	0% {
-		transform: translateY(4vw);
-		opacity: 0;
-	}
-	70% {
-		transform: translateY(4vw);
-		opacity: 0;
-	}
-	100% {
-		transform: translateY(0);
-		opacity: 1;
-	}
-}
-@keyframes -webkit-title_entry{
-	0% {
-		transform: translateY(4vw);
-		opacity: 0;
-	}
-	70% {
-		transform: translateY(4vw);
-		opacity: 0;
-	}
-	100% {
-		transform: translateY(0);
-		opacity: 1;
-	}
-}
-
-@keyframes quicklink_hover{
-	0% {background: rgba(0,0,0,0.3);}
-	100% {background: rgba(0,0,0,0.6);}
-}
-@keyframes -moz-quicklink_hover{
-	0% {background: rgba(0,0,0,0.3);}
-	100% {background: rgba(0,0,0,0.6);}
-}
-@keyframes -webkit-quicklink_hover{
-	0% {background: rgba(0,0,0,0.3);}
-	100% {background: rgba(0,0,0,0.6);}
-}
-
-@keyframes about_hover {
-	from { color: rgba(255, 255, 255, 0.7); background: rgba(0, 0, 0, 0.1); }
-	to   { color: white; background: rgba(0, 0, 0, 0.2); }
-}
-
 .wrapper {
 	padding-top: 0;
 }
@@ -153,11 +79,19 @@ header { /* In home page, this is the slideshow and header, not just header. */
 .slideshow {
 	height: 100vh;
 	width: 100vw;
-	animation: slides 24s linear infinite;
-	-moz-animation: slides 24s linear infinite;
-	-webkit-animation: slides 24s linear infinite;
+	animation: slides 48s linear infinite;
+	-moz-animation: slides 48s linear infinite;
+	-webkit-animation: slides 48s linear infinite;
 	-webkit-transform: translate3d(0, 0, 0);
-	overflow: hidden;
+}
+
+.slideshow_2 {
+	height: 100vh;
+	width: 100vw;
+	animation: slides 48s linear infinite;
+	-moz-animation: slides2 48s linear infinite;
+	-webkit-animation: slides2 48s linear infinite;
+	-webkit-transform: translate3d(0, 0, 0);
 }
 
 .home_header{

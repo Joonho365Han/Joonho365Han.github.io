@@ -10,7 +10,7 @@
 	-moz-background-position: center;
 	-webkit-background-position: center;
  	}
- 	28.3% {
+ 	13.7% {
 	background: url("/img/home/home_slide1.png");
 	
 	background-size: cover;
@@ -21,29 +21,13 @@
 	-moz-background-position: center;
 	-webkit-background-position: center;
  	}
+ 	16.7% { 
+	background: none;
+ 	}
+ 	30.3% {
+	background: none;
+ 	}
  	33.3% { 
-	background: url("/img/home/home_slide2.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
- 	}
- 	61.6% {
-	background: url("/img/home/home_slide2.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
- 	}
- 	66.6% { 
 	background: url("/img/home/home_slide3.png");
 	
 	background-size: cover;
@@ -54,7 +38,7 @@
 	-moz-background-position: center;
 	-webkit-background-position: center;
  	}
- 	95% { 
+ 	47% { 
 	background: url("/img/home/home_slide3.png");
 	
 	background-size: cover;
@@ -64,6 +48,40 @@
 	background-position: center;
 	-moz-background-position: center;
 	-webkit-background-position: center;
+ 	}
+ 	50% { 
+	background: none;
+ 	}
+ 	63.7% { 
+	background: none;
+ 	}
+ 	66.7% { 
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	80.3% { 
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	83.3% { 
+	background: none;
+ 	}
+ 	97% { 
+	background: none;
  	}
  	100% { 
 	background: url("/img/home/home_slide1.png");
@@ -89,7 +107,7 @@
 	-moz-background-position: center;
 	-webkit-background-position: center;
  	}
- 	28.3% {
+ 	13.7% {
 	background: url("/img/home/home_slide1.png");
 	
 	background-size: cover;
@@ -100,29 +118,13 @@
 	-moz-background-position: center;
 	-webkit-background-position: center;
  	}
+ 	16.7% { 
+	background: none;
+ 	}
+ 	30.3% {
+	background: none;
+ 	}
  	33.3% { 
-	background: url("/img/home/home_slide2.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
- 	}
- 	61.6% {
-	background: url("/img/home/home_slide2.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
- 	}
- 	66.6% { 
 	background: url("/img/home/home_slide3.png");
 	
 	background-size: cover;
@@ -133,7 +135,7 @@
 	-moz-background-position: center;
 	-webkit-background-position: center;
  	}
- 	95% { 
+ 	47% { 
 	background: url("/img/home/home_slide3.png");
 	
 	background-size: cover;
@@ -143,6 +145,40 @@
 	background-position: center;
 	-moz-background-position: center;
 	-webkit-background-position: center;
+ 	}
+ 	50% { 
+	background: none;
+ 	}
+ 	63.7% { 
+	background: none;
+ 	}
+ 	66.7% { 
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	80.3% { 
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	83.3% { 
+	background: none;
+ 	}
+ 	97% { 
+	background: none;
  	}
  	100% { 
 	background: url("/img/home/home_slide1.png");
@@ -168,8 +204,112 @@
 	-moz-background-position: center;
 	-webkit-background-position: center;
  	}
- 	28.3% {
+ 	13.7% {
 	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	16.7% { 
+	background: none;
+ 	}
+ 	30.3% {
+	background: none;
+ 	}
+ 	33.3% { 
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	47% { 
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	50% { 
+	background: none;
+ 	}
+ 	63.7% { 
+	background: none;
+ 	}
+ 	66.7% { 
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	80.3% { 
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	83.3% { 
+	background: none;
+ 	}
+ 	97% { 
+	background: none;
+ 	}
+ 	100% { 
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ }
+
+ @keyframes slides2 {
+ 	0% { 
+	background: none;
+ 	}
+ 	13.7% {
+	background: none;
+ 	}
+ 	16.7% { 
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	30.3% {
+	background: url("/img/home/home_slide2.png");
 	
 	background-size: cover;
 	-moz-background-size: cover;
@@ -180,107 +320,40 @@
 	-webkit-background-position: center;
  	}
  	33.3% { 
-	background: url("/img/home/home_slide2.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
+	background: none;
  	}
- 	61.6% {
-	background: url("/img/home/home_slide2.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
- 	}
- 	66.6% { 
-	background: url("/img/home/home_slide3.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
- 	}
- 	95% { 
-	background: url("/img/home/home_slide3.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
- 	}
- 	100% { 
-	background: url("/img/home/home_slide1.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
- 	}
- }
- /*@keyframes slides {
- 	0% { 
-	background: url("/img/home/home_slide1.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
- 	}
- 	20% {
-	background: url("/img/home/home_slide1.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
- 	}
- 	25% { 
-	background: url("/img/home/home_slide2.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
- 	}
- 	45% {
-	background: url("/img/home/home_slide2.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
+ 	47% { 
+	background: none;
  	}
  	50% { 
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	63.7% { 
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	66.7% { 
+	background: none;
+ 	}
+ 	80.3% { 
+	background: none;
+ 	}
+ 	83.3% { 
 	background: url("/img/home/home_slide3.png");
 	
 	background-size: cover;
@@ -291,30 +364,8 @@
 	-moz-background-position: center;
 	-webkit-background-position: center;
  	}
- 	70% { 
+ 	97% { 
 	background: url("/img/home/home_slide3.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
- 	}
- 	75% { 
-	background: url("/img/home/home_slide4.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
- 	}
- 	95% { 
-	background: url("/img/home/home_slide4.png");
 	
 	background-size: cover;
 	-moz-background-size: cover;
@@ -325,41 +376,17 @@
 	-webkit-background-position: center;
  	}
  	100% { 
-	background: url("/img/home/home_slide1.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
+	background: none;
  	}
  }
-@-webkit-keyframes slides {
+@-webkit-keyframes slides2 {
  	0% { 
-	background: url("/img/home/home_slide1.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
+	background: none;
  	}
- 	20% {
-	background: url("/img/home/home_slide1.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
+ 	13.7% {
+	background: none;
  	}
- 	25% { 
+ 	16.7% { 
 	background: url("/img/home/home_slide2.png");
 	
 	background-size: cover;
@@ -370,7 +397,7 @@
 	-moz-background-position: center;
 	-webkit-background-position: center;
  	}
- 	45% {
+ 	30.3% {
 	background: url("/img/home/home_slide2.png");
 	
 	background-size: cover;
@@ -380,8 +407,42 @@
 	background-position: center;
 	-moz-background-position: center;
 	-webkit-background-position: center;
+ 	}
+ 	33.3% { 
+	background: none;
+ 	}
+ 	47% { 
+	background: none;
  	}
  	50% { 
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	63.7% { 
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	66.7% { 
+	background: none;
+ 	}
+ 	80.3% { 
+	background: none;
+ 	}
+ 	83.3% { 
 	background: url("/img/home/home_slide3.png");
 	
 	background-size: cover;
@@ -392,30 +453,8 @@
 	-moz-background-position: center;
 	-webkit-background-position: center;
  	}
- 	70% { 
+ 	97% { 
 	background: url("/img/home/home_slide3.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
- 	}
- 	75% { 
-	background: url("/img/home/home_slide4.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
- 	}
- 	95% { 
-	background: url("/img/home/home_slide4.png");
 	
 	background-size: cover;
 	-moz-background-size: cover;
@@ -426,41 +465,17 @@
 	-webkit-background-position: center;
  	}
  	100% { 
-	background: url("/img/home/home_slide1.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
+	background: none;
  	}
  }
-@-moz-keyframes slides {
+@-moz-keyframes slides2 {
  	0% { 
-	background: url("/img/home/home_slide1.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
+	background: none;
  	}
- 	20% {
-	background: url("/img/home/home_slide1.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
+ 	13.7% {
+	background: none;
  	}
- 	25% { 
+ 	16.7% { 
 	background: url("/img/home/home_slide2.png");
 	
 	background-size: cover;
@@ -471,7 +486,7 @@
 	-moz-background-position: center;
 	-webkit-background-position: center;
  	}
- 	45% {
+ 	30.3% {
 	background: url("/img/home/home_slide2.png");
 	
 	background-size: cover;
@@ -481,8 +496,42 @@
 	background-position: center;
 	-moz-background-position: center;
 	-webkit-background-position: center;
+ 	}
+ 	33.3% { 
+	background: none;
+ 	}
+ 	47% { 
+	background: none;
  	}
  	50% { 
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	63.7% { 
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	66.7% { 
+	background: none;
+ 	}
+ 	80.3% { 
+	background: none;
+ 	}
+ 	83.3% { 
 	background: url("/img/home/home_slide3.png");
 	
 	background-size: cover;
@@ -493,30 +542,8 @@
 	-moz-background-position: center;
 	-webkit-background-position: center;
  	}
- 	70% { 
+ 	97% { 
 	background: url("/img/home/home_slide3.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
- 	}
- 	75% { 
-	background: url("/img/home/home_slide4.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
- 	}
- 	95% { 
-	background: url("/img/home/home_slide4.png");
 	
 	background-size: cover;
 	-moz-background-size: cover;
@@ -527,14 +554,80 @@
 	-webkit-background-position: center;
  	}
  	100% { 
-	background: url("/img/home/home_slide1.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
+	background: none;
  	}
- }*/
+ }
+
+@keyframes navbar_hover_2{
+	0% {color: white;}
+	100% {color: #00e6b8;}
+}
+@keyframes -moz-navbar_hover_2{
+	0% {color: white;}
+	100% {color: #00e6b8;}
+}
+@keyframes -webkit-navbar_hover_2{
+	0% {color: white;}
+	100% {color: #00e6b8;}
+}
+
+@keyframes title_entry{
+	0% {
+		transform: translateY(4vw);
+		opacity: 0;
+	}
+	70% {
+		transform: translateY(4vw);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes -moz-title_entry{
+	0% {
+		transform: translateY(4vw);
+		opacity: 0;
+	}
+	70% {
+		transform: translateY(4vw);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes -webkit-title_entry{
+	0% {
+		transform: translateY(4vw);
+		opacity: 0;
+	}
+	70% {
+		transform: translateY(4vw);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes quicklink_hover{
+	0% {background: rgba(0,0,0,0.3);}
+	100% {background: rgba(0,0,0,0.6);}
+}
+@keyframes -moz-quicklink_hover{
+	0% {background: rgba(0,0,0,0.3);}
+	100% {background: rgba(0,0,0,0.6);}
+}
+@keyframes -webkit-quicklink_hover{
+	0% {background: rgba(0,0,0,0.3);}
+	100% {background: rgba(0,0,0,0.6);}
+}
+
+@keyframes about_hover {
+	from { color: rgba(255, 255, 255, 0.7); background: rgba(0, 0, 0, 0.1); }
+	to   { color: white; background: rgba(0, 0, 0, 0.2); }
+}
