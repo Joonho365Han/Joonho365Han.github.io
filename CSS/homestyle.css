@@ -114,7 +114,7 @@ h2, h3, h4{
 }
 
 h2 {
-    font: 2vw 'Open Sans', 'Poiret One', sans-serif;
+    font: 3vw 'Open Sans', 'Poiret One', sans-serif;
     font-weight: 800;
 }
 
@@ -274,7 +274,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .links_title > h3 {
     font: 1.2em 'Poiret One','Julius Sans One',sans-serif;
-	padding-top: 25px;
+	padding-top: 40px;
 	padding-bottom: 10px;
 	color: white;
 }
