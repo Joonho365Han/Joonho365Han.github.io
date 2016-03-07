@@ -216,9 +216,8 @@ header { /* In home page, this is the slideshow and header, not just header. */
 }
 
 .links > li > a {
-    font: 3em 'Open Sans', 'Poiret One', sans-serif;
-    font-size: calc(1em + 2vw);
-    font-weight: 600;
+    font: 3vw 'Open Sans', 'Poiret One', sans-serif;
+    font-weight: 400;
 	color: white;
 	display: block;
 	text-decoration: none;
@@ -227,7 +226,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	height: 100%;
 	line-height: 100%;
 	width: 100%;
-	padding-top: 33%;
+	padding-top: 32%;
 }
 
 .bkg_type1 {
