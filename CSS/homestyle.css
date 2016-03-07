@@ -224,7 +224,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	background: white;
 	width: 100vw;
 	text-align: center;
-	padding: 3vw;
+	padding: 5vh 30vw;
 }
 
 #about h2, #about h3, #about h4{
