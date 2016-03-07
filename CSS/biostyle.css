@@ -37,11 +37,23 @@ h4 {
 
 .education{
 	background: url("/img/bio/bu_campus.png");
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
 }
 
 .education a {
 	display: block;
-	height: 5vw;
+	height: 10vw;
 	width: 10vw;
 	background: url("/img/bio/bu_logo.png");
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
 }
