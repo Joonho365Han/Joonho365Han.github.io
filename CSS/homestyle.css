@@ -267,15 +267,15 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .links_title {
 	height: 100px;
+	padding-top: 20px;
 	width: 100vw;
 	background: #444;
-	text-align: center;;
+	text-align: center;
 }
 
 .links_title > h3 {
     font: 1.2em 'Poiret One','Julius Sans One',sans-serif;
     height: 30px;
-	padding-top: 20px;
 	color: white;
 }
 
