@@ -36,7 +36,6 @@
 h2, h3, h4{
 	overflow: auto;
 	color: white;
-	padding: 1vw;
 }
 
 h2 {
@@ -166,6 +165,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 #about h2, #about h3, #about h4{
 	color: #444;
+	padding: 1vw;
 }
 
 #about h2 {
@@ -249,7 +249,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	width: 100%;
 	margin: 0 auto;
 	padding: 3vw;
-	padding-top: 20%;
+	padding-top: 25%;
 }
 
 .headshot, .bkg_type1, .bkg_type2, .bkg_type3 {
