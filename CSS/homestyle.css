@@ -43,22 +43,36 @@ h2, h3, h4{
 }
 
 h3 {
-	font-size: 1.6vw;
+    font: 1.6vw sans-serif;
     font-size: calc(0.8em + 0.6vw);
     font-weight: 600;
 }
 
 h4 {
-	font-size: 1vw;
+    font: 1vw sans-serif;
     font-size: calc(0.6em + 0.5vw);
     font-weight: 400;
 }
 
-header { /* In home page, this is the slideshow and header, not just header. */
+header, .slideshow, .slideshow_2 {
 	height: 100vh;
 	width: 100vw;
 	position: relative;
 	background: none;
+}
+
+.slideshow, .slideshow_2 {
+	position: absolute;
+	animation: slides 30s linear infinite;
+	-moz-animation: slides 30s linear infinite;
+	-webkit-animation: slides 30s linear infinite;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+
+.slideshow_2 {
+	animation: slidesTwo 30s linear infinite;
+	-moz-animation: slidesTwo 30s linear infinite;
+	-webkit-animation: slidesTwo 30s linear infinite;
 }
 
 .nav_bar a {
@@ -73,37 +87,18 @@ header { /* In home page, this is the slideshow and header, not just header. */
  	animation-duration: 0.2s;
 }
 
-.slideshow, .slideshow_2 {
-	position: absolute;
-	height: 100vh;
-	width: 100vw;
-	animation: slides 30s linear infinite;
-	-moz-animation: slides 30s linear infinite;
-	-webkit-animation: slides 30s linear infinite;
-	-webkit-transform: translate3d(0, 0, 0);
-}
-
-.slideshow_2 {
-	animation: slidesTwo 30s linear infinite;
-	-moz-animation: slidesTwo 30s linear infinite;
-	-webkit-animation: slidesTwo 30s linear infinite;
-}
-
 .home_header{
     background: none;
     height: 50px;
     width: 100%;
     text-align: center;
     position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .title {
     width: 100%;
     position: absolute;
     top: 40%;
-    left: 0;
 }
 
 .title > h1{ 
