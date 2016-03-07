@@ -275,7 +275,6 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .links_title > h3 {
     font: 1.2em 'Poiret One','Julius Sans One',sans-serif;
-    height: 30px;
 	color: white;
 }
 
