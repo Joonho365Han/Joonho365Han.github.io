@@ -217,7 +217,7 @@ header { /* In home page, this is the slideshow and header, not just header. */
 
 .links > li > a {
     font: 3.3vw 'Open Sans', 'Poiret One', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
 	color: white;
 	display: block;
 	text-decoration: none;
