@@ -195,19 +195,25 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	margin: 0 auto;
 }
 
- .links > li, .link_bkgs > li {
-	list-style: none;
-	text-align: center;
-	float: left;
-	height: 25vw;
-	width: 33.3%;
-	width: calc(100% / 3);
-}
-
 .links{
 	height: 25vw;
 	width: 100vw;
 	background: none;
+}
+
+.link_bkgs {
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+}
+
+ .links > li, .link_bkgs > li {
+	list-style: none;
+	text-align: center;
+	float: left;
+	height: 100%;
+	width: 33.3%;
+	width: calc(100% / 3);
 }
 
 .links > li {
@@ -229,13 +235,8 @@ header { /* In home page, this is the slideshow and header, not just header. */
 	text-align: center;
 	height: 100%;
 	width: 100%;
-	vertical-align: middle;
-}
-
-.link_bkgs {
-	position: fixed;
-	height: 100vh;
-	width: 100vw;
+	padding: 3vw;
+	padding-top: 25%;
 }
 
 .bkg_type1 {
