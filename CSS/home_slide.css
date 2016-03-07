@@ -1,30 +1,39 @@
 @keyframes slides {
  	0% { 
  		opacity: 1;
-	background: url("/img/home/home_slide1.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
+		background: url("/img/home/home_slide1.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
  	}
  	13.7% {
  		opacity: 1;
-	background: url("/img/home/home_slide1.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
+		background: url("/img/home/home_slide1.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
  	}
  	16.7% { 
  		opacity: 0;
+		background: url("/img/home/home_slide1.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
  	}
  	30.3% {
  		opacity: 0;
@@ -40,21 +49,39 @@
  	}
  	33.3% { 
  		opacity: 1;
+		background: url("/img/home/home_slide3.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
  	}
  	47% { 
  		opacity: 1;
-	background: url("/img/home/home_slide3.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
+		background: url("/img/home/home_slide3.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
  	}
  	50% { 
  		opacity: 0;
+		background: url("/img/home/home_slide3.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
  	}
  	63.7% { 
  		opacity: 0;
@@ -70,21 +97,39 @@
  	}
  	66.7% {
  		opacity: 1;
+		background: url("/img/home/home_slide2.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
  	}
  	80.3% { 
  		opacity: 1;
-	background: url("/img/home/home_slide2.png");
-	
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
+		background: url("/img/home/home_slide2.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
  	}
  	83.3% {
  		opacity: 0;
+		background: url("/img/home/home_slide2.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
  	}
  	97% { 
  		opacity: 0;
@@ -100,6 +145,15 @@
  	}
  	100% { 
  		opacity: 1;
+		background: url("/img/home/home_slide1.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
  	}
  }
 @-webkit-keyframes slides {
@@ -129,21 +183,39 @@
  	}
  	16.7% { 
  		opacity: 0;
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	30.3% {
  		opacity: 0;
-		background: url("/img/home/home_slide3.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	33.3% { 
  		opacity: 1;
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	47% { 
  		opacity: 1;
@@ -159,21 +231,39 @@
  	}
  	50% { 
  		opacity: 0;
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	63.7% { 
  		opacity: 0;
-		background: url("/img/home/home_slide2.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	66.7% {
  		opacity: 1;
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	80.3% { 
  		opacity: 1;
@@ -189,21 +279,39 @@
  	}
  	83.3% {
  		opacity: 0;
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	97% { 
  		opacity: 0;
-		background: url("/img/home/home_slide1.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	100% { 
  		opacity: 1;
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  }
 @-moz-keyframes slides {
@@ -233,21 +341,39 @@
  	}
  	16.7% { 
  		opacity: 0;
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	30.3% {
  		opacity: 0;
-		background: url("/img/home/home_slide3.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	33.3% { 
  		opacity: 1;
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	47% { 
  		opacity: 1;
@@ -263,21 +389,39 @@
  	}
  	50% { 
  		opacity: 0;
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	63.7% { 
  		opacity: 0;
-		background: url("/img/home/home_slide2.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	66.7% {
  		opacity: 1;
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	80.3% { 
  		opacity: 1;
@@ -293,10 +437,178 @@
  	}
  	83.3% {
  		opacity: 0;
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  	97% { 
  		opacity: 0;
-		background: url("/img/home/home_slide1.png");
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	100% { 
+ 		opacity: 1;
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ }
+
+ @keyframes slidesTwo {
+ 	0% { 
+ 		opacity: 0;
+		background: url("/img/home/home_s3ide1.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
+ 	}
+ 	13.7% {
+ 		opacity: 0;
+		background: url("/img/home/home_s2ide1.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
+ 	}
+ 	16.7% { 
+ 		opacity: 1;
+		background: url("/img/home/home_s2ide1.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
+ 	}
+ 	30.3% {
+ 		opacity: 1;
+		background: url("/img/home/home_s2ide3.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
+ 	}
+ 	33.3% { 
+ 		opacity: 0;
+		background: url("/img/home/home_s2ide3.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
+ 	}
+ 	47% { 
+ 		opacity: 0;
+		background: url("/img/home/home_s1ide3.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
+ 	}
+ 	50% { 
+ 		opacity: 1;
+		background: url("/img/home/home_s1ide3.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
+ 	}
+ 	63.7% { 
+ 		opacity: 1;
+		background: url("/img/home/home_s1ide2.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
+ 	}
+ 	66.7% {
+ 		opacity: 0;
+		background: url("/img/home/home_s1ide2.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
+ 	}
+ 	80.3% { 
+ 		opacity: 0;
+		background: url("/img/home/home_s3ide2.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
+ 	}
+ 	83.3% {
+ 		opacity: 1;
+		background: url("/img/home/home_s3ide2.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
+ 	}
+ 	97% { 
+ 		opacity: 1;
+		background: url("/img/home/home_s3ide1.png");
 		
 		background-size: cover;
 		-moz-background-size: cover;
@@ -307,7 +619,332 @@
 		-webkit-background-position: center;
  	}
  	100% { 
+ 		opacity: 0;
+		background: url("/img/home/home_s3ide1.png");
+		
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		
+		background-position: center;
+		-moz-background-position: center;
+		-webkit-background-position: center;
+ 	}
+ }
+@-webkit-keyframes slidesTwo {
+ 	0% { 
+ 		opacity: 0;
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	13.7% {
+ 		opacity: 0;
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	16.7% { 
  		opacity: 1;
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	30.3% {
+ 		opacity: 1;
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	33.3% { 
+ 		opacity: 0;
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	47% { 
+ 		opacity: 0;
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	50% { 
+ 		opacity: 1;
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	63.7% { 
+ 		opacity: 1;
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	66.7% {
+ 		opacity: 0;
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	80.3% { 
+ 		opacity: 0;
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	83.3% {
+ 		opacity: 1;
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	97% { 
+ 		opacity: 1;
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	100% { 
+ 		opacity: 0;
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ }
+@-moz-keyframes slidesTwo {
+ 	0% { 
+ 		opacity: 0;
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	13.7% {
+ 		opacity: 0;
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	16.7% { 
+ 		opacity: 1;
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	30.3% {
+ 		opacity: 1;
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	33.3% { 
+ 		opacity: 0;
+	background: url("/img/home/home_slide2.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	47% { 
+ 		opacity: 0;
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	50% { 
+ 		opacity: 1;
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	63.7% { 
+ 		opacity: 1;
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	66.7% {
+ 		opacity: 0;
+	background: url("/img/home/home_slide1.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	80.3% { 
+ 		opacity: 0;
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	83.3% {
+ 		opacity: 1;
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	97% { 
+ 		opacity: 1;
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
+ 	}
+ 	100% { 
+ 		opacity: 0;
+	background: url("/img/home/home_slide3.png");
+	
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	
+	background-position: center;
+	-moz-background-position: center;
+	-webkit-background-position: center;
  	}
  }
 
