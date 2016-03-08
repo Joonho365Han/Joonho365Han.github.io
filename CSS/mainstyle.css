@@ -53,7 +53,6 @@ a {
 
 h2, h3, h4{
     font: 3em 'Open Sans', 'Poiret One', sans-serif;
-    font-size: calc(1em + 2vw);
     font-weight: 800;
 	color: #444;
 	padding: 1vw;
@@ -61,13 +60,11 @@ h2, h3, h4{
 
 h3 {
     font-size: 1.6vw;
-    font-size: calc(0.7em + 1vw);
     font-weight: 400;
 }
 
 h4 {
     font: 1vw Merriweather, serif;
-    font-size: calc(0.5em + 0.5vw);
 }
 
 header, .slideshow, .slideshow_2 {
