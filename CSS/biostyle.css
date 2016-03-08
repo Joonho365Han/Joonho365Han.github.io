@@ -2,6 +2,10 @@ h2, h3, h4 {
     color: white;
 }
 
+h2{
+	font-size: 2em;
+}
+
 .intro,
 .education,
 .skills,
@@ -43,7 +47,7 @@ h2, h3, h4 {
 }
 
 .education > div{
-	width: 100%;
+	width: 60%;
 	margin: 0 auto;
 }
 
