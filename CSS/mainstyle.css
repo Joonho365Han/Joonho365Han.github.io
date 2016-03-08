@@ -34,6 +34,17 @@ body {
 	padding-top: 50px; /* For Fixed menu bar */
 }
 
+ul {
+	width: 100vw;
+    margin: 0 auto;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	float: left;
+}
+
 h2, h3, h4{
     font: 3em 'Open Sans', 'Poiret One', sans-serif;
     font-size: calc(1em + 2vw);
@@ -60,12 +71,6 @@ header, .slideshow, .slideshow_2 {
 	background: none;
 }
 
-li {
-	list-style: none;
-	text-align: center;
-	float: left;
-}
-
 header {
     background: white;
     height: 50px;
@@ -80,7 +85,6 @@ header {
 .nav_bar {
     max-width: 600px; /* Minimum width for the buttons. */
     position: relative; /*This nav bar is the position origin for all others*/
-    margin: 0 auto;
 }
 
 .nav_bar > li { /*Nav Bar Items (including mega drop down menu)*/
@@ -123,7 +127,6 @@ footer h6 {
 .quick_links {
 	max-width: 180px;
 	height: 100px;
-	margin: 0 auto;
 }
 
 .quick_links li {

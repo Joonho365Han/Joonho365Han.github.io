@@ -146,14 +146,12 @@ header, .slideshow, .slideshow_2 {
 
 .links{
 	height: 25vw;
-	width: 100vw;
 	background: none;
 }
 
 .link_bkgs {
-	position: fixed;
 	height: 100vh;
-	width: 100vw;
+	position: fixed;
 }
 
  .links > li, .link_bkgs > li {
