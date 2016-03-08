@@ -17,6 +17,7 @@ h2, h3, h4 {
 
 .intro img {
 	float: left;
+	clear: bottom;
 	padding: 0 5vw 5vw 0;
 }
 
