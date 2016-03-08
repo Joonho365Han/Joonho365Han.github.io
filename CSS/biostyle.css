@@ -61,6 +61,14 @@ h2, h3, h4 {
 	-webkit-background-position: center;
 }
 
+.skills {
+	background: #33d6ff;
+}
+
+.experience {
+	background: #33ffad;
+}
+
 .section_title {
 	height: 100px;
 	width: 100vw;
