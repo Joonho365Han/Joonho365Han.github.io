@@ -30,6 +30,8 @@ h2, h3, h4 {
 }
 
 .education{
+	min-height: 32vw;
+
 	background: url("/img/bio/bu_campus.png");
 	background-size: cover;
 	-moz-background-size: cover;
@@ -39,10 +41,12 @@ h2, h3, h4 {
 	-webkit-background-position: center;
 }
 
-.education a {
+.bu_logo {
 	display: block;
 	height: 20vw;
 	width: 20vw;
+	padding: 0 5vw 5vw 0;
+	float: left;
 	background: url("/img/bio/bu_seal.png");
 	background-size: cover;
 	-moz-background-size: cover;
@@ -64,6 +68,7 @@ h2, h3, h4 {
 	width: 100vw;
 	padding-top: 1vw;
 	text-align: center;
+	float: top;
 }
 
 .section_title > div {
