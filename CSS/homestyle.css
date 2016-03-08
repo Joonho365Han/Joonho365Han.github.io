@@ -121,7 +121,7 @@ header, .slideshow, .slideshow_2 {
 }
 
 #about * {
-	width: 80wv;
+	width: 80vw;
 	max-width: 700px;
 	margin: 0 auto;
 }
