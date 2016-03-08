@@ -46,11 +46,6 @@ h2{
 	-webkit-background-position: center;
 }
 
-.education > div{
-	width: 60%;
-	margin: 0 auto;
-}
-
 .bu_logo {
 	display: block;
 	height: 15vw;
@@ -64,6 +59,11 @@ h2{
 	background-position: center;
 	-moz-background-position: center;
 	-webkit-background-position: center;
+}
+
+.bu_detail{
+	width: 60%;
+	margin: 0 auto;
 }
 
 .skills {
