@@ -25,17 +25,16 @@ h2, h3, h4 {
 .education,
 .skills,
 .experience {
+	width: 100%;
 	padding: 6vw;
 }
 
 .intro_section > ul{
-	padding: 3vw;
-	width: 100%;
+	width: 100vw;
 }
 
 .intro_paragraph{
 	width: 60%;
-	margin: 0 auto;
 }
 
 .facts {
