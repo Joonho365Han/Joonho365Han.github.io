@@ -136,12 +136,11 @@ footer h6 {
 .quick_links li {
 	position: relative;
 	width: 33.3%;
-	padding: 30px 5px;
 }
 
 .quick_links a {
-	line-height: 40px;
-	height: 40px;
+	line-height: 100px;
+	height: 100px;
 }
 
 .quick_links > li > a > img {
