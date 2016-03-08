@@ -139,6 +139,7 @@ footer h6 {
 }
 
 .quick_links a {
+	padding: 30px 5px;
 	line-height: 100px;
 	height: 100px;
 }
