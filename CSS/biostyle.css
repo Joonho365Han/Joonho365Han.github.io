@@ -8,11 +8,13 @@ h2{
 .experience {
 	width: 100%;
 	min-width: 800px;
+	border-top: 1px solid #999;
 }
 
 .intro {
 	min-height: 40vh;
 	min-height: calc(270px + 12vw);
+	border: none;
 }
 
 .intro img {
@@ -32,7 +34,6 @@ h2{
 
 .education{
 	min-height: 32vw;
-	border-top: 1px solid black;
 }
 
 .bu_logo {
@@ -56,11 +57,9 @@ h2{
 }
 
 .skills {
-	border-top: 1px solid black;
 }
 
 .experience {
-	border-top: 1px solid black;
 }
 
 .section_title {
