@@ -63,12 +63,13 @@ h3{
 }
 
 .skills {
+	min-height: 4vh;
 }
 
 .experience {
+	min-height: 4vh;
 }
 
 .section_title {
 	padding: 12px;
-	margin: 0 auto;
 }
