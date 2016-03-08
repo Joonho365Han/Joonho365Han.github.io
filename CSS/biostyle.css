@@ -49,7 +49,7 @@ h2{
 .bu_logo {
 	display: block;
 	height: 15vw;
-	width: 15vw;
+	width: 15%;
 	margin: 0 5vw 5vw 20vw;
 	float: left;
 	background: url("/img/bio/bu_seal.png");
@@ -75,7 +75,7 @@ h2{
 }
 
 .section_title {
-	width: 100vw;
+	width: 100%;
 	padding-top: 1vw;
 	text-align: center;
 	float: top;
