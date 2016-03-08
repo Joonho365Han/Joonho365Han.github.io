@@ -4,6 +4,10 @@ h2{
 	letter-spacing: 0.3em;
 }
 
+h3{
+    font: 1.6em Merriweather, serif;
+}
+
 .intro,
 .education,
 .skills,
