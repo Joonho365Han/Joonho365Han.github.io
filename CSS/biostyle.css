@@ -1,20 +1,5 @@
 h2, h3, h4 {
-    font: 2.2em 'Open Sans',sans-serif;
-    font-size: calc(0.9em + 1.2vw);
-    font-weight: 800;
     color: gray;
-	padding: 1vw;
-}
-
-h3 {
-    font-size: 1.6vw;
-    font-size: calc(0.7em + 1vw);
-    font-weight: 400;
-}
-
-h4 {
-    font: 1vw Merriweather, serif;
-    font-size: calc(0.5em + 0.5vw);
 }
 
 .section_title {

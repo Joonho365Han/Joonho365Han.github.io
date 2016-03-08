@@ -33,26 +33,6 @@
 	transform: translateZ(0);
 }
 
-h2, h3, h4{
-    font: 3em 'Open Sans', 'Poiret One', sans-serif;
-    font-size: calc(1em + 2vw);
-    font-weight: 800;
-	overflow: auto;
-	color: #444;
-	padding: 1vw;
-}
-
-h3 {
-    font-size: 1.6vw;
-    font-size: calc(0.7em + 1vw);
-    font-weight: 400;
-}
-
-h4 {
-    font: 1vw Merriweather, serif;
-    font-size: calc(0.5em + 0.5vw);
-}
-
 header, .slideshow, .slideshow_2 {
 	height: 100vh;
 	width: 100vw;
