@@ -41,11 +41,16 @@ h2, h3, h4 {
 	-webkit-background-position: center;
 }
 
+.education > div{
+	width: 100%;
+	margin: 0 auto;
+}
+
 .bu_logo {
 	display: block;
 	height: 20vw;
 	width: 20vw;
-	padding: 0 5vw 5vw 0;
+	margin: 0 5vw 5vw 0;
 	float: left;
 	background: url("/img/bio/bu_seal.png");
 	background-size: cover;
