@@ -25,12 +25,12 @@ h2, h3, h4 {
 .education,
 .skills,
 .experience {
-	width: 100vw;
 	padding: 6vw;
 }
 
-.intro_section{
+.intro_section > ul{
 	padding: 3vw;
+	width: 100%;
 }
 
 .intro_paragraph{
