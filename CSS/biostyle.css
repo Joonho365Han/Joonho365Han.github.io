@@ -15,29 +15,12 @@ h2, h3, h4 {
 	background: green;
 }
 
-.intro > div {
-	position: absolute;
-	height: 100%;
+.intro img {
+	float: left;
+}
+
+.intro h4{
 	padding: 6vw;
-}
-
-.headshot {
-	left: 0;
-	top: 0;
-	max-width: 420px;
-	background: url("/img/bio/headshot.png");
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
-}
-
-.intro_paragraph{
-	right: 0;
-	max-width: 60%;
-	max-width: calc(100% - 420px);
 	background: rgba(255,255,255,0.5);
 	margin: 0 auto;
 }
