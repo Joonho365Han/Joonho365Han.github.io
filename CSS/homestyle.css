@@ -123,6 +123,7 @@ header, .slideshow, .slideshow_2 {
 #about * {
 	width: 75vw;
 	max-width: 750px;
+	max-width: calc(10vw + 600px);
 	margin: 0 auto;
 }
 
