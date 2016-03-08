@@ -45,6 +45,12 @@ li {
 	float: left;
 }
 
+a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+
 h2, h3, h4{
     font: 3em 'Open Sans', 'Poiret One', sans-serif;
     font-size: calc(1em + 2vw);
@@ -93,10 +99,8 @@ header {
 }
 
 .nav_bar a{ /* All NavBar links */
-	display: block;
     font: 1.1em Abel,sans-serif;
     color: #444;
-    text-decoration: none;
     line-height: 50px; /*This vertically centers the anchors*/
     height: 50px; /* This limits the height so it fits inside the nav bar */
 }

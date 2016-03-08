@@ -97,14 +97,11 @@ header, .slideshow, .slideshow_2 {
 
 .about_button > a {
     font: 1.3em 'Poiret One',sans-serif;
-	text-decoration: none;
-	text-align: center;
 	line-height: 38px;
 	height: 40px;
 	width: 160px;
 	color: rgba(255, 255, 255, 0.7);
 	background: rgba(0, 0, 0, 0.1);
-	display: block;
 	margin: 0 auto;
 	border-radius: 20px;
 }
@@ -178,9 +175,6 @@ header, .slideshow, .slideshow_2 {
     font: 3.3vw 'Open Sans', sans-serif;
     font-weight: 400;
 	color: white;
-	display: block;
-	text-decoration: none;
-	text-align: center;
 	letter-spacing: 0.4vw;
 	height: 100%;
 	line-height: 100%;
