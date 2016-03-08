@@ -69,15 +69,7 @@ h3{
 }
 
 .section_title {
-	width: 100%;
 	padding-top: 1vw;
-	text-align: center;
 	float: top;
-}
-
-.section_title > div {
-	border: 2px solid white;
-	border-radius: 2px;
-	width: 80px;
 	margin: 0 auto;
 }
