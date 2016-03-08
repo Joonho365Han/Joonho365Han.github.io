@@ -117,7 +117,12 @@ header, .slideshow, .slideshow_2 {
 	background: white;
 	width: 100vw;
 	text-align: justify;
-	padding: 6vh 27vw 15vh 27vw;
+	padding: 6vh auto 15vh auto;
+}
+
+#about * {
+	width: 80wv;
+	max-width: 700px;
 }
 
 .links_title {
