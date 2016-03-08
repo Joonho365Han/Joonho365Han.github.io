@@ -33,9 +33,17 @@ h2, h3, h4 {
 	width: 100vw;
 }
 
+.headshot {
+	width: 100vw;
+	height: 100vw;
+	max-width: 420px;
+	max-height: 420px;
+}
+
 .intro_paragraph{
 	width: 60%;
 	background: #777;
+	margin: 0 auto;
 }
 
 .facts {
