@@ -30,7 +30,6 @@ body {
 .wrapper{
 	font-size: 1.6em;
 	margin: 0 auto; /* Automatically centers item */
-	width: 100vw;
 	padding-top: 50px; /* For Fixed menu bar */
 }
 
