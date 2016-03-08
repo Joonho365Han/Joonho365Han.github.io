@@ -43,14 +43,13 @@ h2, h3, h4 {
 
 .education > div{
 	width: 100%;
-	margin: 0 auto;
 }
 
 .bu_logo {
 	display: block;
-	height: 20vw;
-	width: 20vw;
-	margin: 0 5vw 5vw 0;
+	height: 15vw;
+	width: 15vw;
+	margin: 0 5vw 5vw 20vw;
 	float: left;
 	background: url("/img/bio/bu_seal.png");
 	background-size: cover;
