@@ -66,6 +66,10 @@ h3{
 	min-height: 40vh;
 }
 
+.skills li{
+	width: 25%;
+}
+
 .experience {
 	min-height: 40vh;
 }
