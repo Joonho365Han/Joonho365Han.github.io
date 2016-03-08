@@ -2,31 +2,13 @@ h2, h3, h4 {
     color: gray;
 }
 
-.section_title {
-	height: 100px;
-	width: 100vw;
-	padding-top: 15px;
-	text-align: center;
-}
-
-.section_title > h2 {
-	padding: 0;
-
-}
-
-.section_title > div {
-	border: 2px solid #3cc;
-	border-radius: 2px;
-	width: 80px;
-	margin: 0 auto;
-}
-
 .intro_section,
 .education,
 .skills,
 .experience {
 	width: 100%;
 	padding: 6vw;
+	min-width: 40vh;
 }
 
 .intro_section {
@@ -74,4 +56,23 @@ h2, h3, h4 {
 	background-position: center;
 	-moz-background-position: center;
 	-webkit-background-position: center;
+}
+
+.section_title {
+	height: 100px;
+	width: 100vw;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.section_title > h2 {
+	padding: 0;
+
+}
+
+.section_title > div {
+	border: 2px solid #3cc;
+	border-radius: 2px;
+	width: 80px;
+	margin: 0 auto;
 }
