@@ -1,7 +1,3 @@
-h2, h3, h4 {
-    color: white;
-}
-
 h2{
 	font-size: 2em;
 }
@@ -36,14 +32,7 @@ h2{
 
 .education{
 	min-height: 32vw;
-
-	background: url("/img/bio/bu_campus.png");
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
+	border-top: 1px solid black;
 }
 
 .bu_logo {
@@ -67,11 +56,11 @@ h2{
 }
 
 .skills {
-	background: #bbb;
+	border-top: 1px solid black;
 }
 
 .experience {
-	background: #888;
+	border-top: 1px solid black;
 }
 
 .section_title {
