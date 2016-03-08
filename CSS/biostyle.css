@@ -10,7 +10,6 @@ h2, h3, h4 {
 }
 
 .intro {
-	background: green;
 	min-height: 40vh;
 	min-height: calc(270px + 12vw);
 }
@@ -23,6 +22,7 @@ h2, h3, h4 {
 
 .intro h4{
 	padding: 6vw;
+	color: #222;
 }
 
 .facts {
