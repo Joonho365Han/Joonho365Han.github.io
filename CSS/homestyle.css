@@ -161,7 +161,6 @@ header, .slideshow, .slideshow_2 {
  .links > li, .link_bkgs > li {
 	height: 100%;
 	width: 33.3%;
-	width: calc(100% / 3);
 }
 
 .links > li {
