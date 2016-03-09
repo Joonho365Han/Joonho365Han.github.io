@@ -83,11 +83,9 @@ header, .slideshow, .slideshow_2 {
 }
 
 .title > h1{ 
-    font: 7vw Abel, serif;
-    font-size: calc(5vw + 2.8em);
+    font: 20vh Abel, serif;
     font-weight: 900;
-    height: 7vw;
-    height: calc(3.5vw + 4em);
+    height: 20vh;
     color: white;
     width: 100%;
   	animation-name: title_entry;
