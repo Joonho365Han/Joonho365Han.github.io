@@ -1,14 +1,3 @@
-h3{
-    font: 1em Merriweather, serif;
-    color: #999;
-    padding: 1vw 0 0 0;
-}
-
-h4{
-	text-align: justify;
-    padding: 0 0 2vw 0;
-}
-
 .intro {
 	width: 80vw;
 	max-width: 850px;
@@ -19,7 +8,18 @@ h4{
 }
 
 .intro div {
-	padding-right: 3vw;
-	padding-bottom: 3vw;
+	padding-right: 2vw;
+	padding-bottom: 2vw;
 	float: left;
+}
+
+h3{
+    font: 1em Merriweather, serif;
+    color: #999;
+    padding: 1vw 0 0 0;
+}
+
+h4{
+	text-align: justify;
+    padding: 0 0 2vw 0;
 }
