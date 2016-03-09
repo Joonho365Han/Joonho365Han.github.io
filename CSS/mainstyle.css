@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300|Abel|Poiret+One|Open+Sans:400,800');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300|Abel|Poiret+One|Open+Sans:400,600');
 
 @keyframes navbar_hover{
 	0% {color: #444;}
@@ -52,7 +52,7 @@ a {
 
 h2, h3, h4{
     font: 2.8em 'Open Sans', 'Poiret One', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
 	color: #444;
 	padding: 1vw;
 }
