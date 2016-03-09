@@ -8,20 +8,11 @@ h3{
     font: 1.6em Merriweather, serif;
 }
 
-.intro,
-.education,
-.skills,
-.experience {
-	width: 100%;
-	min-width: 800px;
-	border-top: 1px solid #999;
-	background: white;
-}
-
 .intro {
-	min-height: 40vh;
-	min-height: calc(270px + 12vw);
-	border: none;
+	width: 75vw;
+	max-width: 750px;
+	max-width: calc(25vw + 375px);
+	margin: 0 auto;
 }
 
 .intro img {
@@ -33,58 +24,4 @@ h3{
 .intro h4{
 	padding: 6vw;
 	color: #222;
-}
-
-.facts {
-	width: 100%;
-}
-
-.education{
-	min-height: 400px;
-	min-height: calc(280px + 10vw);
-}
-
-.bu_logo {
-	display: block;
-	height: 280px;
-	width: 280px;
-	margin: 0 5vw 5vw 20vw;
-	float: left;
-	clear: bottom;
-	background: url("/img/bio/bu_seal.png");
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
-}
-
-.bu_detail{
-	width: 60%;
-	margin: 0 auto;
-}
-
-.skills {
-	min-height: 40vh;
-}
-
-.skills li{
-	width: 25%;
-}
-
-.experience {
-	min-height: 40vh;
-}
-
-.experience > div > div {
-	width: 30%;
-}
-
-.experience > div > h4{
-	
-}
-
-.section_title {
-	padding: 12px;
 }
