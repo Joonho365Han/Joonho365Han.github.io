@@ -13,6 +13,7 @@ h4{
 	max-width: 750px;
 	max-width: calc(35vw + 375px);
 	margin: 0 auto;
+	overflow: auto;
 }
 
 .intro div {
