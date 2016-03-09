@@ -67,9 +67,19 @@ header, .slideshow, .slideshow_2 {
 }
 
 .title {
-    width: 100%;
     position: absolute;
-    top: 35%;
+}
+
+.name {
+	left: 0;
+	top: 50px;
+	text-align: left;
+}
+
+.job {
+	right: 0;
+	bottom: 0;
+	text-align: right;
 }
 
 .title > h1{ 
