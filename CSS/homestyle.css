@@ -86,7 +86,8 @@ header, .slideshow, .slideshow_2 {
     font: 7vw Abel, serif;
     font-size: calc(5vw + 2.8em);
     font-weight: 800;
-    height: 8vw;
+    height: 7vw;
+    height: calc(5vw + 2.8em);
     color: white;
     width: 100%;
   	animation-name: title_entry;
