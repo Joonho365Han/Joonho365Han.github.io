@@ -1,16 +1,17 @@
 h3{
     font: 1em Merriweather, serif;
     color: #999;
-    padding: 3vw 0 0 0;
+    padding: 1vw 0 0 0;
 }
 
 h4{
 	padding: 3vw;
+	text-align: justify;
 }
 
 .intro {
 	width: 80vw;
-	max-width: 750px;
+	max-width: 850px;
 	max-width: calc(35vw + 375px);
 	margin: 0 auto;
 	overflow: auto;
