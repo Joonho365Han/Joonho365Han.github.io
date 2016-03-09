@@ -1,6 +1,11 @@
 h3{
     font: 1em Merriweather, serif;
     color: #999;
+    padding-top: 3vw;
+}
+
+h4{
+	padding: 3vw;
 }
 
 .intro {
@@ -11,11 +16,6 @@ h3{
 }
 
 .intro div {
-	height: 100%;
-	padding: 6vw;
+	padding: 3vw;
 	float: left;
-}
-
-.intro h4{
-	padding: 6vw;
 }
