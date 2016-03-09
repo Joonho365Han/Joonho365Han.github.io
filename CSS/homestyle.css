@@ -69,12 +69,12 @@ header, .slideshow, .slideshow_2 {
 .title {
     width: 100%;
     position: absolute;
-    top: 40%;
+    top: 35%;
 }
 
 .title > h1{ 
-    font: 7vw 'Open Sans', 'Poiret One', serif;
-    font-size: calc(5vw + 2em);
+    font: 6vw 'Open Sans', 'Poiret One', serif;
+    font-size: calc(4.5vw + 1.8em);
     font-weight: 800;
     color: white;
     width: 100%;
