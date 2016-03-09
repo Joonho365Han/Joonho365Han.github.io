@@ -84,7 +84,7 @@ header, .slideshow, .slideshow_2 {
 
 .title > h1{ 
     font: 7vw Abel, serif;
-    font-size: calc(4.5vw + 1.5em);
+    font-size: calc(4.5vw + 2.5em);
     font-weight: 800;
     color: white;
     width: 100%;
