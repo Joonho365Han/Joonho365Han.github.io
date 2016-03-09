@@ -78,13 +78,13 @@ header, .slideshow, .slideshow_2 {
 
 .job {
 	right: 3vw;
-	bottom: 86px;
+	bottom: 80px;
 	text-align: right;
 }
 
 .title > h1{ 
-    font: 6vw Abel, serif;
-    font-size: calc(4.5vw + 1em);
+    font: 7vw Abel, serif;
+    font-size: calc(4.5vw + 1.5em);
     font-weight: 800;
     color: white;
     width: 100%;
