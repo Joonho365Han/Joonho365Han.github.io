@@ -11,13 +11,16 @@ h3{
 .intro {
 	width: 75vw;
 	max-width: 750px;
-	max-width: calc(25vw + 375px);
+	max-width: calc(35vw + 375px);
 	margin: 0 auto;
 }
 
-.intro img {
+.intro div {
+	height: 100%;
 	float: left;
-	clear: bottom;
+}
+
+.intro img{
 	padding: 6vw 50px 50px 6vw;
 }
 
