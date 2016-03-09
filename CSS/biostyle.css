@@ -39,7 +39,8 @@ h3{
 }
 
 .education{
-	min-height: 32vw;
+	min-height: 400px;
+	min-height: calc(280px + 10vw)
 }
 
 .bu_logo {
@@ -48,6 +49,7 @@ h3{
 	width: 280px;
 	margin: 0 5vw 5vw 20vw;
 	float: left;
+	clear: bottom;
 	background: url("/img/bio/bu_seal.png");
 	background-size: cover;
 	-moz-background-size: cover;
@@ -72,6 +74,14 @@ h3{
 
 .experience {
 	min-height: 40vh;
+}
+
+.experience > div > div {
+	width: 30%;
+}
+
+.experience > div > h4{
+	
 }
 
 .section_title {
