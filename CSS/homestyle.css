@@ -71,14 +71,14 @@ header, .slideshow, .slideshow_2 {
 }
 
 .name {
-	left: 0;
+	left: 3vw;
 	top: 50px;
 	text-align: left;
 }
 
 .job {
-	right: 0;
-	bottom: 0;
+	right: 3vw;
+	bottom: 86px;
 	text-align: right;
 }
 
