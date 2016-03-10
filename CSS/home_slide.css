@@ -770,14 +770,12 @@
 		visibility: visible;
 		transform: translateY(4vw);
 		opacity: 0;
-		background: gray;
-		position: fixed;
+		color: #333;
 	}
 	100% {
 		transform: translateY(0);
 		opacity: 1;
-		background: none;
-		position: absolute;
+		color: #333;
 	}
 }
 

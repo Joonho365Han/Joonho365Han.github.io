@@ -9,10 +9,7 @@
 	height: 100vh;
 	overflow-x: hidden;
 	overflow-y: auto;
-	-moz-animation: opening_sequence_body;
-	-webkit-animation: opening_sequence_body;
-	animation: opening_sequence_body;
- 	animation-duration: 4s;
+	visibility: hidden;
 }
 
 .parallax_set {
@@ -47,9 +44,15 @@ header, .slideshow, .slideshow_2 {
 
 .slideshow, .slideshow_2 {
 	position: absolute;
+	animation: slides 30s linear infinite;
+	-moz-animation: slides 30s linear infinite;
+	-webkit-animation: slides 30s linear infinite;
 }
 
 .slideshow_2 {
+	animation: slidesTwo 30s linear infinite;
+	-moz-animation: slidesTwo 30s linear infinite;
+	-webkit-animation: slidesTwo 30s linear infinite;
 }
 
 .nav_bar a {
@@ -58,6 +61,10 @@ header, .slideshow, .slideshow_2 {
 
 .nav_bar a:hover {
   	color: #00e6b8;
+  	animation-name: navbar_hover_2;
+  	-moz-animation-name: navbar_hover_2;
+  	-webkit-animation-name: navbar_hover_2;
+ 	animation-duration: 0.2s;
 }
 
 .title {
@@ -71,9 +78,13 @@ header, .slideshow, .slideshow_2 {
     font: 6vw Abel, serif;
     font-size: calc(4.5vw + 1.8em);
     font-weight: 900;
-    color: white;
+    color: black;
     width: 100%;
     height: 7vw;
+  	animation-name: title_entry;
+  	-moz-animation-name: title_entry;
+  	-webkit-animation-name: title_entry;
+ 	animation-duration: 4s;
 }
 
 .about_button {
@@ -185,6 +196,10 @@ header, .slideshow, .slideshow_2 {
 
 .links > li:hover {
 	background: rgba(0,0,0,0.6);
+  	animation-name: quicklink_hover;
+  	-moz-animation-name: quicklink_hover;
+  	-webkit-animation-name: quicklink_hover;
+ 	animation-duration: 0.2s;
 }
 
 .links > li > a {
