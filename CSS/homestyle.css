@@ -116,7 +116,6 @@ header, .slideshow, .slideshow_2 {
 #about {
 	background: white;
 	width: 100%;
-	overflow: auto;
 }
 
 #about > div {
@@ -150,7 +149,7 @@ header, .slideshow, .slideshow_2 {
     padding-bottom: 5px;
 }
 
-.links_title {
+.hook {
 	height: 100px;
 	width: 100vw;
 	padding-top: 15px;
@@ -158,13 +157,13 @@ header, .slideshow, .slideshow_2 {
 	text-align: center;
 }
 
-.links_title > h3 {
+.hook > h3 {
     font-size: 1.2em;
 	padding: 0;
 	line-height: 50px;
 }
 
-.links_title > div {
+.hook > div {
 	border: 2px solid #3cc;
 	border-radius: 2px;
 	width: 80px;
