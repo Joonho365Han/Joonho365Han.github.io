@@ -761,62 +761,10 @@
 	0% {
 		visibility: hidden;
 		transform: translateY(4vw);
-		opacity: 0;
 	}
 	49.9%{
 		visibility: hidden;
 		transform: translateY(4vw);
-		opacity: 0;
-	}
-	50% {
-		visibility: visible;
-		transform: translateY(4vw);
-		opacity: 0;
-		background: gray;
-		position: fixed;
-	}
-	100% {
-		transform: translateY(0);
-		opacity: 1;
-		background: none;
-		position: absolute;
-	}
-}
-@keyframes -moz-title_entry{
-	0% {
-		visibility: hidden;
-		transform: translateY(4vw);
-		opacity: 0;
-	}
-	49.9%{
-		visibility: hidden;
-		transform: translateY(4vw);
-		opacity: 0;
-	}
-	50% {
-		visibility: visible;
-		transform: translateY(4vw);
-		opacity: 0;
-		background: gray;
-		position: fixed;
-	}
-	100% {
-		transform: translateY(0);
-		opacity: 1;
-		background: none;
-		position: absolute;
-	}
-}
-@keyframes -webkit-title_entry{
-	0% {
-		visibility: hidden;
-		transform: translateY(4vw);
-		opacity: 0;
-	}
-	49.9%{
-		visibility: hidden;
-		transform: translateY(4vw);
-		opacity: 0;
 	}
 	50% {
 		visibility: visible;
