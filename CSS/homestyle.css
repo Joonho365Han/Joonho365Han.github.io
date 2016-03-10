@@ -131,11 +131,12 @@ header, .slideshow, .slideshow_2 {
 #about > div > h2, 
 #about > div > h3,
 #about > div > h4 { 
-	padding: 0 1vw 2vw 1vw;
+	padding: 0;
+	padding-bottom: 2vw;
 }
 
 .personal_info {
-	margin: 0 1vw 0 1vw;
+	padding-left: 25px;
 	float: right;
 }
 
