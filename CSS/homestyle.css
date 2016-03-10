@@ -2,6 +2,10 @@
 
 .wrapper {
 	padding-top: 0; /* In home screen, nav bar is transparent and does not require spacing to display all element */
+	animation: opening_sequence_body;
+	-moz-animation: opening_sequence_body;
+	-webkit-animation: opening_sequence_body;
+	animation-duration: 6s;
 }
 
 .parallax {
@@ -9,11 +13,6 @@
 	height: 100vh;
 	overflow-x: hidden;
 	overflow-y: auto;
-	visibility: hidden;
-	animation: opening_sequence_body;
-	-moz-animation: opening_sequence_body;
-	-webkit-animation: opening_sequence_body;
-	animation-duration: 6s;
 }
 
 .parallax_set {
