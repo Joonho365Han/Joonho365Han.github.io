@@ -128,9 +128,9 @@ header, .slideshow, .slideshow_2 {
 	text-align: justify;
 }
 
-#about h2, 
-#about h3,
-#about h4 { 
+#about > div > h2, 
+#about > div > h3,
+#about > div > h4 { 
 	padding: 0;
 	padding-bottom: 2vw;
 }
