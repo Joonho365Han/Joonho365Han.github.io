@@ -140,17 +140,18 @@ header, .slideshow, .slideshow_2 {
 	text-align: justify;
 }
 
-.headshot {
+.personal_info {
 	padding-left: 25px;
 	float: right;
 }
 
-.headshot > div {
+.personal_info > div {
     padding: 15px 0 20px 0;
 }
 
-.headshot h4{
+.personal_info h4{
     color: #999;
+    padding: 0;
 }
 
 .links_title {
