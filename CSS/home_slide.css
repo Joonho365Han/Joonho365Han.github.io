@@ -423,23 +423,30 @@
 
 @keyframes title_entry{
 	0% {
-		visibility: hidden;
-		transform: translateY(4vw);
-	}
-	49.9%{
-		visibility: hidden;
-		transform: translateY(4vw);
-	}
-	50% {
-		visibility: visible;
 		transform: translateY(4vw);
 		opacity: 0;
-		background-color: #333;
+	}
+	60% {
+		transform: translateY(4vw);
+		opacity: 0;
 	}
 	100% {
 		transform: translateY(0);
 		opacity: 1;
-		background-color: #333;
+	}
+}
+@keyframes -webkit-title_entry{
+	0% {
+		transform: translateY(4vw);
+		opacity: 0;
+	}
+	60% {
+		transform: translateY(4vw);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
 	}
 }
 
@@ -459,13 +466,4 @@
 @keyframes -webkit-about_hover {
 	from { color: rgba(255, 255, 255, 0.7); background: rgba(0, 0, 0, 0.1); }
 	to   { color: white; background: rgba(0, 0, 0, 0.2); }
-}
-
-@keyframs opening_sequence_body{
-	0%{ opacity: 0; }
-	100%{ opacity: 0; }
-}
-@keyframs -webkit-opening_sequence_body{
-	0%{ opacity: 0; }
-	100%{ opacity: 0; }
 }
