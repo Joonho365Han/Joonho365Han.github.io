@@ -67,7 +67,7 @@ header, .slideshow, .slideshow_2 {
 }
 
 .title {
-    position: absolute;
+	margin: 0 auto;
     text-align: center;
     padding-top: 35%;
 }
