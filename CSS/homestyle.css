@@ -15,12 +15,6 @@
  	animation-duration: 5s;
 }
 
-.parallax_set {
-	position: relative; /* This concatenates the parallax levels without dividing scrollbars */
-	height: 100vh;
-	transform-style: preserve-3d;
-}
-
 .parallax_base, .parallax_back {
 	position: absolute;
 	top: 0;
