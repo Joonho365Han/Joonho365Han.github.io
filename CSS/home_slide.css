@@ -861,28 +861,13 @@
 
 @keyframs opening_sequence_body{
 	0%{ visibility: hidden; }
-	59.9%{ visibility: hidden; }
-	60%{
-		visibility: visible;
-		opacity: 0;
-	}
-	100%{ opacity: 1; }
+	100%{ visibility: hidden;}
 }
 @keyframs -moz-opening_sequence_body{
 	0%{ visibility: hidden; }
-	59.9%{ visibility: hidden; }
-	60%{
-		visibility: visible;
-		opacity: 0;
-	}
-	100%{ opacity: 1; }
+	100%{ visibility: hidden;}
 }
 @keyframs -webkit-opening_sequence_body{
 	0%{ visibility: hidden; }
-	59.9%{ visibility: hidden; }
-	60%{
-		visibility: visible;
-		opacity: 0;
-	}
-	100%{ opacity: 1; }
+	100%{ visibility: hidden;}
 }
