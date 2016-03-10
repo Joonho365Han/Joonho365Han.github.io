@@ -73,7 +73,7 @@ header, .slideshow, .slideshow_2 {
     margin-top: 35vh;
   	animation-name: title_entry;
   	-webkit-animation-name: title_entry;
- 	animation-duration: 1.5s;
+ 	animation-duration: 1.2s;
 }
 
 .title > h1{ 
