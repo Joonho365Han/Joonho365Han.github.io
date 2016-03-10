@@ -463,9 +463,9 @@
 
 @keyframs opening_sequence_body{
 	0%{ visibility: hidden; }
-	100%{ visibility: hidden;}
+	100%{ visibility: hidden; }
 }
 @keyframs -webkit-opening_sequence_body{
 	0%{ visibility: hidden; }
-	100%{ visibility: hidden;}
+	100%{ visibility: hidden; }
 }
