@@ -759,44 +759,77 @@
 
 @keyframes title_entry{
 	0% {
+		visibility: hidden;
 		transform: translateY(4vw);
 		opacity: 0;
 	}
-	70% {
+	49.9%{
+		visibility: hidden;
 		transform: translateY(4vw);
 		opacity: 0;
+	}
+	50% {
+		visibility: visible;
+		transform: translateY(4vw);
+		opacity: 0;
+		background: gray;
+		position: fixed;
 	}
 	100% {
 		transform: translateY(0);
 		opacity: 1;
+		background: none;
+		position: absolute;
 	}
 }
 @keyframes -moz-title_entry{
 	0% {
+		visibility: hidden;
 		transform: translateY(4vw);
 		opacity: 0;
 	}
-	70% {
+	49.9%{
+		visibility: hidden;
 		transform: translateY(4vw);
 		opacity: 0;
+	}
+	50% {
+		visibility: visible;
+		transform: translateY(4vw);
+		opacity: 0;
+		background: gray;
+		position: fixed;
 	}
 	100% {
 		transform: translateY(0);
 		opacity: 1;
+		background: none;
+		position: absolute;
 	}
 }
 @keyframes -webkit-title_entry{
 	0% {
+		visibility: hidden;
 		transform: translateY(4vw);
 		opacity: 0;
 	}
-	70% {
+	49.9%{
+		visibility: hidden;
 		transform: translateY(4vw);
 		opacity: 0;
+	}
+	50% {
+		visibility: visible;
+		transform: translateY(4vw);
+		opacity: 0;
+		background: gray;
+		position: fixed;
 	}
 	100% {
 		transform: translateY(0);
 		opacity: 1;
+		background: none;
+		position: absolute;
 	}
 }
 
@@ -816,4 +849,40 @@
 @keyframes about_hover {
 	from { color: rgba(255, 255, 255, 0.7); background: rgba(0, 0, 0, 0.1); }
 	to   { color: white; background: rgba(0, 0, 0, 0.2); }
+}
+@keyframes -moz-about_hover {
+	from { color: rgba(255, 255, 255, 0.7); background: rgba(0, 0, 0, 0.1); }
+	to   { color: white; background: rgba(0, 0, 0, 0.2); }
+}
+@keyframes -webkit-about_hover {
+	from { color: rgba(255, 255, 255, 0.7); background: rgba(0, 0, 0, 0.1); }
+	to   { color: white; background: rgba(0, 0, 0, 0.2); }
+}
+
+@keyframs opening_sequence_body{
+	0%{ visibility: hidden; }
+	59.9%{ visibility: hidden; }
+	60%{
+		visibility: visible;
+		opacity: 0;
+	}
+	100%{ opacity: 1; }
+}
+@keyframs -moz-opening_sequence_body{
+	0%{ visibility: hidden; }
+	59.9%{ visibility: hidden; }
+	60%{
+		visibility: visible;
+		opacity: 0;
+	}
+	100%{ opacity: 1; }
+}
+@keyframs -webkit-opening_sequence_body{
+	0%{ visibility: hidden; }
+	59.9%{ visibility: hidden; }
+	60%{
+		visibility: visible;
+		opacity: 0;
+	}
+	100%{ opacity: 1; }
 }

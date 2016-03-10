@@ -9,6 +9,10 @@
 	height: 100vh;
 	overflow-x: hidden;
 	overflow-y: auto;
+	animation: opening_sequence_body;
+	-moz-animation: opening_sequence_body;
+	-webkit-animation: opening_sequence_body;
+	animation-duration: 6s;
 }
 
 .parallax_set {
@@ -46,7 +50,6 @@ header, .slideshow, .slideshow_2 {
 	animation: slides 30s linear infinite;
 	-moz-animation: slides 30s linear infinite;
 	-webkit-animation: slides 30s linear infinite;
-	-webkit-transform: translate3d(0, 0, 0);
 }
 
 .slideshow_2 {
@@ -71,6 +74,7 @@ header, .slideshow, .slideshow_2 {
 	width: 100%;
 	position: absolute;
     margin-top: 35vh;
+
 }
 
 .title > h1{ 
@@ -83,7 +87,7 @@ header, .slideshow, .slideshow_2 {
   	animation-name: title_entry;
   	-moz-animation-name: title_entry;
   	-webkit-animation-name: title_entry;
- 	animation-duration: 1.5s;
+ 	animation-duration: 4s;
 }
 
 .about_button {
@@ -210,25 +214,4 @@ header, .slideshow, .slideshow_2 {
 	height: 100%;
 	width: 100%;
 	padding-top: 31%;
-}
-
-.bkg_type1 {
-	background: url("/img/home/works.png");
-}
-
-.bkg_type2 {
-	background: url("/img/home/sketches.png");
-}
-
-.bkg_type3 {
-	background: url("/img/home/biography.png");
-}
-
-.bkg_type1, .bkg_type2, .bkg_type3 {
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-position: center;
-	-moz-background-position: center;
-	-webkit-background-position: center;
 }
