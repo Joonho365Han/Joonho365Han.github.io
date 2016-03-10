@@ -1,0 +1,94 @@
+#about {
+	background: white;
+	width: 100%;
+}
+
+#about > div {
+	width: 75vw;
+	max-width: 750px;
+	max-width: calc(25vw + 375px);
+	margin: 0 auto;
+	padding: 6vh 0 15vh 0;
+	text-align: justify;
+}
+
+#about > div > h2, 
+#about > div > h3,
+#about > div > h4 { 
+	padding: 0;
+	padding-bottom: 2vw;
+}
+
+#about a {
+	text-decoration: none;
+	color: #3cc;
+}
+
+#about a:hover {
+	text-decoration: underline;
+}
+
+.personal_info {
+	padding-left: 25px;
+	float: right;
+}
+
+.personal_info > div {
+    padding: 15px 0 10px 0;
+}
+
+.personal_info h4{
+    color: #999;
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+.links{
+	height: 25vw;
+	background: none;
+}
+
+.t1 { background: url("/img/home/quicklinks/t1.png"); }
+.t2 { background: url("/img/home/quicklinks/t2.png"); }
+.t3 { background: url("/img/home/quicklinks/t3.png"); }
+.t4 { background: url("/img/home/quicklinks/t4.png"); }
+.t5 { background: url("/img/home/quicklinks/t5.png"); }
+.t6 { background: url("/img/home/quicklinks/t6.png"); }
+.t7 { background: url("/img/home/quicklinks/t7.png"); }
+.t8 { background: url("/img/home/quicklinks/t8.png"); }
+.t9 { background: url("/img/home/quicklinks/t9.png"); }
+.t10 { background: url("/img/home/quicklinks/t10.png"); }
+.t11 { background: url("/img/home/quicklinks/t11.png"); }
+.t12 { background: url("/img/home/quicklinks/t12.png"); }
+.t13 { background: url("/img/home/quicklinks/t13.png"); }
+.t14 { background: url("/img/home/quicklinks/t14.png"); }
+.t15 { background: url("/img/home/quicklinks/t15.png"); }
+.t16 { background: url("/img/home/quicklinks/t16.png"); }
+.t17 { background: url("/img/home/quicklinks/t17.png"); }
+.t18 { background: url("/img/home/quicklinks/t18.png"); }
+.t19 { background: url("/img/home/quicklinks/t19.png"); }
+.t20 { background: url("/img/home/quicklinks/t20.png"); }
+.t21 { background: url("/img/home/quicklinks/t21.png"); }
+
+.links > li {
+	height: 100%;
+	width: 33.3%;
+	position: relative;
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	-webkit-background-position: center;
+}
+
+.links a {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.links a:hover {
+	background: rgba(0,0,0,0.5);
+  	animation-name: quicklink_hover;
+  	-webkit-animation-name: quicklink_hover;
+ 	animation-duration: 0.2s;
+}
