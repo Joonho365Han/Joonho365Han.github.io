@@ -141,12 +141,11 @@ header, .slideshow, .slideshow_2 {
 }
 
 .personal_info {
-	padding-left: 25px;
 	float: right;
 }
 
 .personal_info > div {
-    padding: 15px 0 20px 0;
+    padding: 15px 0 15px 0;
 }
 
 .personal_info h4{
