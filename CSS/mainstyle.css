@@ -4,17 +4,12 @@
 	0% {color: #444;}
 	100% {color: #00e6b8;}
 }
-@keyframes -moz-navbar_hover{
-	0% {color: #444;}
-	100% {color: #00e6b8;}
-}
 @keyframes -webkit-navbar_hover{
 	0% {color: #444;}
 	100% {color: #00e6b8;}
 }
 
 *{
-	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 0;
@@ -97,7 +92,6 @@ header {
 .nav_bar a:hover {
   	color: #00e6b8;
   	animation-name: navbar_hover;
-  	-moz-animation-name: navbar_hover;
   	-webkit-animation-name: navbar_hover;
  	animation-duration: 0.2s;
 }

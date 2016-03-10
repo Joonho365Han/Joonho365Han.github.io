@@ -3,88 +3,72 @@
 		background: url("/img/home/home_slide1.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	16.7% { 
 		background: url("/img/home/home_slide1.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	16.8% {
 		background: url("/img/home/home_slide3.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	50% { 
 		background: url("/img/home/home_slide3.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	50.1% { 
 		background: url("/img/home/home_slide2.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	83.3% {
 		background: url("/img/home/home_slide2.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	83.4% { 
 		background: url("/img/home/home_slide1.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	100% { 
 		background: url("/img/home/home_slide1.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  }
@@ -93,178 +77,72 @@
 		background: url("/img/home/home_slide1.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	16.7% { 
 		background: url("/img/home/home_slide1.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	16.8% {
 		background: url("/img/home/home_slide3.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	50% { 
 		background: url("/img/home/home_slide3.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	50.1% { 
 		background: url("/img/home/home_slide2.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	83.3% {
 		background: url("/img/home/home_slide2.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	83.4% { 
 		background: url("/img/home/home_slide1.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	100% { 
 		background: url("/img/home/home_slide1.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- }
-@-moz-keyframes slides {
- 	0% { 
-		background: url("/img/home/home_slide1.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	16.7% { 
-		background: url("/img/home/home_slide1.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	16.8% {
-		background: url("/img/home/home_slide3.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	50% { 
-		background: url("/img/home/home_slide3.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	50.1% { 
-		background: url("/img/home/home_slide2.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	83.3% {
-		background: url("/img/home/home_slide2.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	83.4% { 
-		background: url("/img/home/home_slide1.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	100% { 
-		background: url("/img/home/home_slide1.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  }
@@ -275,11 +153,9 @@
 		background: url("/img/home/home_slide3.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	14.7% {
@@ -287,11 +163,9 @@
 		background: url("/img/home/home_slide2.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	16.7% { 
@@ -299,11 +173,9 @@
 		background: url("/img/home/home_slide2.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	31.3% {
@@ -311,11 +183,9 @@
 		background: url("/img/home/home_slide2.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	33.3% { 
@@ -323,11 +193,9 @@
 		background: url("/img/home/home_slide2.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	48% { 
@@ -335,11 +203,9 @@
 		background: url("/img/home/home_slide1.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	50% { 
@@ -347,11 +213,9 @@
 		background: url("/img/home/home_slide1.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	64.7% { 
@@ -359,11 +223,9 @@
 		background: url("/img/home/home_slide1.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	66.7% {
@@ -371,11 +233,9 @@
 		background: url("/img/home/home_slide1.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	81.3% { 
@@ -383,11 +243,9 @@
 		background: url("/img/home/home_slide3.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	83.3% {
@@ -395,11 +253,9 @@
 		background: url("/img/home/home_slide3.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	98% { 
@@ -407,11 +263,9 @@
 		background: url("/img/home/home_slide3.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	100% { 
@@ -419,11 +273,9 @@
 		background: url("/img/home/home_slide3.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  }
@@ -433,11 +285,9 @@
 		background: url("/img/home/home_slide3.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	14.7% {
@@ -445,11 +295,9 @@
 		background: url("/img/home/home_slide2.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	16.7% { 
@@ -457,11 +305,9 @@
 		background: url("/img/home/home_slide2.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	31.3% {
@@ -469,11 +315,9 @@
 		background: url("/img/home/home_slide2.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	33.3% { 
@@ -481,11 +325,9 @@
 		background: url("/img/home/home_slide2.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	48% { 
@@ -493,11 +335,9 @@
 		background: url("/img/home/home_slide1.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	50% { 
@@ -505,11 +345,9 @@
 		background: url("/img/home/home_slide1.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	64.7% { 
@@ -517,11 +355,9 @@
 		background: url("/img/home/home_slide1.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	66.7% {
@@ -529,11 +365,9 @@
 		background: url("/img/home/home_slide1.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	81.3% { 
@@ -541,11 +375,9 @@
 		background: url("/img/home/home_slide3.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	83.3% {
@@ -553,11 +385,9 @@
 		background: url("/img/home/home_slide3.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	98% { 
@@ -565,11 +395,9 @@
 		background: url("/img/home/home_slide3.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  	100% { 
@@ -577,178 +405,14 @@
 		background: url("/img/home/home_slide3.png");
 		
 		background-size: cover;
-		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		
 		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- }
-@-moz-keyframes slidesTwo {
- 	0% { 
- 		opacity: 0;
-		background: url("/img/home/home_slide3.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	14.7% {
- 		opacity: 0;
-		background: url("/img/home/home_slide2.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	16.7% { 
- 		opacity: 1;
-		background: url("/img/home/home_slide2.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	31.3% {
- 		opacity: 1;
-		background: url("/img/home/home_slide2.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	33.3% { 
- 		opacity: 0;
-		background: url("/img/home/home_slide2.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	48% { 
- 		opacity: 0;
-		background: url("/img/home/home_slide1.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	50% { 
- 		opacity: 1;
-		background: url("/img/home/home_slide1.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	64.7% { 
- 		opacity: 1;
-		background: url("/img/home/home_slide1.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	66.7% {
- 		opacity: 0;
-		background: url("/img/home/home_slide1.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	81.3% { 
- 		opacity: 0;
-		background: url("/img/home/home_slide3.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	83.3% {
- 		opacity: 1;
-		background: url("/img/home/home_slide3.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	98% { 
- 		opacity: 1;
-		background: url("/img/home/home_slide3.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
-		-webkit-background-position: center;
- 	}
- 	100% { 
- 		opacity: 0;
-		background: url("/img/home/home_slide3.png");
-		
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		
-		background-position: center;
-		-moz-background-position: center;
 		-webkit-background-position: center;
  	}
  }
 
 @keyframes navbar_hover_2{
-	0% {color: white;}
-	100% {color: #00e6b8;}
-}
-@keyframes -moz-navbar_hover_2{
 	0% {color: white;}
 	100% {color: #00e6b8;}
 }
@@ -783,10 +447,6 @@
 	0% {background: rgba(0,0,0,0.3);}
 	100% {background: rgba(0,0,0,0.6);}
 }
-@keyframes -moz-quicklink_hover{
-	0% {background: rgba(0,0,0,0.3);}
-	100% {background: rgba(0,0,0,0.6);}
-}
 @keyframes -webkit-quicklink_hover{
 	0% {background: rgba(0,0,0,0.3);}
 	100% {background: rgba(0,0,0,0.6);}
@@ -796,24 +456,16 @@
 	from { color: rgba(255, 255, 255, 0.7); background: rgba(0, 0, 0, 0.1); }
 	to   { color: white; background: rgba(0, 0, 0, 0.2); }
 }
-@keyframes -moz-about_hover {
-	from { color: rgba(255, 255, 255, 0.7); background: rgba(0, 0, 0, 0.1); }
-	to   { color: white; background: rgba(0, 0, 0, 0.2); }
-}
 @keyframes -webkit-about_hover {
 	from { color: rgba(255, 255, 255, 0.7); background: rgba(0, 0, 0, 0.1); }
 	to   { color: white; background: rgba(0, 0, 0, 0.2); }
 }
-@keyframs -moz-opening_sequence_body{
+
+@keyframs opening_sequence_body{
 	0%{ visibility: hidden; }
 	100%{ visibility: hidden;}
 }
 @keyframs -webkit-opening_sequence_body{
-	0%{ visibility: hidden; }
-	100%{ visibility: hidden;}
-}
-
-@keyframs opening_sequence_body{
 	0%{ visibility: hidden; }
 	100%{ visibility: hidden;}
 }
