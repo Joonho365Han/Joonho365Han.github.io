@@ -67,21 +67,9 @@ header, .slideshow, .slideshow_2 {
 }
 
 .title {
-	margin: 0 auto;
-    text-align: center;
+	width: 100%;
+	position: absolute;
     padding-top: 35%;
-}
-
-.name {
-	left: 3vw;
-	top: 5vh;
-	text-align: left;
-}
-
-.job {
-	right: 3vw;
-	bottom: 80px;
-	text-align: right;
 }
 
 .title > h1{ 
