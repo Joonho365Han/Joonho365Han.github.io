@@ -69,7 +69,7 @@ header, .slideshow, .slideshow_2 {
 .title {
 	width: 100%;
 	position: absolute;
-    padding-top: 35vh;
+    margin-top: 35vh;
 }
 
 .title > h1{ 
