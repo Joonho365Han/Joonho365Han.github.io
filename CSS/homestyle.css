@@ -68,9 +68,8 @@ header, .slideshow, .slideshow_2 {
 
 .nav_bar a:hover {
   	color: #00e6b8;
-  	animation-name: navbar_hover_2;
-  	-webkit-animation-name: navbar_hover_2;
- 	animation-duration: 0.2s;
+  	animation-name: 0.2s navbar_hover_2;
+  	-webkit-animation-name: 0.2s navbar_hover_2;
 }
 
 .title {
@@ -88,9 +87,8 @@ header, .slideshow, .slideshow_2 {
     visibility: visible;
     width: 100%;
     height: 7vw;
-  	animation-name: title_entry;
-  	-webkit-animation-name: title_entry;
- 	animation-duration: 4s;
+  	animation-name: 4s title_entry;
+  	-webkit-animation-name: 4s title_entry;
 }
 
 .about_button {
@@ -118,8 +116,8 @@ header, .slideshow, .slideshow_2 {
 .about_button > a:hover {
 	color: white;
 	background: rgba(0, 0, 0, 0.2);
-	animation-name: about_hover;
-	animation-duration: 0.3s;
+	animation-name: 0.3s about_hover;
+	-webkit-animation-name: 0.3s about_hover;
 }
 
 #about {
