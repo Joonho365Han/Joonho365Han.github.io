@@ -136,6 +136,15 @@ header, .slideshow, .slideshow_2 {
 	padding-bottom: 2vw;
 }
 
+#about a {
+	text-decoration: none;
+	color: #00e6b8;
+}
+
+#about a:hover {
+	text-decoration: underline;
+}
+
 .personal_info {
 	padding-left: 25px;
 	float: right;
@@ -177,20 +186,11 @@ header, .slideshow, .slideshow_2 {
 	background: none;
 }
 
-.link_bkgs {
-	height: 100vh;
-	position: fixed;
-}
-
- .links > li, .link_bkgs > li {
+.links > li {
 	height: 100%;
 	width: 33.3%;
-}
-
-.links > li {
 	background: rgba(0,0,0,0.3);
 	position: relative;
-	height: 100%;
 }
 
 .links > li:hover {
