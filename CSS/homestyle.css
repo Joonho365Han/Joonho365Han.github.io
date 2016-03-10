@@ -96,6 +96,7 @@ header, .slideshow, .slideshow_2 {
 }
 
 .about_button > a {
+	display: block;
     font: 1.3em 'Poiret One',sans-serif;
 	line-height: 38px;
 	height: 40px;
@@ -200,6 +201,7 @@ header, .slideshow, .slideshow_2 {
 }
 
 .links > li > a {
+	display: block;
     font: 3.3vw 'Open Sans', sans-serif;
     font-weight: 400;
 	color: white;
