@@ -140,6 +140,12 @@ header, .slideshow, .slideshow_2 {
 	text-align: justify;
 }
 
+#about h2, 
+#about h3,
+#about h4 {
+	padding: 0 25px 2vw 25px;
+}
+
 .personal_info {
 	padding-left: 25px;
 	float: right;
