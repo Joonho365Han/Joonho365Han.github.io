@@ -140,9 +140,9 @@ header, .slideshow, .slideshow_2 {
 	text-align: justify;
 }
 
-#about h2, 
-#about h3,
-#about h4 {
+#about > div > h2, 
+#about > div > h3,
+#about > div > h4 { 
 	padding: 0 25px 2vw 25px;
 }
 
@@ -157,7 +157,8 @@ header, .slideshow, .slideshow_2 {
 
 .personal_info h4{
     color: #999;
-    padding: 1px;
+    padding: 0;
+    padding-bottom: 5px;
 }
 
 .links_title {
