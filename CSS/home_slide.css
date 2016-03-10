@@ -451,12 +451,12 @@
 }
 
 @keyframes quicklink_hover{
-	0% {background: rgba(0,0,0,0.3);}
-	100% {background: rgba(0,0,0,0.6);}
+	0% {background: none;}
+	100% {background: rgba(0,0,0,0.5);}
 }
 @keyframes -webkit-quicklink_hover{
-	0% {background: rgba(0,0,0,0.3);}
-	100% {background: rgba(0,0,0,0.6);}
+	0% {background: none;}
+	100% {background: rgba(0,0,0,0.5);}
 }
 
 @keyframes about_hover {
