@@ -432,13 +432,11 @@
 	}
 	50% {
 		visibility: visible;
-		position: fixed;
 		transform: translateY(4vw);
 		opacity: 0;
 		background-color: #333;
 	}
 	100% {
-		position: fixed;
 		transform: translateY(0);
 		opacity: 1;
 		background-color: #333;
@@ -464,10 +462,10 @@
 }
 
 @keyframs opening_sequence_body{
-	0%{ visibility: hidden; }
-	100%{ visibility: hidden; }
+	0%{ opacity: 0; }
+	100%{ opacity: 1; }
 }
 @keyframs -webkit-opening_sequence_body{
-	0%{ visibility: hidden; }
-	100%{ visibility: hidden; }
+	0%{ opacity: 0; }
+	100%{ opacity: 1; }
 }
