@@ -45,7 +45,6 @@ li {
 }
 
 a {
-	display: block;
 	text-decoration: none;
 	text-align: center;
 }
@@ -88,6 +87,7 @@ header {
 }
 
 .nav_bar a{ /* All NavBar links */
+	display: block;
     font: 1.1em Abel,sans-serif;
     color: #444;
     line-height: 50px; /*This vertically centers the anchors*/
@@ -129,6 +129,7 @@ footer h6 {
 }
 
 .quick_links a {
+	display: block;
 	line-height: 30px;
 	height: 30px;
 }
