@@ -9,7 +9,7 @@
 	height: 100vh;
 	overflow-x: hidden;
 	overflow-y: auto;
-	visibility: visible;
+	opacity: 0;
   	animation-name: opening_sequence_body;
   	-webkit-animation-name: opening_sequence_body;
  	animation-duration: 5s;
