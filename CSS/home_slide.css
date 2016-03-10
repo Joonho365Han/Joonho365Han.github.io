@@ -806,16 +806,16 @@
 	from { color: rgba(255, 255, 255, 0.7); background: rgba(0, 0, 0, 0.1); }
 	to   { color: white; background: rgba(0, 0, 0, 0.2); }
 }
-
-@keyframs opening_sequence_body{
-	0%{ visibility: hidden; }
-	100%{ visibility: hidden;}
-}
 @keyframs -moz-opening_sequence_body{
 	0%{ visibility: hidden; }
 	100%{ visibility: hidden;}
 }
 @keyframs -webkit-opening_sequence_body{
+	0%{ visibility: hidden; }
+	100%{ visibility: hidden;}
+}
+
+@keyframs opening_sequence_body{
 	0%{ visibility: hidden; }
 	100%{ visibility: hidden;}
 }
