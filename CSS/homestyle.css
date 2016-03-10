@@ -145,9 +145,12 @@ header, .slideshow, .slideshow_2 {
 	float: right;
 }
 
+.headshot > div {
+    padding: 15px 0 20px 0;
+}
+
 .headshot h4{
     color: #999;
-    padding: 15px 0 20px 0;
 }
 
 .links_title {
