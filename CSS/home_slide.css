@@ -432,14 +432,16 @@
 	}
 	50% {
 		visibility: visible;
+		position: fixed;
 		transform: translateY(4vw);
 		opacity: 0;
-		color: #333;
+		background-color: #333;
 	}
 	100% {
+		position: fixed;
 		transform: translateY(0);
 		opacity: 1;
-		color: #333;
+		background-color: #333;
 	}
 }
 
