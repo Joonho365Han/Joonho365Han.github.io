@@ -127,16 +127,27 @@ header, .slideshow, .slideshow_2 {
 
 #about {
 	background: white;
-	width: 100vw;
-	text-align: justify;
-	padding: 6vh 0 15vh 0;
+	width: 100%;
+	overflow: auto;
 }
 
-#about * {
+#about > div {
 	width: 75vw;
 	max-width: 750px;
 	max-width: calc(25vw + 375px);
 	margin: 0 auto;
+	padding: 6vh 0 15vh 0;
+	text-align: justify;
+}
+
+.headshot {
+	padding-left: 25px;
+	float: right;
+}
+
+.headshot h4{
+    color: #999;
+    padding: 15px 0 20px 0;
 }
 
 .links_title {
