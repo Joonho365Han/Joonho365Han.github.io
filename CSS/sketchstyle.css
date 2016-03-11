@@ -24,27 +24,27 @@
 	background: none;
 }
 
-.t1 { background: url("/img/home/quicklinks/t1.png"); }
-.t2 { background: url("/img/home/quicklinks/t2.png"); }
-.t3 { background: url("/img/home/quicklinks/t3.png"); }
-.t4 { background: url("/img/home/quicklinks/t4.png"); }
-.t5 { background: url("/img/home/quicklinks/t5.png"); }
-.t6 { background: url("/img/home/quicklinks/t6.png"); }
-.t7 { background: url("/img/home/quicklinks/t7.png"); }
-.t8 { background: url("/img/home/quicklinks/t8.png"); }
-.t9 { background: url("/img/home/quicklinks/t9.png"); }
-.t10 { background: url("/img/home/quicklinks/t10.png"); }
-.t11 { background: url("/img/home/quicklinks/t11.png"); }
-.t12 { background: url("/img/home/quicklinks/t12.png"); }
-.t13 { background: url("/img/home/quicklinks/t13.png"); }
-.t14 { background: url("/img/home/quicklinks/t14.png"); }
-.t15 { background: url("/img/home/quicklinks/t15.png"); }
-.t16 { background: url("/img/home/quicklinks/t16.png"); }
-.t17 { background: url("/img/home/quicklinks/t17.png"); }
-.t18 { background: url("/img/home/quicklinks/t18.png"); }
-.t19 { background: url("/img/home/quicklinks/t19.png"); }
-.t20 { background: url("/img/home/quicklinks/t20.png"); }
-.t21 { background: url("/img/home/quicklinks/t21.png"); }
+.t1 { background: url("/img/sketches/t1.png"); }
+.t2 { background: url("/img/sketches/t2.png"); }
+.t3 { background: url("/img/sketches/t3.png"); }
+.t4 { background: url("/img/sketches/t4.png"); }
+.t5 { background: url("/img/sketches/t5.png"); }
+.t6 { background: url("/img/sketches/t6.png"); }
+.t7 { background: url("/img/sketches/t7.png"); }
+.t8 { background: url("/img/sketches/t8.png"); }
+.t9 { background: url("/img/sketches/t9.png"); }
+.t10 { background: url("/img/sketches/t10.png"); }
+.t11 { background: url("/img/sketches/t11.png"); }
+.t12 { background: url("/img/sketches/t12.png"); }
+.t13 { background: url("/img/sketches/t13.png"); }
+.t14 { background: url("/img/sketches/t14.png"); }
+.t15 { background: url("/img/sketches/t15.png"); }
+.t16 { background: url("/img/sketches/t16.png"); }
+.t17 { background: url("/img/sketches/t17.png"); }
+.t18 { background: url("/img/sketches/t18.png"); }
+.t19 { background: url("/img/sketches/t19.png"); }
+.t20 { background: url("/img/sketches/t20.png"); }
+.t21 { background: url("/img/sketches/t21.png"); }
 
 .links > li {
 	height: 100%;
