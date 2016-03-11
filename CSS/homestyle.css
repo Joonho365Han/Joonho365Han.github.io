@@ -71,7 +71,7 @@ header, .slideshow, .slideshow_2 {
 	position: absolute;
     visibility: visible;
     margin-top: 35vh;
-    margin-top: calc(40vh - 5vw);
+    margin-top: calc(43vh - 5vw);
   	animation-name: title_entry;
   	-webkit-animation-name: title_entry;
  	animation-duration: 1.2s;
