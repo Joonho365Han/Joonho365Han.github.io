@@ -70,7 +70,8 @@ header, .slideshow, .slideshow_2 {
 	width: 100%;
 	position: absolute;
     visibility: visible;
-    margin-top: 35vh;
+    margin-top: 34vh;
+    margin-top: calc(42vh - 5vw);
   	animation-name: title_entry;
   	-webkit-animation-name: title_entry;
  	animation-duration: 1.2s;
