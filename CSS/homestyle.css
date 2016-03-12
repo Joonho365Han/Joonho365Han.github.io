@@ -160,13 +160,12 @@ header, .slideshow, .slideshow_2 {
 
 .hook {
 	width: 100vw;
-	padding-top: 15px;
+	padding: 15px 0 25px 0;
 	background: white;
 	text-align: center;
 }
 
 .hook > h3 {
-    font-size: 1.2em;
 	padding: 0;
 	line-height: 50px;
 }
