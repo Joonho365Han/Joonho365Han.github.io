@@ -452,11 +452,11 @@
 
 @keyframes quicklink_hover{
 	0% {background: none;}
-	100% {background: rgba(0,0,0,0.5);}
+	100% {background: rgba(0,0,0,0.3);}
 }
 @keyframes -webkit-quicklink_hover{
 	0% {background: none;}
-	100% {background: rgba(0,0,0,0.5);}
+	100% {background: rgba(0,0,0,0.3);}
 }
 
 @keyframes about_hover {

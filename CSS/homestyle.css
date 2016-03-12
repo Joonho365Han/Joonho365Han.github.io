@@ -222,7 +222,7 @@ header, .slideshow, .slideshow_2 {
 }
 
 .links a:hover {
-	background: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.3);
   	animation-name: quicklink_hover;
   	-webkit-animation-name: quicklink_hover;
  	animation-duration: 0.2s;
