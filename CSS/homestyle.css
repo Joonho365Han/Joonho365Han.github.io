@@ -162,18 +162,20 @@ header, .slideshow, .slideshow_2 {
 	width: 100vw;
 	background: white;
 	text-align: center;
+	padding-bottom: 25px; 
 }
 
 .hook > h3 {
 	font-size: 1.3em;
 	padding: 0;
+	padding-bottom: 25px; 
 }
 
 .hook > div {
 	border: 2px solid #3cc;
 	border-radius: 2px;
 	width: 80px;
-	margin: 25px auto;
+	margin: 0 auto;
 }
 
 .links{
