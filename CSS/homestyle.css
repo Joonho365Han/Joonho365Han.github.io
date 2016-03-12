@@ -113,12 +113,12 @@ header, .slideshow, .slideshow_2 {
 	animation-duration: 0.3s;
 }
 
-.intro {
+#about {
 	background: white;
 	width: 100%;
 }
 
-.intro > div {
+#about > div {
 	width: 75vw;
 	max-width: 750px;
 	max-width: calc(25vw + 375px);
@@ -127,19 +127,19 @@ header, .slideshow, .slideshow_2 {
 	text-align: justify;
 }
 
-.intro > div > h2, 
-.intro > div > h3,
-.intro > div > h4 { 
+#about > div > h2, 
+#about > div > h3,
+#about > div > h4 { 
 	padding: 0;
 	padding-bottom: 2vw;
 }
 
-.intro a {
+#about a, .hook a {
 	text-decoration: none;
 	color: #3cc;
 }
 
-.intro a:hover {
+#about a:hover, .hook a:hover {
 	text-decoration: underline;
 }
 
@@ -158,22 +158,24 @@ header, .slideshow, .slideshow_2 {
     padding-bottom: 5px;
 }
 
-.green_divider {
-	height: 40px;
+.hook {
 	width: 100vw;
 	padding-top: 15px;
 	background: white;
+	text-align: center;
 }
 
-.green_divider > div {
+.hook > h3 {
+    font-size: 1.2em;
+	padding: 0;
+	line-height: 50px;
+}
+
+.hook > div {
 	border: 2px solid #3cc;
 	border-radius: 2px;
 	width: 80px;
 	margin: 0 auto;
-}
-
-.sketches > div{
-	padding: 0 0 25px 0;
 }
 
 .links{
