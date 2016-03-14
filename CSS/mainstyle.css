@@ -28,10 +28,6 @@ body {
 	padding-top: 50px; /* For Fixed menu bar */
 }
 
-::-webkit-scrollbar{
-	z-index: 2000;
-}
-
 ul {
 	width: 100vw;
     margin: 0 auto;
