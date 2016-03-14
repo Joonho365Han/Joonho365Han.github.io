@@ -29,21 +29,20 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+	position: absolute;
+	right: 0;
+    width: 10px;
     z-index: 2000;
 }
  
 ::-webkit-scrollbar-track {
-	background: rgba(255,255,255,0.5);
+	background: 
 }
 
 ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
     background: #444; 
-}
-::-webkit-scrollbar-thumb:window-inactive {
-	visibility: hidden;
 }
 
 ul {
