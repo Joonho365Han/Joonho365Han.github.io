@@ -28,11 +28,6 @@ body {
 	padding-top: 50px; /* For Fixed menu bar */
 }
 
-::-webkit-scrollbar {
-	position: absolute;
-	visibility: hidden;
-}
-
 ul {
 	width: 100vw;
     margin: 0 auto;
