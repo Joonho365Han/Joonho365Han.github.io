@@ -29,6 +29,7 @@ body {
 }
 
 ::-webkit-scrollbar {
+	position: absolute;
 	visibility: hidden;
 }
 
