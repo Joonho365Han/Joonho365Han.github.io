@@ -14,7 +14,7 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	z-index: 0; /* Set so that header always stays on top. Keep it as 0 SPECIFICALLY. */
+	z-index: 0; /* Set so that header always stays on top. Keep it as 0 SPECIFICALLY */
 }
 
 body {
@@ -26,6 +26,24 @@ body {
 	font-size: 1.6em;
 	margin: 0 auto; /* Automatically centers item */
 	padding-top: 50px; /* For Fixed menu bar */
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    z-index: 2000;
+}
+ 
+::-webkit-scrollbar-track {
+	background: rgba(255,255,255,0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: #444; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	visibility: hidden;
 }
 
 ul {
