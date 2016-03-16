@@ -36,6 +36,10 @@
 	}
 }
 
+body {
+	background: #eee;
+}
+
 .wrapper {
 	padding-top: 0; /* In home screen, nav bar is transparent and does not require spacing to display all element */
 }
