@@ -37,7 +37,7 @@
 }
 
 body {
-	background: #eee;
+	background: #ddd;
 }
 
 .wrapper {
@@ -97,5 +97,5 @@ header, .work_station{
 	margin-top: 0;
 	overflow: auto;
 	height: 50vh;
-	background: gray;
+	background: white;
 }
