@@ -52,7 +52,7 @@ header, .work_station{
 	background: none;
 }
 .work_station {
-	height: 60vw;
+	height: 50vw;
 	background: url("/img/work/work_station.png");
 	background-size: cover;
 	-webkit-background-size: cover;
