@@ -45,14 +45,14 @@ h4 {
 }
 
 header, .work_station{
-	height: 60vw;
+	height: 50vw;
 	max-height: 100vh;
 	width: 100%;
 	position: relative;
 	background: none;
 }
 .work_station {
-	height: 50vw;
+	height: 60vw;
 	background: url("/img/work/work_station.png");
 	background-size: cover;
 	-webkit-background-size: cover;
