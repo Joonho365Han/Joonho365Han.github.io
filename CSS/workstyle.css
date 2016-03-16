@@ -8,7 +8,7 @@ h4 {
 
 .work_station{
 	position: relative;
-	height: 40vw;
+	height: 34vw;
 	max-height: 100vh;
 	width: 100%;
 }
@@ -29,7 +29,7 @@ h4 {
 
 .projects {
 	margin: 6vw;
-	margin-top: 0;
+	margin-bottom: 0;
 	overflow: auto;
 	height: 50vh;
 	background: white;
