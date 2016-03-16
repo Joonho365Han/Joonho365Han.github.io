@@ -40,6 +40,10 @@
 	padding-top: 0; /* In home screen, nav bar is transparent and does not require spacing to display all element */
 }
 
+h4 {
+	color: white;
+}
+
 header, .work_station{
 	height: 75vh;
 	width: 100%;
