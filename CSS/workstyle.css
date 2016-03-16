@@ -75,7 +75,7 @@ header, .work_station{
 	width: 100%;
 	position: absolute;
     text-align: center;
-    margin-top: 17vw;
+    margin-top: 15vw;
   	animation-name: title_entry;
   	-webkit-animation-name: title_entry;
  	animation-duration: 1.2s;
