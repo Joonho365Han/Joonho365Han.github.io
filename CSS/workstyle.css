@@ -1,3 +1,90 @@
+@keyframes navbar_hover_2{
+	0% {color: white;}
+	100% {color: #00e6b8;}
+}
+@keyframes -webkit-navbar_hover_2{
+	0% {color: white;}
+	100% {color: #00e6b8;}
+}
+
+@keyframes title_entry{
+	0% {
+		transform: translateY(4vw);
+		opacity: 0;
+	}
+	50% {
+		transform: translateY(4vw);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes -webkit-title_entry{
+	0% {
+		transform: translateY(4vw);
+		opacity: 0;
+	}
+	50% {
+		transform: translateY(4vw);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.wrapper {
+	padding-top: 0; /* In home screen, nav bar is transparent and does not require spacing to display all element */
+}
+
+header, .work_station{
+	height: 75vh;
+	width: 100%;
+	position: relative;
+	background: none;
+}
+.work_station {
+	background: url("/img/work/work_station.png");
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	-webkit-background-position: center;
+}
+
+.nav_bar a {
+	color: white;
+}
+
+.nav_bar a:hover {
+  	color: #00e6b8;
+  	animation-name: navbar_hover_2;
+  	-webkit-animation-name: navbar_hover_2;
+ 	animation-duration: 0.2s;
+}
+
+.title {
+	width: 100%;
+	position: absolute;
+    visibility: visible;
+    text-align: center;
+    margin-top: 34vh;
+    margin-top: calc(42vh - 5vw);
+  	animation-name: title_entry;
+  	-webkit-animation-name: title_entry;
+ 	animation-duration: 1.2s;
+}
+
+.title > h1{ 
+    font: 7vw Montserrat, sans-serif;
+    color: white;
+    width: 100%;
+    height: 8vw;
+}
+
 .projects {
 	overflow: auto;
+	background: #3df;
 }
