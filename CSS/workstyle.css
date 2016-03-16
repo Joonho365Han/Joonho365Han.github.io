@@ -45,7 +45,7 @@ h4 {
 }
 
 header, .work_station{
-	height: 50vw;
+	height: 40vw;
 	max-height: 100vh;
 	width: 100%;
 	position: relative;
@@ -75,8 +75,7 @@ header, .work_station{
 	width: 100%;
 	position: absolute;
     text-align: center;
-    margin-top: 31vh;
-    margin-top: calc(31vh - 3vw);
+    margin-top: 20vw;
   	animation-name: title_entry;
   	-webkit-animation-name: title_entry;
  	animation-duration: 1.2s;
