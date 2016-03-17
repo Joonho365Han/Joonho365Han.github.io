@@ -65,15 +65,6 @@
 	to   { border-color: #00e6b8; color: #00e6b8; }
 }
 
-@keyframes enter_hover {
-	from { border-color: #777; color: #777; }
-	to   { border-color: #00e6b8; color: #00e6b8; }
-}
-@keyframes -webkit-enter_hover {
-	from { border-color: #777; color: #777; }
-	to   { border-color: #00e6b8; color: #00e6b8; }
-}
-
 *{
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -88,8 +79,6 @@ body {
 }
 
 .wrapper{
-	height: 100vh;
-	width: 100vw;
 	position: relative;
 	font-size: 1.6em;
 	margin: 0 auto; /* Automatically centers item */
@@ -139,7 +128,7 @@ body {
 .enter > a:hover {
 	color: #00e6b8;
 	border-color: #00e6b8;
-	animation-name: enter_hover;
-	-webkit-animation-name: enter_hover;
+	animation-name: green_lantern;
+	-webkit-animation-name: green_lantern;
 	animation-duration: 0.3s;
 }
