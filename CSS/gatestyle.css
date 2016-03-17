@@ -2,7 +2,7 @@
 	0% {
 		opacity: 0;
 	}
-	50% {
+	33.3% {
 		transform: scale(0.95);
 		opacity: 0;
 	}
@@ -15,7 +15,7 @@
 	0% {
 		opacity: 0;
 	}
-	50% {
+	33.3% {
 		transform: scale(0.95);
 		opacity: 0;
 	}
@@ -29,7 +29,7 @@
 	0% {
 		opacity: 0;
 	}
-	80% {
+	83.3% {
 		opacity: 0;
 	}
 	100% {
@@ -40,7 +40,7 @@
 	0% {
 		opacity: 0;
 	}
-	80% {
+	83.3% {
 		opacity: 0;
 	}
 	100% {
@@ -83,7 +83,7 @@ body {
     margin-top: calc(46vh - 5vw);
   	animation-name: title_entry;
   	-webkit-animation-name: title_entry;
- 	animation-duration: 2s;
+ 	animation-duration: 3s;
 }
 
 .title > h1, .title > h5{ 
@@ -106,7 +106,7 @@ body {
 	padding-bottom: 20px;
   	animation-name: button_entry;
   	-webkit-animation-name: button_entry;
- 	animation-duration: 2.5s;
+ 	animation-duration: 3.6s;
 }
 
 .enter > a {
