@@ -79,8 +79,8 @@ body {
 .title {
 	width: 100%;
     text-align: center;
-    margin-top: 30vh;
-    margin-top: calc(34vh - 5vw);
+    margin-top: 28vh;
+    margin-top: calc(32vh - 5vw);
   	animation-name: title_entry;
   	-webkit-animation-name: title_entry;
  	animation-duration: 2.5s;
@@ -89,7 +89,7 @@ body {
 .title > h1, .title > h5{ 
     font: 7vw Cinzel, sans-serif;
     color: #444;
-    height: 12vw;
+    height: 8vw;
 }
 
 .title > h5 {
@@ -97,7 +97,7 @@ body {
 	letter-spacing: 1.5vw;
 	margin-top: 0.5vw;
 	padding-left: 1vw;
-    height: 7.5vw;
+    height: 13vw;
 }
 
 .enter {
