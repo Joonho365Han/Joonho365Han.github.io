@@ -88,7 +88,7 @@ body {
 	width: 100%;
     text-align: center;
     margin-top: 34vh;
-    margin-top: calc(42vh - 5vw);
+    margin-top: calc(38vh - 5vw);
   	animation-name: title_entry;
   	-webkit-animation-name: title_entry;
  	animation-duration: 1.2s;
@@ -102,8 +102,9 @@ body {
 }
 
 .title > h5 {
-	font-size: 2vw;
+	font-size: 2.2vw;
 	letter-spacing: 1.5vw;
+    height: 2.5vw;
 }
 
 .enter {
