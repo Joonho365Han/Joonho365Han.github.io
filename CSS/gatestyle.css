@@ -102,7 +102,8 @@ body {
 }
 
 .title > h5 {
-	font-size: 2vw;
+	font-size: 3vw;
+	letter-spacing: 3vw;
 }
 
 .enter {
