@@ -1,28 +1,28 @@
 @keyframes title_entry{
 	0% {
-		transform: translateY(4vw);
+		transform: scale(0.75);
 		opacity: 0;
 	}
-	50% {
-		transform: translateY(4vw);
+	37.5% {
+		transform: scale(0.75);
 		opacity: 0;
 	}
 	100% {
-		transform: translateY(0);
+		transform: scale(1);
 		opacity: 1;
 	}
 }
 @keyframes -webkit-title_entry{
 	0% {
-		transform: translateY(4vw);
+		transform: scale(0.75);
 		opacity: 0;
 	}
-	50% {
-		transform: translateY(4vw);
+	37.5% {
+		transform: scale(0.75);
 		opacity: 0;
 	}
 	100% {
-		transform: translateY(0);
+		transform: scale(1);
 		opacity: 1;
 	}
 }
@@ -32,7 +32,7 @@
 		transform: translateY(2vw);
 		opacity: 0;
 	}
-	66.6% {
+	76.2% {
 		transform: translateY(2vw);
 		opacity: 0;
 	}
@@ -46,7 +46,7 @@
 		transform: translateY(2vw);
 		opacity: 0;
 	}
-	66.6% {
+	76.2% {
 		transform: translateY(2vw);
 		opacity: 0;
 	}
@@ -91,7 +91,7 @@ body {
     margin-top: calc(46vh - 5vw);
   	animation-name: title_entry;
   	-webkit-animation-name: title_entry;
- 	animation-duration: 1.2s;
+ 	animation-duration: 1.6s;
 }
 
 .title > h1, .title > h5{ 
@@ -114,7 +114,7 @@ body {
 	padding-bottom: 20px;
   	animation-name: button_entry;
   	-webkit-animation-name: button_entry;
- 	animation-duration: 1.8s;
+ 	animation-duration: 2.1s;
 }
 
 .enter > a {
