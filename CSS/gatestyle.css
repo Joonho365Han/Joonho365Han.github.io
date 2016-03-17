@@ -134,6 +134,12 @@ body {
 	margin: 0 auto;
 	border: 1px solid #777;
 	border-radius: 10px;
-	animation: green_lantern 0.6s ease 0s infinite alternate;
-	-webkit-animation: green_lantern 0.6s ease 0s infinite alternate;
+}
+
+.enter > a:hover {
+	color: #00e6b8;
+	border-color: #00e6b8;
+	animation-name: enter_hover;
+	-webkit-animation-name: enter_hover;
+	animation-duration: 0.3s;
 }
