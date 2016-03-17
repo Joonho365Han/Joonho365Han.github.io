@@ -1,10 +1,9 @@
 @keyframes title_entry{
 	0% {
-		transform: scale(0.9);
 		opacity: 0;
 	}
-	37.5% {
-		transform: scale(0.9);
+	50% {
+		transform: scale(0.95);
 		opacity: 0;
 	}
 	100% {
@@ -14,11 +13,10 @@
 }
 @keyframes -webkit-title_entry{
 	0% {
-		transform: scale(0.9);
 		opacity: 0;
 	}
-	37.5% {
-		transform: scale(0.9);
+	50% {
+		transform: scale(0.95);
 		opacity: 0;
 	}
 	100% {
@@ -31,7 +29,7 @@
 	0% {
 		opacity: 0;
 	}
-	66.6% {
+	80% {
 		opacity: 0;
 	}
 	100% {
@@ -42,7 +40,7 @@
 	0% {
 		opacity: 0;
 	}
-	66.6% {
+	80% {
 		opacity: 0;
 	}
 	100% {
@@ -85,7 +83,7 @@ body {
     margin-top: calc(46vh - 5vw);
   	animation-name: title_entry;
   	-webkit-animation-name: title_entry;
- 	animation-duration: 1.6s;
+ 	animation-duration: 2s;
 }
 
 .title > h1, .title > h5{ 
@@ -108,7 +106,7 @@ body {
 	padding-bottom: 20px;
   	animation-name: button_entry;
   	-webkit-animation-name: button_entry;
- 	animation-duration: 2.4s;
+ 	animation-duration: 2.5s;
 }
 
 .enter > a {
