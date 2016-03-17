@@ -1,10 +1,10 @@
 @keyframes title_entry{
 	0% {
-		transform: scale(0.75);
+		transform: scale(0.9);
 		opacity: 0;
 	}
 	37.5% {
-		transform: scale(0.75);
+		transform: scale(0.9);
 		opacity: 0;
 	}
 	100% {
@@ -14,11 +14,11 @@
 }
 @keyframes -webkit-title_entry{
 	0% {
-		transform: scale(0.75);
+		transform: scale(0.9);
 		opacity: 0;
 	}
 	37.5% {
-		transform: scale(0.75);
+		transform: scale(0.9);
 		opacity: 0;
 	}
 	100% {
@@ -29,29 +29,23 @@
 
 @keyframes button_entry{
 	0% {
-		transform: translateY(2vw);
 		opacity: 0;
 	}
-	76.2% {
-		transform: translateY(2vw);
+	66.6% {
 		opacity: 0;
 	}
 	100% {
-		transform: translateY(0);
 		opacity: 1;
 	}
 }
 @keyframes -webkit-button_entry{
 	0% {
-		transform: translateY(2vw);
 		opacity: 0;
 	}
-	76.2% {
-		transform: translateY(2vw);
+	66.6% {
 		opacity: 0;
 	}
 	100% {
-		transform: translateY(0);
 		opacity: 1;
 	}
 }
@@ -114,7 +108,7 @@ body {
 	padding-bottom: 20px;
   	animation-name: button_entry;
   	-webkit-animation-name: button_entry;
- 	animation-duration: 2.1s;
+ 	animation-duration: 2.4s;
 }
 
 .enter > a {
