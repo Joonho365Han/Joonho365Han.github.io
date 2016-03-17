@@ -57,12 +57,12 @@
 }
 
 @keyframes green_lantern {
-	from { border-color: #777; }
-	to   { border-color: #00e6b8; }
+	from { border-color: #777; color: #777; }
+	to   { border-color: #00e6b8; color: #00e6b8; }
 }
 @keyframes -webkit-green_lantern {
-	from { border-color: #777; }
-	to   { border-color: #00e6b8; }
+	from { border-color: #777; color: #777; }
+	to   { border-color: #00e6b8; color: #00e6b8; }
 }
 
 @keyframes enter_hover {
@@ -134,8 +134,8 @@ body {
 	margin: 0 auto;
 	border: 1px solid #777;
 	border-radius: 10px;
-	animation: green_lantern 0.6s ease 1.8s infinite alternate;
-	-webkit-animation: green_lantern 0.6s ease 1.8s infinite alternate;
+	animation: green_lantern 0.6s ease 0s infinite alternate;
+	-webkit-animation: green_lantern 0.6s ease 0s infinite alternate;
 }
 
 .enter > a:hover {
