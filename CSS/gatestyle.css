@@ -49,11 +49,11 @@
 }
 
 @keyframes green_lantern {
-	from { border-color: #777; color: #777; }
+	from { border-color: #999; color: #777; }
 	to   { border-color: #00e6b8; color: #00e6b8; }
 }
 @keyframes -webkit-green_lantern {
-	from { border-color: #777; color: #777; }
+	from { border-color: #999; color: #777; }
 	to   { border-color: #00e6b8; color: #00e6b8; }
 }
 
@@ -120,7 +120,7 @@ body {
 	height: 40px;
 	color: #777;
 	margin: 0 auto;
-	border: 1px solid #777;
+	border: 1px solid #999;
 	border-radius: 10px;
 }
 
