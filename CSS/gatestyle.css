@@ -49,11 +49,11 @@
 }
 
 @keyframes green_lantern {
-	from { border-color: #999; color: #666; }
+	from { border-color: #aaa; color: #777; }
 	to   { border-color: #00e6b8; color: #00e6b8; }
 }
 @keyframes -webkit-green_lantern {
-	from { border-color: #999; color: #666; }
+	from { border-color: #aaa; color: #777; }
 	to   { border-color: #00e6b8; color: #00e6b8; }
 }
 
@@ -118,9 +118,9 @@ body {
     font: 1.3em 'Poiret One',sans-serif;
 	line-height: 38px;
 	height: 40px;
-	color: #666;
+	color: #777;
 	margin: 0 auto;
-	border: 1px solid #999;
+	border: 1px solid #aaa;
 	border-radius: 10px;
 }
 
