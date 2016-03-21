@@ -135,6 +135,7 @@ header > a {
     height: 1.1em;
     top: 50%;
     bottom: 50%;
+    margin-top: -0.5em;
 }
 
 .timeline-button h4 {
