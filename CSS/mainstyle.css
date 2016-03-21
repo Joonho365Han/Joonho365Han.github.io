@@ -118,10 +118,10 @@ header > a {
 	position: absolute;
     font: 1.1em Abel,sans-serif;
     color: #444;
-    top: 50%;
-    bottom: 50%;
+    top: 0;
+    bottom: 0;
     height: 1.1em;
-    margin-top: -0.55em;
+    margin: auto;
 }
 .timeline-button h4 {
     left: calc(2em + 3vw);
