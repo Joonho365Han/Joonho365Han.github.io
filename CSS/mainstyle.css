@@ -70,7 +70,7 @@ h4 {
 }
 
 header {
-    background: white;
+    background: gray;
     height: 100px;
     height: calc(50px + 1vw);
     width: 100%;
@@ -84,7 +84,7 @@ header {
 
 header > a {
 	display: block;
-    font: 4em Cinzel,serif;
+    font: calc(2em + 1vw) Cinzel,serif;
     color: #444;
     line-height: calc(50px + 1vw); /*This vertically centers the anchors*/
     height: calc(50px + 1vw); /* This limits the height so it fits inside the nav bar */
@@ -112,6 +112,7 @@ header > a {
 }
 
 .menulink a{
+	background: #efc;
 	display: block;
 	position: relative;
 	width: 50px;
