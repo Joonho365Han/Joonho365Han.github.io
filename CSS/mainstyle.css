@@ -83,7 +83,7 @@ header {
 
 header > a {
 	display: block;
-    font: calc(2em + 3vw) Cinzel,serif;
+    font: 3vw Cinzel,serif;
     color: #444;
 }
 
