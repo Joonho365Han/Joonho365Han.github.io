@@ -117,8 +117,7 @@ header {
 }
 
 /* TIMELINE, BLOG */
-.menulink h4{ 
-	background: gray;
+.menulink h4{
 	visibility: hidden;
 	position: absolute;
 	display: table-cell;
@@ -127,10 +126,10 @@ header {
     color: #444;
 }
 .timeline-button h4 {
-    left: calc(1em + 3vw);
+    left: calc(1.5em + 2vw);
 }
 .blog-button h4{
-	right: calc(1em + 3vw);
+	right: calc(1.5em + 2vw);
 }
 
 .menulink > a:hover > h4 {
