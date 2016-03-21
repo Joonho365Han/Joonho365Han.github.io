@@ -84,7 +84,7 @@ header {
 header > a {
 	display: table-cell;
 	vertical-align: middle;
-    font: calc(1em + 1vw) Cinzel,serif;
+    font: calc(1.1em + 1.1vw) Cinzel,serif;
     color: #444;
     margin: 0 auto;
 }
