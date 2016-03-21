@@ -126,6 +126,7 @@ header > a {
 }
 
 .menulink h4{ 
+	background: #555;
 	position: absolute;
 	visibility: hidden;
 	display: block;
