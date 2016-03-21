@@ -79,7 +79,6 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
-    overflow: hidden;
 }
 
 header > a {
