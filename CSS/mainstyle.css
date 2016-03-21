@@ -121,10 +121,12 @@ header > a {
 }
 
 .timeline {
+	left: 0;
 	float: left;
 }
 
 .blog{
+	right: 0;
 	float: right;
 }
 
