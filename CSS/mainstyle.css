@@ -120,6 +120,8 @@ header > a {
     color: #444;
     top: 50%;
     bottom: 50%;
+    height: 1.1em;
+    margin-top: -0.55em;
 }
 .timeline-button h4 {
     left: calc(2em + 3vw);
