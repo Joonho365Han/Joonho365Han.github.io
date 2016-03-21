@@ -112,8 +112,9 @@ header > a {
 }
 
 .menulink h4{ 
-	background: #ecf;
+	background: gray;
 	visibility: hidden;
+	position: absolute;
 	display: table-cell;
 	vertical-align: middle;
     font: 1.1em Abel,sans-serif;
