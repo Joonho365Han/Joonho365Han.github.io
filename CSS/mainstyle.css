@@ -70,7 +70,6 @@ h4 {
 }
 
 header {
-    background: gray;
     height: calc(2em + 3vw);
     width: 100%;
     text-align: center;
@@ -89,14 +88,15 @@ header > a {
     margin: 0 auto;
 }
 
+/* Link div */
 .menulink{
 	position: absolute;
 	height: calc(2em + 3vw);
-	line-height: calc(2em + 3vw);
 }
 .timeline-button { left: 0; }
 .blog-button{ right: 0; }
 
+/* Icon buttons */
 .timeline-button a{ background: url("/img/ic_main.ico"); }
 .blog-button a { background: url("/img/ic_main.ico"); }
 .menulink a{
@@ -111,19 +111,18 @@ header > a {
 	-webkit-background-position: center;
 }
 
+/* TIMELINE, BLOG */
 .menulink h4{ 
 	background: gray;
 	visibility: hidden;
 	position: absolute;
-	vertical-align: middle;
     font: 1.1em Abel,sans-serif;
     color: #444;
+    top: 50%;
 }
-
 .timeline-button h4 {
     left: calc(2em + 3vw);
 }
-
 .blog-button h4{
 	right: calc(2em + 3vw);
 }
