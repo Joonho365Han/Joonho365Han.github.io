@@ -9,6 +9,15 @@
 	100% {color: #00e6b8;}
 }
 
+@keyframes menu_hover2{
+	0% {color: #444;}
+	100% {color: #00e6b8;}
+}
+@keyframes -webkit-menu_hover2{
+	0% {color: #444;}
+	100% {color: #00e6b8;}
+}
+
 *{
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -80,6 +89,7 @@ header > a {
 }
 
 .menulink{
+	position: absolute;
 	height: 100%;
 }
 
@@ -101,6 +111,12 @@ header > a {
 	visibility: visible;
   	animation-name: menu_hover;
   	-webkit-animation-name: menu_hover;
+ 	animation-duration: 0.2s;
+}
+
+.blog:hover > h4 {
+  	animation-name: menu_hover2;
+  	-webkit-animation-name: menu_hover2;
  	animation-duration: 0.2s;
 }
 
