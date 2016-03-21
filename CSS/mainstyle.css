@@ -83,6 +83,11 @@ header > a {
 	height: 100%;
 }
 
+.menulink img{
+	width: 4vw;
+	height: 4vw;
+}
+
 .menulink h4{ /* All NavBar links */
 	visibility: hidden;
 	display: block;
