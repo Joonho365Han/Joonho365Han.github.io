@@ -129,8 +129,8 @@ header > a {
 	display: block;
     font: 1.1em Abel,sans-serif;
     color: #444;
-    line-height: calc(2em + 3vw);
-    height: calc(2em + 3vw);
+    line-height: 3vw;
+    height: 3vw;
 }
 
 .timeline-button h4 {
