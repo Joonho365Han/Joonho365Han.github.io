@@ -97,12 +97,18 @@ header > a {
 
 .timeline-button {
 	left: 0;
-	float: left;
 }
 
 .blog-button{
 	right: 0;
-	float: right;
+}
+
+.timeline-button a{
+	background: url("/img/ic_main.ico");
+}
+
+.blog-button a {
+	background: url("/img/ic_main.ico");
 }
 
 .menulink a{
@@ -111,15 +117,6 @@ header > a {
 	width: 75px;
 	height: 75px;
 	margin: 12.5px;
-	background: url("/img/ic_main.ico");
-	background-size: cover;
-	-webkit-background-size: cover;
-	background-position: center;
-	-webkit-background-position: center;
-}
-
-.blog-button a {
-	background: url("/img/ic_main.ico");
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-position: center;
