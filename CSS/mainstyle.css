@@ -106,6 +106,7 @@ header > a {
 }
 
 .menulink a{
+	display: block;
 	width: 4vw;
 	height: 4vw;
 	background: url("/img/ic_main.ico");
