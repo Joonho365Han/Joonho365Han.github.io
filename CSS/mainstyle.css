@@ -100,11 +100,16 @@ header > a {
 
 .menulink h4{ /* All NavBar links */
 	visibility: hidden;
+	float: right;
 	display: block;
     font: 1.1em Abel,sans-serif;
     color: #444;
     line-height: 4vw; /*This vertically centers the anchors*/
     height: 4vw; /* This limits the height so it fits inside the nav bar */
+}
+
+.blog h4{
+	float: left;
 }
 
 .menulink:hover > h4 {
