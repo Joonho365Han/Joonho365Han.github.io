@@ -134,11 +134,13 @@ header > a {
     color: #444;
     line-height: 100px;
     height: 100px; 
+}
+
+.timeline-button {
     left: 100px;
 }
 
 .blog-button h4{
-	left: 0;
 	right: 100px;
 }
 
