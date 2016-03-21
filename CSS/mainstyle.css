@@ -79,6 +79,10 @@ header > a {
     height: 4vw; /* This limits the height so it fits inside the nav bar */
 }
 
+.menulink{
+	height: 100%;
+}
+
 .menulink h4{ /* All NavBar links */
 	visibility: hidden;
 	display: block;
@@ -95,7 +99,13 @@ header > a {
  	animation-duration: 0.2s;
 }
 
+.timeline {
+	float: left;
+}
 
+.blog{
+	float: right;
+}
 
 footer {
 	background: white;
