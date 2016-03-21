@@ -62,7 +62,7 @@ h4 {
 
 header {
     background: white;
-    height: 50px;
+    height: 100px;
     width: 100%;
     text-align: center;
     position: fixed;
@@ -71,30 +71,30 @@ header {
     z-index: 1000;
 }
 
-.nav_bar {
-    max-width: 600px; /* Minimum width for the buttons. */
-    position: relative; /*This nav bar is the position origin for all others*/
+header > a {
+	display: block;
+    font: 4vw Cinzel,serif;
+    color: #444;
+    line-height: 4vw; /*This vertically centers the anchors*/
+    height: 4vw; /* This limits the height so it fits inside the nav bar */
 }
 
-.nav_bar > li { /*Nav Bar Items (including mega drop down menu)*/
-	width: 33.3%;
-	position: relative;
-}
-
-.nav_bar a{ /* All NavBar links */
+header h4{ /* All NavBar links */
 	display: block;
     font: 1.1em Abel,sans-serif;
     color: #444;
-    line-height: 50px; /*This vertically centers the anchors*/
-    height: 50px; /* This limits the height so it fits inside the nav bar */
+    line-height: 4vw; /*This vertically centers the anchors*/
+    height: 4vw; /* This limits the height so it fits inside the nav bar */
 }
 
-.nav_bar a:hover {
+header > a:hover {
   	color: #00e6b8;
   	animation-name: navbar_hover;
   	-webkit-animation-name: navbar_hover;
  	animation-duration: 0.2s;
 }
+
+
 
 footer {
 	background: white;
