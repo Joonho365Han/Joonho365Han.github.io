@@ -83,7 +83,7 @@ header {
 
 header > a {
 	display: block;
-    font: calc(2em + 1vw) Cinzel,serif;
+    font: 4vw Cinzel,serif;
     color: #444;
     line-height: calc(2em + 3vw); /*This vertically centers the anchors*/
     height: calc(2em + 3vw); /* This limits the height so it fits inside the nav bar */
