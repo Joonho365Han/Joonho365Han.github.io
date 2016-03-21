@@ -118,7 +118,7 @@ header > a {
 	position: absolute;
     font: 1.1em Abel,sans-serif;
     color: #444;
-    top: 50%;
+    margin: auto auto;
 }
 .timeline-button h4 {
     left: calc(2em + 3vw);
