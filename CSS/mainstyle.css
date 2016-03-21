@@ -127,7 +127,7 @@ header > a {
 	display: block;
     font: 1.1em Abel,sans-serif;
     color: #444;
-    line-height: 2vw;
+    line-height: calc(2em + 3vw);
     height: calc(2em + 3vw);
 }
 
