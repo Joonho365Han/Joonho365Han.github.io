@@ -90,6 +90,7 @@ header > a {
 
 .menulink{
 	background: #ec5;
+	overflow: hidden;
 	position: absolute;
 	height: 4vw;
 }
