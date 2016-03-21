@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Prata|Merriweather:300|Abel|Poiret+One|Open+Sans:400,800');
+@import url('https://fonts.googleapis.com/css?family=Stardos+Stencil|Merriweather:300|Abel|Poiret+One|Open+Sans:400,800');
 
 @keyframes menu_hover{
 	0% {opacity: 0; transform: translateX(-100%);}
@@ -83,7 +83,7 @@ header {
 header > a {
 	display: table-cell;
 	vertical-align: middle;
-    font: calc(1.5em + 1.1vw) 'Poiret One',serif;
+    font: calc(1.5em + 1.1vw) 'Stardos Stencil',serif;
     color: #444;
     margin: 0 auto;
 }
