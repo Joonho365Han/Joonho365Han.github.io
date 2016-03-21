@@ -71,7 +71,6 @@ h4 {
 
 header {
     background: gray;
-    height: 100px;
     height: calc(2em + 3vw);
     width: 100%;
     text-align: center;
@@ -82,8 +81,7 @@ header {
 }
 
 header > a {
-	display: block;
-    font: 3.5vw Cinzel,serif;
+    font: calc(1em + 3vw) Cinzel,serif;
     color: #444;
     height: calc(2em + 3vw);
     line-height: calc(2em + 3vw);
