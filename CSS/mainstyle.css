@@ -127,10 +127,10 @@ header {
     color: #444;
 }
 .timeline-button h4 {
-    left: calc(2em + 3vw);
+    left: calc(1em + 3vw);
 }
 .blog-button h4{
-	right: calc(2em + 3vw);
+	right: calc(1em + 3vw);
 }
 
 .menulink > a:hover > h4 {
