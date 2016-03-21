@@ -91,9 +91,8 @@ header > a {
 
 .menulink{
 	position: absolute;
-	display: table;
-	vertical-align: middle;
 	height: calc(2em + 3vw);
+	line-height: calc(2em + 3vw);
 }
 .timeline-button { left: 0; }
 .blog-button{ right: 0; }
@@ -116,7 +115,6 @@ header > a {
 	background: gray;
 	visibility: hidden;
 	position: absolute;
-	display: table-cell;
 	vertical-align: middle;
     font: 1.1em Abel,sans-serif;
     color: #444;
