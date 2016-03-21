@@ -91,6 +91,7 @@ header > a {
 
 .menulink{
 	position: absolute;
+	display: table;
 	vertical-align: middle;
 	height: calc(2em + 3vw);
 }
