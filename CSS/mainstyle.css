@@ -78,6 +78,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
+    overflow: hidden;
 }
 
 header > a {
@@ -128,7 +129,6 @@ header > a {
 .menulink h4{ 
 	background: #555;
 	position: absolute;
-	visibility: hidden;
 	display: block;
     font: 1.1em Abel,sans-serif;
     color: #444;
@@ -138,7 +138,7 @@ header > a {
 }
 
 .blog-button h4{
-	right: 100px;
+	right: -100px;
 }
 
 .menulink:hover > h4 {
