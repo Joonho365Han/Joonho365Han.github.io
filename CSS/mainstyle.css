@@ -106,7 +106,7 @@ header {
 .timeline-button a{ background: url("/img/ic_main.ico"); }
 .blog-button a { background: url("/img/ic_main.ico"); }
 .menulink a{
-	display: block;
+	display: table;
 	position: relative;
 	width: calc(2em + 1vw);
 	height: calc(2em + 1vw);
@@ -122,12 +122,10 @@ header {
 	background: gray;
 	visibility: hidden;
 	position: absolute;
+	display: table-cell;
+	vertical-align: middle;
     font: 1.1em Abel,sans-serif;
     color: #444;
-    top: 0;
-    bottom: 0;
-    height: 1.1em;
-    margin: auto;
 }
 .timeline-button h4 {
     left: calc(2em + 3vw);
@@ -136,14 +134,14 @@ header {
 	right: calc(2em + 3vw);
 }
 
-.menulink:hover > h4 {
+.menulink > a:hover > h4 {
 	visibility: visible;
   	animation-name: menu_hover;
   	-webkit-animation-name: menu_hover;
  	animation-duration: 0.2s;
 }
 
-.blog-button:hover > h4 {
+.blog-button > a:hover > h4 {
   	animation-name: menu_hover2;
   	-webkit-animation-name: menu_hover2;
  	animation-duration: 0.2s;
