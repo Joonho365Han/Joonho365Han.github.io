@@ -82,7 +82,6 @@ header {
 .title-link {
 	height: 100%;
     display: table;
-    max-width: 400px;
     margin: 0 auto;
 }
 
