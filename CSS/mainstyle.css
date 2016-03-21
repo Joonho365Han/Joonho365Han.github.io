@@ -27,7 +27,7 @@
 }
 
 body {
-	background: white;
+	background: #eee;
     font-size: 62.5%;
 }
 
@@ -70,7 +70,7 @@ h4 {
 }
 
 header {
-    background: white;
+    background: #cfe;
     height: 100px;
     width: 100%;
     text-align: center;
@@ -89,6 +89,7 @@ header > a {
 }
 
 .menulink{
+	background: #ec5;
 	position: absolute;
 	height: 100%;
 }
