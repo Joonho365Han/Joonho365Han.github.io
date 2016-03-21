@@ -27,7 +27,7 @@
 }
 
 body {
-	background: #eee;
+	background: white;
     font-size: 62.5%;
 }
 
@@ -70,7 +70,7 @@ h4 {
 }
 
 header {
-    background: #cfe;
+    background: white;
     height: 100px;
     width: 100%;
     text-align: center;
@@ -128,8 +128,8 @@ header > a {
 	display: block;
     font: 1.1em Abel,sans-serif;
     color: #444;
-    line-height: 100px;
-    height: 100px; 
+    height: 100px;
+    vertical-align: middle;
 }
 
 .timeline-button h4 {
