@@ -126,13 +126,15 @@ header > a {
 }
 
 .menulink h4{ 
+	background: gray;
 	visibility: hidden;
 	position: absolute;
 	display: block;
     font: 1.1em Abel,sans-serif;
     color: #444;
-    line-height: 2vw;
-    height: 2vw;
+    height: 1.1em;
+    top: 50%;
+    bottom: 50%;
 }
 
 .timeline-button h4 {
