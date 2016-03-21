@@ -78,13 +78,14 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
+    display: table;
 }
 
 header > a {
+	display: table-cell;
+	vertical-align: middle;
     font: calc(1em + 1vw) Cinzel,serif;
     color: #444;
-    height: calc(2em + 3vw);
-    line-height: calc(2em + 3vw);
     margin: 0 auto;
 }
 
