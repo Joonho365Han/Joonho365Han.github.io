@@ -85,12 +85,14 @@ header > a {
 	display: block;
     font: 3.5vw Cinzel,serif;
     color: #444;
-    height: 3.5vw;
-    line-height: 3.5vw;
+    height: calc(2em + 3vw);
+    line-height: calc(2em + 3vw);
+    margin: 0 auto;
 }
 
 .menulink{
 	position: absolute;
+	vertical-align: middle;
 	height: calc(2em + 3vw);
 }
 
@@ -129,8 +131,8 @@ header > a {
 	display: block;
     font: 1.1em Abel,sans-serif;
     color: #444;
-    line-height: 3vw;
-    height: 3vw;
+    line-height: 2vw;
+    height: 2vw;
 }
 
 .timeline-button h4 {
