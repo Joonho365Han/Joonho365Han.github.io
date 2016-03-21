@@ -72,7 +72,7 @@ h4 {
 header {
     background: gray;
     height: 100px;
-    height: calc(2em + 2vw);
+    height: calc(2em + 3vw);
     width: 100%;
     text-align: center;
     position: fixed;
@@ -85,13 +85,13 @@ header > a {
 	display: block;
     font: calc(2em + 1vw) Cinzel,serif;
     color: #444;
-    line-height: calc(2em + 2vw); /*This vertically centers the anchors*/
-    height: calc(2em + 2vw); /* This limits the height so it fits inside the nav bar */
+    line-height: calc(2em + 3vw); /*This vertically centers the anchors*/
+    height: calc(2em + 3vw); /* This limits the height so it fits inside the nav bar */
 }
 
 .menulink{
 	position: absolute;
-	height: calc(2em + 2vw);
+	height: calc(2em + 3vw);
 }
 
 .timeline-button {
@@ -130,16 +130,16 @@ header > a {
     font: 1.1em Abel,sans-serif;
     color: #444;
     line-height: 2vw;
-    height: calc(2em + 2vw);
+    height: calc(2em + 3vw);
     vertical-align: middle;
 }
 
 .timeline-button h4 {
-    left: calc(2em + 2vw);
+    left: calc(2em + 3vw);
 }
 
 .blog-button h4{
-	right: calc(2em + 2vw);
+	right: calc(2em + 3vw);
 }
 
 .menulink:hover > h4 {
