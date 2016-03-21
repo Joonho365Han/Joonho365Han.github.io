@@ -138,6 +138,7 @@ header > a {
 }
 
 .blog-button h4{
+	left: 0;
 	right: 100px;
 }
 
