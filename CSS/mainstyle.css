@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300|Abel|Poiret+One|Open+Sans:400,800');
 
-@keyframes navbar_hover{
+@keyframes menu_hover{
 	0% {color: #444;}
 	100% {color: #00e6b8;}
 }
-@keyframes -webkit-navbar_hover{
+@keyframes -webkit-menu_hover{
 	0% {color: #444;}
 	100% {color: #00e6b8;}
 }
@@ -79,7 +79,8 @@ header > a {
     height: 4vw; /* This limits the height so it fits inside the nav bar */
 }
 
-header h4{ /* All NavBar links */
+.menulink h4{ /* All NavBar links */
+	visibility: hidden;
 	display: block;
     font: 1.1em Abel,sans-serif;
     color: #444;
@@ -87,10 +88,10 @@ header h4{ /* All NavBar links */
     height: 4vw; /* This limits the height so it fits inside the nav bar */
 }
 
-header > a:hover {
-  	color: #00e6b8;
-  	animation-name: navbar_hover;
-  	-webkit-animation-name: navbar_hover;
+.menulink:hover > h4 {
+	visibility: visible;
+  	animation-name: menu_hover;
+  	-webkit-animation-name: menu_hover;
  	animation-duration: 0.2s;
 }
 
