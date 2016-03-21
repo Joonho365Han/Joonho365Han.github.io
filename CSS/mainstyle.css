@@ -95,9 +95,32 @@ header > a {
 	height: 4vw;
 }
 
-.menulink img{
+.timeline-button {
+	left: 0;
+	float: left;
+}
+
+.blog-button{
+	right: 0;
+	float: right;
+}
+
+.menulink a{
 	width: 4vw;
 	height: 4vw;
+	background: url("/img/ic_main.ico");
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	-webkit-background-position: center;
+}
+
+.blog-button a {
+	background: url("/img/ic_main.ico");
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	-webkit-background-position: center;
 }
 
 .menulink h4{ /* All NavBar links */
@@ -110,7 +133,7 @@ header > a {
     height: 4vw; /* This limits the height so it fits inside the nav bar */
 }
 
-.blog h4{
+.blog-button h4{
 	float: left;
 }
 
@@ -121,20 +144,10 @@ header > a {
  	animation-duration: 0.2s;
 }
 
-.blog:hover > h4 {
+.blog-button:hover > h4 {
   	animation-name: menu_hover2;
   	-webkit-animation-name: menu_hover2;
  	animation-duration: 0.2s;
-}
-
-.timeline {
-	left: 0;
-	float: left;
-}
-
-.blog{
-	right: 0;
-	float: right;
 }
 
 footer {
