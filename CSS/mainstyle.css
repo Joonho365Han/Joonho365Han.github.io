@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Merriweather:300|Abel|Poiret+One|Cinzel');
 
+@keyframes fade_in{
+	from { opacity: 0; }
+	to 	 { opacity: 1; }
+}
+@keyframes -webkit-fade_in{
+	from { opacity: 0; }
+	to 	 { opacity: 1; }
+}
+
 @keyframes menu_hover{
 	0% {opacity: 0; transform: translateX(-100%);}
 	100% {opacity: 1; transform: translateX(0);}
@@ -35,6 +44,9 @@ body {
 	font-size: 1.6em;
 	margin: 0 auto; /* Automatically centers item */
 	padding-top: 50px; /* For Fixed menu bar */
+  	animation-name: fade_in;
+  	-webkit-animation-name: fade_in;
+ 	animation-duration: 0.2s;
 }
 
 ul {
