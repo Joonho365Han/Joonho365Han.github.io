@@ -31,7 +31,7 @@ body {
     font-size: 62.5%;
 }
 
-.wrapper{
+#wrapper{
 	font-size: 1.6em;
 	margin: 0 auto; /* Automatically centers item */
 	padding-top: 50px; /* For Fixed menu bar */
