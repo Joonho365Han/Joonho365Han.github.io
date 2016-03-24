@@ -133,7 +133,7 @@ header {
 .menulink h5{
 	visibility: hidden;
 	position: absolute;
-	padding: 1.1vw 0;
+	padding: calc(0.2em + 0.9vw) 0;
     font: 1.1em Abel,sans-serif;
     color: #444;
 }
