@@ -46,7 +46,7 @@ body {
 	padding-top: 50px; /* For Fixed menu bar */
   	animation-name: fade_in;
   	-webkit-animation-name: fade_in;
- 	animation-duration: 0.2s;
+ 	animation-duration: 0.6s;
 }
 
 ul {
