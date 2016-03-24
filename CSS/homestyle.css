@@ -39,6 +39,7 @@
 }
 
 .title {
+	background: white;
 	width: 100%;
     text-align: center;
     padding-top: 28vh;
