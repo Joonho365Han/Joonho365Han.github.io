@@ -82,7 +82,7 @@
 }
 
 .post h3{
-	line-height: 100%;
+	line-height: 0;
 	height: 50px;
 	width: 160px;
 	border: 1px solid #00e6b8;
