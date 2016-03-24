@@ -68,10 +68,8 @@
 }
 
 .spine {
-	position: relative;
-	right: 50%;
-	left: 50%;
-	height: 35%;
+	padding-top: 35%;
+	width: 1px;
 	border: 1px solid #444;
 	margin: 0 auto;
 }
