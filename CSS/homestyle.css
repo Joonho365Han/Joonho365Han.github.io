@@ -31,8 +31,8 @@
 	background: blue;
 	width: 100%;
     text-align: center;
-    margin-top: 28vh;
-    margin-top: calc(36vh - 6vw);
+    padding-top: 28vh;
+    padding-top: calc(36vh - 6vw);
 }
 
 .title h1{ 
