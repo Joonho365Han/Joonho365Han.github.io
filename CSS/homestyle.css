@@ -29,6 +29,9 @@
 
 .spine {
 	position: fixed;
+	top: 0;
+	right: 50%;
+	left: 50%;
 	z-index: -1;
 	height: 100%;
 	border: 1px solid #444;
@@ -36,7 +39,6 @@
 }
 
 .title {
-	background: blue;
 	width: 100%;
     text-align: center;
     padding-top: 28vh;
