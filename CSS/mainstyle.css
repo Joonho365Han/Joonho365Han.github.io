@@ -74,7 +74,9 @@ header {
     height: calc(2em + 3vw);
     width: 100%;
     text-align: center;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     z-index: 1000;
 }
 
