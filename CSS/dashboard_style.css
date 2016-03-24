@@ -82,9 +82,7 @@
 }
 
 .post h3{
-	position: relative;
-	display: block;
-	line-height: 25px;
+	line-height: 100%;
 	height: 50px;
 	width: 160px;
 	border: 1px solid #00e6b8;
