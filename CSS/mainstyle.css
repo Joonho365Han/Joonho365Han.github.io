@@ -103,8 +103,8 @@ header {
 .blog-button{ right: 0; }
 
 /* Icon buttons */
-.timeline-button a{ background: url("/img/ic_main.ico"); }
-.blog-button a { background: url("/img/ic_main.ico"); }
+.timeline-button a{ background: url("/img/ic_timeline.ico"); }
+.blog-button a { background: url("/img/ic_blog.ico"); }
 .menulink a{
 	display: table;
 	position: relative;
