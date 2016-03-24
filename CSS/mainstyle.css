@@ -101,7 +101,7 @@ header {
 .title-link > a {
 	display: table-cell;
 	vertical-align: middle;
-    font: calc(1.5em + 1.1vw) Abel,serif;
+    font: calc(1.5em + 1.1vw) 'Poiret One',Cinzel,serif;
     color: #444;
 }
 
