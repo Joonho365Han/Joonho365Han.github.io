@@ -81,6 +81,10 @@
 	margin: 0 auto;
 }
 
+.post h4{
+	padding-top: 0;
+}
+
 .post h3{
 	padding: 7px 0;
 	width: 130px;
