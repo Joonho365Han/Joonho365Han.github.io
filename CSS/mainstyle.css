@@ -135,6 +135,8 @@ header {
 
 .menulink > a:hover > h5 {
 	visibility: visible;
+	display: table-cell;
+	vertical-align: middle;
   	animation-name: menu_hover;
   	-webkit-animation-name: menu_hover;
  	animation-duration: 0.2s;
