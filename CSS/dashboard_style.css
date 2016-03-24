@@ -71,7 +71,7 @@
 }
 
 .line_border {
-	border: 1px solid #ccc;
+	border: 0.5px solid #ccc;
 	width: 10vw;
 	margin: 0 auto;
 }
@@ -79,7 +79,7 @@
 .spine {
 	padding-top: 15%;
 	width: 1px;
-	border: 1px solid #ccc;
+	border: 0.5px solid #ccc;
 	margin: 0 auto;
   	animation-name: spread;
   	-webkit-animation-name: spread;
@@ -97,6 +97,6 @@
 .post h3{
 	padding: 7px 0;
 	width: 130px;
-	border: 2px solid #ccc;
+	border: 1px solid #ccc;
 	margin: 0 auto;
 }
