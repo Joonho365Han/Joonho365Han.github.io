@@ -30,8 +30,8 @@
 .title {
 	width: 100%;
     text-align: center;
-    margin-top: 34vh;
-    margin-top: calc(42vh - 6vw);
+    margin-top: 28vh;
+    margin-top: calc(36vh - 6vw);
 }
 
 .title h1{ 
