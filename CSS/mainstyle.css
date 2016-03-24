@@ -108,6 +108,7 @@ header {
 /* Link div */
 .menulink{
 	position: absolute;
+    display: table;
 	height: calc(2em + 3vw);
 }
 .timeline-button { left: 0; }
@@ -117,6 +118,7 @@ header {
 .timeline-button a{ background: url("/img/ic_timeline.png"); }
 .blog-button a { background: url("/img/ic_blog.png"); }
 .menulink a{
+	position: relative;
 	width: calc(2em + 1vw);
 	height: calc(2em + 1vw);
 	margin: 1vw;
@@ -129,6 +131,7 @@ header {
 /* TIMELINE, BLOG */
 .menulink h5{
 	visibility: hidden;
+	position: absolute;
 	margin: auto 0;
     font: 1.1em Abel,sans-serif;
     color: #444;
