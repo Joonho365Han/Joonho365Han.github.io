@@ -66,7 +66,7 @@ a {
 }
 
 h2, h3, h4{
-    font: 2.8em 'Cinzel', sans-serif;
+    font: 2.8em 'Poiret One', sans-serif;
     font-weight: 800;
 	color: #444;
 	padding: 1vw;
@@ -78,7 +78,7 @@ h3 {
 }
 
 h4 {
-    font: 1em Merriweather, serif;
+    font: 1em 'Poiret One', serif;
 }
 
 header {
@@ -101,7 +101,7 @@ header {
 .title-link > a {
 	display: table-cell;
 	vertical-align: middle;
-    font: calc(1.5em + 1.1vw) 'Cinzel Decorative',Cinzel,serif;
+    font: calc(1.5em + 1.1vw) 'Poiret One',Cinzel,serif;
     color: #444;
 }
 
