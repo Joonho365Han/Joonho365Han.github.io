@@ -108,8 +108,8 @@ header {
 .menulink a{
 	display: table;
 	position: relative;
-	width: calc(1em + 2vw);
-	height: calc(1em + 2vw);
+	width: calc(1em + 1.5vw);
+	height: calc(1em + 1.5vw);
 	margin: 1vw;
 	background-size: cover;
 	-webkit-background-size: cover;
