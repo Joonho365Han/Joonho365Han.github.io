@@ -49,6 +49,7 @@
 	max-width: 750px;
 	max-width: calc(25vw + 375px);
 	margin: 0 auto;
+	padding: 6vh 0 2vh 0;
 	text-align: center;
 }
 
