@@ -28,13 +28,13 @@
 }
 
 @keyframes spread{
-	0%   { transform: scaleX(0); }
-	100% { transform: scaleX(1); }
+	0%   { transform: scaleX(-0.5); }
+	100% { transform: scaleX(0); }
 }
 
 @keyframes -webkit-spread{
-	0%   { transform: scaleX(0); }
-	100% { transform: scaleX(1); }
+	0%   { transform: scaleX(-0.5); }
+	100% { transform: scaleX(0); }
 }
 
 .title {
