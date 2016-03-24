@@ -27,16 +27,6 @@
 	}
 }
 
-@keyframes spread{
-	0%   { transform: scaleX(-0.5); }
-	100% { transform: scaleX(0); }
-}
-
-@keyframes -webkit-spread{
-	0%   { transform: scaleX(-0.5); }
-	100% { transform: scaleX(0); }
-}
-
 .title {
 	background: white;
 	width: 100%;
@@ -81,9 +71,6 @@
 	width: 1px;
 	border: 0.5px solid #ccc;
 	margin: 0 auto;
-  	animation-name: spread;
-  	-webkit-animation-name: spread;
- 	animation-duration: 0.6s;
 }
 
 .neck {
