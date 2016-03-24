@@ -27,6 +27,14 @@
 	}
 }
 
+.spine {
+	position: fixed;
+	z-index: -1;
+	height: 100%;
+	border: 1px solid #444;
+	margin: 0 auto;
+}
+
 .title {
 	background: blue;
 	width: 100%;
