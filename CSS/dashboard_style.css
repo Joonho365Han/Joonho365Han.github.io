@@ -67,10 +67,14 @@
 }
 
 .spine {
-	padding-top: 35%;
+	padding-top: 15%;
 	width: 1px;
 	border: 1px solid #444;
 	margin: 0 auto;
+}
+
+.neck {
+	padding-top: 30%;
 }
 
 .post {
