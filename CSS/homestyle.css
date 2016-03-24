@@ -45,7 +45,7 @@
     height: 8vw;
 }
 
-div + div{
+.hook {
 	width: 75vw;
 	max-width: 750px;
 	max-width: calc(25vw + 375px);
