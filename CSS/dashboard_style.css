@@ -50,6 +50,14 @@
     width: 100%;
 }
 
+.title h4 {
+    padding: 15px 0 20px 0;
+}
+
+
+
+
+
 .hook, .post {
 	width: 75vw;
 	max-width: 750px;
@@ -59,10 +67,6 @@
   	animation-name: title_entry;
   	-webkit-animation-name: title_entry;
  	animation-duration: 1.2s;
-}
-
-.title h4 {
-    padding: 15px 0 20px 0;
 }
 
 .line_border {
