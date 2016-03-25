@@ -186,9 +186,6 @@ header {
 	line-height: 30px;
 	height: 30px;
 }
-.quick_links > li > a > img {
-	opacity: 0.8;
-}
 
 footer {
 	background: white;
