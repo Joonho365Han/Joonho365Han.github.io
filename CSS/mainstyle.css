@@ -133,12 +133,12 @@ header {
 .menulink h5{
 	visibility: hidden;
 	position: absolute;
-	width: auto;
 	padding: calc(0.3em + 0.7vw) 0;
     font: 1.1em Rye,sans-serif;
     color: #444;
 }
 .timeline-button h5 {
+	width: 120px;
     left: calc(1.5em + 2vw);
 }
 .blog-button h5{
