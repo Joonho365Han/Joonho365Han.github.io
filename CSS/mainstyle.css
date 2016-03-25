@@ -163,13 +163,9 @@ header {
 	border-top: 3px double #444;
 	border-bottom: 3px double #444;
 	overflow: visible;
-	 padding: 8px 0 2px 0;
 }
-.contacts h4{
-	 height: 40px; 
-}
-.phone { float: left; }
-.email { float: right; }
+.phone { height: 40px; padding: 8px 15px 2px 15px; float: left; }
+.email { height: 40px; padding: 8px 15px 2px 15px; float: right; }
 
 .quick_links {
 	max-width: 180px;
@@ -179,7 +175,7 @@ header {
 .quick_links li {
 	position: relative;
 	width: 33.3%;
-	padding: 0 15px;
+	padding: 8px 15px 2px 15px;
 }
 .quick_links a {
 	display: block;
