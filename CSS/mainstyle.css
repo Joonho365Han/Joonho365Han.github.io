@@ -109,6 +109,17 @@ header {
 .blog-button{ right: 0; }
 
 /* Icon buttons */
+.menulink a{
+	display: table-cell;
+	vertical-align: middle;
+    font: 1.1em Rye,sans-serif;
+    color: #444;
+	height: calc(2em + 1vw);
+	margin: 1vw;
+}
+
+/*
+
 .timeline-button a{ background: url("/img/ic_timeline.png"); }
 .blog-button a { background: url("/img/ic_blog.png"); }
 .menulink a{
@@ -123,7 +134,6 @@ header {
 	-webkit-background-position: center;
 }
 
-/* TIMELINE, BLOG */
 .menulink h5{
 	visibility: hidden;
 	position: absolute;
@@ -150,7 +160,7 @@ header {
   	animation-name: menu_hover2;
   	-webkit-animation-name: menu_hover2;
  	animation-duration: 0.2s;
-}
+}*/
 
 .contacts{
 	position: relative;
