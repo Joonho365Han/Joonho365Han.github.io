@@ -90,6 +90,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
+	margin: 0 0.6em;
 }
 
 .title-link {
@@ -159,7 +160,6 @@ header {
 }
 
 .contacts{
-	margin: 0 calc(0.3em + 0.7vw);
 	border-top: 3px double #444;
 	border-bottom: 3px double #444;
 	overflow: visible;
