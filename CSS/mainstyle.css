@@ -105,8 +105,8 @@ header {
     display: table;
 	height: calc(2em + 3vw);
 }
-.timeline-button { left: 0; }
-.blog-button{ right: 0; }
+.timeline-button { left: calc(0.3em + 0.7vw); }
+.blog-button{ right: calc(0.3em + 0.7vw); }
 
 /* Icon buttons */
 .menulink a{
