@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Merriweather:300|Abel|Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=UnifrakturCook|Cinzel+Decorative|Lora|Abel|Open+Sans:800');
 
 @keyframes fade_in{
 	0% { opacity: 0; }
@@ -66,19 +66,19 @@ a {
 }
 
 h2, h3, h4{
-    font: 2.8em 'Poiret One', sans-serif;
-    font-weight: 800;
+    font: 2.8em 'Open Sans', sans-serif;
 	color: #444;
 	padding: 1vw;
 }
 
 h3 {
     font-size: 1.1em;
+    font-weight: 400;
 	color: #999;
 }
 
 h4 {
-    font: 1.3em Abel, sans-serif;
+    font: 1.3em Lora, sans-serif;
 }
 
 header {
@@ -101,7 +101,7 @@ header {
 .title-link > a {
 	display: table-cell;
 	vertical-align: middle;
-    font: calc(1.5em + 1.1vw) 'Poiret One',Cinzel,serif;
+    font: calc(1.5em + 1.1vw) UnifrakturCook,serif;
     color: #444;
 }
 
@@ -165,7 +165,7 @@ footer {
 }
 
 footer h6 {
-	font: 1em 'Poiret One', sans-serif;
+	font: 1em Lora, sans-serif;
 	color: #888;
 	line-height: 120px;
 	border-bottom: 1px solid #bbb;
