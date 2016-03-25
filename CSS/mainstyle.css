@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Astloch:700|Cinzel+Decorative|Lora:400|Abel|Open+Sans:800');
+@import url('https://fonts.googleapis.com/css?family=Rye|Cinzel+Decorative|Lora:400|Abel|Open+Sans:800');
 
 @keyframes fade_in{
 	0% { opacity: 0; }
@@ -101,7 +101,7 @@ header {
 .title-link > a {
 	display: table-cell;
 	vertical-align: middle;
-    font: calc(1.5em + 1.1vw) Astloch,serif;
+    font: calc(1.5em + 1.1vw) Rye,serif;
     color: #444;
 }
 
