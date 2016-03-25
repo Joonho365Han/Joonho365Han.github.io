@@ -160,8 +160,8 @@ header {
 
 .contacts{
 	margin: 0 calc(0.3em + 0.7vw);
-	border-top: 1px double #444;
-	border-bottom: 1px double #444;
+	border-top: 5px double #444;
+	border-bottom: 5px double #444;
 	overflow: visible;
 }
 
