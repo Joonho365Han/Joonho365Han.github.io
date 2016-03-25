@@ -164,11 +164,11 @@ header {
 	border-bottom: 3px double #444;
 	overflow: visible;
 }
-.contacts > h4 {
-	float: left;
-}
 .email {
 	float: right;
+}
+.contacts h4 {
+	float: left;
 }
 
 .quick_links {
