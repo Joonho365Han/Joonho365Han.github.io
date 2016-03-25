@@ -164,7 +164,7 @@ header {
 	border-bottom: 3px double #444;
 	overflow: visible;
 }
-.contacts h4 {
+.contacts > h4 {
 	float: left;
 }
 .email{
