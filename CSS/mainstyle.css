@@ -78,7 +78,7 @@ h3 {
 }
 
 h4 {
-    font: 1.3em Lora, sans-serif;
+    font: 1.1em Lora, sans-serif;
 }
 
 header {
@@ -168,14 +168,14 @@ header {
 .email { height: 40px; padding: 8px 15px 2px 15px; float: right; }
 
 .quick_links {
-	max-width: 180px;
+	max-width: 200px;
 	margin: 0 auto;
 	height: 40px;
 }
 .quick_links li {
 	position: relative;
-	width: 33.3%;
-	padding: 8px 15px 2px 15px;
+	width: 25%;
+	padding: 8px 10px 2px 10px;
 }
 .quick_links a {
 	display: block;
