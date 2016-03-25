@@ -157,6 +157,7 @@ header {
 }
 
 .contacts{
+	position: relative;
 	margin: 0 calc(0.3em + 0.7vw);
 	border-top: 3px double #444;
 	border-bottom: 3px double #444;
@@ -166,6 +167,7 @@ header {
 	margin: 0 auto;
 }
 .phone { 
+	position: absolute;
 	float: left; 
 	padding: 0 15px; 
 }
@@ -174,6 +176,7 @@ header {
 	padding-top: 6px;
 }
 .quick_links {
+	position: absolute;
 	float: right; 
 	max-width: 200px;
 	height: 36px;
