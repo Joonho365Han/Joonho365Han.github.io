@@ -134,7 +134,7 @@ header {
 	visibility: hidden;
 	position: absolute;
 	padding: calc(0.3em + 0.7vw) 0;
-    font: 1.1em Lora,sans-serif;
+    font: 1.1em Abel,sans-serif;
     color: #444;
 }
 .timeline-button h5 {
