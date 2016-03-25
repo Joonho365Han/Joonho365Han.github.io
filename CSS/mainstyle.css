@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rye|Cinzel+Decorative|Abel|Open+Sans:800|Old+Standard+TT:400,400italic');
+@import url('https://fonts.googleapis.com/css?family=Rye|Open+Sans:800|Old+Standard+TT:400,400italic');
 
 @keyframes fade_in{
 	0% { opacity: 0; }
@@ -197,7 +197,8 @@ footer {
 }
 
 footer h6 {
-	font: 1em 'Cinzel Decorative', sans-serif;
+	font: 1em 'Old Standard TT', sans-serif;
+	font-style: italic;
 	color: #888;
 	line-height: 60px;
 	border-top: 1px solid #bbb;
