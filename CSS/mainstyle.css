@@ -158,6 +158,38 @@ header {
  	animation-duration: 0.2s;
 }
 
+.contacts{
+	margin: 0 calc(0.3em + 0.7vw);
+	border-top: 1px double #444;
+	border-bottom: 1px double #444;
+	overflow: visible;
+}
+
+.contacts h4 {
+	float: left;
+}
+.email{
+	float: right;
+}
+
+.quick_links {
+	max-width: 180px;
+	height: 48px;
+}
+.quick_links li {
+	position: relative;
+	width: 33.3%;
+	padding: 9px 15px;
+}
+.quick_links a {
+	display: block;
+	line-height: 30px;
+	height: 30px;
+}
+.quick_links > li > a > img {
+	opacity: 0.5;
+}
+
 footer {
 	background: white;
 	width: 100%;
@@ -169,27 +201,6 @@ footer h6 {
 	font: 1em Lora, sans-serif;
 	color: #888;
 	line-height: 120px;
-	border-bottom: 1px solid #bbb;
+	border-top: 1px solid #bbb;
 	margin: 0 15vw;
-}
-
-.quick_links {
-	max-width: 180px;
-	height: 100px;
-}
-
-.quick_links li {
-	position: relative;
-	width: 33.3%;
-	padding: 35px 15px;
-}
-
-.quick_links a {
-	display: block;
-	line-height: 30px;
-	height: 30px;
-}
-
-.quick_links > li > a > img {
-	opacity: 0.5;
 }
