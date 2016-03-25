@@ -163,14 +163,14 @@ header {
 	border-top: 3px double #444;
 	border-bottom: 3px double #444;
 	overflow: visible;
+	height: 40px;
 }
-.phone { height: 40px; float: left; }
-.email { height: 40px; float: right; }
+.phone { line-height: 40px; float: left; }
+.email { line-height: 40px; float: right; }
 
 .quick_links {
 	max-width: 180px;
 	margin: 0 auto;
-	height: 40px;
 }
 .quick_links li {
 	position: relative;
