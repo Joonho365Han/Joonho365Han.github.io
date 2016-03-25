@@ -164,22 +164,18 @@ header {
 	border-bottom: 3px double #444;
 	overflow: visible;
 }
-.phone {
-	float: left;
-}
-.email {
-	float: right;
-}
+.contacts * { height: 40px; }
+.phone { float: left; }
+.email { float: right; }
 
 .quick_links {
 	max-width: 180px;
-	height: 48px;
 	margin: 0 auto;
 }
 .quick_links li {
 	position: relative;
 	width: 33.3%;
-	padding: 9px 15px;
+	padding: 5px 15px;
 }
 .quick_links a {
 	display: block;
@@ -187,7 +183,7 @@ header {
 	height: 30px;
 }
 .quick_links > li > a > img {
-	opacity: 0.5;
+	opacity: 0.8;
 }
 
 footer {
