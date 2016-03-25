@@ -185,6 +185,9 @@ header {
 	width: 25%;
 	padding: 6px 10px 0 10px;
 }
+.tumblr{
+	padding-top: 3px;
+}
 .quick_links a {
 	display: block;
 	line-height: 30px;
