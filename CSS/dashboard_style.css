@@ -36,7 +36,7 @@
 .title {
 	position: absolute;
 	right: 0;
-	width: 80%;
+	width: 75%;
     text-align: justify;
     padding: 3vw;
   	animation-name: title_entry;
