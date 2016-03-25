@@ -159,6 +159,8 @@ header {
 }
 
 .contacts{
+	position: relative;
+	text-align: center;
 	margin: 0 calc(0.3em + 0.7vw);
 	border-top: 3px double #444;
 	border-bottom: 3px double #444;
@@ -169,7 +171,6 @@ header {
 	padding: 0 15px; 
 }
 .since{ 
-	float: center; 
 	padding: 0; 
 }
 .contacts h4{ 
