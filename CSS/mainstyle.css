@@ -180,13 +180,13 @@ header {
 	max-width: 200px;
 	height: 36px;
 }
-.quick_links li {
+.qli {
 	position: relative;
 	width: 25%;
 	padding: 6px 10px 0 10px;
 }
 .tumblr{
-	padding-top: 3px;
+	padding-top: 0px;
 }
 .quick_links a {
 	display: block;
