@@ -164,8 +164,9 @@ header {
 	border-bottom: 3px double #444;
 	overflow: visible;
 }
-.contacts h4{ height: 36px; padding: 0; padding-top: 6px;}
-.phone { float: left; padding: 6px 15px 0 15px; }
+.phone { float: left; padding: 0 15px; }
+.since{ float: center; padding: 0; }
+.contacts h4{ height: 36px; padding-top: 6px;}
 .quick_links {
 	float: right; 
 	max-width: 200px;
