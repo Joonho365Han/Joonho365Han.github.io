@@ -164,10 +164,10 @@ header {
 	border-bottom: 3px double #444;
 	overflow: visible;
 }
-.phone { height: 40px; padding: 8px 15px 2px 15px; float: left; }
-.email { height: 40px; padding: 8px 15px 2px 15px; float: right; }
-
+.contacts h4{ height: 40px; padding: 8px 15px 2px 15px; }
+.phone { float: left; }
 .quick_links {
+	float: right; 
 	max-width: 200px;
 	margin: 0 auto;
 	height: 40px;
