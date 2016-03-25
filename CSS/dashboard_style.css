@@ -38,7 +38,6 @@
 	right: 0;
 	width: 75%;
     text-align: justify;
-    padding: 1vw;
   	animation-name: title_entry;
   	-webkit-animation-name: title_entry;
  	animation-duration: 1.2s;
@@ -48,10 +47,7 @@
     font: 9.7vw 'Open Sans', sans-serif;
     color: #444;
     width: 100%;
-}
-
-.title h4 {
-    padding: 15px 0 20px 0;
+    padding: 1vw;
 }
 
 
