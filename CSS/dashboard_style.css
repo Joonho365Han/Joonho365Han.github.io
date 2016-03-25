@@ -27,10 +27,17 @@
 	}
 }
 
+.row{
+	position: relative;
+	width: 100%;
+	overflow: visible;
+}
+
 .title {
+	position: absolute;
+	right: 0;
 	background: #ccc;
 	width: 60%;
-	float: right;
     text-align: justify;
     padding: 3vw;
   	animation-name: title_entry;
