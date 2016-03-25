@@ -28,8 +28,11 @@
 }
 
 .title {
-	width: 100%;
-    text-align: center;
+	background: #ccc;
+	width: 60%;
+	float: right;
+    text-align: justify;
+    padding: 3vw;
   	animation-name: title_entry;
   	-webkit-animation-name: title_entry;
  	animation-duration: 1.2s;
@@ -39,7 +42,6 @@
     font: 10vw 'Open Sans', sans-serif;
     color: #444;
     width: 100%;
-    padding: 3vw;
 }
 
 .hook, .post {
