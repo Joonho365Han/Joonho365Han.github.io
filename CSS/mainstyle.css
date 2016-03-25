@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rye|Cinzel+Decorative|Lora:400|Open+Sans:800');
+@import url('https://fonts.googleapis.com/css?family=Rye|Cinzel+Decorative|Lora:400|Open+Sans:800|Old+Standard+TT:400,400italic');
 
 @keyframes fade_in{
 	0% { opacity: 0; }
@@ -78,7 +78,7 @@ h3 {
 }
 
 h4 {
-    font: 1.1em Lora, serif;
+    font: 1.1em 'Old Standard TT', serif;
 }
 
 header {
@@ -173,6 +173,7 @@ header {
 	left: 15px;
 	padding-top: 6px;
 }
+.contacts h4 { font-style: italic; }
 .quick_links {
 	position: absolute;
 	right: 15px;
@@ -191,7 +192,6 @@ header {
 }
 
 footer {
-	background: white;
 	width: 100%;
 	margin: 25px auto;
 	text-align: center;
