@@ -101,7 +101,7 @@ header {
 .title-link > a {
 	display: table-cell;
 	vertical-align: middle;
-    font: calc(1.5em + 1.1vw) Rye,serif;
+    font: calc(2em + 1.5vw) Rye,serif;
     color: #444;
 }
 
