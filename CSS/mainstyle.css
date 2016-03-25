@@ -120,6 +120,7 @@ header {
 .menulink a{
 	display: table;
 	position: relative;
+	overflow: visible;
 	width: calc(2em + 1vw);
 	height: calc(2em + 1vw);
 	margin: 1vw;
@@ -133,7 +134,6 @@ header {
 .menulink h5{
 	visibility: hidden;
 	position: absolute;
-	width: 125px;
 	padding: calc(0.3em + 0.7vw) 0;
     font: 1.1em Rye,sans-serif;
     color: #444;
