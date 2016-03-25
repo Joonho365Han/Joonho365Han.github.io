@@ -30,13 +30,13 @@
 .title {
 	width: 100%;
     text-align: center;
+    padding: 1vw;
 }
 
 .title h1{ 
     font: 10vw 'Open Sans', sans-serif;
     color: #444;
     width: 100%;
-    padding: 1vw;
   	animation-name: title_entry;
   	-webkit-animation-name: title_entry;
  	animation-duration: 1.2s;
