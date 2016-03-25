@@ -28,14 +28,12 @@
 }
 
 .row{
-	position: relative;
 	width: 100%;
 	overflow: visible;
 }
 
 .intro {
-	position: absolute;
-	right: 0;
+	float: left;
 	width: 75%;
     text-align: justify;
   	animation-name: intro_entry;
