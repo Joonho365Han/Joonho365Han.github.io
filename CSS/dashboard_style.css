@@ -36,8 +36,7 @@
 .title {
 	position: absolute;
 	right: 0;
-	background: #ccc;
-	width: 75%;
+	width: 80%;
     text-align: justify;
     padding: 3vw;
   	animation-name: title_entry;
@@ -46,7 +45,7 @@
 }
 
 .title h1{ 
-    font: 10vw 'Open Sans', sans-serif;
+    font: 9vw 'Open Sans', sans-serif;
     color: #444;
     width: 100%;
 }
