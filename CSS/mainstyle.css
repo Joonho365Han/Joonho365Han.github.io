@@ -164,20 +164,18 @@ header {
 }
 .since{ 
 	padding: 0;
+	height: 36px; 
+	padding-top: 6px;
 	margin: 0 auto;
 }
 .phone { 
 	position: absolute;
-	float: left; 
-	padding: 0 15px; 
-}
-.contacts h4{ 
-	height: 36px; 
+	left: 15px;
 	padding-top: 6px;
 }
 .quick_links {
 	position: absolute;
-	float: right; 
+	right: 15px;
 	max-width: 200px;
 	height: 36px;
 }
