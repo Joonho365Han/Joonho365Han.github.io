@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=UnifrakturCook:700|Cinzel+Decorative|Lora|Abel|Open+Sans:800');
+@import url('https://fonts.googleapis.com/css?family=Astloch:700|Cinzel+Decorative|Lora:400|Abel|Open+Sans:800');
 
 @keyframes fade_in{
 	0% { opacity: 0; }
@@ -101,7 +101,7 @@ header {
 .title-link > a {
 	display: table-cell;
 	vertical-align: middle;
-    font: calc(1.5em + 1.1vw) UnifrakturCook,serif;
+    font: calc(1.5em + 1.1vw) Astloch,serif;
     color: #444;
 }
 
@@ -134,7 +134,7 @@ header {
 	visibility: hidden;
 	position: absolute;
 	padding: calc(0.3em + 0.7vw) 0;
-    font: 1.1em Abel,sans-serif;
+    font: 1.1em Lora,sans-serif;
     color: #444;
 }
 .timeline-button h5 {
