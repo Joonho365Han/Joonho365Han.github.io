@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rye|Cinzel+Decorative|Lora:400|Abel|Open+Sans:800');
+@import url('https://fonts.googleapis.com/css?family=Rye|Cinzel+Decorative|Lora:400|Open+Sans:800');
 
 @keyframes fade_in{
 	0% { opacity: 0; }
@@ -164,11 +164,11 @@ header {
 	border-bottom: 3px double #444;
 	overflow: visible;
 }
+.phone {
+	float: left;
+}
 .email {
 	float: right;
-}
-.contacts h4 {
-	float: left;
 }
 
 .quick_links {
@@ -193,13 +193,12 @@ header {
 footer {
 	background: white;
 	width: 100%;
-	margin: 0 auto;
-	margin-top: 40px;
+	margin: 25px auto;
 	text-align: center;
 }
 
 footer h6 {
-	font: 1em Lora, sans-serif;
+	font: 1em 'Cinzel Decorative', sans-serif;
 	color: #888;
 	line-height: 60px;
 	border-top: 1px solid #bbb;
