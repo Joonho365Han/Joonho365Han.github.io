@@ -27,9 +27,11 @@
 
 @keyframes button_entry{
 	0% {
+		visibility: hidden;
 		opacity: 0;
 	}
 	83.3% {
+		visibility: visible;
 		opacity: 0;
 	}
 	100% {
@@ -38,9 +40,11 @@
 }
 @keyframes -webkit-button_entry{
 	0% {
+		visibility: hidden;
 		opacity: 0;
 	}
 	83.3% {
+		visibility: visible;
 		opacity: 0;
 	}
 	100% {
