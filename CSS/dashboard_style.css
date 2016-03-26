@@ -1,4 +1,4 @@
-@keyframes intro_entry{
+@keyframes title_entry{
 	0% {
 		transform: translateY(10%);
 		opacity: 0;
@@ -12,7 +12,7 @@
 		opacity: 1;
 	}
 }
-@keyframes -webkit-intro_entry{
+@keyframes -webkit-title_entry{
 	0% {
 		transform: translateY(10%);
 		opacity: 0;
@@ -27,21 +27,7 @@
 	}
 }
 
-.row{
-	width: 100%;
-	overflow: visible;
-}
-
-.intro {
-	float: left;
-	width: 75%;
-    text-align: justify;
-  	animation-name: intro_entry;
-  	-webkit-animation-name: intro_entry;
- 	animation-duration: 1.2s;
-}
-
-.intro h1{ 
+.title {
     font: 10vw Oswald, sans-serif;
     color: #444;
     width: 100%;
@@ -49,6 +35,15 @@
     height: 9vw;
     margin-top: -1vw;
     margin-bottom: 3vw;
+    text-align: center;
+  	animation-name: title_entry;
+  	-webkit-animation-name: title_entry;
+ 	animation-duration: 1.2s;
+}
+
+.row{
+	width: 100%;
+	overflow: visible;
 }
 
 
@@ -61,8 +56,8 @@
 	max-width: calc(25vw + 375px);
 	margin: 6vh auto 2vh auto;
 	text-align: center;
-  	animation-name: intro_entry;
-  	-webkit-animation-name: intro_entry;
+  	animation-name: title_entry;
+  	-webkit-animation-name: title_entry;
  	animation-duration: 1.2s;
 }
 
