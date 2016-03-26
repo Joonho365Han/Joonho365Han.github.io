@@ -138,14 +138,12 @@ header {
 .blog-button h5{
 	right: calc(1.5em + 2vw);
 }
-
 .menulink > a:hover > h5 {
 	visibility: visible;
   	animation-name: menu_hover;
   	-webkit-animation-name: menu_hover;
  	animation-duration: 0.2s;
 }
-
 .blog-button > a:hover > h5 {
   	animation-name: menu_hover2;
   	-webkit-animation-name: menu_hover2;
