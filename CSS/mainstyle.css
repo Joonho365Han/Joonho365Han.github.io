@@ -177,10 +177,10 @@ header {
 .qli {
 	position: relative;
 	width: 25%;
-	padding: 6px 10px 0 10px;
+	padding: 6px 8px 0 12px;
 }
 .tumblr{
-	padding: 3px 8px 0 8px;
+	padding: 3px 10px 0 10px;
 }
 .quick_links a {
 	display: block;
