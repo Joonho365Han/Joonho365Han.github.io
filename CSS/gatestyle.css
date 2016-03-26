@@ -31,10 +31,11 @@
 		opacity: 0;
 	}
 	83.3% {
-		visibility: visible;
+		visibility: hidden;
 		opacity: 0;
 	}
 	100% {
+		visibility: visible;
 		opacity: 1;
 	}
 }
@@ -44,10 +45,11 @@
 		opacity: 0;
 	}
 	83.3% {
-		visibility: visible;
+		visibility: hidden;
 		opacity: 0;
 	}
 	100% {
+		visibility: visible;
 		opacity: 1;
 	}
 }
