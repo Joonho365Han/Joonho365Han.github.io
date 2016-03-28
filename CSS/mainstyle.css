@@ -45,7 +45,7 @@ body {
 	margin: 0 auto; /* Automatically centers item */
   	animation-name: fade_in;
   	-webkit-animation-name: fade_in;
- 	animation-duration: 0.6s;
+ 	animation-duration: 0.3s;
 }
 
 ul {

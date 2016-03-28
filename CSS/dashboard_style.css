@@ -77,7 +77,7 @@
     text-align: center;
   	animation-name: title_entry;
   	-webkit-animation-name: title_entry;
- 	animation-duration: 1.2s;
+ 	animation-duration: 0.6s;
 }
 
 .articles{
@@ -93,7 +93,7 @@
 	text-align: center;
   	animation-name: text_entry;
   	-webkit-animation-name: text_entry;
- 	animation-duration: 1.8s;
+ 	animation-duration: 0.9s;
 }
 
 .line-divider {
