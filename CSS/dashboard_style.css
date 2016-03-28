@@ -40,29 +40,20 @@
  	animation-duration: 1.2s;
 }
 
-.row-wrapper{
-	position: relative;
+.ul-wrapper{
 	margin-top: 1vw;
 	width: 100%;
 	overflow: visible;
 }
 
-.row1, .row2{
-	height: 100%;
+.row1 li, .row2 li{
 	float: left;
 	padding: 0 1vw;
 	text-align: justify;
 }
-.row1{ width: 50%; }
-.row2{ 
-	position: absolute;
- 	width: 25%; 
- }
+.row1 li{ width: 50%; }
+.row2 li{ width: 25%; }
 .bordered{ border-right: 1px solid #444; }
-
-.about{
-	float: right;
-}
 
 .headshot{
 	width: 16vw;
@@ -81,19 +72,6 @@
 	border-top: 1px solid #444;
 	width: 100%;
 	margin: 0 2vw;
-}
-
-.firstProj{
-	position: relative;
-}
-.secondProj{
-	left: 25%;
-}
-.thirdProj{
-	left: 50%;
-}
-.fourthProj{
-	left: 75%;
 }
 
 .seltra{ background: url("/img/frontpage/headshot.png"); }
