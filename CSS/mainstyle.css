@@ -109,6 +109,8 @@ header {
 .blog-button{ right: 0; }
 
 /* Icon buttons */
+/*Browser by Creative Stall from the Noun Project*/
+/*notebook and pencil by Chameleon Design from the Noun Project*/
 .timeline-button a{ background: url("/img/ic_timeline.png"); }
 .blog-button a { background: url("/img/ic_blog.png"); }
 .menulink a{

@@ -43,8 +43,29 @@
 .row{
 	width: 100%;
 	overflow: visible;
+	padding: 0 1vw;
+	text-align: justify;
 }
 
+.row li{
+	width: 50%;
+	padding: 0 3px;
+	border-right: 1px solid #444;
+}
+.no-border{ border: none; }
+
+.headshot{
+	width: 25%;
+	height: 25%;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	float: left;
+	background: url("/img/frontpage/headshot.png");
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	-webkit-background-position: center;
+}
 
 
 
