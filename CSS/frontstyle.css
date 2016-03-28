@@ -20,6 +20,7 @@
 .listen{ background: url("/img/frontpage/headshot.png"); }
 .monolith{ background: url("/img/frontpage/headshot.png"); }
 .peek{
+	padding-bottom: 1vw;
 	width: 100%;
 	height: 23vw;
 	background-size: cover;
