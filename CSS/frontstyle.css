@@ -1,5 +1,12 @@
-.row1 > div{ width: 50%; }
-.row2 > div{ width: 25%; }
+.intro{
+	width: 75vw;
+	max-width: calc(375px + 25vw);
+	margin: 0 auto;
+	padding: 6vh 0 15vh 0;
+	text-align: center;
+}
+
+.articles > div{ width: 25%; }
 .headshot{
 	position: relative;
 	top: 1vw;
