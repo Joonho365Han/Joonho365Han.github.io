@@ -50,6 +50,12 @@
 	padding: 0 1vw;
 	text-align: justify;
 }
+.row1{
+	height: 50vw;
+}
+.row2{
+	height: 50vw;
+}
 .row1 li{ width: 50%; }
 .row2 li{ width: 25%; }
 .bordered{ border-right: 1px solid #444; }
@@ -78,7 +84,7 @@
 .listen{ background: url("/img/frontpage/headshot.png"); }
 .monolith{ background: url("/img/frontpage/headshot.png"); }
 .peek{
-	width: 100%;
+	width: 90%;
 	height: 23vw;
 	background-size: cover;
 	-webkit-background-size: cover;
