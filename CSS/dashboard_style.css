@@ -41,14 +41,13 @@
 }
 
 .row{
-	width: 100%;
 	overflow: visible;
 	margin-top: 1vw;
 }
 
 .row li{
 	float: left;
-	padding: 0 1vw;
+	margin: 0 1vw;
 	text-align: justify;
 }
 .row1 li{ width: 50%; }

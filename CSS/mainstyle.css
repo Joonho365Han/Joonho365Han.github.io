@@ -67,7 +67,8 @@ a {
 h2, h3, h4{
     font: 2.8em 'Open Sans', sans-serif;
 	color: #444;
-	padding: 1vw;
+	/*
+	padding: 1vw;*/
 }
 
 h3 {
