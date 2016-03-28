@@ -46,6 +46,7 @@
 	overflow: visible;
 }
 .row1 li, .row2 li{
+	display: block;
 	padding: 0 1vw;
 	text-align: justify;
 }
