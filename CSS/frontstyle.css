@@ -4,8 +4,8 @@
 	margin: 0 auto;
 	padding: 6vh 0 25vh 0;
 	text-align: justify;
-  	animation-name: title_entry;
-  	-webkit-animation-name: title_entry;
+  	animation-name: text_entry;
+  	-webkit-animation-name: text_entry;
  	animation-duration: 1.8s;
 }
 
