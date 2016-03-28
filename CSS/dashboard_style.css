@@ -54,8 +54,11 @@ h3 {
 }
 .articles > div{
 	display: table-cell; 
-	padding: 1vw 1vw;
+	padding: 0 1vw;
 	text-align: justify;
 }
-.divided{ border-top: 1px solid #444; }
 .bordered{ border-right: 1px solid #444; }
+.line-divider {
+	margin: 1vw 1vw;
+	border-top: 1px solid #444;
+}
