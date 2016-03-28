@@ -48,10 +48,6 @@ h3 { padding: 1vw 0; }
 	width: 100%;
 	overflow: visible;
 }
-.articles > div{
-	display: table-row;
-	width: 100%;
-}
 .articles > div > div{
 	display: table-cell; 
 	padding: 0 1vw;
