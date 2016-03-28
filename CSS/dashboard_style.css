@@ -33,7 +33,7 @@
     width: 100%;
     height: 9vw;
     margin-top: -1vw;
-    margin-bottom: 3vw;
+    margin-bottom: 4vw;
     text-align: center;
   	animation-name: title_entry;
   	-webkit-animation-name: title_entry;
@@ -67,6 +67,12 @@
 	-webkit-background-position: center;
 }
 
+.line-border {
+	border-top: 1px solid #444;
+	width: 100%;
+	margin: 0 2vw;
+}
+
 
 
 
@@ -79,12 +85,6 @@
   	animation-name: title_entry;
   	-webkit-animation-name: title_entry;
  	animation-duration: 1.2s;
-}
-
-.line-border {
-	border: 1px solid #ccc;
-	width: 100%;
-	margin: 0 1vw;
 }
 
 .spine {
