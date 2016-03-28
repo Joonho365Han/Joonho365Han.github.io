@@ -27,7 +27,10 @@
 	}
 }
 
-h3 { padding: 1vw 0; }
+h3 { 
+	padding: 1vw 0; 
+	height: 2.4em;
+}
 
 .title {
     font: 9.8vw Oswald, sans-serif;
@@ -44,14 +47,13 @@ h3 { padding: 1vw 0; }
 
 .articles{
 	display: table;
-	padding: 1vw 0;
 	margin: 0 1vw;
 	width: 98%;
 	overflow: visible;
 }
 .articles > div{
 	display: table-cell; 
-	padding: 0 1vw;
+	padding: 1vw 1vw;
 	text-align: justify;
 }
 .divided{ border-top: 1px solid #444; }

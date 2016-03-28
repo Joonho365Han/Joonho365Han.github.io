@@ -1,6 +1,8 @@
 .row1 > div{ width: 50%; }
 .row2 > div{ width: 25%; }
 .headshot{
+	position: relative;
+	top: 1vw;
 	width: 16vw;
 	height: 16vw;
 	margin-right: 15px;
