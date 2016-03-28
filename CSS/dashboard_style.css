@@ -46,8 +46,15 @@
 	overflow: visible;
 }
 
+.row1{
+    -webkit-column-count: 2;
+    column-count: 2;
+}
+.row2{
+    -webkit-column-count: 4;
+    column-count: 4;
+}
 .row1 li, .row2 li{
-	float: left;
 	padding: 0 1vw;
 	text-align: justify;
 }
