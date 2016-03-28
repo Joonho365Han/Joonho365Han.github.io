@@ -47,6 +47,7 @@
 }
 
 .row li{
+	float: left;
 	padding: 0 1vw;
 	text-align: justify;
 }
