@@ -74,10 +74,10 @@
 	margin: 0 2vw;
 }
 
-.seltra{ background: url("/img/frontpage/seltra.png"); }
-.ink{ background: url("/img/frontpage/ink.png"); }
-.listen{ background: url("/img/frontpage/listen.png"); }
-.monolith{ background: url("/img/frontpage/monolith.png"); }
+.seltra{ background: url("/img/frontpage/headshot.png"); }
+.ink{ background: url("/img/frontpage/headshot.png"); }
+.listen{ background: url("/img/frontpage/headshot.png"); }
+.monolith{ background: url("/img/frontpage/headshot.png"); }
 .peek{
 	width: 100%;
 	height: 23vw;
