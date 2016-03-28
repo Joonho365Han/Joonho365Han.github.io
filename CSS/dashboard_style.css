@@ -45,6 +45,9 @@
 	width: 100%;
 	overflow: visible;
 }
+.row1, .row2{
+	width: 100%;
+}
 .row1{ border-bottom: 1px solid #444; }
 .row1 td, .row2 td{
 	padding: 0 1vw;
