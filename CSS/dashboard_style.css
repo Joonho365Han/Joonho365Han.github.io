@@ -50,9 +50,9 @@
 	display: table-cell; 
 	padding: 0 3vw;
 	padding-bottom: 1vw;
-	text-align: justify;
+	text-align: center;
 }
-.bordered{ border-right: 1px solid #444; }
+
 .line-divider {
 	margin-bottom: 1vw;
 	border-top: 1px solid #444;
