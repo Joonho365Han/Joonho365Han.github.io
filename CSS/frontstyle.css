@@ -7,20 +7,6 @@
 }
 
 .articles > div{ width: 25%; }
-.headshot{
-	position: relative;
-	top: 1vw;
-	width: 16vw;
-	height: 16vw;
-	margin-right: 15px;
-	margin-bottom: 15px;
-	float: left;
-	background: url("/img/frontpage/headshot.png");
-	background-size: cover;
-	-webkit-background-size: cover;
-	background-position: center;
-	-webkit-background-position: center;
-}
 
 .seltra{ background: url("/img/frontpage/headshot.png"); }
 .ink{ background: url("/img/frontpage/headshot.png"); }
