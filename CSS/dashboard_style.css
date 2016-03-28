@@ -40,21 +40,16 @@
  	animation-duration: 1.2s;
 }
 
-.row{
-	overflow: visible;
+.ul-wrapper{
 	margin-top: 1vw;
+	width: 100%;
+	overflow: visible;
 }
 
-.row li{
+.row1 li, .row2 li{
 	float: left;
 	padding: 0 1vw;
 	text-align: justify;
-}
-.row1{
-	height: 50vw;
-}
-.row2{
-	height: 50vw;
 }
 .row1 li{ width: 50%; }
 .row2 li{ width: 25%; }
