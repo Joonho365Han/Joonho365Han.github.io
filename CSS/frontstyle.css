@@ -3,7 +3,7 @@
 	max-width: calc(375px + 25vw);
 	margin: 0 auto;
 	padding: 6vh 0 10vh 0;
-	text-align: center;
+	text-align: justify;
 }
 
 .articles > div{ width: 25%; }
