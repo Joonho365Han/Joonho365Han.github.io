@@ -43,7 +43,7 @@ h3 { padding: 1vw 0; }
 }
 
 .articles{
-	display: table-row;
+	display: table;
 	padding: 2vw 0;
 	width: 100%;
 	overflow: visible;
