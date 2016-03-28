@@ -47,7 +47,7 @@
 
 .row li{
 	float: left;
-	margin: 0 1vw;
+	padding: 0 1vw;
 	text-align: justify;
 }
 .row1 li{ width: 50%; }
