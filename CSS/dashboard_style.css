@@ -44,7 +44,8 @@ h3 { padding: 1vw 0; }
 
 .articles{
 	display: table;
-	padding: 2vw 0;
+	padding: 1vw 0;
+	margin: 0 1vw;
 	width: 100%;
 	overflow: visible;
 }
