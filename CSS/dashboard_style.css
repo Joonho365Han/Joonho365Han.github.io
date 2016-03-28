@@ -51,13 +51,13 @@
 	width: 100vw;
 }
 .row1{ border-bottom: 1px solid #444; }
-.row1 div, .row2 div{
+.row1 > div, .row2 > div{
 	display: table-cell; 
 	padding: 0 1vw;
 	text-align: justify;
 }
-.row1 div{ width: 50vw; }
-.row2 div{ width: 25vw; }
+.row1 > div{ width: 50vw; }
+.row2 > div{ width: 25vw; }
 .bordered{ border-right: 1px solid #444; }
 
 .headshot{
