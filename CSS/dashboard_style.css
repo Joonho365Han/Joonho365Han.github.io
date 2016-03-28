@@ -43,8 +43,7 @@
 .row{
 	width: 100%;
 	overflow: visible;
-	padding: 0 1vw;
-	padding-top: 1vw;
+	margin-top: 1vw;
 }
 
 .row li{
@@ -82,10 +81,10 @@
  	animation-duration: 1.2s;
 }
 
-.line_border {
+.line-border {
 	border: 1px solid #ccc;
-	width: 10vw;
-	margin: 0 auto;
+	width: 100%;
+	margin: 0 1vw;
 }
 
 .spine {
