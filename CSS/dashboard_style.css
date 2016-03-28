@@ -43,12 +43,12 @@ h3 { padding: 1vw 0; }
 }
 
 .articles{
-	display: table;
-	margin: 1vw 0;
+	display: table-row;
+	padding: 2vw 0;
 	width: 100%;
 	overflow: visible;
 }
-.articles > div > div{
+.articles > div{
 	display: table-cell; 
 	padding: 0 1vw;
 	text-align: justify;
