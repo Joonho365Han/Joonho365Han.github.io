@@ -43,11 +43,12 @@
 .articles{
 	display: table;
 	width: 100%;
+	padding: 0 4vw;
 	overflow: visible;
 }
 .articles > div{
 	display: table-cell; 
-	padding: 0 1vw;
+	padding: 0 3vw;
 	padding-bottom: 1vw;
 	text-align: justify;
 }

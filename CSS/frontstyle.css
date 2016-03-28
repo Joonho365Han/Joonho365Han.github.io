@@ -2,7 +2,7 @@
 	width: 75vw;
 	max-width: calc(375px + 25vw);
 	margin: 0 auto;
-	padding: 6vh 0 15vh 0;
+	padding: 6vh 0;
 	text-align: center;
 }
 
@@ -29,7 +29,7 @@
 .peek{
 	padding-bottom: 1vw;
 	width: 100%;
-	height: 23vw;
+	height: 17vw;
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-position: center;
