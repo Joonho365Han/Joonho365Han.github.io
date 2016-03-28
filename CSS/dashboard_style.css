@@ -40,18 +40,21 @@
  	animation-duration: 1.2s;
 }
 
-.ul-wrapper{
+.articles{
 	margin-top: 1vw;
 	width: 100%;
 	overflow: visible;
 }
-.row1 li, .row2 li{
+.row1 td, .row2 td{
 	display: block;
 	padding: 0 1vw;
 	text-align: justify;
 }
-.row1 li{ width: 50%; }
-.row2 li{ width: 25%; }
+.row1 td{ 
+	width: 50%;
+	border-bottom: 1px solid #444;
+}
+.row2 td{ width: 25%; }
 .bordered{ border-right: 1px solid #444; }
 
 .headshot{
