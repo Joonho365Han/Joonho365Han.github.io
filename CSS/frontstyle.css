@@ -1,5 +1,5 @@
-.row1 > div{ width: 50vw; }
-.row2 > div{ width: 25vw; }
+.row1 > div{ width: 50%; }
+.row2 > div{ width: 25%; }
 .headshot{
 	width: 16vw;
 	height: 16vw;

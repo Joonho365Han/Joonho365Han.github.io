@@ -27,6 +27,8 @@
 	}
 }
 
+h3 { padding: 1vw 0; }
+
 .title {
     font: 9.8vw Oswald, sans-serif;
     color: #444;
@@ -42,18 +44,18 @@
 
 .articles{
 	display: table;
-	margin-top: 1vw;
+	margin: 1vw 0;
 	width: 100%;
 	overflow: visible;
 }
 .articles > div{
 	display: table-row;
-	width: 100vw;
+	width: 100%;
 }
 .articles > div > div{
 	display: table-cell; 
 	padding: 0 1vw;
 	text-align: justify;
 }
-.divided{ border-bottom: 1px solid #444; }
+.divided{ border-top: 1px solid #444; }
 .bordered{ border-right: 1px solid #444; }
