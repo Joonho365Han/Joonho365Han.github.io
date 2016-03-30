@@ -13,7 +13,9 @@
 .description{
 	display: table;
 	padding: 1vw;
-	padding-top: 0;
+}
+.description h4{
+	padding-top: 1vw;
 }
 
 .specifics{
