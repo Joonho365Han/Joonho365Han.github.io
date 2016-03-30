@@ -53,7 +53,7 @@
 .sketches li{
 	list-style: none;
 	float: left;
-	width: 33%;
+	width: 30vw;
 	height: 30vw;
 	margin: 1vw;
 	background-size: cover;
