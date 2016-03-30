@@ -39,3 +39,24 @@
 .intro h4{
 	padding-top: 1vw;
 }
+
+.sketches, .sketches li{
+	padding: 1vw;
+}
+
+.s1{ background: url("/img/seltra/s1.png"); }
+.s2{ background: url("/img/seltra/s2.png"); }
+.s3{ background: url("/img/seltra/s3.png"); }
+.s4{ background: url("/img/seltra/s4.png"); }
+.s5{ background: url("/img/seltra/s5.png"); }
+.s6{ background: url("/img/seltra/s6.png"); }
+.sketches li{
+	list-style: none;
+	float: left;
+	width: 30%;
+	height: 
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	-webkit-background-position: center;
+}
