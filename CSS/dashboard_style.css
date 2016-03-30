@@ -86,7 +86,7 @@
 	padding: 0 4vw;
 	overflow: visible;
 }
-.articles > div{
+.articles > a{
 	display: table-cell; 
 	padding: 0 3vw;
 	padding-bottom: 1vw;

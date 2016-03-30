@@ -9,7 +9,7 @@
  	animation-duration: 0.9s;
 }
 
-.articles > div{ width: 25%; }
+.articles > a{ width: 25%; }
 
 .seltra{ background: url("/img/frontpage/headshot.png"); }
 .ink{ background: url("/img/frontpage/headshot.png"); }
