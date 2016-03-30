@@ -1,8 +1,8 @@
 .poster{
-	margin: 1vw;
+	margin: 2vw;
 	margin-bottom: 0;
-	width: 98vw;
-	padding-top: 49vw;
+	width: 96vw;
+	padding-top: 48vw;
 	background: url("/img/seltra/poster.png");
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -12,7 +12,7 @@
 
 .description{
 	display: table;
-	padding: 1vw;
+	padding: 2vw;
 }
 .description div {
 	display: table-cell;
@@ -82,4 +82,8 @@
 .sketches h4{
 	font-style: italic;
 	color: white;
+}
+
+.difficulties{
+	
 }
