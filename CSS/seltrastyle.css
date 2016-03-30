@@ -36,9 +36,6 @@
 	text-align: justify;
 	width: 80%;
 }
-.intro h4, .difficulties h4{
-	padding-top: 1vw;
-}
 
 .sketches{
 	padding: 2vw;
@@ -86,6 +83,6 @@
 
 .difficulties{
 	padding: 3vw;
-	padding-top: 4vw;
+	margin-top: 1vw;
 	text-align: justify;
 }
