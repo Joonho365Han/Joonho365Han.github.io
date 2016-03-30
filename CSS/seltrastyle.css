@@ -1,5 +1,6 @@
 .poster{
 	margin: 1vw;
+	margin-bottom: 0;
 	width: 98vw;
 	padding-top: 49vw;
 	background: url("/img/seltra/poster.png");
@@ -12,6 +13,7 @@
 .description{
 	display: table;
 	padding: 1vw;
+	padding-top: 0;
 }
 
 .specifics{
@@ -20,13 +22,11 @@
 	padding: 1vw;
 	padding-top: 0;
 }
-
 .specifics h3{
 	font-size: 1.8em;
 }
-
 .specifics h4{
-	color: #999;
+	color: #888;
 	font-size: 0.9em;
 }
 
