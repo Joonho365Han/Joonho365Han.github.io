@@ -14,9 +14,6 @@
 	display: table;
 	padding: 1vw;
 }
-.description h4{
-	padding-top: 1vw;
-}
 
 .specifics{
 	display: table-cell;
@@ -26,6 +23,7 @@
 }
 .specifics h3{
 	font-size: 1.8em;
+	padding-bottom: 1vw;
 }
 .specifics h4{
 	color: #888;
@@ -38,4 +36,7 @@
 	width: 80%;
 	padding: 1vw;
 	padding-top: 0;
+}
+.intro h4{
+	padding-top: 1vw;
 }
