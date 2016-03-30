@@ -19,10 +19,12 @@
 	display: table-cell;
 	width: 20%;
 	padding: 1vw;
+	padding-top: 0;
 }
 
 .intro{
 	display: table-cell;
 	width: 80%;
-	padding-top: 1vw;
+	padding: 1vw;
+	padding-top: 0;
 }
