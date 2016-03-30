@@ -25,10 +25,11 @@
 }
 .specifics h3{
 	font-size: 1.8em;
+	padding-bottom: 0.5vw;
 }
 .specifics h4{
 	color: #888;
-	font-size: 0.9em;
+	font-size: 0.8em;
 }
 
 .intro{
