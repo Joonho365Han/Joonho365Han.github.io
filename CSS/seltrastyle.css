@@ -1,5 +1,5 @@
 .poster{
-	margin: 2vw;
+	margin: 3vw;
 	margin-bottom: 0;
 	width: 96vw;
 	padding-top: 48vw;
@@ -53,9 +53,9 @@
 .sketches li{
 	list-style: none;
 	float: left;
-	width: 30vw;
-	height: 30vw;
-	margin: 1vw;
+	width: 31vw;
+	height: 31vw;
+	margin: 0.5vw;
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-position: center;
