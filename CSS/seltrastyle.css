@@ -1,9 +1,24 @@
+.wrapper{
+	padding: 1vw;
+}
+
 .poster{
-	width: 100vw;
-	height: 50vw;
+	width: 98vw;
+	height: 49vw;
 	background: url("/img/seltra/poster.png");
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-position: center;
 	-webkit-background-position: center;
+}
+
+.specifics{
+	float: left;
+	width: 20vw;
+	padding: 1vw;
+}
+
+.description{
+	width: 80vw;
+	padding-top: 1vw;
 }
