@@ -10,7 +10,7 @@
 	-webkit-background-position: center;
 }
 
-.description, .difiiculties{
+.description{
 	display: table;
 	padding: 2vw;
 }
@@ -36,7 +36,7 @@
 	text-align: justify;
 	width: 80%;
 }
-.intro h4{
+.intro h4, .difficulties h4{
 	padding-top: 1vw;
 }
 
@@ -85,5 +85,6 @@
 }
 
 .difficulties{
-
+	padding: 3vw;
+	text-align: justify;
 }
