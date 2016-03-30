@@ -25,6 +25,10 @@
 	font-size: 1.8em;
 }
 
+.specifics h4{
+	color: #999;
+}
+
 .intro{
 	text-align: justify;
 	display: table-cell;
