@@ -12,13 +12,18 @@
 	-webkit-background-position: center;
 }
 
+.description{
+	display: table;
+}
+
 .specifics{
-	float: left;
+	display: table-cell;
 	width: 20vw;
 	padding: 1vw;
 }
 
-.description{
+.intro{
+	display: table-cell;
 	width: 80vw;
 	padding-top: 1vw;
 }
