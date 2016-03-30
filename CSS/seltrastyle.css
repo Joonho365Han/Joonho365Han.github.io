@@ -73,7 +73,7 @@
 }
 
 .sketches > ul > li:hover > a{
-	display: visible;
+	visibility: visible;
   	animation-name: fade_in;
   	-webkit-animation-name: fade_in;
  	animation-duration: 0.3s;
