@@ -86,6 +86,8 @@
 }
 
 .difficulties{
+	position: relative;
+	top: 3vw;
 	margin: 3vw;
 	text-align: justify;
 }
