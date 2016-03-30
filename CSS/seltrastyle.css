@@ -1,8 +1,5 @@
-.wrapper{
-	padding: 1vw;
-}
-
 .poster{
+	padding: 1vw;
 	width: 98vw;
 	padding-top: 49vw;
 	background: url("/img/seltra/poster.png");
@@ -14,16 +11,17 @@
 
 .description{
 	display: table;
+	padding: 1vw;
 }
 
 .specifics{
 	display: table-cell;
-	width: 20vw;
+	width: 20%;
 	padding: 1vw;
 }
 
 .intro{
 	display: table-cell;
-	width: 80vw;
+	width: 80%;
 	padding-top: 1vw;
 }
