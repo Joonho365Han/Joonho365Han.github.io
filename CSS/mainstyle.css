@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rye|Open+Sans|Old+Standard+TT:400,400italic');
+@import url('https://fonts.googleapis.com/css?family=Rye|Montserrat|Old+Standard+TT:400,400italic');
 
 @keyframes fade_in{
 	0% { opacity: 0; }
@@ -146,7 +146,8 @@ h4 {
 }
 
 h2{
-	font: 2.8em 'Open Sans', sans-serif;
+	font: 2.1em Montserrat, sans-serif;
+	font-weight: 600;
 }
 
 header {
