@@ -21,6 +21,10 @@
 	padding-top: 0;
 }
 
+.specifics h3{
+	font-size: 1.8em;
+}
+
 .intro{
 	text-align: justify;
 	display: table-cell;
