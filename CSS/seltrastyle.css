@@ -37,7 +37,7 @@
 	text-align: justify;
 	width: 80%;
 }
-.intro h4, .difficulties h4{
+.intro h4, .intro h3, .difficulties h4{
 	padding-top: 0.5vw;
 }
 
