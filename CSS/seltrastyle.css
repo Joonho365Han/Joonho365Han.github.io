@@ -37,8 +37,8 @@
 }
 
 .sketches{
-	position: relative;
 	padding: 2vw;
+	z-index: 100;
 }
 
 .s1{ background: url("/img/seltra/s1.png"); }
@@ -47,7 +47,9 @@
 .s4{ background: url("/img/seltra/s4.png"); }
 .s5{ background: url("/img/seltra/s5.png"); }
 .s6{ background: url("/img/seltra/s6.png"); }
-.sketches li{
+.har5{ background: url("/img/seltra/har5.JPG"); }
+.har6{ background: url("/img/seltra/har6.JPG"); }
+.sketches li, .hardships li {
 	list-style: none;
 	float: left;
 	width: 31vw;
@@ -86,4 +88,13 @@
 	top: 3vw;
 	margin: 3vw;
 	text-align: justify;
+}
+
+.hardships {
+	padding: 2vw;
+}
+.hardships li {
+	margin: 0.5vw;
+	width: 47vw;
+	height: 47vw;
 }
