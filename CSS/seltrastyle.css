@@ -47,8 +47,8 @@
 .s4{ background: url("/img/seltra/s4.png"); }
 .s5{ background: url("/img/seltra/s5.png"); }
 .s6{ background: url("/img/seltra/s6.png"); }
-.har5{ background: url("/img/seltra/har5.JPG"); }
-.har6{ background: url("/img/seltra/har6.JPG"); }
+.har1{ background: url("/img/seltra/har1.JPG"); }
+.har2{ background: url("/img/seltra/har2.JPG"); }
 .sketches li, .hardships li {
 	list-style: none;
 	float: left;
@@ -92,7 +92,6 @@
 
 .hardships {
 	padding: 2vw;
-	width: 100%;
 }
 .hardships li {
 	margin: 0.5vw;
