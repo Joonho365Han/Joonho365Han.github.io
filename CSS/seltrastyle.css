@@ -68,7 +68,7 @@
 
 .sketches a{
 	display: block;
-	background: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.4);
 	visibility: hidden;
 	width: 100%;
 	height: 100%;
@@ -88,18 +88,21 @@
 	color: white;
 }
 
-.difficulties{
-	position: relative;
-	top: 3vw;
-	margin: 3vw;
-	text-align: justify;
-}
-
 .hardships {
 	padding: 2vw;
+	float: left;
 }
 .hardships li {
+	float: none;
 	margin: 0.5vw;
-	width: 47vw;
-	height: 47vw;
+	width: 30vw;
+	height: 30vw;
+}
+
+.difficulties{
+	top: 3vw;
+	margin-top: 3vw;
+	margin-right: 3vw;
+	text-align: justify;
+	width: 62vw;
 }
