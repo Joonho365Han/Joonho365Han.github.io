@@ -89,21 +89,18 @@
 	color: white;
 }
 
-.hardships {
-	padding: 2vw;
-	float: left;
-}
-.hardships li {
-	float: none;
-	margin: 0.5vw;
-	width: 30vw;
-	height: 30vw;
+.difficulties{
+	margin: 2vw;
+	text-align: justify;
 }
 
-.difficulties{
-	top: 3vw;
-	margin-top: 3vw;
-	margin-right: 3vw;
-	text-align: justify;
-	width: 62vw;
+.hardships {
+	float: left;
+}
+
+.hardships li {
+	float: none;
+	margin: 1vw;
+	width: 30vw;
+	height: 30vw;
 }
