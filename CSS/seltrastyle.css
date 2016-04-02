@@ -61,6 +61,7 @@
 	list-style: none;
 	float: left;
 	width: 23vw;
+	min-width: 100px;
 	height: 23vw;
 	border-radius: 50%;
 	margin: 0.5vw;
