@@ -66,18 +66,19 @@
 .s8{ background: url("/img/seltra/slides/s8.png"); }
 .s9{ background: url("/img/seltra/slides/s9.png"); }
 .s10{ background: url("/img/seltra/slides/s10.jpg"); }
-.s11{ background: url("/img/seltra/slides/s11.jpg"); }
-.s12{ background: url("/img/seltra/slides/s12.jpg"); }
-.s13{ background: url("/img/seltra/slides/s13.jpg"); }
-.s14{ background: url("/img/seltra/slides/s14.jpg"); }
-.s15{ background: url("/img/seltra/slides/s15.jpg"); }
-.s16{ background: url("/img/seltra/slides/s16.jpg"); }
+.s11{ background: url("/img/seltra/slides/s11.png"); }
+.s12{ background: url("/img/seltra/slides/s12.png"); }
+.s13{ background: url("/img/seltra/slides/s13.png"); }
+.s14{ background: url("/img/seltra/slides/s14.png"); }
+.s15{ background: url("/img/seltra/slides/s15.png"); }
+.s16{ background: url("/img/seltra/slides/s16.png"); }
 
 .versions li, .slides li {
 	list-style: none;
 	float: left;
 	width: 22vw;
 	height: 22vw;
+	border-radius: 50%;
 	margin: 1vw;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -91,6 +92,7 @@
 	visibility: hidden;
 	width: 100%;
 	height: 100%;
+	border-radius: 50%;
 	text-align: center;
 	padding: 4vw;
 	padding-top: 6vw;
