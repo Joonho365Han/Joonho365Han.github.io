@@ -47,12 +47,12 @@
 	z-index: 100;
 }
 
-.s1{ background: url("/img/seltra/s1.png"); }
-.s2{ background: url("/img/seltra/s2.png"); }
-.s3{ background: url("/img/seltra/s3.png"); }
-.s4{ background: url("/img/seltra/s4.png"); }
-.s5{ background: url("/img/seltra/s5.png"); }
-.s6{ background: url("/img/seltra/s6.png"); }
+.s1{ background: url("/img/seltra/v2.jpg"); }
+.s2{ background: url("/img/seltra/v3.jpg"); }
+.s3{ background: url("/img/seltra/v4.jpg"); }
+.s4{ background: url("/img/seltra/v5.jpg"); }
+.s5{ background: url("/img/seltra/v6.jpg"); }
+.s6{ background: url("/img/seltra/v7.jpg"); }
 .har1{ background: url("/img/seltra/har1.png"); }
 .har2{ background: url("/img/seltra/har2.png"); }
 .sketches li, .hardships li {
