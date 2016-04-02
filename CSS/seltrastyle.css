@@ -43,7 +43,7 @@
 
 .sketches{
 	padding: 2vw;
-	margin-bottom: 20vw;
+	margin-bottom: 16vw;
 	z-index: 100;
 }
 
@@ -93,7 +93,6 @@
 
 .process{
 	margin: 2vw;
-	margin-top: 0;
 	text-align: justify;
 }
 
