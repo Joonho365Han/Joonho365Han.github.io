@@ -11,7 +11,7 @@
 
 .articles > a{ width: 25%; }
 
-.seltra{ background: url("/img/frontpage/headshot.png"); }
+.seltra{ background: url("/img/frontpage/seltra.jpg"); }
 .ink{ background: url("/img/frontpage/headshot.png"); }
 .listen{ background: url("/img/frontpage/headshot.png"); }
 .monolith{ background: url("/img/frontpage/headshot.png"); }
@@ -19,6 +19,7 @@
 	padding-bottom: 1vw;
 	width: 100%;
 	height: 17vw;
+	border-radius: 8.5vw;
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-position: center;

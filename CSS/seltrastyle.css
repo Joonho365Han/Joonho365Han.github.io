@@ -77,8 +77,8 @@
 	height: 100%;
 	border-radius: 50%;
 	text-align: center;
-	padding: 6vw;
-	padding-top: 8vw;
+	padding: 4vw;
+	padding-top: 6vw;
 }
 
 .versions > ul > li:hover > a{
