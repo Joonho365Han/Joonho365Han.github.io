@@ -58,8 +58,9 @@
 .sketches li, .hardships li {
 	list-style: none;
 	float: left;
-	width: 31vw;
-	height: 31vw;
+	width: 15vw;
+	height: 15vw;
+	border-radius: 7.5vw;
 	margin: 0.5vw;
 	background-size: cover;
 	-webkit-background-size: cover;
