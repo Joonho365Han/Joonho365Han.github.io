@@ -59,10 +59,10 @@
 .versions li, .hardships li {
 	list-style: none;
 	float: left;
-	width: 23vw;
-	height: 23vw;
+	width: 22vw;
+	height: 22vw;
 	border-radius: 50%;
-	margin: 0.5vw;
+	margin: 1vw;
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-position: center;
