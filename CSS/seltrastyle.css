@@ -41,9 +41,9 @@
 	padding-top: 0.5vw;
 }
 
-.sketches{
+.versions{
 	padding: 2vw;
-	margin-bottom: 16vw;
+	margin-bottom: 18vw;
 	z-index: 100;
 }
 
@@ -55,7 +55,7 @@
 .s6{ background: url("/img/seltra/v7.png"); }
 .har1{ background: url("/img/seltra/har1.png"); }
 .har2{ background: url("/img/seltra/har2.png"); }
-.sketches li, .hardships li {
+.versions li, .hardships li {
 	list-style: none;
 	float: left;
 	width: 15vw;
@@ -68,7 +68,7 @@
 	-webkit-background-position: center;
 }
 
-.sketches a{
+.versions a{
 	display: block;
 	background: rgba(0,0,0,0.4);
 	visibility: hidden;
@@ -76,17 +76,17 @@
 	height: 100%;
 	border-radius: 50%;
 	text-align: center;
-	padding: 4vw;
+	padding: 3vw;
 }
 
-.sketches > ul > li:hover > a{
+.versions > ul > li:hover > a{
 	visibility: visible;
   	animation-name: fade_in;
   	-webkit-animation-name: fade_in;
  	animation-duration: 0.3s;
 }
 
-.sketches h4{
+.versions h4{
 	font-style: italic;
 	color: white;
 }
@@ -96,14 +96,3 @@
 	text-align: justify;
 }
 
-.hardships {
-	float: right;
-	width: 32vw;
-}
-
-.hardships li {
-	float: none;
-	margin: 1vw;
-	width: 30vw;
-	height: 30vw;
-}
