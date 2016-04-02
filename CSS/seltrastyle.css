@@ -54,8 +54,7 @@
 .v6{ background: url("/img/seltra/v6.jpg"); }
 .v7{ background: url("/img/seltra/v7.png"); }
 .v8{ background: url("/img/seltra/v8.png"); }
-.har1{ background: url("/img/seltra/har1.png"); }
-.har2{ background: url("/img/seltra/har2.png"); }
+
 .versions li, .hardships li {
 	list-style: none;
 	float: left;
@@ -81,7 +80,7 @@
 	padding-top: 6vw;
 }
 
-.versions > ul > li:hover > a{
+.versions > li:hover > a{
 	visibility: visible;
   	animation-name: fade_in;
   	-webkit-animation-name: fade_in;
