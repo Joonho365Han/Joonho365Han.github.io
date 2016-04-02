@@ -62,8 +62,6 @@
 	float: left;
 	width: 23vw;
 	height: 23vw;
-	min-width: 250px;
-	min-height: 250px;
 	border-radius: 50%;
 	margin: 0.5vw;
 	background-size: cover;
@@ -81,6 +79,7 @@
 	border-radius: 50%;
 	text-align: center;
 	padding: 6vw;
+	padding-top: 10vw;
 }
 
 .versions > ul > li:hover > a{
