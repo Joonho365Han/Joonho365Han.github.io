@@ -74,6 +74,17 @@
 .s15{ background: url("/img/seltra/slides/s15.png"); }
 .s16{ background: url("/img/seltra/slides/s16.png"); }
 
+.versions li, .carousel-inner > .item{
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	-webkit-background-position: center;
+}
+
+.carousel-inner > .item{
+	padding-top: 50vw;
+}
+
 .versions li{
 	list-style: none;
 	float: left;
@@ -81,10 +92,6 @@
 	height: 22vw;
 	border-radius: 50%;
 	margin: 1vw;
-	background-size: cover;
-	-webkit-background-size: cover;
-	background-position: center;
-	-webkit-background-position: center;
 }
 
 .versions a{
