@@ -43,24 +43,28 @@
 
 .versions{
 	padding: 2vw;
-	margin-bottom: 18vw;
+	margin-bottom: 50vw;
 	z-index: 100;
+    -webkit-column-count: 4;
+    column-count: 4;
 }
 
-.s1{ background: url("/img/seltra/v2.jpg"); }
-.s2{ background: url("/img/seltra/v3.jpg"); }
-.s3{ background: url("/img/seltra/v4.jpg"); }
-.s4{ background: url("/img/seltra/v5.jpg"); }
-.s5{ background: url("/img/seltra/v6.jpg"); }
-.s6{ background: url("/img/seltra/v7.png"); }
+.s1{ background: url("/img/seltra/v1.jpg"); }
+.s2{ background: url("/img/seltra/v2.jpg"); }
+.s3{ background: url("/img/seltra/v3.jpg"); }
+.s4{ background: url("/img/seltra/v4.jpg"); }
+.s5{ background: url("/img/seltra/v5.jpg"); }
+.s6{ background: url("/img/seltra/v6.jpg"); }
+.s7{ background: url("/img/seltra/v7.png"); }
+.s8{ background: url("/img/seltra/v8.png"); }
 .har1{ background: url("/img/seltra/har1.png"); }
 .har2{ background: url("/img/seltra/har2.png"); }
 .versions li, .hardships li {
 	list-style: none;
 	float: left;
-	width: 15vw;
-	height: 15vw;
-	border-radius: 7.5vw;
+	width: 23vw;
+	height: 23vw;
+	border-radius: 50%;
 	margin: 0.5vw;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -76,7 +80,7 @@
 	height: 100%;
 	border-radius: 50%;
 	text-align: center;
-	padding: 3vw;
+	padding: 4vw;
 }
 
 .versions > ul > li:hover > a{
