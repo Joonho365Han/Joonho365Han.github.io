@@ -124,3 +124,6 @@
 	text-align: justify;
 }
 
+.carousel-indicators {
+	margin: 0 auto;
+}
