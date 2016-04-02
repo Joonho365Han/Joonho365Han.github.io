@@ -8,6 +8,7 @@
 
         <link rel="stylesheet" type="text/css" href="/CSS/mainstyle.css"/>
         <link rel="stylesheet" type="text/css" href="/CSS/seltrastyle.css"/>
+        <link rel="stylesheet" type="text/css" href="/CSS/bootstrap.css"/>
 		<meta charset="utf-8">
     </head>
     <!--END HEAD-->
@@ -100,39 +101,56 @@
 	        	<h4>There were many trial and errors. Most of the mistakes happened along the way of learning a new technique, which I am proud to say that it eventually contributed to the success of the end product. But the most 'memorable' mistake happened to the last verion. A newly 3-D printed metal might have rust, which could expand and stay in the piece. So, I did a quick research on the internet, and found out that apple cider turns the rust black and easy to brush off. Since I could not find apple cider in my area, I decided to look up anything that had high acid in it, thinking that it was acid that made apple cider work. I bought a bottle of Clorox and poured it in a mug with Seltra inside. Moments later, I noticed that rust wasn't just coming off, but was also 'growing.' I realized that the acid reacted with the rust, but it was too late; the acid got into the micro pores of the 3D print and destroyed the insides.</h4>
 	        </div>
 
-        	<ul class="slides">
-        		<li class="s1"><a href="/img/seltra/slides/s1.jpg">
-        		</a></li>
-        		<li class="s2"><a href="/img/seltra/slides/s2.jpg">
-        		</a></li>
-        		<li class="s3"><a href="/img/seltra/slides/s3.jpg">
-        		</a></li>
-        		<li class="s4"><a href="/img/seltra/slides/s4.jpg">
-        		</a></li>
-        		<li class="s5"><a href="/img/seltra/slides/s5.jpg">
-        		</a></li>
-        		<li class="s6"><a href="/img/seltra/slides/s6.jpg">
-        		</a></li>
-        		<li class="s7"><a href="/img/seltra/slides/s7.png">
-        		</a></li>
-        		<li class="s8"><a href="/img/seltra/slides/s8.png">
-        		</a></li>
-        		<li class="s9"><a href="/img/seltra/slides/s9.png">
-        		</a></li>
-        		<li class="s10"><a href="/img/seltra/slides/s10.jpg">
-        		</a></li>
-        		<li class="s11"><a href="/img/seltra/slides/s11.png">
-        		</a></li>
-        		<li class="s12"><a href="/img/seltra/slides/s12.png">
-        		</a></li>
-        		<li class="s13"><a href="/img/seltra/slides/s13.png">
-        		</a></li>
-        		<li class="s14"><a href="/img/seltra/slides/s14.png">
-        		</a></li>
-        		<li class="s15"><a href="/img/seltra/slides/s15.png">
-        		</a></li>
-        		<li class="s16"><a href="/img/seltra/slides/s16.png">
-        		</a></li>
+        	<ul id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+					<li data-target="#myCarousel" data-slide-to="4"></li>
+					<li data-target="#myCarousel" data-slide-to="5"></li>
+					<li data-target="#myCarousel" data-slide-to="6"></li>
+					<li data-target="#myCarousel" data-slide-to="7"></li>
+					<li data-target="#myCarousel" data-slide-to="8"></li>
+					<li data-target="#myCarousel" data-slide-to="9"></li>
+					<li data-target="#myCarousel" data-slide-to="10"></li>
+					<li data-target="#myCarousel" data-slide-to="11"></li>
+					<li data-target="#myCarousel" data-slide-to="12"></li>
+					<li data-target="#myCarousel" data-slide-to="13"></li>
+					<li data-target="#myCarousel" data-slide-to="14"></li>
+					<li data-target="#myCarousel" data-slide-to="15"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+	        		<div class="item active s1"></div>
+	        		<div class="item s2"></div>
+	        		<div class="item s3"></div>
+	        		<div class="item s4"></div>
+	        		<div class="item s5"></div>
+	        		<div class="item s6"></div>
+	        		<div class="item s7"></div>
+	        		<div class="item s8"></div>
+	        		<div class="item s9"></div>
+	        		<div class="item s10"></div>
+	        		<div class="item s11"></div>
+	        		<div class="item s12"></div>
+	        		<div class="item s13"></div>
+	        		<div class="item s14"></div>
+	        		<div class="item s15"></div>
+	        		<div class="item s16"></div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
         	</ul>
 	        
 	        <footer>
@@ -142,6 +160,9 @@
         <!--END WRAPPER-->
 
         <!--START JavaScript-->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <!--END JavaScript-->
     </body>
 </html>

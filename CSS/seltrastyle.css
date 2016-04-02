@@ -41,11 +41,12 @@
 	padding-top: 0.5vw;
 }
 
-.versions, .slides{
+.versions, .carousel{
 	padding: 2vw;
+	width: 100%;
 	margin-bottom: 50vw;
 }
-.slides { margin-bottom: 98vw; }
+.carousel { margin-bottom: 0; }
 
 .v1{ background: url("/img/seltra/v1.jpg"); }
 .v2{ background: url("/img/seltra/v2.jpg"); }
@@ -73,7 +74,7 @@
 .s15{ background: url("/img/seltra/slides/s15.png"); }
 .s16{ background: url("/img/seltra/slides/s16.png"); }
 
-.versions li, .slides li {
+.versions li{
 	list-style: none;
 	float: left;
 	width: 22vw;
@@ -86,7 +87,7 @@
 	-webkit-background-position: center;
 }
 
-.versions a, .slides a{
+.versions a{
 	display: block;
 	background: rgba(0,0,0,0.4);
 	visibility: hidden;
@@ -98,7 +99,7 @@
 	padding-top: 6vw;
 }
 
-.versions > li:hover > a, .slides > li:hover > a{
+.versions > li:hover > a{
 	visibility: visible;
   	animation-name: fade_in;
   	-webkit-animation-name: fade_in;
