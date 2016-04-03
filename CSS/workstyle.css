@@ -1,4 +1,4 @@
-.poster{
+/*.poster{
 	margin: calc(10px + 1vw);
 	margin-bottom: 0;
 	width: calc(98vw - 20px);
@@ -7,7 +7,7 @@
 	-webkit-background-size: cover;
 	background-position: center;
 	-webkit-background-position: center;
-}
+}*/
 .slide-table{
 	display: table;
 	padding: calc(10px + 1vw);
@@ -34,9 +34,17 @@
 	color: #888;
 	font-size: 0.8em;
 }
-.intro h4, .intro h3, .full-width-paragraph h4, .full-width-paragraph h3{
+.description h4, .description h3{
 	padding-top: 0.5vw;
 }
+/*
 .full-width-paragraph{
 	margin: calc(10px + 1vw);
+}*/
+
+#mainCarousel .item {
+	padding-top: 46vw;
+}
+#threefoldCarousel .item {
+	padding-top: 30vw;
 }

@@ -1,10 +1,10 @@
-#posterCarousel > .carousel-indicators{
-  margin-left: -18px;
-}
+
+
+/*
 .versions{
 	padding: calc(10px + 1vw);
 	margin-bottom: 50vw;
-}
+}*/
 
 .p1{ background: url("/img/seltra/p1.JPG"); }
 .p2{ background: url("/img/seltra/p2.JPG"); }
@@ -36,17 +36,21 @@
 .s15{ background: url("/img/seltra/slides/s15.png"); }
 .s16{ background: url("/img/seltra/slides/s16.png"); }
 
-.versions li, .carousel-inner > .item{
+#mainCarousel > .carousel-indicators{
+  margin-left: -18px;
+}
+#threefoldCarousel > .carousel-indicators{
+  margin-left: -48px;
+}
+
+.carousel-inner > .item{
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-position: center;
 	-webkit-background-position: center;
 }
 
-.carousel-inner > .item {
-	padding-top: 46vw;
-}
-
+/*
 .versions li{
 	list-style: none;
 	float: left;
@@ -79,6 +83,5 @@
 	font-style: italic;
 	color: white;
 }
-
 .top{ background: url("/img/seltra/poster.png"); }
-.bottom{ background: url("/img/seltra/work_station.png"); }
+.bottom{ background: url("/img/seltra/work_station.png"); }*/
