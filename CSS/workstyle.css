@@ -20,7 +20,7 @@
 }
 .slide-table > div {
 	display: table-cell;
-	vertical-align: top;
+	vertical-align: middle;
 	padding: 1vw;
 }
 .main > div{
