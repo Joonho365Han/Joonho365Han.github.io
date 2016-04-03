@@ -1,4 +1,6 @@
-
+/*
+.top{ background: url("/img/seltra/poster.png"); }
+.bottom{ background: url("/img/seltra/work_station.png"); }*/
 
 /*
 .versions{
@@ -53,7 +55,7 @@
   margin-left: -96px;
 }
 
-
+/*
 .versions li{
 	list-style: none;
 	float: left;
@@ -85,6 +87,4 @@
 .versions h4{
 	font-style: italic;
 	color: white;
-}/*
-.top{ background: url("/img/seltra/poster.png"); }
-.bottom{ background: url("/img/seltra/work_station.png"); }*/
+}*/
