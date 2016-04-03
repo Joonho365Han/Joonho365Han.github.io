@@ -1,15 +1,16 @@
-.posterWrapper{
+.poster{
 	margin: calc(10px + 1vw);
-	margin-bottom: 400vw;
+	width: calc(98vw - 20px);
+	padding-top: 46vw;
     /*-webkit-column-count: 2;
     column-count: 2;*/
-}
+}/*
 .poster{
 	float: left;
 	margin: 1vw;
 	width: calc(47vw - 10px);
 	padding-top: 46vw;
-}
+}*/
 .slide-table{
 	display: table;
 	padding: calc(10px + 1vw);
@@ -30,17 +31,19 @@
 }
 .carousel { 
 	width: 100%;
+	border-radius: 10px;
 }
 .mainCarousel .item {
 	height: 46vw;
-	border-radius: 10px;
 }
 .threefoldCarousel .item {
 	height: 30vw;
-	border-radius: 10px;
 }
 .specifics{
-	width: 40%;
+	width: 20%;
+}
+.intro {
+	width: 80%;
 }
 .specifics h3{
 	font-size: 1.2em;
