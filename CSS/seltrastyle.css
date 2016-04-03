@@ -36,18 +36,18 @@
 .s15{ background: url("/img/seltra/slides/s15.png"); }
 .s16{ background: url("/img/seltra/slides/s16.png"); }
 
-.mainCarousel > .carousel-indicators{
-  margin-left: -18px;
-}
-.threefoldCarousel > .carousel-indicators{
-  margin-left: -48px;
-}
-
 .carousel-inner > .item{
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-position: center;
 	-webkit-background-position: center;
+}
+
+.mainCarousel > .carousel-indicators{
+  margin-left: -18px;
+}
+.threefoldCarousel > .carousel-indicators{
+  margin-left: -48px;
 }
 
 /*
