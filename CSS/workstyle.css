@@ -1,13 +1,9 @@
-/*.poster{
+.poster{
 	margin: calc(10px + 1vw);
 	margin-bottom: 0;
 	width: calc(98vw - 20px);
 	padding-top: 48vw;
-	background-size: cover;
-	-webkit-background-size: cover;
-	background-position: center;
-	-webkit-background-position: center;
-}*/
+}
 .slide-table{
 	display: table;
 	padding: calc(10px + 1vw);
