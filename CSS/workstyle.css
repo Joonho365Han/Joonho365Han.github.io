@@ -1,8 +1,12 @@
-.poster{
+.posterWrapper{
 	margin: calc(10px + 1vw);
 	margin-bottom: 0;
-	width: calc(98vw - 20px);
-	padding-top: 48vw;
+}
+.poster{
+	float: left;
+	padding: 1vw;
+	width: calc(47vw - 10px);
+	padding-top: 46vw;
 }
 .slide-table{
 	display: table;
