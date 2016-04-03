@@ -8,14 +8,16 @@
 	background-position: center;
 	-webkit-background-position: center;
 }
-.main{
+.slide-table{
 	display: table;
 	padding: calc(10px + 1vw);
 }
-.main > div {
+.slide-table > div {
 	display: table-cell;
-	width: 50%;
 	padding: 1vw;
+}
+.main > div{
+	width: 50%;
 }
 .carousel { 
 	width: 100%;
