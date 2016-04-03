@@ -105,11 +105,6 @@
 	z-index: 0; /* Set so that header always stays on top. Keep it as 0 SPECIFICALLY */
 }
 
-html {
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-}
-
 body {
 	background: white;
     font-size: 62.5%;
