@@ -19,8 +19,20 @@
 .main > div{
 	width: 50%;
 }
+.threefold > .wider {
+	width: 66.6%;
+}
+.threefold > .narrower {
+	width: 33.3%;
+}
 .carousel { 
 	width: 100%;
+}
+.mainCarousel .item {
+	padding-top: 46vw;
+}
+.threefoldCarousel .item {
+	padding-top: 30vw;
 }
 .specifics{
 	width: 40%;
@@ -41,10 +53,3 @@
 .full-width-paragraph{
 	margin: calc(10px + 1vw);
 }*/
-
-#mainCarousel .item {
-	padding-top: 46vw;
-}
-#threefoldCarousel .item {
-	padding-top: 30vw;
-}
