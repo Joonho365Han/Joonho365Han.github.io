@@ -9,18 +9,18 @@
 	-webkit-background-position: center;
 }
 
-.description{
+.main{
 	display: table;
 	padding: calc(10px + 1vw);
 }
-.description div {
+.main div {
 	display: table-cell;
+	width: 50%;
 	padding: 1vw;
-	padding-top: 0;
 }
 
 .specifics{
-	width: 20%;
+	width: 40%;
 }
 .specifics h3{
 	font-size: 1.2em;
@@ -31,14 +31,9 @@
 	color: #888;
 	font-size: 0.8em;
 }
-
-.intro{
-	width: 80%;
-}
 .intro h4, .intro h3, .full-width-paragraph h4, .full-width-paragraph h3{
 	padding-top: 0.5vw;
 }
-
 .full-width-paragraph{
 	margin: calc(10px + 1vw);
 }
