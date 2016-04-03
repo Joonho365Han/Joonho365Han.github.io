@@ -20,7 +20,7 @@
 }
 
 .carousel { 
-	width: 100%;
+	width: calc(47vw - 10px);
 	margin: 1vw;
 }
 
