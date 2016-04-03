@@ -28,12 +28,6 @@
 .carousel { 
 	width: 100%;
 }
-.mainCarousel .item {
-	padding-top: 46vw;
-}
-.threefoldCarousel .item {
-	padding-top: 30vw;
-}
 .specifics{
 	width: 40%;
 }
