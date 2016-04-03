@@ -25,11 +25,8 @@
 .threefold > .narrower {
 	width: 33.3%;
 }
-.mainCarousel { 
-	width: 50%;
-}
-.threefoldCarousel{
-	width: 33.3%;
+.carousel { 
+	width: 100%;
 }
 .mainCarousel .item {
 	padding-top: 46vw;
