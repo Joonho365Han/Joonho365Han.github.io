@@ -31,9 +31,11 @@
 }
 .mainCarousel .item {
 	height: 46vw;
+	border-radius: 10px;
 }
 .threefoldCarousel .item {
 	height: 30vw;
+	border-radius: 10px;
 }
 .specifics{
 	width: 40%;
