@@ -1,5 +1,5 @@
 .poster{
-	margin: 2vw;
+	margin: calc(10px + 1vw);
 	margin-bottom: 0;
 	width: 96vw;
 	padding-top: 48vw;
@@ -12,7 +12,7 @@
 
 .description{
 	display: table;
-	padding: 2vw;
+	padding: calc(10px + 1vw);
 }
 .description div {
 	display: table-cell;
@@ -42,6 +42,6 @@
 }
 
 .full-width-paragraph{
-	margin: 2vw;
+	margin: calc(10px + 1vw);
 	text-align: justify;
 }

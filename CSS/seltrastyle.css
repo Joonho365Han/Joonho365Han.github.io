@@ -1,11 +1,11 @@
 .versions{
-	padding: 2vw;
+	padding: calc(10px + 1vw);
 	margin-bottom: 50vw;
 }
 
 .carousel { 
 	width: 96vw;
-	margin: 2vw;
+	margin: calc(10px + 1vw);
 }
 
 .v1{ background: url("/img/seltra/v1.jpg"); }
