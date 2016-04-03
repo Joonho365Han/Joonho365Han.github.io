@@ -5,7 +5,16 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
+@font-face{
+    font-family:'Avenir';src:
+        url(../fonts/avenirlight.eot);src:url(../fonts/avenirlight.eot) format("embedded-opentype"),
+        url(../fonts/avenirlight.woff2) format("woff2"),
+        url(../fonts/avenirlight.woff) format("woff"),
+    url(../fonts/avenirlight.ttf) format("truetype"),
+    url(../fonts/avenirlight.svg#avenirlight) format("svg")
+};
 html {
+  font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -105,6 +114,7 @@ code,
 kbd,
 pre,
 samp {
+  font-family: monospace, monospace;
   font-size: 1em;
 }
 button,
@@ -259,10 +269,19 @@ th {
     border: 1px solid #ddd !important;
   }
 }
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
 .glyphicon {
   position: relative;
   top: 1px;
   display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
   line-height: 1;
 
   -webkit-font-smoothing: antialiased;
@@ -1067,7 +1086,16 @@ th {
           box-sizing: border-box;
 }
 html {
+  font-size: 10px;
+
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
 }
 input,
 button,
@@ -1512,6 +1540,9 @@ address {
 code,
 kbd,
 pre,
+samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
 code {
   padding: 2px 4px;
   font-size: 90%;
@@ -6042,6 +6073,10 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
   line-height: 1.42857143;
   text-align: left;
   text-align: start;
@@ -6157,6 +6192,10 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
   line-height: 1.42857143;
   text-align: left;
   text-align: start;
@@ -6421,6 +6460,7 @@ button.close {
 .carousel-control .icon-next {
   width: 20px;
   height: 20px;
+  font-family: serif;
   line-height: 1;
 }
 .carousel-control .icon-prev:before {
