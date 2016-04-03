@@ -164,6 +164,7 @@
   z-index: 15;
   width: 60%;
   padding-left: 0;
+  margin-left: -96px;
   text-align: center;
   list-style: none;
 }
