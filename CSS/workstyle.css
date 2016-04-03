@@ -45,7 +45,7 @@
 	height: 30vw;
 }
 .item h5{
-	font-style: sans-serif;
+	font: 1em sans-serif;
 	color: white;
 }
 .specifics{
