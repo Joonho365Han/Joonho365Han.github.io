@@ -1,3 +1,6 @@
+#posterCarousel > .carousel-indicators{
+  margin-left: -18px;
+}
 .versions{
 	padding: calc(10px + 1vw);
 	margin-bottom: 50vw;
