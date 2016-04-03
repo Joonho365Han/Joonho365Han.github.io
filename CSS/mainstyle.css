@@ -228,6 +228,8 @@ header {
 .contacts{
 	position: relative;
 	margin: 0 calc(0.3em + 0.7vw);
+	border-top: 3px double #444;
+	border-bottom: 3px double #444;
 }
 .since{ 
 	padding: 0;
