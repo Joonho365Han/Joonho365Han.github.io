@@ -1,50 +1,8 @@
-.poster{
-	margin: 2vw;
-	margin-bottom: 0;
-	width: 96vw;
-	padding-top: 48vw;
-	background: url("/img/seltra/poster.png");
-	background-size: cover;
-	-webkit-background-size: cover;
-	background-position: center;
-	-webkit-background-position: center;
-}
-
-.description{
-	display: table;
-	padding: 2vw;
-}
-.description div {
-	display: table-cell;
-	padding: 1vw;
-	padding-top: 0;
-}
-
-.specifics{
-	width: 20%;
-}
-.specifics h3{
-	font-size: 1.2em;
-	color: #666;
-	padding-bottom: 1vw;
-}
-.specifics h4{
-	color: #888;
-	font-size: 0.8em;
-}
-
-.intro{
-	text-align: justify;
-	width: 80%;
-}
-.intro h4, .intro h3, .process h4, .process h3{
-	padding-top: 0.5vw;
-}
-
 .versions{
 	padding: 2vw;
 	margin-bottom: 50vw;
 }
+
 .carousel { 
 	width: 96vw;
 	margin: 2vw;
@@ -118,9 +76,4 @@
 .versions h4{
 	font-style: italic;
 	color: white;
-}
-
-.process{
-	margin: 2vw;
-	text-align: justify;
 }
