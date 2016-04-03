@@ -1,7 +1,7 @@
 .poster{
 	margin: calc(10px + 1vw);
 	margin-bottom: 0;
-	width: 100%;
+	width: calc(98vw - 20px);
 	padding-top: 48vw;
 	background: url("/img/seltra/poster.png");
 	background-size: cover;
