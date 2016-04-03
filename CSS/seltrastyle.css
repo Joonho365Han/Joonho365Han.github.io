@@ -43,11 +43,14 @@
 	-webkit-background-position: center;
 }
 
-.mainCarousel > .carousel-indicators{
+#seltraCarousel > .carousel-indicators{
   margin-left: -18px;
 }
-.threefoldCarousel > .carousel-indicators{
+#designCarousel > .carousel-indicators{
   margin-left: -48px;
+}
+#productionCarousel > .carousel-indicators{
+  margin-left: -96px;
 }
 
 /*
