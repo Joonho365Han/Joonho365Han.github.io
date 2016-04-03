@@ -3,10 +3,9 @@
 	margin-bottom: 50vw;
 }
 
-.carousel { 
-	width: calc(98vw - 20px);
-	margin: calc(10px + 1vw);
-}
+.p1{ background: url("/img/seltra/p1.JPG"); }
+.p2{ background: url("/img/seltra/p2.JPG"); }
+.p3{ background: url("/img/seltra/p3.JPG"); }
 
 .v1{ background: url("/img/seltra/v1.jpg"); }
 .v2{ background: url("/img/seltra/v2.jpg"); }
