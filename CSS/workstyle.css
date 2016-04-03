@@ -13,7 +13,7 @@
 	display: table;
 	padding: calc(10px + 1vw);
 }
-.main div {
+.main > div {
 	display: table-cell;
 	width: 50%;
 	padding: 1vw;
