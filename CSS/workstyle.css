@@ -44,6 +44,10 @@
 .threefoldCarousel .item {
 	height: 30vw;
 }
+.item h5{
+	font-style: sans-serif;
+	color: white;
+}
 .specifics{
 	width: 20%;
 }
