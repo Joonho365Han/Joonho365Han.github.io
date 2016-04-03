@@ -1,8 +1,7 @@
 .poster{
-	margin: calc(10px + 1vw);
+	margin: 0 calc(10px + 1vw);
 	width: calc(98vw - 20px);
 	padding-top: 46vw;
-	margin-top: 1vw;
     /*-webkit-column-count: 2;
     column-count: 2;*/
 }/*
