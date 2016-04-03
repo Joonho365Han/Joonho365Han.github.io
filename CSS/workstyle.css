@@ -20,17 +20,20 @@
 }
 .slide-table > div {
 	display: table-cell;
-	vertical-align: middle;
+	vertical-align: top;
 	padding: 1vw;
 }
 .main > div{
 	width: 50%;
+	vertical-align: middle;
 }
 .threefold > .wider {
 	width: 60%;
+	vertical-align: middle;
 }
 .threefold > .narrower {
 	width: 40%;
+	vertical-align: middle;
 }
 .carousel { 
 	width: 100%;
