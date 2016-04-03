@@ -14,7 +14,7 @@
 }
 .slide-table > div {
 	display: table-cell;
-	vertical-align: middle;
+	vertical-align: top;
 	padding: 1vw;
 }
 .main > div{
