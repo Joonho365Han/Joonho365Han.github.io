@@ -1,5 +1,4 @@
 .top{ background: url( "/img/monolith/poster.png"); }
-
 .versions li, .carousel-inner > .item, .poster{
 	background-size: cover;
 	-webkit-background-size: cover;
