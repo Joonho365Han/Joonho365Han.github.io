@@ -52,6 +52,14 @@
 #productionCarousel > .carousel-indicators{
   margin-left: -96px;
 }
+#designCarousel .narrower{
+	position: absolute;
+	right: 0;
+}
+#productionCarousel .wider{
+	position: absolute;
+	right: 0;
+}
 
 /*
 .versions li{

@@ -9,6 +9,7 @@
 	-webkit-background-position: center;
 }*/
 .slide-table{
+	position: relative;
 	display: table;
 	padding: calc(10px + 1vw);
 }
@@ -18,6 +19,11 @@
 }
 .main > div{
 	width: 50%;
+}
+.main .description{
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 .threefold > .wider {
 	width: 66.6%;
