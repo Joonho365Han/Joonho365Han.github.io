@@ -34,7 +34,6 @@
 }
 
 .intro{
-	text-align: justify;
 	width: 80%;
 }
 .intro h4, .intro h3, .full-width-paragraph h4, .full-width-paragraph h3{
@@ -43,5 +42,4 @@
 
 .full-width-paragraph{
 	margin: calc(10px + 1vw);
-	text-align: justify;
 }
