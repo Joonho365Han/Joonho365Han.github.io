@@ -30,7 +30,7 @@
 .threefoldCarousel .active, .threefoldCarousel li{
 	border-color: #444;
 }
-.threefoldCarousel li{
+.threefoldCarousel .active{
 	background-color: #444;
 }
 
