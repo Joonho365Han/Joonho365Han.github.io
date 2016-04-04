@@ -1,6 +1,10 @@
 .slide-table{
 	padding-top: 0;
 }
+.screenshot-title{
+	margin: calc(10px + 1vw);
+	padding-bottom: 0.5vw;
+}
 .screenshots{
 	width: 33.3%;
 }
