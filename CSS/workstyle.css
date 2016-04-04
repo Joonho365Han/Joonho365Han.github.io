@@ -1,6 +1,10 @@
 .base-margin{
 	padding: calc(10px + 1vw);
 }
+.base-margin > h3, .base-margin > h4{
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
 .poster{
 	width: calc(98vw - 20px);
 	padding-top: calc(49vw - 10px);
