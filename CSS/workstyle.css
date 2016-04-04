@@ -1,21 +1,14 @@
 .base-margin{
-	margin: calc(10px + 1vw);
+	padding: calc(10px + 1vw);
 }
 .poster{
 	width: calc(98vw - 20px);
 	padding-top: calc(49vw - 10px);
+	margin: calc(10px + 1vw);
 	margin-top: 0.5vw;
 	margin-bottom: 0;
 	border-radius: 5px;
-    /*-webkit-column-count: 2;
-    column-count: 2;*/
-}/*
-.poster{
-	float: left;
-	margin: 1vw;
-	width: calc(47vw - 10px);
-	padding-top: 46vw;
-}*/
+}
 .slide-table{
 	width: 100%;
 	display: table;
