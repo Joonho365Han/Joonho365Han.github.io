@@ -1,5 +1,5 @@
 .base-margin{
-	margin: calc(10px + 1vw);
+	padding: calc(10px + 1vw);
 }
 .poster{
 	width: calc(98vw - 20px);
