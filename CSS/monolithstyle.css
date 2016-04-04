@@ -2,7 +2,8 @@
 	padding-top: 0;
 }
 .screenshot-title{
-	margin-bottom: 0.5vw;
+	margin: calc(10px + 2vw);
+	margin-bottom-bottom: 0.5vw;
 }
 .screenshots{
 	width: 33.3%;
@@ -19,13 +20,21 @@
 .war2{ background: url("/img/monolith/war2.png"); }
 .war3{ background: url("/img/monolith/war3.png"); }
 .war4{ background: url("/img/monolith/war4.png"); }
-.versions li, .carousel-inner > .item, .poster{
+.bol3{ background: url("/img/monolith/bol1.jpg"); }
+.bol4{ background: url("/img/monolith/bol2.jpg"); }
+.bol5{ background: url("/img/monolith/bol3.jpg"); }
+.aow1{ background: url("/img/monolith/aow1.jpg"); }
+.aow2{ background: url("/img/monolith/aow2.jpg"); }
+.aow1{ background: url("/img/monolith/aow3.jpg"); }
+.aow2{ background: url("/img/monolith/aow4.jpg"); }
+.aow3{ background: url("/img/monolith/aow5.jpg"); }
+.aow4{ background: url("/img/monolith/aow6.jpg"); }
+.photolist li, .carousel-inner > .item, .poster{
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-position: center;
 	-webkit-background-position: center;
 }
-
 .threefoldCarousel .item{
 	padding-top: calc(54.5vw - 11.7px);
 	margin-top: 0.5vw;
@@ -36,7 +45,6 @@
 .threefoldCarousel .active{
 	background-color: #444;
 }
-
 #mainCarousel > .carousel-indicators{
   margin-left: -30px;
 }
@@ -45,4 +53,14 @@
 }
 #weaponsCarousel > .carousel-indicators{
   margin-left: -24px;
+}
+.photolist li{
+	width: calc(31.7vw - 6.7px);
+	height: 20vw;
+}
+.original-seltra{
+	margin-bottom: 50vw;
+}
+.original-aow{
+	margin-bottom: ;
 }
