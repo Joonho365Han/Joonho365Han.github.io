@@ -1,3 +1,6 @@
+.special h3{
+	padding-left: 1vw;
+}
 .screenshots{
 	width: 33.3%;
 }
@@ -52,7 +55,7 @@
 	height: 20vw;
 }
 .original-seltra{
-	margin-bottom: 24vw;
+	margin-bottom: 23vw;
 }
 .original-aow{
 	margin-bottom: 47vw;
