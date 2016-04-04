@@ -27,9 +27,11 @@
 	padding-top: calc(54.5vw - 11.7px);
 	margin-top: 0.5vw;
 }
-.threefoldCarousel > .carousel-indicators > li{
-	background-color: #444;
+.threefoldCarousel .active, .threefoldCarousel li{
 	border-color: #444;
+}
+.threefoldCarousel li{
+	background-color: #444;
 }
 
 #mainCarousel > .carousel-indicators{
