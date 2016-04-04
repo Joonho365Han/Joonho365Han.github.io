@@ -26,3 +26,13 @@
 }
 
 .no-padding{ padding: 0; }
+
+#mainCarousel > .carousel-indicators{
+  margin-left: -30px;
+}
+#seltraCarousel > .carousel-indicators{
+  margin-left: -12px;
+}
+#weaponsCarousel > .carousel-indicators{
+  margin-left: -24px;
+}
