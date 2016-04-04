@@ -1,4 +1,18 @@
-
+.main > div{
+	width: 50%;
+}
+.threefold > .wider {
+	width: 60%;
+}
+.threefold > .narrower {
+	width: 40%;
+}
+.mainCarousel .item {
+	height: 46vw;
+}
+.threefoldCarousel .item {
+	height: 36.4vw;
+}
 .top{ background: url("/img/seltra/poster.png"); }/*
 .bottom{ background: url("/img/seltra/work_station.png"); }*/
 

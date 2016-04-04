@@ -1,7 +1,24 @@
 .top{ background: url( "/img/monolith/poster.png"); }
+.m1{ background: url("/img/monolith/m1.png"); }
+.m2{ background: url("/img/monolith/m2.png"); }
+.m3{ background: url("/img/monolith/m3.png"); }
+.m4{ background: url("/img/monolith/m4.png"); }
+.m5{ background: url("/img/monolith/m5.png"); }
+.sel1{ background: url("/img/monolith/sel1.png"); }
+.sel2{ background: url("/img/monolith/sel2.png"); }
+.war1{ background: url("/img/monolith/war1.png"); }
+.war2{ background: url("/img/monolith/war2.png"); }
+.war3{ background: url("/img/monolith/war3.png"); }
+.war4{ background: url("/img/monolith/war4.png"); }
 .versions li, .carousel-inner > .item, .poster{
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-position: center;
 	-webkit-background-position: center;
 }
+
+.threefoldCarousel .item{
+	padding-top: calc(30.6vw - 6.6px);
+}
+
+.no-padding{ padding: 0; }
