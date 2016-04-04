@@ -1,6 +1,9 @@
 .screenshots{
 	width: 33.3%;
 }
+.screenshots h4{
+	padding-bottom: 0.5vw;
+}
 .top{ background: url( "/img/monolith/poster.png"); }
 .m1{ background: url("/img/monolith/m1.png"); }
 .m2{ background: url("/img/monolith/m2.png"); }
@@ -30,7 +33,6 @@
 }
 .threefoldCarousel .item{
 	padding-top: calc(54.5vw - 11.7px);
-	margin-top: 0.5vw;
 }
 .threefoldCarousel .active, .threefoldCarousel li{
 	border-color: #444;
