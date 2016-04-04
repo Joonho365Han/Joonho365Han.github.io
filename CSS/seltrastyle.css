@@ -13,13 +13,10 @@
 .threefoldCarousel .item {
 	height: 36.4vw;
 }
-.top{ background: url("/img/seltra/poster.png"); }/*
-.bottom{ background: url("/img/seltra/work_station.png"); }*/
-
+.top{ background: url("/img/seltra/poster.png"); }
 .p1{ background: url("/img/seltra/p1.JPG"); }
 .p2{ background: url("/img/seltra/p2.JPG"); }
 .p3{ background: url("/img/seltra/p3.JPG"); }
-
 .v1{ background: url("/img/seltra/v1.jpg"); }
 .v2{ background: url("/img/seltra/v2.jpg"); }
 .v3{ background: url("/img/seltra/v3.jpg"); }
@@ -28,7 +25,6 @@
 .v6{ background: url("/img/seltra/v6.jpg"); }
 .v7{ background: url("/img/seltra/v7.png"); }
 .v8{ background: url("/img/seltra/v8.png"); }
-
 .s1{ background: url("/img/seltra/slides/s1.jpg"); }
 .s2{ background: url("/img/seltra/slides/s2.jpg"); }
 .s3{ background: url("/img/seltra/slides/s3.jpg"); }
@@ -45,7 +41,6 @@
 .s14{ background: url("/img/seltra/slides/s14.png"); }
 .s15{ background: url("/img/seltra/slides/s15.png"); }
 .s16{ background: url("/img/seltra/slides/s16.png"); }
-
 .photolist li, .carousel-inner > .item, .poster{
 	background-size: cover;
 	-webkit-background-size: cover;
