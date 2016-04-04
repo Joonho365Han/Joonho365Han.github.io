@@ -1,5 +1,7 @@
-.poster{
+.base-margin{
 	margin: calc(10px + 1vw);
+}
+.poster{
 	width: calc(98vw - 20px);
 	padding-top: calc(49vw - 10px);
 	margin-top: 0.5vw;
@@ -17,7 +19,6 @@
 .slide-table{
 	width: 100%;
 	display: table;
-	padding: calc(10px + 1vw);
 }
 .slide-table > div {
 	display: table-cell;
@@ -47,7 +48,4 @@
 }
 .description h4, .description h3{
 	padding-top: 0.5vw;
-}
-.full-width-paragraph{
-	margin: calc(10px + 1vw);
 }
