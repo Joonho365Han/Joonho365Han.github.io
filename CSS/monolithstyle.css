@@ -4,7 +4,7 @@
 .screenshots h4{
 	padding-bottom: 0.5vw;
 }
-.top{ background: url( "/img/monolith/poster.png"); }
+.poster{ background: url( "/img/monolith/poster.png"); }
 .m1{ background: url("/img/monolith/m1.png"); }
 .m2{ background: url("/img/monolith/m2.png"); }
 .m3{ background: url("/img/monolith/m3.png"); }

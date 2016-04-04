@@ -13,7 +13,7 @@
 .threefoldCarousel .item {
 	height: 36.4vw;
 }
-.top{ background: url("/img/seltra/poster.png"); }
+.poster{ background: url("/img/seltra/poster.png"); }
 .p1{ background: url("/img/seltra/p1.JPG"); }
 .p2{ background: url("/img/seltra/p2.JPG"); }
 .p3{ background: url("/img/seltra/p3.JPG"); }
