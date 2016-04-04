@@ -1,7 +1,9 @@
+.slide-table{
+	padding-top: 0;
+}
 .screenshots{
 	width: 33.3%;
 }
-
 .top{ background: url( "/img/monolith/poster.png"); }
 .m1{ background: url("/img/monolith/m1.png"); }
 .m2{ background: url("/img/monolith/m2.png"); }
@@ -23,9 +25,8 @@
 
 .threefoldCarousel .item{
 	padding-top: calc(30.6vw - 6.6px);
+	margin-top: 0.5vw;
 }
-
-.no-padding{ padding: 0; }
 
 #mainCarousel > .carousel-indicators{
   margin-left: -30px;
