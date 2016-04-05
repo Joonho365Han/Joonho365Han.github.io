@@ -35,10 +35,10 @@
 	padding-top: calc(54.5vw - 11.7px);
 }
 .threefoldCarousel .active, .threefoldCarousel li{
-	border-color: #999;
+	border-color: #666;
 }
 .threefoldCarousel .active{
-	background-color: #999;
+	background-color: #666;
 }
 #mainCarousel > .carousel-indicators{
   margin-left: -30px;
