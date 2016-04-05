@@ -10,8 +10,7 @@
 }
 
 .articles > a{ 
-	width: 25%; 
-	border-radius: 50%;
+	width: 25%;
 }
 
 .seltra{ background: url("/img/frontpage/seltra.png"); }
@@ -22,7 +21,6 @@
 	padding-bottom: 1vw;
 	width: 100%;
 	height: 17vw;
-	border-radius: 8.5vw;
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-position: center;
