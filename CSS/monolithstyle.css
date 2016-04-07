@@ -1,3 +1,7 @@
+.base-margin > h3, .base-margin > h4{
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
 .screenshots{
 	width: 33.3%;
 }
