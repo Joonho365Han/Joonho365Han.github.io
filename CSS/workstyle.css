@@ -8,13 +8,11 @@
 .poster{
 	width: calc(98vw - 20px);
 	padding-top: calc(49vw - 10px);
-	margin: calc(10px + 1vw);
 	margin-top: 0.5vw;
 	margin-bottom: 0;
 	border-radius: 5px;
 }
 .slide-table{
-	width: 100%;
 	display: table;
 }
 .slide-table > div {
