@@ -1,7 +1,4 @@
-.poster{ 
-	background: url("/img/listen/poster.png"); 
-	background-size: cover;
-	-webkit-background-size: cover;
-	background-position: center;
-	-webkit-background-position: center;
+.photolist li{
+	width: calc(50% - 1vw);
+	height: 37.5vw;
 }
