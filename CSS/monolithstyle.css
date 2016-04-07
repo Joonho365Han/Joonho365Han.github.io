@@ -50,7 +50,7 @@
   margin-left: -24px;
 }
 .photolist li{
-	width: 33.3%;
+	width: calc(33.3% - 1vw);
 	height: 20vw;
 }
 .original-seltra{
