@@ -1,4 +1,4 @@
-.photolist li{
+.photolist iframe{
 	width: calc(50% - 1vw);
 	height: 37.5vw;
 }
