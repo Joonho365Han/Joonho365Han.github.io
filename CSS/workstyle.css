@@ -1,5 +1,5 @@
 .base-margin{
-	padding: calc(10px + 1vw);
+	margin: calc(10px + 1vw);
 }
 .base-margin > h3, .base-margin > h4{
 	padding-left: 1vw;
