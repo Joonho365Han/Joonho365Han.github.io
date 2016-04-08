@@ -169,6 +169,7 @@ header {
 	display: table-cell;
 	vertical-align: middle;
     font: calc(2em + 1.5vw) Rye,serif;
+    -webkit-font-size: calc(2em + 1.5vw);
     color: #444;
 }
 
@@ -177,6 +178,7 @@ header {
 	position: absolute;
     display: table;
 	height: calc(2em + 3vw);
+	-webkit-height: calc(2em + 1.5vw);
 }
 .timeline-button { left: 0; }
 .blog-button{ right: 0; }
@@ -191,6 +193,8 @@ header {
 	position: relative;
 	width: calc(2em + 1vw);
 	height: calc(2em + 1vw);
+	-webkit-width: calc(2em + 1vw);
+	-webkit-height: calc(2em + 1vw);
 	margin: 1vw;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -203,15 +207,18 @@ header {
 	visibility: hidden;
 	position: absolute;
 	padding: calc(0.3em + 0.7vw) 0;
+	-webkit-padding: calc(0.3em + 0.7vw) 0;
     font: 1.1em Rye,sans-serif;
     color: #444;
 }
 .timeline-button h5 {
 	width: 150px;
     left: calc(1.5em + 2vw);
+    -webkit-left: calc(1.5em + 2vw);
 }
 .blog-button h5{
 	right: calc(1.5em + 2vw);
+	-webkit-right: calc(1.5em + 2vw);
 }
 .menulink > a:hover > h5 {
 	visibility: visible;
@@ -228,6 +235,7 @@ header {
 .contacts{
 	position: relative;
 	margin: 0 calc(0.3em + 0.7vw);
+	-webkit-margin: 0 calc(0.3em + 0.7vw);
 	border-top: 3px double #444;
 	border-bottom: 3px double #444;
 }
