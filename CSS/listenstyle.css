@@ -1,3 +1,14 @@
+.intro{
+	width: 75vw;
+	max-width: calc(375px + 25vw);
+	margin: calc(10px + 1vw) auto;
+	padding: 6vh 0 25vh 0;
+	text-align: justify;
+  	animation-name: slide_up;
+  	-webkit-animation-name: slide_up;
+ 	animation-duration: 0.9s;
+}
+
 .photolist li{
 	width: calc(50% - 1vw);
 	height: 37.5vw;
