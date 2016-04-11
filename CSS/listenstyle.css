@@ -2,7 +2,7 @@
 	width: 75vw;
 	max-width: calc(375px + 25vw);
 	margin: calc(10px + 1vw) auto;
-	padding: 15vh 0 10vh 0;
+	padding: 8vh 0 16vh 0;
 	text-align: justify;
   	animation-name: slide_up;
   	-webkit-animation-name: slide_up;
