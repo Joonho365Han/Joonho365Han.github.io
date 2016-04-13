@@ -2,7 +2,7 @@
 	width: 75vw;
 	max-width: calc(375px + 25vw);
 	margin: calc(10px + 1vw) auto;
-	padding: 8vh 0 8vh 0;
+	padding-top: 8vw;
 	text-align: justify;
   	animation-name: slide_up;
   	-webkit-animation-name: slide_up;
@@ -12,7 +12,7 @@
 .photolist li{
 	padding: auto;
 	float: none;
-	margin: 4vw;
+	margin: 8vw;
   	animation-name: slide_up;
   	-webkit-animation-name: slide_up;
  	animation-duration: 0.9s;
