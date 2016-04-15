@@ -23,7 +23,7 @@ a{
 .s9{ background: url("/img/ink/s9.png"); }
 .photolist li{
 	width: calc(33.3% - 1vw);
-	height: calc(59.2% - 0.56vw);
+	height: 59vw;
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-position: center;
