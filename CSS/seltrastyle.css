@@ -52,10 +52,10 @@
 	height: calc(24.5vw - 5px - 1vw);
 }
 .v-slides{
-	margin-bottom: 52vw;
+	margin-bottom: 48.5vw;
 }
 .s-slides{
-	margin-bottom: 104vw;
+	margin-bottom: 97vw;
 }
 #seltraCarousel > .carousel-indicators{
   margin-left: -18px;
