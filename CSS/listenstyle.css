@@ -9,6 +9,10 @@
  	animation-duration: 0.6s;
 }
 
+.photolist{
+	width: 100%;
+}
+
 .photolist li{
 	float: none;
 	width: 75vw;
