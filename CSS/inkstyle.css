@@ -33,3 +33,7 @@ a{
 .photolist{
 	margin-bottom: 180vw;
 }
+
+.base-margin h3{
+	padding-left: 0.5vw;
+}
