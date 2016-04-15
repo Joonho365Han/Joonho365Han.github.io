@@ -10,13 +10,12 @@
 }
 
 .photolist li{
-	padding: auto;
 	float: none;
 	width: 75vw;
 	max-width: calc(375px + 25vw);
 	height: 42.19vw;
 	max-height: calc(210.94px + 14.06vw);
-	margin: 8vw;
+	margin: 8vw auto;
   	animation-name: slide_up;
   	-webkit-animation-name: slide_up;
  	animation-duration: 0.9s;
