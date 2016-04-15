@@ -10,10 +10,23 @@
 }
 
 .photolist li{
+	position: relative;
 	padding: auto;
 	float: none;
+	width: 75vw;
+	max-width: calc(375px + 25vw);
+	height: 42.19vw;
+	max-height: calc(210.94px + 14.06vw);
 	margin: 8vw;
   	animation-name: slide_up;
   	-webkit-animation-name: slide_up;
  	animation-duration: 0.9s;
+}
+
+iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
