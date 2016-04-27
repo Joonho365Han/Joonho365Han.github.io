@@ -179,7 +179,7 @@ header {
     display: table;
 	height: calc(2em + 3vw);
 }
-.timeline-button { left: 0.3em; }
+.timeline-button { left: calc(0.3em - 0.2vw); }
 .blog-button{ right: 0; }
 /* Icon buttons */
 /*Browser by Creative Stall from the Noun Project*/
