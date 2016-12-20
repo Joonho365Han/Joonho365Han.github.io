@@ -13,31 +13,31 @@
 .threefoldCarousel .item {
 	height: 36.4vw;
 }
-.poster{ background: url("/img/seltra/poster.png"); }
-.v1{ background: url("/img/seltra/v1.jpg"); }
-.v2{ background: url("/img/seltra/v2.jpg"); }
-.v3{ background: url("/img/seltra/v3.jpg"); }
-.v4{ background: url("/img/seltra/v4.jpg"); }
-.v5{ background: url("/img/seltra/v5.jpg"); }
-.v6{ background: url("/img/seltra/v6.jpg"); }
-.v7{ background: url("/img/seltra/v7.png"); }
-.v8{ background: url("/img/seltra/v8.png"); }
-.s1{ background: url("/img/seltra/s1.jpg"); }
-.s2{ background: url("/img/seltra/s2.jpg"); }
-.s3{ background: url("/img/seltra/s3.jpg"); }
-.s4{ background: url("/img/seltra/s4.jpg"); }
-.s5{ background: url("/img/seltra/s5.jpg"); }
-.s6{ background: url("/img/seltra/s6.jpg"); }
-.s7{ background: url("/img/seltra/s7.png"); }
-.s8{ background: url("/img/seltra/s8.png"); }
-.s9{ background: url("/img/seltra/s9.png"); }
-.s10{ background: url("/img/seltra/s10.jpg"); }
-.s11{ background: url("/img/seltra/s11.png"); }
-.s12{ background: url("/img/seltra/s12.png"); }
-.s13{ background: url("/img/seltra/s13.png"); }
-.s14{ background: url("/img/seltra/s14.png"); }
-.s15{ background: url("/img/seltra/s15.png"); }
-.s16{ background: url("/img/seltra/s16.png"); }
+.poster{ background: url("/ihmaegie349pr/seltra/poster.png"); }
+.v1{ background: url("/ihmaegie349pr/seltra/v1.jpg"); }
+.v2{ background: url("/ihmaegie349pr/seltra/v2.jpg"); }
+.v3{ background: url("/ihmaegie349pr/seltra/v3.jpg"); }
+.v4{ background: url("/ihmaegie349pr/seltra/v4.jpg"); }
+.v5{ background: url("/ihmaegie349pr/seltra/v5.jpg"); }
+.v6{ background: url("/ihmaegie349pr/seltra/v6.jpg"); }
+.v7{ background: url("/ihmaegie349pr/seltra/v7.png"); }
+.v8{ background: url("/ihmaegie349pr/seltra/v8.png"); }
+.s1{ background: url("/ihmaegie349pr/seltra/s1.jpg"); }
+.s2{ background: url("/ihmaegie349pr/seltra/s2.jpg"); }
+.s3{ background: url("/ihmaegie349pr/seltra/s3.jpg"); }
+.s4{ background: url("/ihmaegie349pr/seltra/s4.jpg"); }
+.s5{ background: url("/ihmaegie349pr/seltra/s5.jpg"); }
+.s6{ background: url("/ihmaegie349pr/seltra/s6.jpg"); }
+.s7{ background: url("/ihmaegie349pr/seltra/s7.png"); }
+.s8{ background: url("/ihmaegie349pr/seltra/s8.png"); }
+.s9{ background: url("/ihmaegie349pr/seltra/s9.png"); }
+.s10{ background: url("/ihmaegie349pr/seltra/s10.jpg"); }
+.s11{ background: url("/ihmaegie349pr/seltra/s11.png"); }
+.s12{ background: url("/ihmaegie349pr/seltra/s12.png"); }
+.s13{ background: url("/ihmaegie349pr/seltra/s13.png"); }
+.s14{ background: url("/ihmaegie349pr/seltra/s14.png"); }
+.s15{ background: url("/ihmaegie349pr/seltra/s15.png"); }
+.s16{ background: url("/ihmaegie349pr/seltra/s16.png"); }
 .photolist li, .carousel-inner > .item, .poster{
 	background-size: cover;
 	-webkit-background-size: cover;
