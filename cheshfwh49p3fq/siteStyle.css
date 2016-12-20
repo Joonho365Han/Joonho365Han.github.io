@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Old+Standard+TT:400,400italic');
+
+/* Useful "cleanup" parameters to get rid of some old school static website looks */
+ul {
+	width: 100%;
+    margin: 0 auto;
+}
+li {
+	list-style: none;
+	text-align: center;
+	float: left;
+}
+a {
+	text-decoration: none;
+	text-align: center;
+}
+/* END Cleanup parameters */
+
+/* Website font setting */
+h2, h3, h4{
+    font: 1.6em 'Old Standard TT', serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+	color: #444;
+}
+h4 {
+    font-size: 1em; /* about 12p */
+    font-style: normal;
+}
+h2{
+	font: 2.8em 'Montserrat', sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.3em;
+}
+/* END font settings */
+
+/* Website-wide header base style */
+header {
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+/* END header style */
+
+/* Footer style. */
+footer {
+	width: 100%;
+	margin: 75px auto 60px auto;
+	text-align: center;
+}
+footer h6 {
+	font: 1em 'Old Standard TT', sans-serif;
+	font-style: italic;
+	color: #666;
+	line-height: 60px;
+	border-top: 1px solid #666;
+	margin: 0 15vw;
+}
+/* END Footer style */

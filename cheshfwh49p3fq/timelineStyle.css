@@ -1,0 +1,76 @@
+@keyframes fade_in{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes -webkit-fade_in{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+#wrapper{
+    animation-name: fade_in;
+    -webkit-animation-name: fade_in;
+    animation-duration: 0.3s;
+}
+.title-link {
+    height: 100%;
+    display: table;
+    margin: 0 auto;
+}
+.title-link > a {
+    display: table-cell;
+    vertical-align: middle;
+    font: calc(2em + 1.5vw) Rye,serif;
+    -webkit-font-size: calc(2em + 1.5vw);
+    color: #444;
+}
+
+.quick_links {
+    position: absolute;
+    right: 10px;
+    max-width: 200px;
+    height: 36px;
+}
+.qli {
+    position: relative;
+    width: 25%;
+    padding: 6px 5px 0 15px;
+}
+.tumblr{
+    padding: 3px 10px 0 10px;
+}
+.quick_links a {
+    display: block;
+    line-height: 30px;
+    height: 30px;
+}
+
+.intro{
+    width: 75vw;
+    max-width: calc(375px + 25vw);
+    margin: 0 auto;
+    padding: 6vh 0 25vh 0;
+    text-align: justify;
+    animation-name: slide_left;
+    -webkit-animation-name: slide_left;
+    animation-duration: 0.9s;
+}
+
+.articles > a{ 
+    width: 25%; 
+    border-radius: 5px;
+}
+
+.seltra{ background: url("/img/frontpage/seltra.png"); }
+.ink{ background: url("/img/frontpage/ink.png"); }
+.listen{ background: url("/img/frontpage/listen.png"); }
+.monolith{ background: url("/img/frontpage/monolith.png"); }
+.peek{
+    padding-bottom: 1vw;
+    width: 100%;
+    height: 17vw;
+    border-radius: 5px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center;
+    -webkit-background-position: center;
+}
