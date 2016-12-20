@@ -105,35 +105,3 @@ body {
 	padding-left: 1vw;
     height: 7.5vw;
 }
-
-.enter {
-	height: 66px;
-	width: 100%;
-	padding-top: 10px;
-	padding-bottom: 10px;
-  	animation-name: button_entry;
-  	-webkit-animation-name: button_entry;
- 	animation-duration: 3s;
-}
-
-.enter > a {
-	text-decoration: none;
-	text-align: center;
-	display: block;
-	width: 150px;
-    font: 1.3em 'Poiret One',sans-serif;
-	line-height: 38px;
-	height: 40px;
-	color: #888;
-	margin: 0 auto;
-	border: 1px solid #bbb;
-	border-radius: 10px;
-}
-
-.enter > a:hover {
-	color: #00e6b8;
-	border-color: #00e6b8;
-	animation-name: green_lantern;
-	-webkit-animation-name: green_lantern;
-	animation-duration: 0.3s;
-}
