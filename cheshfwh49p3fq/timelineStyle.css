@@ -1,9 +1,17 @@
 #wrapper{
     max-width: 750px;
 }
-.title-link > a{ /* Bigger title just for home page */
-    font-size: 4em;
-    padding-top: 0;
+.title-link {
+    height: 100%;
+    display: table;
+    margin: 0 auto;
+}
+.title-link > h1 {
+    display: table-cell;
+    vertical-align: middle;
+    font: 4em 'Cinzel', serif;
+    letter-spacing: 0.25em;
+    color: #444;
 }
 
 .intro{

@@ -1,3 +1,23 @@
+/* Icon buttons */
+/*Browser by Creative Stall from the Noun Project*/
+.timeline-button{
+    position: absolute;
+    display: table;
+    height: calc(2em + 3vw);
+    left: calc(0.3em - 0.2vw);
+}
+.timeline-button a{ 
+    background: url("/ihmaegie349pr/ic_timeline.png");
+    display: table;
+    position: relative;
+    width: calc(2em + 1vw);
+    height: calc(2em + 1vw);
+    margin: 1vw;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center;
+    -webkit-background-position: center;
+}
 .base-margin{
 	padding: calc(10px + 1vw);
 }

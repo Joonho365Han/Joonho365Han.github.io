@@ -35,26 +35,13 @@ h4 {
 }
 /* END font settings */
 
-/* Universal Header and title style */
+/* Universal Header style */
 header {
     width: 100%;
     text-align: center;
     z-index: 1000;
 }
-.title-link {
-    height: 100%;
-    display: table;
-    margin: 0 auto;
-}
-.title-link > a {
-    display: table-cell;
-    vertical-align: middle;
-    font: 2em 'Cinzel', serif;
-    letter-spacing: 0.25em;
-    padding-top: 8px;
-    color: #444;
-}
-/* END header & title style */
+/* END header style */
 
 /* Footer style. */
 footer {
