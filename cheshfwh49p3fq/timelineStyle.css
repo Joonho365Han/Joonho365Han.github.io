@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
 #wrapper{
     max-width: 660px;
 }
@@ -14,20 +16,17 @@
     color: #444;
 }
 
-.intro{
+/* START Media Icons */
+.contacts{
     position: relative;
-    margin: 0 auto;
-    text-align: center;
+    margin: 0 calc(0.3em + 0.7vw);
+    border-top: 3px double #444;
+    border-bottom: 3px double #444;
 }
-.intro > h3 {
-    font-size: 0.8em;
-}
-
-.quick_links {
-    position: absolute;
-    right: 10px;
-    max-width: 200px;
+.quick_links{ 
+    padding: 0;
     height: 36px;
+    margin: 0 auto;
 }
 .qli {
     position: relative;
@@ -41,6 +40,16 @@
     display: block;
     line-height: 30px;
     height: 30px;
+}
+/* END Media Icons */
+
+.intro{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.intro > h3 {
+    font-size: 0.8em;
 }
 
 .articles > a{ 
