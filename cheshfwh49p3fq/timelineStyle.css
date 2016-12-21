@@ -23,13 +23,9 @@
     height: 36px;
     margin: 0 auto;
 }
-.quick_link_item {
+.quick_link_list > li {
     position: relative;
     width: 25%;
-    padding: 6px 5px 0 15px;
-}
-.tumblr{
-    padding: 3px 10px 0 10px;
 }
 .quick_links a {
     display: block;
