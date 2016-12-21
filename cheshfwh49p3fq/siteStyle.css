@@ -46,7 +46,8 @@ header {
 /* Footer style. */
 footer {
 	width: 100%;
-	margin: 75px 0px 60px 0px;
+	margin-top: 75px;
+    margin-bottom: 60px;
 	text-align: center;
 }
 footer h6 {
@@ -55,6 +56,6 @@ footer h6 {
 	color: #666;
 	line-height: 60px;
 	border-top: 1px solid #666;
-	margin: 0 15vw;
+	margin: 0 15%;
 }
 /* END Footer style */
