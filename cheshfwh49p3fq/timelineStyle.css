@@ -17,8 +17,9 @@
 }
 
 /* START Media Icons */
-.quick_links{
+.quick_link_list{
     padding: 0;
+    width: 50%;
     height: 36px;
     margin: 0 auto;
 }
