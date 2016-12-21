@@ -35,7 +35,7 @@ h4 {
 }
 /* END font settings */
 
-/* Header and title style */
+/* Universal Header and title style */
 header {
     width: 100%;
     text-align: center;
@@ -49,7 +49,9 @@ header {
 .title-link > a {
     display: table-cell;
     vertical-align: middle;
-    font: 4em Cinzel, serif;
+    font: 2em 'Cinzel', serif;
+    letter-spacing: 0.25em;
+    padding-top: 8px;
     color: #444;
 }
 /* END header & title style */
