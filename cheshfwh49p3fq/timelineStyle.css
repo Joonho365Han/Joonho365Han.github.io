@@ -17,18 +17,12 @@
 }
 
 /* START Media Icons */
-.contacts{
-    position: relative;
-    margin: 0 calc(0.3em + 0.7vw);
-    border-top: 3px double #444;
-    border-bottom: 3px double #444;
-}
-.quick_links{ 
+.quick_links{
     padding: 0;
     height: 36px;
     margin: 0 auto;
 }
-.qli {
+.quick_link_item {
     position: relative;
     width: 25%;
     padding: 6px 5px 0 15px;
