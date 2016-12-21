@@ -1,16 +1,5 @@
-@keyframes fade_in{
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-@keyframes -webkit-fade_in{
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
 #wrapper{
-    max-width: 600px;
-    animation-name: fade_in;
-    -webkit-animation-name: fade_in;
-    animation-duration: 0.3s;
+    max-width: 750px;
 }
 .title-link {
     height: 100%;
@@ -23,6 +12,13 @@
     font: calc(2em + 1.5vw) Rye,serif;
     -webkit-font-size: calc(2em + 1.5vw);
     color: #444;
+}
+
+.intro{
+    position: relative;
+    margin: 0 auto;
+    padding: 6vh 0 25vh 0;
+    text-align: center;
 }
 
 .quick_links {
@@ -43,17 +39,6 @@
     display: block;
     line-height: 30px;
     height: 30px;
-}
-
-.intro{
-    width: 75vw;
-    max-width: calc(375px + 25vw);
-    margin: 0 auto;
-    padding: 6vh 0 25vh 0;
-    text-align: justify;
-    animation-name: slide_left;
-    -webkit-animation-name: slide_left;
-    animation-duration: 0.9s;
 }
 
 .articles > a{ 

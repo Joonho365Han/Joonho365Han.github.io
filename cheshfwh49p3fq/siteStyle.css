@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Old+Standard+TT:400,400italic');
 
+/* Use fade in animation for smooth transition */
+@keyframes fade_in{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes -webkit-fade_in{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+#wrapper{
+    animation-name: fade_in;
+    -webkit-animation-name: fade_in;
+    animation-duration: 0.3s;
+}
+/* END Fade in */
+
 /* Useful "cleanup" parameters to get rid of some old school static website looks */
 ul {
 	width: 100%;
