@@ -1,5 +1,5 @@
 #wrapper{
-    max-width: 750px;
+    max-width: 660px;
 }
 .title {
     height: 100%;
@@ -18,6 +18,9 @@
     position: relative;
     margin: 0 auto;
     text-align: center;
+}
+.intro > h3 {
+    font-size: 0.8em;
 }
 
 .quick_links {
