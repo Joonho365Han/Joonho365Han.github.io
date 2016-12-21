@@ -1,7 +1,7 @@
 #wrapper{
     max-width: 750px;
 }
-.title-link{ /* Bigger title for home page */
+.title-link > a{ /* Bigger title for home page */
     font-size: 5em;
 }
 
