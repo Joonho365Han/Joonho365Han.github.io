@@ -1,20 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Old+Standard+TT:400,400italic');
-
-/* Use fade in animation for smooth transition */
-@keyframes fade_in{
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-@keyframes -webkit-fade_in{
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-#wrapper{
-    animation-name: fade_in;
-    -webkit-animation-name: fade_in;
-    animation-duration: 0.3s;
-}
-/* END Fade in */
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Montserrat|Old+Standard+TT:400,400italic');
 
 /* Useful "cleanup" parameters to get rid of some old school static website looks */
 ul {
@@ -51,13 +35,24 @@ h4 {
 }
 /* END font settings */
 
-/* Website-wide base header style */
+/* Header and title style */
 header {
     width: 100%;
     text-align: center;
     z-index: 1000;
 }
-/* END header style */
+.title-link {
+    height: 100%;
+    display: table;
+    margin: 0 auto;
+}
+.title-link > a {
+    display: table-cell;
+    vertical-align: middle;
+    font: 20em Cinzel,serif;
+    color: #444;
+}
+/* END header & title style */
 
 /* Footer style. */
 footer {

@@ -1,18 +1,6 @@
 #wrapper{
     max-width: 750px;
 }
-.title-link {
-    height: 100%;
-    display: table;
-    margin: 0 auto;
-}
-.title-link > a {
-    display: table-cell;
-    vertical-align: middle;
-    font: calc(2em + 1.5vw) Rye,serif;
-    -webkit-font-size: calc(2em + 1.5vw);
-    color: #444;
-}
 
 .intro{
     position: relative;
