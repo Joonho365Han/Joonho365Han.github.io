@@ -7,6 +7,7 @@
     100% { opacity: 1; }
 }
 #wrapper{
+    max-width: 375px;
     animation-name: fade_in;
     -webkit-animation-name: fade_in;
     animation-duration: 0.3s;
