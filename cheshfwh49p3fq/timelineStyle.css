@@ -1,12 +1,12 @@
 #wrapper{
     max-width: 750px;
 }
-.title-link {
+.title {
     height: 100%;
     display: table;
     margin: 0 auto;
 }
-.title-link > h1 {
+.title > h1 {
     display: table-cell;
     vertical-align: middle;
     font: 4em 'Cinzel', serif;
