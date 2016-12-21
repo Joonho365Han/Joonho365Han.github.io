@@ -49,7 +49,7 @@ header {
 .title-link > a {
     display: table-cell;
     vertical-align: middle;
-    font: 20em Cinzel,serif;
+    font: 4em Cinzel,serif;
     color: #444;
 }
 /* END header & title style */
