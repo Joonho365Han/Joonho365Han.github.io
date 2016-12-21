@@ -1,3 +1,6 @@
+header > h2 { /* The title */
+    padding-top: 3px;
+}
 /* Icon buttons */
 /*Browser by Creative Stall from the Noun Project*/
 .timeline-button{
