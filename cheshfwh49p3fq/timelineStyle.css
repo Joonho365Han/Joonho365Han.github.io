@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Puritan');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
 @keyframes fade_out{
     0% { opacity: 1; }
     100% { opacity: 0; }
@@ -31,7 +31,7 @@ header > h1 {
 
 /* The "intro" class is important because the text-align for just this paragraph is center. */
 .intro > h4 { 
-    font: 1em 'Puritan', sans-serif;
+    font: 1em 'Montserrat', sans-serif;
     text-align: center; 
 }
 
