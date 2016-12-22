@@ -16,7 +16,7 @@
     color: #444;
 }
 
-/* START Media Icons */
+/* START Social Media Icons */
 .quick_link_list{
     padding: 0;
     width: 230px;
@@ -27,15 +27,10 @@
     position: relative;
     width: 25%;
 }
-.quick_link_list a {
-    display: block;
-    line-height: 30px;
-    height: 30px;
-}
 .quick_link_list img {
     opacity: 0.4;
 }
-/* END Media Icons */
+/* END Social Media Icons */
 
 .intro{
     position: relative;
