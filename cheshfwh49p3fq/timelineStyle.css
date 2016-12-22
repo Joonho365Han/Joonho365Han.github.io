@@ -12,8 +12,14 @@
     max-width: 660px;
 }
 
-/* The title. */
-header > h1 {
+.title {
+    height: 100%;
+    display: table;
+    margin: 0 auto;
+}
+.title > h1 {
+    display: table-cell;
+    vertical-align: middle;
     font: 4em 'Cinzel', serif;
     letter-spacing: 0.25em;
     color: #444;
