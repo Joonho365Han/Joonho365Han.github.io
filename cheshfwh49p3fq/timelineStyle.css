@@ -9,8 +9,8 @@
 }
 
 #wrapper{
-    max-width: 660px;
-    padding: 0 15px; /* So when the window shrinks beyond max width, contents don't touch the sides. */
+    max-width: 660px; /* Wrapper is narrow just for home page */
+    padding: 0 15px; /* This is so contents don't touch the sides when the window shrinks. */
 }
 
 /* The title. */
@@ -20,7 +20,7 @@ header > h1 {
     color: #444;
 }
 
-/* START Social Media Icons */
+/* Social Media Icons */
 .quick_link_list{
     width: 230px;
     height: 36px;
@@ -28,29 +28,12 @@ header > h1 {
 .quick_link_list > li {
     width: 25%;
 }
-/* END Social Media Icons */
 
-/* Self Intro paragraph */
-.intro > h4 { /* The "intro" class is important because the text-align for just this paragraph is center. */
-    text-align: center;
-}
-/* END Self Intro paragraph */
+/* The "intro" class is important because the text-align for just this paragraph is center. */
+.intro > h4 { text-align: center; }
 
 /* Project links */
-.article_anchor{
-    width: 100%;
-    border-radius: 5px; /* This is so the click radius is trimmed */
-}
-.article_anchor h2 {
-    color: white;
-    line-height: 100px;
-}
-.article_anchor:hover h2 {
-    opacity: 0;
-    animation-name: fade_out;
-    -webkit-animation-name: fade_out;
-    animation-duration: 0.3s;
-}
+/* Somehow setting background on anchor doesn't work. So I have to set background on divs. */
 .seltra_link_background{ background: url("/ihmaegie349pr/timeline/seltra.png"); }
 .monolith_link_background{ background: url("/ihmaegie349pr/timeline/monolith.png"); }
 .x_link_background{ background: url("/ihmaegie349pr/timeline/x.png"); }
@@ -65,4 +48,17 @@ header > h1 {
     -webkit-background-size: cover;
     -webkit-background-position: center;
 }
-/* END Project links */
+.article_anchor{
+    width: 100%;
+    border-radius: 5px; /* This is so the click radius is trimmed */
+}
+.article_anchor h2 {
+    color: white;
+    line-height: 100px;
+}
+.article_anchor:hover h2 {
+    opacity: 0;
+    animation-name: fade_out;
+    -webkit-animation-name: fade_out;
+    animation-duration: 0.3s;
+}
