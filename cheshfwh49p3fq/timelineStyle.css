@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
+@keyframes fade_out{
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+@keyframes -webkit-fade_out{
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
 
 #wrapper{
     max-width: 660px;
@@ -52,9 +60,12 @@
 }
 .article_anchor h2 {
     color: white;
+    vertical-align: middle;
 }
 .article_anchor:hover h2 {
-    opacity: 0;
+    animation-name: fade_out;
+    -webkit-animation-name: fade_out;
+    animation-duration: 0.3s;
 }
 .seltra_link_background{ background: url("/ihmaegie349pr/timeline/seltra.png"); }
 .monolith_link_background{ background: url("/ihmaegie349pr/timeline/monolith.png"); }
