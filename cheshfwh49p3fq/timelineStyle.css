@@ -3,6 +3,7 @@
 #wrapper{
     max-width: 660px;
 }
+
 .title {
     height: 100%;
     display: table;
@@ -32,6 +33,7 @@
 }
 /* END Social Media Icons */
 
+/* Self Intro paragraph */
 .intro{
     position: relative;
     margin: 0 auto;
@@ -40,12 +42,13 @@
 .intro > h3 {
     font-size: 0.8em;
 }
+/* END Self Intro paragraph */
 
+/* Project links */
 .articles > a{ 
     width: 25%; 
     border-radius: 5px;
 }
-
 .seltra{ background: url("/ihmaegie349pr/frontpage/seltra.png"); }
 .ink{ background: url("/ihmaegie349pr/frontpage/ink.png"); }
 .listen{ background: url("/ihmaegie349pr/frontpage/listen.png"); }
@@ -60,3 +63,4 @@
     background-position: center;
     -webkit-background-position: center;
 }
+/* END Project links */
