@@ -12,14 +12,8 @@
     max-width: 660px;
 }
 
-.title {
-    height: 100%;
-    display: table;
-    margin: 0 auto;
-}
-.title > h1 {
-    display: table-cell;
-    vertical-align: middle;
+/* The title. */
+header > h1 {
     font: 4em 'Cinzel', serif;
     letter-spacing: 0.25em;
     color: #444;
@@ -48,8 +42,7 @@
 /* END Self Intro paragraph */
 
 /* Project links */
-.article_anchor{ 
-    position: relative;
+.article_anchor{
     width: 100%;
     border-radius: 5px; /* This is so the click radius is trimmed */
 }
