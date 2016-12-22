@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Indie+Flower');
 @keyframes fade_out{
     0% { opacity: 1; }
     100% { opacity: 0; }
@@ -30,7 +30,10 @@ header > h1 {
 }
 
 /* The "intro" class is important because the text-align for just this paragraph is center. */
-.intro > h4 { text-align: center; }
+.intro > h4 { 
+    font: 1em 'Indie Flower', sans-serif;
+    text-align: center; 
+}
 
 /* Project links */
 /* Somehow setting background on anchor doesn't work. So I have to set background on divs. */
