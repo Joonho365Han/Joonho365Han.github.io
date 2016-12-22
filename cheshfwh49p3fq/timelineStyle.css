@@ -12,14 +12,8 @@
     max-width: 660px;
 }
 
-.title {
-    height: 100%;
-    display: table;
-    margin: 0 auto;
-}
-.title > h1 {
-    display: table-cell;
-    vertical-align: middle;
+/* The title. */
+header > h1 {
     font: 4em 'Cinzel', serif;
     letter-spacing: 0.25em;
     color: #444;
@@ -48,32 +42,29 @@
 /* END Self Intro paragraph */
 
 /* Project links */
-.article_anchor{
-    width: 100%;
+.seltra_link{ background: url("/ihmaegie349pr/timeline/seltra.png"); }
+.monolith_link{ background: url("/ihmaegie349pr/timeline/monolith.png"); }
+.x_link{ background: url("/ihmaegie349pr/timeline/x.png"); }
+.ink_link{ background: url("/ihmaegie349pr/timeline/ink.png"); }
+.listen_link{ background: url("/ihmaegie349pr/timeline/listen.png"); }
+.article_link{
     border-radius: 5px; /* This is so the click radius is trimmed */
-}
-.article_anchor h2 {
-    color: white;
-    line-height: 100px;
-}
-.article_anchor:hover h2 {
-    opacity: 0;
-    animation-name: fade_out;
-    -webkit-animation-name: fade_out;
-    animation-duration: 0.3s;
-}
-.seltra_link_background{ background: url("/ihmaegie349pr/timeline/seltra.png"); }
-.monolith_link_background{ background: url("/ihmaegie349pr/timeline/monolith.png"); }
-.x_link_background{ background: url("/ihmaegie349pr/timeline/x.png"); }
-.ink_link_background{ background: url("/ihmaegie349pr/timeline/ink.png"); }
-.listen_link_background{ background: url("/ihmaegie349pr/timeline/listen.png"); }
-.project_backgrounds{
     margin-top: 30px;
+    width: 100%;
     height: 100px;
-    border-radius: 5px; /* This is so the image is trimmed on the corners */
     background-size: cover;
     -webkit-background-size: cover;
     background-position: center;
     -webkit-background-position: center;
+}
+.article_link h2 {
+    color: white;
+    line-height: 100px;
+}
+.article_link:hover h2 {
+    opacity: 0;
+    animation-name: fade_out;
+    -webkit-animation-name: fade_out;
+    animation-duration: 0.3s;
 }
 /* END Project links */
