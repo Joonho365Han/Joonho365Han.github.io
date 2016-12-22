@@ -43,7 +43,7 @@ header > h1 {
     opacity: 1;
     animation-name: social_icon_fade_in;
     -webkit-animation-name: social_icon_fade_in;
-    animation-duration: 0.3s;
+    animation-duration: 0.2s;
 }
 
 /* The "intro" class is important because the text-align for just this paragraph is center. */
