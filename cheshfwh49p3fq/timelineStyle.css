@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Quicksand');
 @keyframes fade_out{
     0% { opacity: 1; }
     100% { opacity: 0; }
@@ -31,7 +31,7 @@ header > h1 {
 
 /* The "intro" class is important because the text-align for just this paragraph is center. */
 .intro > h4 { 
-    font: 1em 'Indie Flower', sans-serif;
+    font: 1em 'Quicksand', sans-serif;
     text-align: center; 
 }
 
