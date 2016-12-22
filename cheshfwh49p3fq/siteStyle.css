@@ -2,17 +2,17 @@
 
 /* Useful "cleanup" parameters to get rid of some old school static website looks */
 ul {
-	width: 100%;
-    margin: 0 auto;
+	width: 100%;   /* Fulll horizontal width unordered list */
+    margin: 0 auto; /* Auto center align list */
 }
 li {
 	list-style: none;
-	text-align: center;
-	float: left;
+	text-align: center; /* align text center horizontally */ 
+	float: left;       /* Lay out list item horizontally */
 }
 a {
 	text-decoration: none;
-	text-align: center;
+	text-align: center; /* align text center horizontally */
 }
 /* END Cleanup parameters */
 

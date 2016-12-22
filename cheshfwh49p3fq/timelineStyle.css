@@ -27,17 +27,12 @@
 
 /* START Social Media Icons */
 .quick_link_list{
-    padding: 0;
     width: 230px;
     height: 36px;
-    margin: 0 auto;
 }
 .quick_link_list > li {
     position: relative;
     width: 25%;
-}
-.quick_link_list img {
-    opacity: 0.4;
 }
 /* END Social Media Icons */
 
