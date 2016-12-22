@@ -27,10 +27,13 @@
     position: relative;
     width: 25%;
 }
-.quick_links a {
+.quick_link_list a {
     display: block;
     line-height: 30px;
     height: 30px;
+}
+.quick_link_list img {
+    opacity: 0.4;
 }
 /* END Media Icons */
 
