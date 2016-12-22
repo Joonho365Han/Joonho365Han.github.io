@@ -63,6 +63,7 @@
     line-height: 100px;
 }
 .article_anchor:hover h2 {
+    opacity: 0;
     animation-name: fade_out;
     -webkit-animation-name: fade_out;
     animation-duration: 0.3s;
