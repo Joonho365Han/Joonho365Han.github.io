@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Old+Standard+TT:400italic|Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Old+Standard+TT:400,400italic');
 
 /* Useful "cleanup" parameters to get rid of some old school static website looks */
 ul {
@@ -28,7 +28,7 @@ h2{
     letter-spacing: 0.3em;
 }
 h4 {
-    font: 1em 'Open Sans' sans-serif; /* about 12p */
+    font-size: 1em; /* about 12p */
     font-style: normal;
 }
 /* END font settings */
