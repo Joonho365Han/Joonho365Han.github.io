@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Open+Sans:300');
+@keyframes social_icon_fade_in{
+    0% { opacity: 0.4; }
+    100% { opacity: 1; }
+}
+@keyframes -webkit-social_icon_fade_in{
+    0% { opacity: 0.4; }
+    100% { opacity: 1; }
+}
 @keyframes fade_out{
     0% { opacity: 1; }
     100% { opacity: 0; }
@@ -27,6 +35,15 @@ header > h1 {
 }
 .quick_link_list > li {
     width: 25%;
+}
+.quick_link_list img{
+    opacity: 0.4;
+}
+.quick_link_list img:hover{
+    opacity: 1;
+    animation-name: social_icon_fade_in;
+    -webkit-animation-name: social_icon_fade_in;
+    animation-duration: 0.3s;
 }
 
 /* The "intro" class is important because the text-align for just this paragraph is center. */
