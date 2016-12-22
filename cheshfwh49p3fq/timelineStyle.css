@@ -33,7 +33,7 @@ header > h1 {
 .intro > h4 { 
     font: 1em 'Open Sans', sans-serif;
     text-align: center;
-    margin-top: 4px;
+    line-height: 27px;
 }
 
 /* Project links */
