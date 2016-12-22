@@ -10,6 +10,7 @@
 
 #wrapper{
     max-width: 660px;
+    padding: 0 15px; /* So when the window shrinks beyond max width, contents don't touch the sides. */
 }
 
 /* The title. */
@@ -25,19 +26,13 @@ header > h1 {
     height: 36px;
 }
 .quick_link_list > li {
-    position: relative;
     width: 25%;
 }
 /* END Social Media Icons */
 
 /* Self Intro paragraph */
-.intro{
-    position: relative;
-    margin: 0 auto;
+.intro > h4 { /* The "intro" class is important because the text-align for just this paragraph is center. */
     text-align: center;
-}
-.intro > h3 {
-    font-size: 0.8em;
 }
 /* END Self Intro paragraph */
 
