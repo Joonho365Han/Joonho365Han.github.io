@@ -60,7 +60,7 @@
 }
 .article_anchor h2 {
     color: white;
-    vertical-align: middle;
+    line-height: 100px;
 }
 .article_anchor:hover h2 {
     animation-name: fade_out;
@@ -73,7 +73,7 @@
 .ink_link_background{ background: url("/ihmaegie349pr/timeline/ink.png"); }
 .listen_link_background{ background: url("/ihmaegie349pr/timeline/listen.png"); }
 .project_backgrounds{
-    margin-top: 10px;
+    margin-top: 30px;
     height: 100px;
     border-radius: 5px; /* This is so the image is trimmed on the corners */
     background-size: cover;
