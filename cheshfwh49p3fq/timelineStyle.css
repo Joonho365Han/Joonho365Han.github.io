@@ -19,6 +19,7 @@
 #wrapper{
     max-width: 660px; /* Wrapper is narrow just for home page */
     padding: 0 15px; /* This is so contents don't touch the sides when the window shrinks. */
+    text-align: center;
 }
 
 /* Timeline-specific font settings */
@@ -33,9 +34,6 @@ header > h1 {
 h4 { /* A sans-serif style font body so it matches the serif-style title */
     font: 1em 'Open Sans', sans-serif;
     line-height: 27px;
-}
-.intro > h4{ /* The "intro" class is important because the text-align for just this paragraph is center. */
-    text-align: center;
 }
 
 /* Social Media Icons */
@@ -70,7 +68,7 @@ h4 { /* A sans-serif style font body so it matches the serif-style title */
 .ink_link_background{ background: url("/ihmaegie349pr/timeline/ink.png"); }
 .listen_link_background{ background: url("/ihmaegie349pr/timeline/listen.png"); }
 .project_backgrounds{
-    margin-top: 30px;
+    margin: 30px 0;
     height: 100px;
     border-radius: 5px; /* This is so the image is trimmed on the corners */
     background-size: cover;
