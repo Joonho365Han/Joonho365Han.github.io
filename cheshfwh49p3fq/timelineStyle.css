@@ -53,6 +53,12 @@ header > h1 {
     line-height: 27px;
 }
 
+/* The Spacer */
+.spacer {
+    border-top: 1px solid #ccc;
+    margin: 25px 10%;
+}
+
 /* Project links */
 /* Somehow setting background on anchor doesn't work. So I have to set background on divs. */
 .seltra_link_background{ background: url("/ihmaegie349pr/timeline/seltra.png"); }
