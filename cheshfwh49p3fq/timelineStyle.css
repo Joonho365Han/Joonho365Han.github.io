@@ -22,21 +22,19 @@
 }
 
 /* Timeline-specific font settings */
-/*Title*/
 header > h1 {
     font: 4em 'Cinzel', serif;
     letter-spacing: 0.25em;
     color: #444;
 }
-#wrapper > h2 { /* An h2 tag coming directly inside a wrapper is a subtitle. This has its own style */
+#wrapper > h2 { /* This tag indicates subtitle. Make it smaller. */
     font-size: 2em;
-    text-align: center;
 }
 h4 { /* A sans-serif style font body so it matches the serif-style title */
     font: 1em 'Open Sans', sans-serif;
     line-height: 27px;
 }
-.intro h4{/* The "intro" class is important because the text-align for just this paragraph is center. */
+.intro > h4{ /* The "intro" class is important because the text-align for just this paragraph is center. */
     text-align: center;
 }
 
