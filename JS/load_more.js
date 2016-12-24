@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     var postNumber = 29;
-    var preLoadCount = 5;
+    var preLoadCount = 10;
 
     //  Pre-load some posts just in case webpage is shorter than browser.
     while (preLoadCount-- && postNumber)
