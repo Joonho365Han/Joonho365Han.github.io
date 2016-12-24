@@ -102,5 +102,5 @@ body * {
 #blogpost_container * {
     animation-name: fade_in;
     -webkit-animation-name: fade_in;
-    animation-duration: 0.8s;
+    animation-duration: 1s;
 }

@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    var postNumber = 1;
+    var postNumber = 7;
     $(window).scroll(function(){
         if ($(window).scrollTop() >= $(document).height() - $(window).height())
         {
