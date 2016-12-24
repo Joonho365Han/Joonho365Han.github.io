@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+    alert("jquery loaded!");
     int postNumber = 4;
 
     $(window).scroll(function(){
