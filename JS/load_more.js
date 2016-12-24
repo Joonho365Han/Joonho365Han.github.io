@@ -1,11 +1,10 @@
 $(document).ready(function(){
 
-    var postNumber = 29;
-    var preLoadCount = 10;
+    var postCount = 1;
 
     //  Pre-load some posts just in case webpage is shorter than browser.
-    while (preLoadCount-- && postNumber)
-        $.get("../Posts/post_" + postNumber-- + ".html", function(DOMstring){
+    for (var i=0; i<10 && postCount; i++)
+        $.get("../Posts/post_" + postCount-- + ".html", function(DOMstring){
             $("#blogpost_container").append(DOMstring);
         });
 
@@ -14,9 +13,9 @@ $(document).ready(function(){
         if ($(window).scrollTop() >= $(document).height() - $(window).height())
         {
             var loadMore = 10;
-            while (postNumber && loadMore--)
+            while (postCount && loadMore--)
             {
-                $.get("../Posts/post_" + postNumber-- + ".html", function(DOMstring){
+                $.get("../Posts/post_" + postCount-- + ".html", function(DOMstring){
                     $("#blogpost_container").append(DOMstring);
                 });
             }
