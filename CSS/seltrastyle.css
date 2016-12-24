@@ -1,0 +1,71 @@
+.main > div{
+	width: 50%;
+}
+.threefold > .wider {
+	width: 60%;
+}
+.threefold > .narrower {
+	width: 40%;
+}
+.mainCarousel .item {
+	height: 46vw;
+}
+.threefoldCarousel .item {
+	height: 36.4vw;
+}
+.poster{ background: url("../img/seltra/poster.png"); }
+.v1{ background: url("../img/seltra/v1.jpg"); }
+.v2{ background: url("../img/seltra/v2.jpg"); }
+.v3{ background: url("../img/seltra/v3.jpg"); }
+.v4{ background: url("../img/seltra/v4.jpg"); }
+.v5{ background: url("../img/seltra/v5.jpg"); }
+.v6{ background: url("../img/seltra/v6.jpg"); }
+.v7{ background: url("../img/seltra/v7.png"); }
+.v8{ background: url("../img/seltra/v8.png"); }
+.s1{ background: url("../img/seltra/s1.jpg"); }
+.s2{ background: url("../img/seltra/s2.jpg"); }
+.s3{ background: url("../img/seltra/s3.jpg"); }
+.s4{ background: url("../img/seltra/s4.jpg"); }
+.s5{ background: url("../img/seltra/s5.jpg"); }
+.s6{ background: url("../img/seltra/s6.jpg"); }
+.s7{ background: url("../img/seltra/s7.png"); }
+.s8{ background: url("../img/seltra/s8.png"); }
+.s9{ background: url("../img/seltra/s9.png"); }
+.s10{ background: url("../img/seltra/s10.jpg"); }
+.s11{ background: url("../img/seltra/s11.png"); }
+.s12{ background: url("../img/seltra/s12.png"); }
+.s13{ background: url("../img/seltra/s13.png"); }
+.s14{ background: url("../img/seltra/s14.png"); }
+.s15{ background: url("../img/seltra/s15.png"); }
+.s16{ background: url("../img/seltra/s16.png"); }
+.photolist li, .carousel-inner > .item, .poster{
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	-webkit-background-position: center;
+}
+.special h3, .special h4 {
+	padding-left: 0.5vw;
+}
+.special h4{
+	padding-bottom: 0.5vw;
+}
+.photolist li{
+	width: calc(25% - 1vw);
+	height: calc(24.5vw - 5px - 1vw);
+}
+.v-slides{
+	margin-bottom: 48.5vw;
+}
+.s-slides{
+	margin-bottom: 97vw;
+}
+#seltraCarousel > .carousel-indicators{
+  margin-left: -18px;
+}
+#designCarousel > .carousel-indicators{
+  margin-left: -48px;
+}
+#productionCarousel > .carousel-indicators{
+  margin-left: -96px;
+}

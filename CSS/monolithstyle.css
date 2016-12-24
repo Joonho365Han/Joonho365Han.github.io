@@ -1,0 +1,65 @@
+.base-margin > h3, .base-margin > h4{
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+.screenshots{
+	width: 33.3%;
+}
+.screenshots h4{
+	padding-bottom: 0.5vw;
+}
+.poster{ background: url("../img/monolith/poster.png"); }
+.m1{ background: url("../img/monolith/m1.png"); }
+.m2{ background: url("../img/monolith/m2.png"); }
+.m3{ background: url("../img/monolith/m3.png"); }
+.m4{ background: url("../img/monolith/m4.png"); }
+.m5{ background: url("../img/monolith/m5.png"); }
+.sel1{ background: url("../img/monolith/sel1.png"); }
+.sel2{ background: url("../img/monolith/sel2.png"); }
+.war1{ background: url("../img/monolith/war1.png"); }
+.war2{ background: url("../img/monolith/war2.png"); }
+.war3{ background: url("../img/monolith/war3.png"); }
+.war4{ background: url("../img/monolith/war4.png"); }
+.bol1{ background: url("../img/monolith/bol1.jpg"); }
+.bol2{ background: url("../img/monolith/bol2.jpg"); }
+.bol3{ background: url("../img/monolith/bol3.jpg"); }
+.aow1{ background: url("../img/monolith/aow1.jpg"); }
+.aow2{ background: url("../img/monolith/aow2.jpg"); }
+.aow3{ background: url("../img/monolith/aow3.jpg"); }
+.aow4{ background: url("../img/monolith/aow4.jpg"); }
+.aow5{ background: url("../img/monolith/aow5.jpg"); }
+.aow6{ background: url("../img/monolith/aow6.jpg"); }
+.photolist li, .carousel-inner > .item, .poster{
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	-webkit-background-position: center;
+}
+.threefoldCarousel .item{
+	padding-top: calc(54.5vw - 11.7px);
+}
+.threefoldCarousel .active, .threefoldCarousel li{
+	border-color: #666;
+}
+.threefoldCarousel .active{
+	background-color: #666;
+}
+#mainCarousel > .carousel-indicators{
+  margin-left: -30px;
+}
+#seltraCarousel > .carousel-indicators{
+  margin-left: -12px;
+}
+#weaponsCarousel > .carousel-indicators{
+  margin-left: -24px;
+}
+.photolist li{
+	width: calc(33.3% - 1vw);
+	height: 20vw;
+}
+.original-seltra{
+	margin-bottom: 23vw;
+}
+.original-aow{
+	margin-bottom: 41vw;
+}

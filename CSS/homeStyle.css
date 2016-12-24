@@ -61,11 +61,11 @@ body * {
 
 /* Project links */
 /* Somehow setting background on anchor doesn't work. So I have to set background on divs. */
-.seltra_link_background{ background: url("../ihmaegie349pr/timeline/seltra.png"); }
-.monolith_link_background{ background: url("../ihmaegie349pr/timeline/monolith.png"); }
-.x_link_background{ background: url("../ihmaegie349pr/timeline/x.png"); }
-.ink_link_background{ background: url("../ihmaegie349pr/timeline/ink.png"); }
-.listen_link_background{ background: url("../ihmaegie349pr/timeline/listen.png"); }
+.seltra_link_background{ background: url("../img/home/seltra.png"); }
+.monolith_link_background{ background: url("../img/home/monolith.png"); }
+.x_link_background{ background: url("../img/home/x.png"); }
+.ink_link_background{ background: url("../img/home/ink.png"); }
+.listen_link_background{ background: url("../img/home/listen.png"); }
 .project_backgrounds{
     margin: 30px 0;
     height: 100px;

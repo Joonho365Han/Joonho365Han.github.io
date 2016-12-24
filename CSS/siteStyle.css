@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400italic|Montserrat|Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400i|Montserrat|Open+Sans:300');
 
 /* Site-specific list parameters */
 ul {
@@ -29,7 +29,7 @@ h4 {
     text-align: justify;
 }
 
-/* Footer style. */
+/* Footer style. Utilizes the h3 style. */
 #custom_footnote {
 	font-size: 1em;
 	color: #666;

@@ -11,7 +11,7 @@
     left: calc(0.3em - 0.2vw);
 }
 #home_button a{ 
-    background: url("../ihmaegie349pr/ic_timeline.png");
+    background: url("../img/ic_timeline.png");
     display: table;
     position: relative;
     width: calc(2em + 1vw);
