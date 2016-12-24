@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
-    alert("jquery loaded!");
     var postNumber = 4;
 
     $(window).scroll(function(){
         if ($(window).scrollTop() >= $(document).height() - $(window).height()) {
 
+            alert("at bottom");
             var loadMore = 3;
 
             if (postNumber && loadMore){
