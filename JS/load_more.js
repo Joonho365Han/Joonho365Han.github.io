@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    var postNumber = 7;
+    var postNumber = 29;
 
     //  If webpage is shorter than browser, pre-load posts.
     while ($(window).scrollTop() >= $(document).height() - $(window).height() && postNumber){
