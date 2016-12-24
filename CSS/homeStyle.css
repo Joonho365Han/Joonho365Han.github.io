@@ -38,7 +38,7 @@ body * {
 #homepage_title {
     font: 4em 'Cinzel', serif;
     letter-spacing: 0.1em;
-    margin: 50px 15px;
+    margin: 50px 15px 35px 15px;
     color: #444;
 }
 #work_section_title,
