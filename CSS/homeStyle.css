@@ -30,7 +30,9 @@ body * {
     letter-spacing: 0.25em;
     color: #444;
 }
-#wrapper > h2 { /* This tag indicates subtitles. Make it smaller. */
+#work_section_title,
+#blogpost_container > h2{
+    /* This tag indicates subtitles. Make it smaller. */
     font-size: 1.5em;
     margin-top: 30px;
 }
