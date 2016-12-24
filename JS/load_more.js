@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
     var postNumber = 29;
+    var preLoadCount = 5;
 
-    //  If webpage is shorter than browser, pre-load posts.
-    while ($(window).scrollTop() >= $(document).height() - $(window).height() && postNumber){
+    //  Pre-load some posts just in case webpage is shorter than browser.
+    while (preLoadCount-- && postNumber)
         $.get("../Posts/post_" + postNumber-- + ".html", function(DOMstring){
             $("#blogpost_container").append(DOMstring);
         });
-    }
 
     //  Load more whenever scroll reaches bottom
     $(window).scroll(function(){
