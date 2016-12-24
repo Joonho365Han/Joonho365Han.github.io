@@ -19,17 +19,20 @@
 #wrapper{
     max-width: 660px; /* Wrapper is narrow just for home page */
     padding: 0 15px; /* This is so contents don't touch the sides when the window shrinks. */
-    text-align: center;
 }
 
 /* Timeline-specific font settings */
-header > h1 {
+body * {
+    text-align: center;
+}
+#homepage_title {
     font: 4em 'Cinzel', serif;
     letter-spacing: 0.25em;
     color: #444;
 }
-#wrapper > h2 { /* This tag indicates subtitle. Make it smaller. */
-    font-size: 2em;
+#wrapper > h2 { /* This tag indicates subtitles. Make it smaller. */
+    font-size: 1.5em;
+    margin-top: 30px;
 }
 h4 { /* A sans-serif style font body so it matches the serif-style title */
     font: 1em 'Open Sans', sans-serif;
@@ -56,29 +59,25 @@ h4 { /* A sans-serif style font body so it matches the serif-style title */
 
 /* The Spacer */
 .spacer {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #aaa;
     margin: 25px 10%;
 }
 
 /* Project links */
 /* Somehow setting background on anchor doesn't work. So I have to set background on divs. */
-.seltra_link_background{ background: url("/ihmaegie349pr/timeline/seltra.png"); }
-.monolith_link_background{ background: url("/ihmaegie349pr/timeline/monolith.png"); }
-.x_link_background{ background: url("/ihmaegie349pr/timeline/x.png"); }
-.ink_link_background{ background: url("/ihmaegie349pr/timeline/ink.png"); }
-.listen_link_background{ background: url("/ihmaegie349pr/timeline/listen.png"); }
+.seltra_link_background{ background: url("../ihmaegie349pr/timeline/seltra.png"); }
+.monolith_link_background{ background: url("../ihmaegie349pr/timeline/monolith.png"); }
+.x_link_background{ background: url("../ihmaegie349pr/timeline/x.png"); }
+.ink_link_background{ background: url("../ihmaegie349pr/timeline/ink.png"); }
+.listen_link_background{ background: url("../ihmaegie349pr/timeline/listen.png"); }
 .project_backgrounds{
     margin: 30px 0;
     height: 100px;
-    border-radius: 5px; /* This is so the image is trimmed on the corners */
+    border-radius: 5px;
     background-size: cover;
     background-position: center;
     -webkit-background-size: cover;
     -webkit-background-position: center;
-}
-.article_anchor{
-    width: 100%;
-    border-radius: 5px; /* This is so the click radius is trimmed */
 }
 .article_anchor h2 {
     color: white;

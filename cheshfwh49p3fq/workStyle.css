@@ -1,17 +1,17 @@
-header > h2 { /* The title */
+#project_title {
     padding-top: 3px;
     line-height: 85px;
+    text-align: center;
 }
-/* Icon buttons */
-/*Browser by Creative Stall from the Noun Project*/
-.timeline-button{
+/* Browser Icon by Creative Stall from the Noun Project*/
+#home_button{
     position: absolute;
     display: table;
     height: calc(2em + 3vw);
     left: calc(0.3em - 0.2vw);
 }
-.timeline-button a{ 
-    background: url("/ihmaegie349pr/ic_timeline.png");
+#home_button a{ 
+    background: url("../ihmaegie349pr/ic_timeline.png");
     display: table;
     position: relative;
     width: calc(2em + 1vw);

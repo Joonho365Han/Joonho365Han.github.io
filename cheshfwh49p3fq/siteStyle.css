@@ -14,7 +14,6 @@ a {
 	text-decoration: none;
 	text-align: center; /* align text center horizontally */
 }
-/* END Cleanup parameters */
 
 /* Website font setting */
 h2, h3, h4{
@@ -22,7 +21,7 @@ h2, h3, h4{
     font-style: italic;
 	color: #444;
 }
-h2{
+h2 {
     font: 2.8em 'Montserrat', sans-serif;
     font-weight: 600;
     letter-spacing: 0.3em;
@@ -32,29 +31,14 @@ h4 {
     font-style: normal;
     text-align: justify;
 }
-/* END font settings */
-
-/* Universal Header style */
-header {
-    width: 100%;
-    text-align: center;
-    z-index: 1000;
-}
-/* END header style */
 
 /* Footer style. */
-footer {
-	width: 100%;
-	margin-top: 75px;
-    margin-bottom: 60px;
-	text-align: center;
-}
-footer h6 {
-	font: 1em 'Old Standard TT', sans-serif;
+#custom_footnote {
+	font: 1em 'Old Standard TT', serif;
 	font-style: italic;
 	color: #666;
 	line-height: 60px;
 	border-top: 1px solid #666;
-	margin: 0 15%;
+	margin: 75px 15% 60px 15%; /* Creates an invisible box around footnote */
+    text-align: center;
 }
-/* END Footer style */

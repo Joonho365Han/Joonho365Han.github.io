@@ -8,27 +8,27 @@
 .screenshots h4{
 	padding-bottom: 0.5vw;
 }
-.poster{ background: url( "/ihmaegie349pr/monolith/poster.png"); }
-.m1{ background: url("/ihmaegie349pr/monolith/m1.png"); }
-.m2{ background: url("/ihmaegie349pr/monolith/m2.png"); }
-.m3{ background: url("/ihmaegie349pr/monolith/m3.png"); }
-.m4{ background: url("/ihmaegie349pr/monolith/m4.png"); }
-.m5{ background: url("/ihmaegie349pr/monolith/m5.png"); }
-.sel1{ background: url("/ihmaegie349pr/monolith/sel1.png"); }
-.sel2{ background: url("/ihmaegie349pr/monolith/sel2.png"); }
-.war1{ background: url("/ihmaegie349pr/monolith/war1.png"); }
-.war2{ background: url("/ihmaegie349pr/monolith/war2.png"); }
-.war3{ background: url("/ihmaegie349pr/monolith/war3.png"); }
-.war4{ background: url("/ihmaegie349pr/monolith/war4.png"); }
-.bol1{ background: url("/ihmaegie349pr/monolith/bol1.jpg"); }
-.bol2{ background: url("/ihmaegie349pr/monolith/bol2.jpg"); }
-.bol3{ background: url("/ihmaegie349pr/monolith/bol3.jpg"); }
-.aow1{ background: url("/ihmaegie349pr/monolith/aow1.jpg"); }
-.aow2{ background: url("/ihmaegie349pr/monolith/aow2.jpg"); }
-.aow3{ background: url("/ihmaegie349pr/monolith/aow3.jpg"); }
-.aow4{ background: url("/ihmaegie349pr/monolith/aow4.jpg"); }
-.aow5{ background: url("/ihmaegie349pr/monolith/aow5.jpg"); }
-.aow6{ background: url("/ihmaegie349pr/monolith/aow6.jpg"); }
+.poster{ background: url("../ihmaegie349pr/monolith/poster.png"); }
+.m1{ background: url("../ihmaegie349pr/monolith/m1.png"); }
+.m2{ background: url("../ihmaegie349pr/monolith/m2.png"); }
+.m3{ background: url("../ihmaegie349pr/monolith/m3.png"); }
+.m4{ background: url("../ihmaegie349pr/monolith/m4.png"); }
+.m5{ background: url("../ihmaegie349pr/monolith/m5.png"); }
+.sel1{ background: url("../ihmaegie349pr/monolith/sel1.png"); }
+.sel2{ background: url("../ihmaegie349pr/monolith/sel2.png"); }
+.war1{ background: url("../ihmaegie349pr/monolith/war1.png"); }
+.war2{ background: url("../ihmaegie349pr/monolith/war2.png"); }
+.war3{ background: url("../ihmaegie349pr/monolith/war3.png"); }
+.war4{ background: url("../ihmaegie349pr/monolith/war4.png"); }
+.bol1{ background: url("../ihmaegie349pr/monolith/bol1.jpg"); }
+.bol2{ background: url("../ihmaegie349pr/monolith/bol2.jpg"); }
+.bol3{ background: url("../ihmaegie349pr/monolith/bol3.jpg"); }
+.aow1{ background: url("../ihmaegie349pr/monolith/aow1.jpg"); }
+.aow2{ background: url("../ihmaegie349pr/monolith/aow2.jpg"); }
+.aow3{ background: url("../ihmaegie349pr/monolith/aow3.jpg"); }
+.aow4{ background: url("../ihmaegie349pr/monolith/aow4.jpg"); }
+.aow5{ background: url("../ihmaegie349pr/monolith/aow5.jpg"); }
+.aow6{ background: url("../ihmaegie349pr/monolith/aow6.jpg"); }
 .photolist li, .carousel-inner > .item, .poster{
 	background-size: cover;
 	-webkit-background-size: cover;
