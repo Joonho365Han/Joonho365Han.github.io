@@ -1,3 +1,4 @@
+/* BASIC PARAMETERS THAT MUST BE APPLIED TO EVERY WEBSITE */
 *{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -13,4 +14,10 @@ body {
     position: relative;
     font-size: 1.6em;
     margin: 0 auto; /* Automatically centers item */
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
 }

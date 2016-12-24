@@ -1,24 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Old+Standard+TT:400,400italic');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400italic|Montserrat|Open+Sans:300');
 
-/* Useful "cleanup" parameters to get rid of some old school static website looks */
+/* Site-specific list parameters */
 ul {
-	width: 100%;   /* Fulll horizontal width unordered list */
-    margin: 0 auto; /* Auto center align list */
+	width: 100%;
+    margin: 0 auto;
 }
 li {
-	list-style: none;
-	text-align: center; /* align text center horizontally */ 
-	float: left;       /* Lay out list item horizontally */
+	text-align: center;
+	float: left;
 }
 a {
-	text-decoration: none;
-	text-align: center; /* align text center horizontally */
+	text-align: center;
 }
 
 /* Website font setting */
 h2, h3, h4{
     font: 1.6em 'Old Standard TT', serif;
-    font-style: italic;
 	color: #444;
 }
 h2 {
@@ -27,15 +24,14 @@ h2 {
     letter-spacing: 0.3em;
 }
 h4 {
-    font-size: 1em; /* about 12p */
-    font-style: normal;
+    font: 1em 'Open Sans', sans-serif;
+    line-height: 27px;
     text-align: justify;
 }
 
 /* Footer style. */
 #custom_footnote {
-	font: 1em 'Old Standard TT', serif;
-	font-style: italic;
+	font-size: 1em;
 	color: #666;
 	line-height: 60px;
 	border-top: 1px solid #666;
