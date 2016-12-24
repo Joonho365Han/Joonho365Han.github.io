@@ -2,8 +2,8 @@ $(document).ready(function(){
 
     var postNumber = 7;
 
-    //  If window is taller than website, pre-load posts.
-    while ($(window).scrollTop() >= $(document).height() - $(window).height() && postNumber){
+    //  If webpage is shorter than browser, pre-load posts.
+    while ($(document).height() < $(window).height() && postNumber){
         $.get("../Posts/post_" + postNumber-- + ".html", function(DOMstring){
             $("#blogpost_container").append(DOMstring);
         });
