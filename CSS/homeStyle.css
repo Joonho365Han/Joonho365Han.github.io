@@ -1,19 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
-@keyframes social_icon_fade_in{
-    0% { opacity: 0.4; }
-    100% { opacity: 1; }
-}
-@keyframes -webkit-social_icon_fade_in{
-    0% { opacity: 0.4; }
+
+@keyframes fade_in{
+    0% { opacity: 0; }
     100% { opacity: 1; }
 }
 @keyframes fade_out{
     0% { opacity: 1; }
     100% { opacity: 0; }
 }
+@keyframes social_icon_fade_in{
+    0% { opacity: 0.4; }
+    100% { opacity: 1; }
+}
+
+@keyframes -webkit-fade_in{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
 @keyframes -webkit-fade_out{
     0% { opacity: 1; }
     100% { opacity: 0; }
+}
+@keyframes -webkit-social_icon_fade_in{
+    0% { opacity: 0.4; }
+    100% { opacity: 1; }
 }
 
 #wrapper{
@@ -85,5 +95,12 @@ body * {
     opacity: 0;
     animation-name: fade_out;
     -webkit-animation-name: fade_out;
+    animation-duration: 0.3s;
+}
+
+/* Fancy animation for blog posts. */
+#blogpost_container * {
+    animation-name: fade_in;
+    -webkit-animation-name: fade_in;
     animation-duration: 0.3s;
 }
