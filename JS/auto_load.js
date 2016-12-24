@@ -4,7 +4,7 @@ $(document).ready(function(){
     $(window).scroll(function(){
         if ($(window).scrollTop() >= $(document).height() - $(window).height())
         {
-            var loadMore = 3;
+            var loadMore = 6;
             while (postNumber && loadMore--)
             {
                 $.get("../Posts/blogpost_" + postNumber-- + ".html", function(DOM){
