@@ -3,7 +3,7 @@ $(document).ready(function(){
     var postNumber = 7;
 
     //  If webpage is shorter than browser, pre-load posts.
-    while ($(document).height() < $(window).height() && postNumber){
+    while ($(window).scrollTop() >= $(document).height() - $(window).height() && postNumber){
         $("#blogpost_container").append($.get("../Posts/post_" + postNumber-- + ".html"));
     }
 
