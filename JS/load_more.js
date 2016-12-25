@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(function(){
 
     var postCount = 1;
 
@@ -14,11 +14,9 @@ $(document).ready(function(){
         {
             var loadMore = 10;
             while (postCount && loadMore--)
-            {
                 $.get("../Posts/post_" + postCount-- + ".html", function(DOMstring){
                     $("#blogpost_container").append(DOMstring);
                 });
-            }
         }
     });
 });

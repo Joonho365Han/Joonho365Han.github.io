@@ -1,29 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
 
 @keyframes fade_in{
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 @keyframes fade_out{
-    0% { opacity: 1; }
-    100% { opacity: 0; }
+    from { opacity: 1; }
+    to { opacity: 0; }
 }
-@keyframes social_icon_fade_in{
-    0% { opacity: 0.4; }
-    100% { opacity: 1; }
+@keyframes accentuate_icon{
+    from { opacity: 0.4; }
+    to { opacity: 1; }
 }
 
 @keyframes -webkit-fade_in{
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 @keyframes -webkit-fade_out{
-    0% { opacity: 1; }
-    100% { opacity: 0; }
+    from { opacity: 1; }
+    to { opacity: 0; }
 }
-@keyframes -webkit-social_icon_fade_in{
-    0% { opacity: 0.4; }
-    100% { opacity: 1; }
+@keyframes -webkit-accentuate_icon{
+    from { opacity: 0.4; }
+    to { opacity: 1; }
 }
 
 #wrapper{
@@ -61,8 +61,8 @@ body * {
 }
 .quick_link_list img:hover{
     opacity: 1;
-    animation-name: social_icon_fade_in;
-    -webkit-animation-name: social_icon_fade_in;
+    animation-name: accentuate_icon;
+    -webkit-animation-name: accentuate_icon;
     animation-duration: 0.2s;
 }
 
@@ -104,4 +104,17 @@ body * {
     animation-name: fade_in;
     -webkit-animation-name: fade_in;
     animation-duration: 1s;
+}
+
+#button_to_top {
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    opacity: 0.4;
+}
+#button_to_top:hover {
+    opacity: 1;
+    animation-name: accentuate_icon;
+    -webkit-animation-name: accentuate_icon;
+    animation-duration: 0.2s;
 }
