@@ -18,6 +18,15 @@
     to { opacity: 0; }
 }
 
+@keyframes half_fade_in{
+    from { opacity: 0; }
+    to { opacity: 0.4; }
+}
+@keyframes -webkit-half_fade_in{
+    from { opacity: 0; }
+    to { opacity: 0.4; }
+}
+
 #wrapper{
     max-width: 660px; /* Wrapper is narrow just for home page */
     padding: 0 15px; /* This is so contents don't touch the sides when the window shrinks. */
@@ -97,7 +106,7 @@ body * {
     -webkit-animation-name: fade_in;
     animation-duration: 1s;
 }
-
+ 
 #button_to_top {
     position: fixed;
     top: 24px;
