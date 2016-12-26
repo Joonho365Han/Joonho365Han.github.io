@@ -102,5 +102,6 @@ body * {
     position: fixed;
     top: 24px;
     right: 24px;
+    opacity: 0.4;
     visibility: hidden;
 }
