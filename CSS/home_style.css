@@ -33,7 +33,7 @@ body * {
     margin: 50px 15px 35px 15px;
     color: #444;
 }
-@media only screen and (max-device-width : 475px){
+@media only screen and (max-device-width : 500px){
     h2 {
         font-size: 2em;
     }
