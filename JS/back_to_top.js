@@ -2,11 +2,13 @@ $(function(){
     $(window).scroll(function(){
         if ($(window).scrollTop() >= $('div[id="blogpost_container"]').offset().top)
         {
-            $('a[id="button_to_top"]').css('visibility', 'visible').css('animation-name', 'half_fade_in').css('-webkit-animation-name', 'half_fade_in');
+            $('a[id="button_to_top"]').css('visibility', 'visible').fadeTo(250, 0.4);
         }
         else
         {
-            $('a[id="button_to_top"]').css('visibility', 'hidden').css('animation-name', 'none').css('-webkit-animation-name', 'none');
+            $('a[id="button_to_top"]').fadeTo(250, 0, function(){
+                $('a[id="button_to_top"]').css('visibility', 'hidden');
+            });
         }
     });
 
