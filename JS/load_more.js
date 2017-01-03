@@ -1,6 +1,6 @@
 $(function(){
 
-    var postCount = 1;
+    var postCount = 2;
 
     //  Pre-load some posts just in case webpage is shorter than browser.
     for (var i=0; i<10 && postCount; i++)
