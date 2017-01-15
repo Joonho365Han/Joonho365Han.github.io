@@ -3,7 +3,6 @@
     line-height: 85px;
     text-align: center;
 }
-/* Browser Icon by Creative Stall from the Noun Project*/
 #home_button{
     position: absolute;
     display: table;
@@ -23,6 +22,7 @@
     -webkit-background-position: center;
 }
 .base-margin{
+    /* Necessary because the margin on the parameter of the webpage should be different from the margin between contents */
 	padding: calc(10px + 1vw);
 }
 .poster{
