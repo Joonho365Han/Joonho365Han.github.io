@@ -1,7 +1,7 @@
 ADD MISC PROJECTS AND SKETCHES
 - IT SHOULD LOOK FINE IN Raspberry pi
-- Different layout for mobile
 - Image sizes reduce in pixel to accelerate page load time.
+- Different layout for mobile
 - Implement click and enlarge photo gallery
 - Get honest website reviews from networks.
 - Remove unnecessary css and html classes
