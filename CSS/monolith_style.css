@@ -1,12 +1,27 @@
-.base-margin > h3, .base-margin > h4{
-	padding-left: 1vw;
-	padding-right: 1vw;
+.titled-slideshow, 
+.sample_image_with_link{ width: 33.3%; }
+.sample_image_with_link a { height: 20vw; }
+
+/* Carousel style */
+.carousel-indicators > li{ border-color: #666; }
+.carousel .active{ background-color: #666; }
+.carousel-inner{
+    margin-top: 0.5vw;
+    border-radius: 5px;
 }
-.screenshots{
-	width: 33.3%;
+/* These indicator margins are to center the indicators depending on slide count */
+#mainCarousel > .carousel-indicators{ margin-left: -30px; }
+#seltraCarousel > .carousel-indicators{ margin-left: -12px; }
+#weaponsCarousel > .carousel-indicators{ margin-left: -24px; }
+
+#wrapper .poster {
+    height: 90vw;
 }
-.screenshots h4{
-	padding-bottom: 0.5vw;
+@media (min-width: 960px){
+    #wrapper .poster {
+        height: 45vw; 
+        /* Trying to make the poster square */
+    }
 }
 .poster{ background: url("../img/monolith/poster.png"); }
 .m1{ background: url("../img/monolith/m1.png"); }
@@ -29,37 +44,11 @@
 .aow4{ background: url("../img/monolith/aow4.jpg"); }
 .aow5{ background: url("../img/monolith/aow5.jpg"); }
 .aow6{ background: url("../img/monolith/aow6.jpg"); }
-.photolist li, .carousel-inner > .item, .poster{
+.item{
+    /* The carousel content */
+    padding-top: calc(54.5vw - 11.7px);
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-position: center;
 	-webkit-background-position: center;
-}
-.threefoldCarousel .item{
-	padding-top: calc(54.5vw - 11.7px);
-}
-.threefoldCarousel .active, .threefoldCarousel li{
-	border-color: #666;
-}
-.threefoldCarousel .active{
-	background-color: #666;
-}
-#mainCarousel > .carousel-indicators{
-  margin-left: -30px;
-}
-#seltraCarousel > .carousel-indicators{
-  margin-left: -12px;
-}
-#weaponsCarousel > .carousel-indicators{
-  margin-left: -24px;
-}
-.photolist li{
-	width: calc(33.3% - 1vw);
-	height: 20vw;
-}
-.original-seltra{
-	margin-bottom: 23vw;
-}
-.original-aow{
-	margin-bottom: 41vw;
 }

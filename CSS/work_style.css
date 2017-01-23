@@ -1,97 +1,193 @@
-#project_title {
-    padding-top: 3px;
-    line-height: 85px;
-    text-align: center;
+@keyframes sidebar_expand{
+    from { width: 48px; }
+    to { width: 240px; }
 }
-#home_button{
-    position: absolute;
-    display: table;
-    height: calc(2em + 3vw);
-    left: calc(0.3em - 0.2vw);
+@keyframes -webkit-sidebar_expand{
+    from { width: 48px; }
+    to { width: 240px; }
 }
-#home_button a{ 
-    background: url("../img/ic_timeline.png");
+/* wrapper and base_margin are separate so the value for margin doesn't have to be something like calc(10px + 1vw). Use no calc() if possible */
+#wrapper{ margin-left: 48px; }
+#base_margin{ margin: 1vw; }
+
+/* Font Style */
+h4, h3{ padding-top: 0.5vw; }
+#base_margin > h3,
+#base_margin > h4,
+#project_title{
+    margin-top: 10px;
+    margin-left: 1vw;
+}
+.specifics h3{
+    font-size: 1.2em;
+    color: #666;
+    padding-top: 1vw;
+    padding-bottom: 0.5vw;
+}
+.specifics h4{
+    color: #666;
+    font-size: 0.8em;
+    line-height: normal;
+    padding: 0;
+}
+
+/* Horizontal layout configuration */
+.layout_horizontaly_always,
+.layout_horizontaly_on_widescreen {
     display: table;
-    position: relative;
-    width: calc(2em + 1vw);
-    height: calc(2em + 1vw);
-    margin: 1vw;
+    width: 100%;
+    /* A table is needed because items after the floating elements will not necessarily come below the lowest point of the floating elements. */
+    /* Also, if an element is floated, it does not take up vertical space. Thus, the footer will be pulled up. Take up space with table. */
+    /* You are not expected to understand this. */
+}
+.layout_horizontaly_always > div{
+    padding: 1vw;
+    padding-top: 0.5vw;
+    display: table-cell;
+    vertical-align: top;
+}
+@media (max-width: 960px){ /* Small Screen */
+    #project_title{
+        margin: 0;
+        text-align: center;
+    }
+    .layout_horizontaly_on_widescreen > div{
+        margin: 1vw;
+        padding-bottom: 2vw;
+        border-bottom: 1px solid #ddd;
+        /* Using padding instead of margin because margins are hard to deal when setting horizontally aligned element width ratios */
+    }
+    .intro {
+        display: table-footer-group;
+    }
+    .intro > *{
+        padding: 0.5vw 1vw;
+    }
+    .intro > h3{
+        padding-top: 2vw;
+    }
+    .carousel-caption{
+        display: none;
+    }
+}
+@media (min-width: 960px){ /* Widescreen */
+    .layout_horizontaly_on_widescreen > div{
+        padding: 0 1vw;
+        display: table-cell;
+        vertical-align: top;
+        width: 50%;
+    }
+    .intro {
+        border-right: 1px solid #ddd;
+    }
+}
+.sample_image_with_link > div,
+#wrapper .poster,
+#sidebar #home_link>div {
+    border-radius: 5px;
     background-size: cover;
     -webkit-background-size: cover;
     background-position: center;
     -webkit-background-position: center;
 }
-.base-margin{
-    /* Necessary because the margin on the parameter of the webpage should be different from the margin between contents */
-	padding: calc(10px + 1vw);
+
+/* Sample Images with photo link */
+.sample_image_with_link a{
+    display: table; /* Makes the entire block clickable, not just text */
+    width: 100%;
+    padding: 1vw;
+    background: rgba(0,0,0,0.4);
+    border-radius: 5px;
+    visibility: hidden;
 }
-.poster{
-	width: calc(98vw - 20px);
-	padding-top: calc(49vw - 10px);
-	margin: calc(10px + 1vw);
-	margin-top: 0.5vw;
-	margin-bottom: 0;
-	border-radius: 5px;
+.sample_image_with_link > div:hover > a{
+    visibility: visible;
+    animation-name: fade_in;
+    -webkit-animation-name: fade_in;
+    animation-duration: 0.3s;
 }
-.slide-table{
-	width: 100%;
-	display: table;
+.sample_image_with_link h4, 
+.carousel-caption > h4{
+    font-style: italic;
+    color: white;
 }
-.slide-table > div {
-	display: table-cell;
-	vertical-align: top;
-	padding: 1vw;
+.sample_image_with_link h4{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
-.carousel { 
-	width: 100%;
+
+/* Sidebar style */
+#sidebar{
+    position: fixed;
+    background: white;
+    border-right: 1px solid #ddd;
+    width: 48px;
+    height: 100%;
+    left: 0;
+    top: 0;
 }
-.carousel-inner{
-	border-radius: 5px;
+
+/* Sidebar link style */
+#sidebar a {
+    display: table; /* This makes elements stay in pairs when floated left */
+    width: 100%;
 }
-.specifics{
-	width: 20%;
+#sidebar div{ float: left; }
+#sidebar h2{
+    /* Sidebar texts */
+    display: none;
+    position: fixed;
+    font-size: 1.6em;
+    line-height: 48px;
+    margin-left: 10px;
 }
-.intro {
-	width: 80%;
+
+/* Sidebar indicator styles */
+#home_link{ border-bottom: 1px solid #ddd; }
+#home_link h2{ color: #333; }
+#home_link div{
+    background: url("../img/ic_main.ico");
+    margin: 6px;
+    width: 35px;
+    height: 35px;
+    opacity: 0.9;
 }
-.specifics h3{
-	font-size: 1.2em;
-	color: #666;
-	padding: 1vw 0;
+.sidebar_bullet + h2 { color: #666; }
+.sidebar_bullet{
+    margin: 19px;
+    border: 5px dotted #666;
+    border-radius: 5px;
 }
-.specifics h4{
-	color: #888;
-	font-size: 0.8em;
-    line-height: normal;
-    text-align: left;
+.selected_project_link{ background: #666; }
+.selected_project_link h2{ color: white; }
+.selected_project_link > .sidebar_bullet{
+    margin: 11px;
+    padding: 8px;
+    border-radius: 13px;
+    border-color: white;
 }
-.description h4, .description h3{
-	padding-top: 0.5vw;
+
+/* Sidebar hover actions */
+#sidebar:hover{
+    width: 240px;
+    animation-name: sidebar_expand;
+    -webkit-animation-name: sidebar_expand;
+    animation-duration: 0.2s;
 }
-.photolist li{
-	list-style: none;
-	float: left;
-	border-radius: 5px;
-	margin: 0.5vw;
+#sidebar:hover h2{
+    display: inline;
+    animation-name: fade_in;
+    -webkit-animat5on-name: fade_in;
+    animation-duration: 0.5s;
 }
-.photolist a{
-	display: block;
-	background: rgba(0,0,0,0.4);
-	visibility: hidden;
-	width: 100%;
-	height: 100%;
-	border-radius: 5px;
-	text-align: center;
-	padding: 4vw;
-	padding-top: 6vw;
-}
-.photolist > li:hover > a{
-	visibility: visible;
-  	animation-name: fade_in;
-  	-webkit-animation-name: fade_in;
- 	animation-duration: 0.3s;
-}
-.photolist h4, .carousel-caption h4{
-	font-style: italic;
-	color: white;
+
+/* Sidebar link hover actions */
+#sidebar>a:hover { background: #666; }
+#sidebar>a:hover > h2{ color: white; }
+#sidebar>a:hover > .sidebar_bullet{ border-color: white; }
+#sidebar #home_link:hover { background: #333; }
+#home_link:hover > div{ 
+    background: url("../img/ic_main_white.png"); 
+    opacity: 1;
 }

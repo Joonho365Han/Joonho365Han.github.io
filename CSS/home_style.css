@@ -1,17 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
 
-@keyframes fade_in{
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
 @keyframes fade_out{
     from { opacity: 1; }
     to { opacity: 0; }
-}
-
-@keyframes -webkit-fade_in{
-    from { opacity: 0; }
-    to { opacity: 1; }
 }
 @keyframes -webkit-fade_out{
     from { opacity: 1; }
@@ -89,11 +80,11 @@ body * {
     -webkit-background-size: cover;
     -webkit-background-position: center;
 }
-.article_anchor h2 {
+.project_link h2 {
     color: white;
     line-height: 100px;
 }
-.article_anchor:hover h2 {
+.project_link:hover h2 {
     opacity: 0;
     animation-name: fade_out;
     -webkit-animation-name: fade_out;

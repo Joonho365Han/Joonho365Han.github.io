@@ -9,6 +9,15 @@
     to { opacity: 1; }
 }
 
+@keyframes fade_in{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes -webkit-fade_in{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 /* Site-specific list parameters */
 ul {
 	width: 100%;
@@ -17,9 +26,6 @@ ul {
 li {
 	text-align: center;
 	float: left;
-}
-a {
-	text-align: center;
 }
 
 /* Website font setting */
@@ -34,6 +40,7 @@ h2 {
 }
 h4 {
     font: 1em 'Open Sans', sans-serif;
+    color: #666;
     line-height: 27px;
     text-align: justify;
 }

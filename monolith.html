@@ -8,10 +8,10 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" type="text/css" href="./CSS/bootstrap_carousel.css"/>
         <link rel="stylesheet" type="text/css" href="./CSS/base_style.css"/>
         <link rel="stylesheet" type="text/css" href="./CSS/site_style.css"/>
         <link rel="stylesheet" type="text/css" href="./CSS/work_style.css"/>
+        <link rel="stylesheet" type="text/css" href="./CSS/bootstrap_carousel.css"/>
         <link rel="stylesheet" type="text/css" href="./CSS/monolith_style.css"/>
 		<meta charset="utf-8">
     </head>
@@ -20,141 +20,175 @@
     <body>
     	<!--START WRAPPER-->
     	<div id="wrapper">
+            <div id="base_margin">
+                <h2 id="project_title">MONOLITH</h2>
 
-			<!--START NAVIGATION BAR-->
-            <div id="home_button">
-                <!-- <a href="./" title="Home"></a> -->
-            </div>
-            <h2 id="project_title">MONOLITH</h2>
-	        <!--END NAVIGATION BAR-->
-	        
-	        <div class="poster"></div>
+                <div class="layout_horizontaly_on_widescreen">
+                    <div class="intro">
+                        <h4>As a child, I used to write books. Whatever I wrote, it was always about an imaginary universe called Epicross. One day, I wanted to create an artwork based on Epicross, just like how people created replicas of sci-fi movie props. I decided to create two books written in the language of Epicross, supposedly by the people from that world: a catalog of ancient weapons and the Epicross historia. As time passed, I realized that a digital medium will last longer than a physical one. So, I put these two books together and made a mobile library app. This is Monolith.</h4>
 
-	        <!--START DESCRIPTION-->
-	        <div class="slide-table base-margin">
-	        	<div class="specifics">
-	        		<h3>Specifics</h3>
-	        		<h4>Platform: Android 4.4 KitKat or higher</h4>
-	        		<h4>Language: Java, XML</h4>
-	        		<h4>Time of Work: May 2015 - August 2015.</h4>
-                    <h4>60 page Archive of Weapons</h4>
-                    <h4>100 page Epicross Historia</h4>
-	        	</div>
-	        	<div class="description intro">
-                    <h4>As a child, I used to write books. Whatever I wrote, it was always about an imaginary universe called Epicross. One day, I wanted to create an artwork based on Epicross, just like how people created replicas of sci-fi movie props. I decided to create two books written in the language of Epicross, supposedly by the people from that world: a catalog of ancient weapons and the Epicross historia. As time passed, I realized that a digital medium will last longer than a physical one. So, I put these two books together and made a mobile library app. This is Monolith.</h4>
+                        <h3>About Epicross</h3>
+                        <h4>Who was your hero? Some people might have had real-life heroes. Some people borrowed from the comic books. As a kid, I did the exact same; my favorite hero back then was X from the Megaman series. I loved my hero so much that I started writing fan fictions based on the same universe. This new hobby of mine led me to ask, "Why not create my own hero?" Thus, Raid John Cleric was born, who had his own special weapon, arch-nemesis, and history. This is where I gave the setting of his story a name, Epicross, just so I can refer to it. In reality, however, it can be anything as long as Raid is in it. For example, sometimes I imagine Raid appearing in other worlds such as the Middle-Earth. In that case, Epicross would expand to include the Middle-Earth.</h4>
+                    </div>
+                    <div>
+                        <div class="poster"></div>
+                        <div class="specifics">
+                            <h3>Specifics</h3>
+                            <h4>Platform: Android 4.4 KitKat or higher</h4>
+                            <h4>Language: Java, XML</h4>
+                            <h4>Time of Work: May 2015 - August 2015.</h4>
+                            <h4>60 page Archive of Weapons</h4>
+                            <h4>100 page Epicross Historia</h4>
+                        </div>
+                    </div>
+                </div>
 
-                    <h3>About Epicross</h3>
-                    <h4>Who was your hero? Some people might have had real-life heroes. Some people borrowed from the comic books. As a kid, I did the exact same; my favorite hero back then was X from the Megaman series. I loved my hero so much that I started writing fan fictions based on the same universe. This new hobby of mine led me to ask, "Why not create my own hero?" Thus, Raid John Cleric was born, who had his own special weapon, arch-nemesis, and history. This is where I gave the setting of his story a name, Epicross, just so I can refer to it. In reality, however, it can be anything as long as Raid is in it. For example, sometimes I imagine Raid appearing in other worlds such as the Middle-Earth. In that case, Epicross would expand to include the Middle-Earth.</h4>
-	        	</div>
-	        </div>
-	        <!--END DESCRIPTION-->
+                <h3>Screenshots</h3>
+                <div class="layout_horizontaly_always">
+                    <div class="titled-slideshow"> 
+                        <h4>Main Screen & Secret Page</h4>
+                        <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#mainCarousel" data-slide-to="1"></li>
+                                <li data-target="#mainCarousel" data-slide-to="2"></li>
+                                <li data-target="#mainCarousel" data-slide-to="3"></li>
+                                <li data-target="#mainCarousel" data-slide-to="4"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active m1"></div>
+                                <div class="item m2"><div class="carousel-caption">
+                                    <h4>Sliding the touchscreen left or right fits the square keys into the keyhole. This will open one of the books.</h4>
+                                </div></div>
+                                <div class="item m3"></div>
+                                <div class="item m4"></div>
+                                <div class="item m5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="titled-slideshow">
+                        <h4>The Seltra</h4>
+                        <div id="seltraCarousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#seltraCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#seltraCarousel" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active sel1"></div>
+                                <div class="item sel2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="titled-slideshow">
+                        <h4>Archive of Weapons</h4>
+                        <div id="weaponsCarousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#weaponsCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#weaponsCarousel" data-slide-to="1"></li>
+                                <li data-target="#weaponsCarousel" data-slide-to="2"></li>
+                                <li data-target="#weaponsCarousel" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active war1"></div>
+                                <div class="item war2"></div>
+                                <div class="item war3"></div>
+                                <div class="item war4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-	        <div class="description base-margin">
-	        	<h3>Screenshots</h3>
-		        <div class="slide-table">
-	        		<div class="screenshots">
-	        			<h4>Main Screen & Secret Page</h4>
-				        <div id="mainCarousel" class="threefoldCarousel carousel slide" data-ride="carousel">
-							<!-- Indicators -->
-							<ol class="carousel-indicators">
-								<li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
-								<li data-target="#mainCarousel" data-slide-to="1"></li>
-								<li data-target="#mainCarousel" data-slide-to="2"></li>
-								<li data-target="#mainCarousel" data-slide-to="3"></li>
-								<li data-target="#mainCarousel" data-slide-to="4"></li>
-							</ol>
-
-							<!-- Wrapper for slides -->
-							<div class="carousel-inner" role="listbox">
-				        		<div class="item active m1"></div>
-				        		<div class="item m2"><div class="carousel-caption">
-									<h4>Sliding the touchscreen left or right fits the square keys into the keyhole. This will open one of the books.</h4>
-      							</div></div>
-				        		<div class="item m3"></div>
-				        		<div class="item m4"></div>
-				        		<div class="item m5"></div>
-							</div>
-				        </div>
-	        		</div>
-	        		<div class="screenshots">
-	        			<h4>The Seltra</h4>
-				        <div id="seltraCarousel" class="threefoldCarousel carousel slide" data-ride="carousel">
-							<!-- Indicators -->
-							<ol class="carousel-indicators">
-								<li data-target="#seltraCarousel" data-slide-to="0" class="active"></li>
-								<li data-target="#seltraCarousel" data-slide-to="1"></li>
-							</ol>
-
-							<!-- Wrapper for slides -->
-							<div class="carousel-inner" role="listbox">
-				        		<div class="item active sel1"></div>
-				        		<div class="item sel2"></div>
-							</div>
-				        </div>
-	        		</div>
-	        		<div class="screenshots">
-	        			<h4>Archive of Weapons</h4>
-				        <div id="weaponsCarousel" class="threefoldCarousel carousel slide" data-ride="carousel">
-							<!-- Indicators -->
-							<ol class="carousel-indicators">
-								<li data-target="#weaponsCarousel" data-slide-to="0" class="active"></li>
-								<li data-target="#weaponsCarousel" data-slide-to="1"></li>
-								<li data-target="#weaponsCarousel" data-slide-to="2"></li>
-								<li data-target="#weaponsCarousel" data-slide-to="3"></li>
-							</ol>
-
-							<!-- Wrapper for slides -->
-							<div class="carousel-inner" role="listbox">
-				        		<div class="item active war1"></div>
-				        		<div class="item war2"></div>
-				        		<div class="item war3"></div>
-				        		<div class="item war4"></div>
-							</div>
-				        </div>
-	        		</div>
-		        </div>
-	        </div>
-
-	        <div class="description base-margin">
-	        	<h3>Original Books</h3>
-	        	<h4>The Seltra</h4>
-	        	<ul class="photolist original-seltra">
-	        		<li class="bol1"><a href="./img/monolith/bol1.jpg">
-	        			<h4>Book Cover</h4>
-	        		</a></li>
-	        		<li class="bol2"><a href="./img/monolith/bol2.jpg">
-	        			<h4>Title Page</h4>
-	        		</a></li>
-	        		<li class="bol3"><a href="./img/monolith/bol3.jpg">
-	        			<h4>Inner Pages</h4>
-	        		</a></li>
-	        	</ul>
-	        	<h4>Archive of Weapons</h4>
-	        	<ul class="photolist original-aow">
-	        		<li class="aow1"><a href="./img/monolith/aow1.jpg">
-	        			<h4>Book Cover</h4>
-	        		</a></li>
-	        		<li class="aow2"><a href="./img/monolith/aow2.jpg">
-	        			<h4>Title Page</h4>
-	        		</a></li>
-	        		<li class="aow3"><a href="./img/monolith/aow3.jpg">
-	        			<h4>Weapons: Mechanic Hand / Gae Driver Blade</h4>
-	        		</a></li>
-	        		<li class="aow4"><a href="./img/monolith/aow4.jpg">
-	        			<h4>Weapons: Hwa Pung Yang Juk / Napajak</h4>
-	        		</a></li>
-	        		<li class="aow5"><a href="./img/monolith/aow5.jpg">
-	        			<h4>Weapons: Pok Su Hwan / Yum Hwa Hwan</h4>
-	        		</a></li>
-	        		<li class="aow6"><a href="./img/monolith/aow6.jpg">
-	        			<h4>Weapon: Saint Christ Abiel</h4>
-	        		</a></li>
-	        	</ul>
-	        </div>
+                <h3>Original Books</h3>
+                <h4>The Seltra</h4>
+                <div class="layout_horizontaly_always original-seltra">
+                    <div class="sample_image_with_link">
+                        <div class="bol1">
+                            <a href="./img/monolith/bol1.jpg"><h4>Book Cover</h4></a>
+                        </div>
+                    </div>
+                    <div class="sample_image_with_link">
+                        <div class="bol2">
+                            <a href="./img/monolith/bol2.jpg"><h4>Title Page</h4></a>
+                        </div>
+                    </div>
+                    <div class="sample_image_with_link">
+                        <div class="bol3">
+                            <a href="./img/monolith/bol3.jpg"><h4>Inner Pages</h4></a>
+                        </div>
+                    </div>
+                </div>
+                <h4>Archive of Weapons</h4>
+                <div class="layout_horizontaly_always original-aow">
+                    <div class="sample_image_with_link">
+                        <div class="aow1">
+                            <a href="./img/monolith/aow1.jpg"><h4>Book Cover</h4></a>
+                        </div>
+                    </div>
+                    <div class="sample_image_with_link">
+                        <div class="aow2">
+                            <a href="./img/monolith/aow2.jpg"><h4>Title Page</h4></a>
+                        </div>
+                    </div>
+                    <div class="sample_image_with_link">
+                        <div class="aow3">
+                            <a href="./img/monolith/aow3.jpg"><h4>Mechanic Hand / Gae Driver Blade</h4></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="layout_horizontaly_always original-aow">
+                    <div class="sample_image_with_link">
+                        <div class="aow4">
+                            <a href="./img/monolith/aow4.jpg"><h4>Hwa Pung Yang Juk / Napajak</h4></a>
+                        </div>
+                    </div>
+                    <div class="sample_image_with_link">
+                        <div class="aow5">
+                            <a href="./img/monolith/aow5.jpg"><h4>Pok Su Hwan / Yum Hwa Hwan</h4></a>
+                        </div>
+                    </div>
+                    <div class="sample_image_with_link">
+                        <div class="aow6">
+                            <a href="./img/monolith/aow6.jpg"><h4>Saint Christ Abiel</h4></a>
+                        </div>
+                    </div>
+                </div>
             
-            <h3 id="custom_footnote">Joonho Han © 2016</h3>
+                <!-- This div is needed so the footnote side margins starts from the wrapper border not the webpage-->
+                <div>
+                    <h3 id="custom_footnote">Joonho Han © 2016</h3>
+                </div>
+            </div>
         </div>
         <!--END WRAPPER-->
+
+        <!--START SIDEBAR-->
+        <div id="sidebar">
+            <a href="./" id="home_link">
+                <div></div>
+                <h2>HOME</h2>
+            </a>
+            <a href="./seltra">
+                <div class="sidebar_bullet"></div>
+                <h2>SELTRA</h2>
+            </a>
+            <a href="./monolith" class="selected_project_link">
+                <div class="sidebar_bullet"></div>
+                <h2>MONOLITH</h2>
+            </a>
+            <a href="./x">
+                <div class="sidebar_bullet"></div>
+                <h2>X</h2>
+            </a>
+            <a href="./ink">
+                <div class="sidebar_bullet"></div>
+                <h2>INK</h2>
+            </a>
+            <a href="./listen">
+                <div class="sidebar_bullet"></div>
+                <h2>LISTEN</h2>
+            </a>
+        </div>
+        <!--END SIDEBAR-->
 
         <!--START JavaScript-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>

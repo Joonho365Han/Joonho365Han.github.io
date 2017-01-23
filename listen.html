@@ -17,38 +17,72 @@
     <!--END HEAD-->
     
     <body>
-    	<!--START WRAPPER-->
-    	<div id="wrapper">
+        <!--START WRAPPER-->
+        <div id="wrapper">
+            <div id="base_margin">
+                <h2 id="project_title">LISTEN</h2>
 
-			<!--START NAVIGATION BAR-->
-            <div id="home_button">
-                <!-- <a href="./" title="Home"></a> -->
-            </div>
-            <h2 id="project_title">LISTEN</h2>
-	        <!--END NAVIGATION BAR-->
-
-	        <!--START DESCRIPTION-->
-        	<div class="description intro">
-                <h4>Listen is a series of interviews in which I try to capture each individual's "human beauty." It is difficult to explain human beauty, but it's similar to being approachable. Part of the goal for this interview is to bring out the hidden quirk within the interviewee, so hopefully he/she has something of his/her own after they leave.</h4>
-        		<h3>Motivation</h3>
-                <h4>Do you value your virtues? When I was young, the only thing I cared was to become part of the crowd. Virtues for me were only tools to become accepted by the masses, just so I do not feel left out. This view made me unrespectable. I lost friends, became lonely, and finally started to think, "becoming a part of the crowd is not a big enough of a reason to live." I searched for my own meaning of life, and I started this interview series to peek into other people's memories; I wanted to learn from the paths the others took. Years later, I would found my own meaning of life, but other people's path of life still intrigues me today.</h4>
-        	</div>
-	        <!--END DESCRIPTION-->
-
-	        <ul class="photolist">
-				<li>
-					<iframe src="https://player.vimeo.com/video/162952435" frameborder="0" webkitallowfullscreen allowfullscreen></iframe>
-				</li>
-				<li>
-					<iframe src="https://player.vimeo.com/video/162952434" frameborder="0" webkitallowfullscreen allowfullscreen></iframe>
-				</li>
-	        </ul>
+                <div class="layout_horizontaly_on_widescreen">
+                    <div class="intro">
+                        <h4>Listen is a series of interviews in which I try to capture each individual's "human beauty." It is difficult to explain human beauty, but it's similar to being approachable. Part of the goal for this interview is to bring out the hidden quirk within the interviewee, so hopefully he/she has something of his/her own after they leave.</h4>
+                        <h3>Motivation</h3>
+                        <h4>Do you value your virtues? When I was young, the only thing I cared was to become part of the crowd. Virtues for me were only tools to become accepted by the masses, just so I do not feel left out. This view made me unrespectable. I lost friends, became lonely, and finally started to think, "becoming a part of the crowd is not a big enough of a reason to live." I searched for my own meaning of life, and I started this interview series to peek into other people's memories; I wanted to learn from the paths the others took. Years later, I would found my own meaning of life, but other people's path of life still intrigues me today.</h4>
+                    </div>
+                    <div>
+                        <div class="poster">
+                            <iframe src="https://player.vimeo.com/video/162952435?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                        <div class="specifics">
+                            <h3>Test Shot: Jonathan Tran</h3>
+                            <h4>Apartment in San Diego</h4>
+                            <h4>Shot with iphone 5s</h4>
+                        </div>
+                        <div class="poster">
+                            <iframe src="https://player.vimeo.com/video/162952434?color=eeeeee&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                        <div class="specifics">
+                            <h3>Ashley Yu</h3>
+                            <h4>University Dorm Room</h4>
+                            <h4>Shot with iphone 5s</h4>
+                        </div>
+                    </div>
+                </div>
             
-            <h3 id="custom_footnote">Joonho Han © 2016</h3>
+                <!-- This div is needed so the footnote side margins starts from the wrapper border not the webpage-->
+                <div>
+                    <h3 id="custom_footnote">Joonho Han © 2016</h3>
+                </div>
+            </div>
         </div>
         <!--END WRAPPER-->
 
-        <!--START JavaScript-->
-        <!--END JavaScript-->
+        <!--START SIDEBAR-->
+        <div id="sidebar">
+            <a href="./" id="home_link">
+                <div></div>
+                <h2>HOME</h2>
+            </a>
+            <a href="./seltra">
+                <div class="sidebar_bullet"></div>
+                <h2>SELTRA</h2>
+            </a>
+            <a href="./monolith">
+                <div class="sidebar_bullet"></div>
+                <h2>MONOLITH</h2>
+            </a>
+            <a href="./x">
+                <div class="sidebar_bullet"></div>
+                <h2>X</h2>
+            </a>
+            <a href="./ink">
+                <div class="sidebar_bullet"></div>
+                <h2>INK</h2>
+            </a>
+            <a href="./listen" class="selected_project_link">
+                <div class="sidebar_bullet"></div>
+                <h2>LISTEN</h2>
+            </a>
+        </div>
+        <!--END SIDEBAR-->
     </body>
 </html>

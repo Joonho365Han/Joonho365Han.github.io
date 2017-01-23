@@ -1,0 +1,10 @@
+ADD MISC PROJECTS AND SKETCHES
+- IT SHOULD LOOK FINE IN Raspberry pi
+- Different layout for mobile
+- Image sizes reduce in pixel to accelerate page load time.
+- Implement click and enlarge photo gallery
+- Get honest website reviews from networks.
+- Remove unnecessary css and html classes
+- Condense HTML, JS, and CSS into single line
+    Remove all quotes
+- Migrate away from Parse

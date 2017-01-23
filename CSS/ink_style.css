@@ -1,17 +1,15 @@
-.poster{
-	padding-top: 0;
-	height: calc(55.13vw - 11.25px);
+/* Poster size */
+#wrapper .poster { height: 55vw; }
+@media (min-width: 960px){
+    #wrapper .poster { height: 27vw; }
 }
-
 iframe {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
-
-a{
-	text-align: left;
-}
-
+/* Screenshot styles */
+.sample_image_with_link{ width: 25%; }
+.sample_image_with_link a { height: 39vw; }
 .s1{ background: url("../img/ink/s1.png"); }
 .s2{ background: url("../img/ink/s2.png"); }
 .s3{ background: url("../img/ink/s3.png"); }
@@ -20,19 +18,3 @@ a{
 .s6{ background: url("../img/ink/s6.png"); }
 .s7{ background: url("../img/ink/s7.png"); }
 .s8{ background: url("../img/ink/s8.png"); }
-.photolist li{
-	width: calc(25% - 1vw);
-	height: 43vw;
-	background-size: cover;
-	-webkit-background-size: cover;
-	background-position: center;
-	-webkit-background-position: center;
-}
-
-.photolist{
-	margin-bottom: 88vw;
-}
-
-.special h3{
-	padding-left: 0.5vw;
-}
