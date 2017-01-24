@@ -9,6 +9,7 @@ iframe {
 }
 /* Screenshot styles */
 .sample_image_with_link{ width: 25%; }
+.sample_image_with_link > div{ border: 1px solid #eee;}
 .sample_image_with_link a { height: 39vw; }
 .s1{ background: url("../img/ink/s1.jpg"); }
 .s2{ background: url("../img/ink/s2.jpg"); }

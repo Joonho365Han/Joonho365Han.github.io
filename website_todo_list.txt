@@ -1,7 +1,8 @@
 ADD MISC PROJECTS AND SKETCHES
 - IT SHOULD LOOK FINE IN Raspberry pi
 - Correct homepage images, correct posters (monolith and seltra).
-- Different layout for mobile
+- Different layout for tablet
+- Different layout for phone
 - Implement click and enlarge photo gallery
 - Get honest website reviews from networks.
 - Remove unnecessary css and html classes
