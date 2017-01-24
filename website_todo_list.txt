@@ -1,6 +1,6 @@
 ADD MISC PROJECTS AND SKETCHES
 - IT SHOULD LOOK FINE IN Raspberry pi
-- Image sizes reduce in pixel to accelerate page load time.
+- Correct homepage images, correct posters (monolith and seltra).
 - Different layout for mobile
 - Implement click and enlarge photo gallery
 - Get honest website reviews from networks.

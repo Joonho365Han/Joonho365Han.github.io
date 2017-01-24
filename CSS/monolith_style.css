@@ -23,27 +23,27 @@
         /* Trying to make the poster square */
     }
 }
-.poster{ background: url("../img/monolith/poster.png"); }
-.m1{ background: url("../img/monolith/m1.png"); }
-.m2{ background: url("../img/monolith/m2.png"); }
-.m3{ background: url("../img/monolith/m3.png"); }
-.m4{ background: url("../img/monolith/m4.png"); }
-.m5{ background: url("../img/monolith/m5.png"); }
-.sel1{ background: url("../img/monolith/sel1.png"); }
-.sel2{ background: url("../img/monolith/sel2.png"); }
-.war1{ background: url("../img/monolith/war1.png"); }
-.war2{ background: url("../img/monolith/war2.png"); }
-.war3{ background: url("../img/monolith/war3.png"); }
-.war4{ background: url("../img/monolith/war4.png"); }
-.bol1{ background: url("../img/monolith/bol1.jpg"); }
-.bol2{ background: url("../img/monolith/bol2.jpg"); }
-.bol3{ background: url("../img/monolith/bol3.jpg"); }
-.aow1{ background: url("../img/monolith/aow1.jpg"); }
-.aow2{ background: url("../img/monolith/aow2.jpg"); }
-.aow3{ background: url("../img/monolith/aow3.jpg"); }
-.aow4{ background: url("../img/monolith/aow4.jpg"); }
-.aow5{ background: url("../img/monolith/aow5.jpg"); }
-.aow6{ background: url("../img/monolith/aow6.jpg"); }
+.poster{ background: url("../img/monolith/poster.jpg"); }
+.m1{ background: url("../img/monolith/m1.jpg"); }
+.m2{ background: url("../img/monolith/m2.jpg"); }
+.m3{ background: url("../img/monolith/m3.jpg"); }
+.m4{ background: url("../img/monolith/m4.jpg"); }
+.m5{ background: url("../img/monolith/m5.jpg"); }
+.sel1{ background: url("../img/monolith/sel1.jpg"); }
+.sel2{ background: url("../img/monolith/sel2.jpg"); }
+.war1{ background: url("../img/monolith/war1.jpg"); }
+.war2{ background: url("../img/monolith/war2.jpg"); }
+.war3{ background: url("../img/monolith/war3.jpg"); }
+.war4{ background: url("../img/monolith/war4.jpg"); }
+.bol1{ background: url("../img/monolith/bol1_thumb.jpg"); }
+.bol2{ background: url("../img/monolith/bol2_thumb.jpg"); }
+.bol3{ background: url("../img/monolith/bol3_thumb.jpg"); }
+.aow1{ background: url("../img/monolith/aow1_thumb.jpg"); }
+.aow2{ background: url("../img/monolith/aow2_thumb.jpg"); }
+.aow3{ background: url("../img/monolith/aow3_thumb.jpg"); }
+.aow4{ background: url("../img/monolith/aow4_thumb.jpg"); }
+.aow5{ background: url("../img/monolith/aow5_thumb.jpg"); }
+.aow6{ background: url("../img/monolith/aow6_thumb.jpg"); }
 .item{
     /* The carousel content */
     padding-top: calc(54.5vw - 11.7px);
