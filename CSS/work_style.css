@@ -95,16 +95,6 @@ h4, h3{ padding-top: 0.5vw; }
 .sample_image_with_link a{
     display: table; /* Makes the entire block clickable, not just text */
     width: 100%;
-    padding: 1vw;
-    background: rgba(0,0,0,0.4);
-    border-radius: 5px;
-    visibility: hidden;
-}
-.sample_image_with_link > div:hover > a{
-    visibility: visible;
-    animation-name: fade_in;
-    -webkit-animation-name: fade_in;
-    animation-duration: 0.3s;
 }
 .sample_image_with_link h4, 
 .carousel-caption > h4{
@@ -113,8 +103,18 @@ h4, h3{ padding-top: 0.5vw; }
 }
 .sample_image_with_link h4{
     display: table-cell;
+    padding: 1vw;
+    background: rgba(0,0,0,0.4);
+    border-radius: 5px;
     text-align: center;
     vertical-align: middle;
+    opacity: 0;
+}
+.sample_image_with_link h4:hover{
+    opacity: 1;
+    animation-name: fade_in;
+    -webkit-animation-name: fade_in;
+    animation-duration: 0.3s;
 }
 
 /* Sidebar style */
