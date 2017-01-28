@@ -1,11 +1,7 @@
-ADD MISC PROJECTS AND SKETCHES
-- IT SHOULD LOOK FINE IN Raspberry pi
 - Correct homepage images, correct posters (monolith and seltra).
-- Different layout for tablet
-- Different layout for phone
-- Implement click and enlarge photo gallery
+    Listen
+        Home: Tiled photos of interviewed people
+- Different layout for tablet and phones
+    Tablets can't hover (same with mobile)
 - Get honest website reviews from networks.
-- Remove unnecessary css and html classes
-- Condense HTML, JS, and CSS into single line
-    Remove all quotes
-- Migrate away from Parse
+- Add alt tags to all images and important items for SEO

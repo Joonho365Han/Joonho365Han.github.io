@@ -9,6 +9,171 @@
     to { opacity: 0; }
 }
 
+@keyframes seltra_fade_in{
+    from { 
+        background: url("../img/home/seltra_shade.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+    to { 
+        background: url("../img/home/seltra.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+}
+@keyframes -webkit-seltra_fade_in{
+    from { 
+        background: url("../img/home/seltra_shade.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+    to { 
+        background: url("../img/home/seltra.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+}
+
+@keyframes monolith_fade_in{
+    from { 
+        background: url("../img/home/monolith_shade.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+    to { 
+        background: url("../img/home/monolith.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+}
+@keyframes -webkit-monolith_fade_in{
+    from { 
+        background: url("../img/home/monolith_shade.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+    to { 
+        background: url("../img/home/monolith.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+}
+
+@keyframes x_fade_in{
+    from { 
+        background: url("../img/home/x_shade.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+    to { 
+        background: url("../img/home/x.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+}
+@keyframes -webkit-x_fade_in{
+    from { 
+        background: url("../img/home/x_shade.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+    to { 
+        background: url("../img/home/x.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+}
+
+@keyframes ink_fade_in{
+    from { 
+        background: url("../img/home/ink_shade.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+    to { 
+        background: url("../img/home/ink.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+}
+@keyframes -webkit-ink_fade_in{
+    from { 
+        background: url("../img/home/ink_shade.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+    to { 
+        background: url("../img/home/ink.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+}
+
+@keyframes listen_fade_in{
+    from { 
+        background: url("../img/home/listen_shade.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+    to { 
+        background: url("../img/home/listen.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+}
+@keyframes -webkit-listen_fade_in{
+    from { 
+        background: url("../img/home/listen_shade.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+    to { 
+        background: url("../img/home/listen.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        -webkit-background-position: center;
+    }
+}
+
 #wrapper{
     max-width: 660px; /* Wrapper is narrow just for home page */
     padding: 0 15px; /* This is so contents don't touch the sides when the window shrinks. */
@@ -66,12 +231,42 @@ body * {
 
 /* Project links */
 /* Somehow setting background on anchor doesn't work. So I have to set background on divs. */
-.seltra_link_background{ background: url("../img/home/seltra.jpg"); }
-.monolith_link_background{ background: url("../img/home/monolith.jpg"); }
-.x_link_background{ background: url("../img/home/x.jpg"); }
-.ink_link_background{ background: url("../img/home/ink.jpg"); }
-.listen_link_background{ background: url("../img/home/listen.jpg"); }
-.project_backgrounds{
+.seltra_link_background{ background: url("../img/home/seltra_shade.jpg"); }
+.seltra_link_background:hover{ 
+    background: url("../img/home/seltra.jpg");
+    animation-name: seltra_fade_in;
+    -webkit-animation-name: seltra_fade_in;
+    animation-duration: 0.3s;
+}
+.monolith_link_background{ background: url("../img/home/monolith_shade.jpg"); }
+.monolith_link_background:hover{ 
+    background: url("../img/home/monolith.jpg");
+    animation-name: monolith_fade_in;
+    -webkit-animation-name: monolith_fade_in;
+    animation-duration: 0.3s;
+}
+.x_link_background{ background: url("../img/home/x_shade.jpg"); }
+.x_link_background:hover{ 
+    background: url("../img/home/x.jpg");
+    animation-name: x_fade_in;
+    -webkit-animation-name: x_fade_in;
+    animation-duration: 0.3s;
+}
+.ink_link_background{ background: url("../img/home/ink_shade.jpg"); }
+.ink_link_background:hover{ 
+    background: url("../img/home/ink.jpg");
+    animation-name: ink_fade_in;
+    -webkit-animation-name: ink_fade_in;
+    animation-duration: 0.3s;
+}
+.listen_link_background{ background: url("../img/home/listen_shade.jpg"); }
+.listen_link_background:hover{ 
+    background: url("../img/home/listen.jpg");
+    animation-name: listen_fade_in;
+    -webkit-animation-name: listen_fade_in;
+    animation-duration: 0.3s;
+}
+#wrapper .project_backgrounds{
     margin: 30px 0;
     height: 100px;
     border-radius: 5px;
@@ -82,7 +277,6 @@ body * {
 }
 .project_link h2 {
     color: white;
-    background: rgba(0,0,0,0.2);
     line-height: 100px;
     border-radius: 5px;
 }

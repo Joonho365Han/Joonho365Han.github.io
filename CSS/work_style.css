@@ -80,6 +80,12 @@ h4, h3{ padding-top: 0.5vw; }
     .intro {
         border-right: 1px solid #ddd;
     }
+    .sample_image_with_link h4:hover{
+        opacity: 1;
+        animation-name: fade_in;
+        -webkit-animation-name: fade_in;
+        animation-duration: 0.3s;
+    }
 }
 .sample_image_with_link > div,
 #wrapper .poster,
@@ -109,12 +115,6 @@ h4, h3{ padding-top: 0.5vw; }
     text-align: center;
     vertical-align: middle;
     opacity: 0;
-}
-.sample_image_with_link h4:hover{
-    opacity: 1;
-    animation-name: fade_in;
-    -webkit-animation-name: fade_in;
-    animation-duration: 0.3s;
 }
 
 /* Sidebar style */
