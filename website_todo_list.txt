@@ -1,3 +1,4 @@
+- Preload homepage image so it doesn't lag when hovered
 - Get honest website reviews from networks
 - Different layout for tablet and phones
     Tablets can't hover (same with mobile)
