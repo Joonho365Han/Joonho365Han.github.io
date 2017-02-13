@@ -1,5 +1,0 @@
-- Get honest website reviews from networks
-- Different layout for tablet and phones
-    Tablets can't hover (same with mobile)
-- Add alt tags to all images and important items for SEO
-- minify all CSS and HTML
