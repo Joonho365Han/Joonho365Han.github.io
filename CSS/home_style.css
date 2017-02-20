@@ -115,6 +115,10 @@ body * {
     -webkit-animation-name: fade_in;
     animation-duration: 1s;
 }
+#blogpost_container a{
+    text-decoration: underline;
+    color: #999;
+}
 
 #button_to_top {
     position: fixed;

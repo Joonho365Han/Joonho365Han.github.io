@@ -1,7 +1,7 @@
 $(function(){
 
     //  Must be 1 or more.
-    var postblockCount = 1;
+    var postblockCount = 2;
 
     //  Pre-load some posts just in case webpage is shorter than browser.
     $.get("../Posts/postblock_" + postblockCount-- + ".html", function(DOMstring){
