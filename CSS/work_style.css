@@ -156,7 +156,7 @@ h4, h3{ padding-top: 0.5vw; }
 .sidebar_bullet + h2 { color: #666; }
 .sidebar_bullet{
     margin: 19px;
-    border: 5px dotted #666;
+    border: 5px solid #666;
     border-radius: 5px;
 }
 .selected_project_link{ background: #666; }
