@@ -51,11 +51,11 @@ body * {
 
 /* Social Media Icons */
 .quick_link_list{
-    width: 320px;
+    width: 128px;
     height: 36px;
 }
 .quick_link_list > li {
-    width: 20%;
+    width: 50%;
 }
 .quick_link_list img{
     opacity: 0.4;
